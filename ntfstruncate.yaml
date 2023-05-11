@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: force
+  description: This will override some sensible defaults, such as not using a mounted volume
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show a list of options with a brief description of each one
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Display licensing information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-action
+  description: Simulate the truncation without actually write to device
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Suppress some debug/warning/error messages
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Display more debug/warning/error messages
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: 'Show the version number, copyright and license of  ntfstruncate '
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fv
+  description: is equivalent to
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

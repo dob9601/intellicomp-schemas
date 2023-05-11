@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: i
+  description: Install a new OBJECT (by adding a section to a configuration file)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Uninstall an existing OBJECT (by removing a section from a configuration file)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: Query ODBC configuration files and print available options for the specified …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: j
+  description: Print the current configuration of unixODBC, including paths to configuration…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Call SQLCreateDataSource
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: Call SQLManageDataSources
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display the program version. SS OBJECTS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: The specified ACTION affects a driver (and thus the odbcinst
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: The specified ACTION affects a data source (and thus the user or system odbc
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: FILE is a template describing the configuration of the installed OBJECT (only…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Act in the same way as for the -f OPTION, but take standard input as the temp…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Specifies the NAME of the OBJECT
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Disable all information, warning and error messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: The specified data source is system-wide
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: The specified data source is user-specific
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

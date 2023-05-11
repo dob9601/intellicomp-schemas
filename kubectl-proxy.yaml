@@ -1,0 +1,277 @@
+description: ''
+keyword_arguments:
+- name: accept-hosts
+  description: "\tRegular expression for hosts that the proxy should accept"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: accept-paths
+  description: "\tRegular expression for paths that the proxy should accept"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: address
+  description: "\tThe IP address on which to serve on"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: api-prefix
+  description: "\tPrefix to serve the proxied API under"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: append-server-path
+  description: "\tIf true, enables automatic path appending of the kube context server path to…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-filter
+  description: "\tIf true, disable request filtering in the proxy"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keepalive
+  description: "\tkeepalive specifies the keep-alive period for an active network connection"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: "\tThe port on which to run the proxy.  Set to 0 to pick a random port"
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reject-methods
+  description: "\tRegular expression for HTTP methods that the proxy should reject (example --…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reject-paths
+  description: "\tRegular expression for paths that the proxy should reject"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unix-socket
+  description: "\tUnix socket on which to run the proxy"
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: www
+  description: "\tAlso serve static files from the given directory under the specified prefix"
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: www-prefix
+  description: "\tPrefix to serve static files under, if static file directory is specified"
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: as
+  description: "\tUsername to impersonate for the operation"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: as-group
+  description: "\tGroup to impersonate for the operation, this flag can be repeated to specify…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: as-uid
+  description: "\tUID to impersonate for the operation"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: azure-container-registry-config
+  description: "\tPath to the file containing Azure container registry configuration informati…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cache-dir
+  description: "\tDefault cache directory"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: certificate-authority
+  description: "\tPath to a cert file for the certificate authority"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: client-certificate
+  description: "\tPath to a client certificate file for TLS"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: client-key
+  description: "\tPath to a client key file for TLS"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cluster
+  description: "\tThe name of the kubeconfig cluster to use"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: context
+  description: "\tThe name of the kubeconfig context to use"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-compression
+  description: "\tIf true, opt-out of response compression for all requests to the server"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: insecure-skip-tls-verify
+  description: "\tIf true, the server\\'s certificate will not be checked for validity"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kubeconfig
+  description: "\tPath to the kubeconfig file to use for CLI requests"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: match-server-version
+  description: "\tRequire server version to match client version"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: namespace
+  description: "\tIf present, the namespace scope for this CLI request"
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: password
+  description: "\tPassword for basic authentication to the API server"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: profile
+  description: "\tName of profile to capture"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: profile-output
+  description: "\tName of the file to write the profile to"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: request-timeout
+  description: "\tThe length of time to wait before giving up on a single server request"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: server
+  description: "\tThe address and port of the Kubernetes API server"
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tls-server-name
+  description: "\tServer name to use for server certificate validation"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: token
+  description: "\tBearer token for authentication to the API server"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: "\tThe name of the kubeconfig user to use"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: username
+  description: "\tUsername for basic authentication to the API server"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: "\tPrint version information and quit"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: warnings-as-errors
+  description: "\tTreat warnings received from the server as errors and exit with a non-zero e…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

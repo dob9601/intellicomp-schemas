@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: format
+  description: "\tFormat output using a custom template: Refer to https://docs. docker"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for history"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: human
+  description: "\tPrint sizes and dates in human readable format"
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-trunc
+  description: "\tDon\\'t truncate output"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: "\tOnly show image IDs SEE ALSO"
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

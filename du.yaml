@@ -1,0 +1,200 @@
+description: ''
+keyword_arguments:
+- name: 'null'
+  description: end each output line with NUL, not newline
+  shorthand: '0'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all
+  description: write counts for all files, not just directories
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: apparent-size
+  description: print apparent sizes rather than device usage; although the apparent size is …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: block-size
+  description: scale sizes by SIZE before printing them; e. g
+  shorthand: B
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bytes
+  description: equivalent to \'--apparent-size --block-size=\\,1\\/\'
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: total
+  description: produce a grand total
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dereference-args
+  description: dereference only symlinks that are listed on the command line
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-depth
+  description: print the total for a directory (or file, with --all) only if it is N or fewe…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: files0-from
+  description: summarize device usage of the NUL-terminated file names specified in file F; …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H
+  description: equivalent to --dereference-args (-D)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: human-readable
+  description: print sizes in human readable format (e. g. , 1K 234M 2G)
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inodes
+  description: list inode usage information instead of block usage
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k
+  description: like --block-size=\\,1K\\/
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dereference
+  description: dereference all symbolic links
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: count-links
+  description: count sizes many times if hard linked
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: like --block-size=\\,1M\\/
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-dereference
+  description: don\'t follow any symbolic links (this is the default)
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: separate-dirs
+  description: for directories do not include size of subdirectories
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: si
+  description: like -h, but use powers of 1000 not 1024
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: summarize
+  description: display only a total for each argument
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: threshold
+  description: exclude entries smaller than SIZE if positive, or entries greater than SIZE i…
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: time
+  description: show time of the last modification of any file in the directory, or any of it…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: time-style
+  description: 'show times using STYLE, which can be: full-iso, long-iso, iso, or +FORMAT; FO…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-from
+  description: exclude files that match any pattern in FILE
+  shorthand: X
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude
+  description: exclude files that match PATTERN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: one-file-system
+  description: skip directories on different file systems
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

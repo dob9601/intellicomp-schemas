@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: h
+  description: Show list of available options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H
+  description: LDB URL to connect to.  See ldb(3) for details
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Extra ldb options, such as modules
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

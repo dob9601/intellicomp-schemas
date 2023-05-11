@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: v
+  description: Creates a file grammar. output describing your parser
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Create a standalone module in which the driver is included
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Disable source file line numbering embedded in your parser module
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: Gives your parser module the package name (or name space or module name or cl…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: The compiled output file will be named outfile for your parser module
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: The -t filename option allows you to specify a file which should be  used as …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: If you work on systems that understand so called shebangs, and your generated…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: Display current version of Parse::Yapp and gracefully exits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

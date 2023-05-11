@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: verbatim
+  description: Calculate the patch-id of the input as it is given, do not strip any whitespa…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stable
+  description: 'Use a "stable" sum of hashes as the patch ID.  With this option: . sp'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unstable
+  description: Use an "unstable" hash as the patch ID
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

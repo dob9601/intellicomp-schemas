@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: nr
+  description: OPTIONS FOR THE JSTATD COMMAND
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: This option sets the port number where the RMI registry is expected to be fou…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: This option sets the port number to which the RMI connector is bound
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: This option sets the name to which the remote RMI object is bound in the RMI …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Joption
+  description: This option passes a Java option to the JVM, where the option is one of those…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

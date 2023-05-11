@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: quiet
+  description: do not print details of the current operation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fatal-warnings
+  description: make warnings fatal errors
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: print command line help
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: use the given project configuration file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: content-dir
+  description: specify the directory where the content files listed in the project configura…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: templates-dir
+  description: specify the directory where the templates used to generate the documentation …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: theme-name
+  description: specify the template name to be used when generating the documentation, overr…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-dir
+  description: create the documentation under the given directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-namespace-dir
+  description: generate all documentation files directly under the output directory, instead…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-include-path
+  description: add a directory to the path which the scanner uses to find GIR files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: section
+  description: generate the documentation only for the given section
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: parse the GIR_FILE without generating the documentation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bind
+  description: use the given address for the HTTP server; the default is 127. 0. 0. 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: use the given port for the HTTP server; the default is 8080
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print out the version of gi-docgen
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

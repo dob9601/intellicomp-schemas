@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: aAFMfile
+  description: Overrules the name that is used to locate the AFM file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: eenc
+  description: Name of a file containing an encoding scheme  (default - the encoding named i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Eextension
+  description: The extension factor (real value, default 1. 0)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mmodename
+  description: A modename such as would be used by METAFONT (default "Unknown mode")
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Ppointsize
+  description: The desired pointsize (real value, default 10. 0 points)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Rbaseres
+  description: The desired base resolution (integer value, default 300 dpi)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raspectratio
+  description: The desired aspect ratio (expression, integerY/integerX, default 300/300)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Sslant
+  description: The slant (real value, default 0. 0)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Xxres
+  description: The resolution in the X direction (integer value, default 300 dpi)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Yyres
+  description: The resolution in the Y direction (integer value, default the value of xres)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Verbose flag.  (Tells what the program is doing. )
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

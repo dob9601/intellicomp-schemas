@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Increase the verbosity by one level
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: 'Load the given config file (Default: pipewire. conf)'
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

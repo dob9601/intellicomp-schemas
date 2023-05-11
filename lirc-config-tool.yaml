@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: s
+  description: Scan lircd file for key symbols which are duplicated or not in namespace
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Update existing lircd file to use key symbols in namespace
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: List available files to generate
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Dump file templates usable as stdin on stdout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Output directory, defaults to ~/. config/lirc
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: lircd(8) config file, defaults to /etc/lirc/lircd. conf
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Print help message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

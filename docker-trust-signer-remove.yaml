@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: force
+  description: "\tDo not prompt for confirmation before removing the most recent signer"
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for remove SEE ALSO"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

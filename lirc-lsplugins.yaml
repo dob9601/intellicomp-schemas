@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: plugindir
+  description: Use <path> to search for plugins
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Don\'t write headers and trailing legend
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: summary
+  description: Just write a summary over number of plugins, drivers and errors
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: errors
+  description: Only list plugins which can\'t be loaded, or does not contain any drivers
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: yaml
+  description: Make a YAML listing reflecting the drivers\' configuration hints such as the d…
+  shorthand: y
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: long
+  description: Add info on driver features
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-path
+  description: Print default search path and exit
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display usage summary
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display version info
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

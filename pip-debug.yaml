@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: platform
+  description: Only use wheels compatible with <platform>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: python-version
+  description: The Python interpreter version to use for wheel and \\(dqRequires-Python\\(dq c…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: implementation
+  description: Only use wheels compatible with Python implementation <implementation>, e. g
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: abi
+  description: Only use wheels compatible with Python abi <abi>, e. g.  \\(aqpypy_41\\(aq
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

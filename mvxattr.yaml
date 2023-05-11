@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: from
+  description: Source xattr name
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: to
+  description: Destination xattr name
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: follow-symlinks
+  description: Follow symlinks, the default is to ignore them
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print
+  description: Print files where the xattr got renamed
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Print files as they are checked
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Force overwriting of destination xattr
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: h
+  description: Show command line help
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: Show version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Select the types of information to log, from the list below
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

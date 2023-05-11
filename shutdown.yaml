@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print a short help text and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: halt
+  description: Halt the machine
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: poweroff
+  description: Power the machine off (the default)
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reboot
+  description: Reboot the machine
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: The same as --poweroff, but does not override the action to take if it is "ha…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k
+  description: Do not halt, power off, or reboot, but just write the wall message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-wall
+  description: Do not send wall message before halt, power off, or reboot
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Cancel a pending shutdown
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show
+  description: Show a pending shutdown action and time if there is any
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

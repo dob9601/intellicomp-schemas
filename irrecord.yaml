@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: analyse
+  description: Analyse a raw_codes config file, trying to convert it to a regular configurat…
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update
+  description: Add new buttons to an existing config file
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Force raw mode.  Use this if recording fails otherwise
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-namespace
+  description: Disable namespace checks
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-namespace
+  description: List valid button names
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: driver
+  description: Use given driver.  -H help lists available drivers
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device
+  description: Read from given device
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: plugindir
+  description: Load drivers from directory.  See DRIVER LOADING
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep-root
+  description: Don\'t drop root privileges after opening device.  See RUNNING AS ROOT
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: driver-options
+  description: Set one or more options for the driver
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loglevel
+  description: Determine the amount of logging information
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: options-file
+  description: File containing default values for all options
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display this message
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display version
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

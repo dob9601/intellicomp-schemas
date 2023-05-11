@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: v
+  description: Verbose mode (show progress).  Enables printout of running scan lines
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Select the global screen color map
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Load color map from this file instead of selected color map
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: Change color index values
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: g
+  description: Apply gamma correction to selected color map
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: Select the color map of the numbered image
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Print one command line help, similar to Usage above
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: display help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: verbose output
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: force overwriting existing extensions
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-file
+  description: custom log file; the default one is <cache-dir>/log. txt
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shared
+  description: operate on the system installation deployment context; use only when no concu…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: deployment-context
+  description: operate on explicit deployment context (only for experts) TROUBLESHOOTING PRO…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

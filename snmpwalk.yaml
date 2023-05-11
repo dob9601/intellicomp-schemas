@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: Cc
+  description: Do not check whether the returned OIDs are increasing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: CE
+  description: End the walk at the specified OID, rather than a simple subtree
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Ci
+  description: Include the given OID in the search range
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: CI
+  description: In fact, the given OID will be retrieved automatically if the main subtree wa…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cp
+  description: Upon completion of the walk, print the number of variables found
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Ct
+  description: Upon completion of the walk, print the total wall-clock time it took to colle…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

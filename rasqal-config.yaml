@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: version
+  description: Print the currently installed version of rasqal on the standard output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version-decimal
+  description: Print the currently installed version of rasqal as a decimal integer
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: Print the linker flags that are necessary to link a program with Rasqal
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libtool-libs
+  description: Print the path to the libtool file for rasqal
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cflags
+  description: Print the compiler flags that are necessary to compile a program with the RDF…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: If specified, use PREFIX instead of the installation prefix that Rasqal was b…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

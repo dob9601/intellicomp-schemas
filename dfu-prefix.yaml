@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: stellaris-address
+  description: (in combination with --add) Add TI Stellaris address prefix to file
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stellaris
+  description: (in combination with --delete or --check) Act on TI Stellaris address prefix …
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lpc-prefix
+  description: (in combination with --add or --delete or --check) Use NXP LPC DFU prefix for…
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Displays a help message
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Displays the software version.  EXAMPLES
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '64'
+  description: Usage error
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: bundle
+  description: Path to the root of the bundle directory.  Default is current directory
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: console-socket
+  description: Path to an AF_UNIX  socket which will receive a file descriptor referencing t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid-file
+  description: Specify the file to write the initial container process\' PID to
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-pivot
+  description: Do not use pivot root to jail process inside rootfs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-new-keyring
+  description: Do not create a new session keyring for the container
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preserve-fds
+  description: Pass N additional file descriptors to the container (stdio + $LISTEN_FDS + N …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

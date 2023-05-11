@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: remote
+  description: The name the remote instance to monitor
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: List output ports
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: input
+  description: List output ports
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: links
+  description: List links
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: monitor
+  description: Monitor links and ports
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id
+  description: List IDs.  Also list the unique link and port ids
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Verbose port properties.  Also list the port-object-path and the port-alias
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: linger
+  description: Linger.  Will create a link that exists after pw-link is destroyed
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: passive
+  description: Passive link
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: props
+  description: Properties as JSON object.  Give extra properties when creaing the link
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disconnect
+  description: Disconnect ports
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

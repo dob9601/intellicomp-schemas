@@ -1,0 +1,137 @@
+description: ''
+keyword_arguments:
+- name: guest
+  description: Work as user guest
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: resume
+  description: Automatically resume aborted files
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: recursive
+  description: Recursively download files
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: Username (and password) to use
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: workgroup
+  description: Workgroup to use (optional)
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nonprompt
+  description: Don\\*(Aqt ask anything (non-interactive)
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debuglevel
+  description: Debuglevel to use
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dots
+  description: Show dots as progress indication
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: outputfile
+  description: Write the file that is being downloaded to the specified file
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdout
+  description: Write the file that is being downloaded to standard output
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rcfile
+  description: Use specified rcfile.  This will be loaded in the order it was specified - e
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Be quiet
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Be verbose
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: blocksize
+  description: Number of bytes to download in a block.  Defaults to 64000
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help message
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: Display brief usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update
+  description: Download only when remote file is newer than local file or local file is miss…
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: encrypt
+  description: Enable SMB encryption
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: limit-rate
+  description: Limit download rate by this many KB/s
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: dmoptions
+  description: Comma separated list of device-mapper specific options
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: errors
+  description: Show errors reported from tools called by blkdeactivate
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display the help text
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lvmoptions
+  description: 'Comma-separated list of LVM specific options: . RS'
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mdraidoptions
+  description: 'Comma-separated list of MD RAID specific options: . RS'
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mpathoptions
+  description: 'Comma-separated list of device-mapper multipath specific options: . RS'
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vdooptions
+  description: 'Comma-separated list of VDO specific options: . RS'
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: umount
+  description: Unmount a mounted device before trying to deactivate it
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Run in verbose mode.  Use -vv for even more verbose mode
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

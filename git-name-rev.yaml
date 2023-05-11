@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: tags
+  description: Do not use branch names, but only tags to name the commits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: refs
+  description: Only use refs whose names match a given shell pattern
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude
+  description: Do not use any ref whose name matches a given shell pattern
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all
+  description: List all commits reachable from all refs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: annotate-stdin
+  description: Transform stdin by substituting all the 40-character SHA-1 hexes (say $hex) w…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdin
+  description: This option is deprecated in favor of git name-rev --annotate-stdin
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name-only
+  description: Instead of printing both the SHA-1 and the name, print only the name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-undefined
+  description: Die with error code != 0 when a reference is undefined, instead of printing u…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: always
+  description: Show uniquely abbreviated commit object as fallback
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-refs
+  description: to clear any previous ref patterns given
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-exclude
+  description: to clear the list of exclude patterns
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

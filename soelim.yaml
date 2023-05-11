@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: C
+  description: Recognize  . so even when followed by a character other than space or newline
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: I
+  description: This option may be used to add a directory to the search path for files (both…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Do not add  . lf requests (for general use, with non-groff files)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: 'Don\''t emit  '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: 'option of groff '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Print the version number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

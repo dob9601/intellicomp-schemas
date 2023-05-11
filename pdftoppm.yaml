@@ -1,0 +1,305 @@
+description: ''
+keyword_arguments:
+- name: f
+  description: Specifies the first page to convert
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Specifies the last page to convert
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Generates only the odd numbered pages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: e
+  description: Generates only the even numbered pages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: singlefile
+  description: Writes only the first page and does not add digits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Specifies the X and Y resolution, in DPI.   The default is 150 DPI
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rx
+  description: Specifies the X resolution, in DPI.   The default is 150 DPI
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ry
+  description: Specifies the Y resolution, in DPI.   The default is 150 DPI
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scale-to
+  description: Scales the long side of each page (width for landscape pages, height for port…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scale-to-x
+  description: Scales each page horizontally to fit in scale-to-x pixels
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scale-to-y
+  description: Scales each page vertically to fit in scale-to-y pixels
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scale-dimension-before-rotation
+  description: Swaps horizontal and vertical size for a rotated (landscape) pdf before scali…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: Specifies the x-coordinate of the crop area top left corner
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: y
+  description: Specifies the y-coordinate of the crop area top left corner
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: W
+  description: Specifies the width of crop area in pixels (default is 0)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H
+  description: Specifies the height of crop area in pixels (default is 0)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sz
+  description: Specifies the size of crop square in pixels (sets W and H)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cropbox
+  description: Uses the crop box rather than media box when generating the files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hide-annotations
+  description: Do not show annotations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mono
+  description: Generate a monochrome PBM file (instead of a color PPM file)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gray
+  description: Generate a grayscale PGM file (instead of a color PPM file)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: displayprofile
+  description: If poppler is compiled with colour management support, this option sets the d…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: defaultgrayprofile
+  description: If poppler is compiled with colour management support, this option sets the D…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: defaultrgbprofile
+  description: If poppler is compiled with colour management support, this option sets the D…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: defaultcmykprofile
+  description: If poppler is compiled with colour management support, this option sets the D…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: png
+  description: Generates a PNG file instead a PPM file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jpeg
+  description: Generates a JPEG file instead a PPM file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jpegopt
+  description: When used with -jpeg, takes a list of options to control the jpeg compression
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tiff
+  description: Generates a TIFF file instead a PPM file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tiffcompression
+  description: Specifies the TIFF compression type.   This defaults to "none"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: freetype
+  description: Enable or disable FreeType (a TrueType / Type 1 font rasterizer)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: thinlinemode
+  description: Specifies the thin line mode.  This defaults to "none"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: aa
+  description: Enable or disable font anti-aliasing.   This defaults to "yes"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: aaVector
+  description: Enable or disable vector anti-aliasing.   This defaults to "yes"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: opw
+  description: Specify the owner password for the PDF file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: upw
+  description: Specify the user password for the PDF file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: Don\'t print any messages or errors
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: progress
+  description: Print progress info as each page is generated
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sep
+  description: 'Specify single character separator between name and page number, default - '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: forcenum
+  description: Force page number even if there is only one page
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Print copyright and version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Print usage information.  ( -help and
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: 'are equivalent. ) EXIT CODES The Xpdf tools use the following exit codes:'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

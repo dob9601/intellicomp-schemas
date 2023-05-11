@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: lircrc
+  description: Log also applications strings (as ircat(1)) using lircrc type config file
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prog
+  description: When using -l/--lircrc, the program name matching the PROG = entries in lircrc
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: testdata
+  description: Use data i file instead of "live" input from the remote
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print help message
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

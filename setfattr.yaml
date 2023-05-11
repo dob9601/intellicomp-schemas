@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: name
+  description: Specifies the name of the extended attribute to set
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: value
+  description: Specifies the new value of the extended attribute
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove
+  description: Remove the named extended attribute entirely
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-dereference
+  description: Do not follow symlinks
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restore
+  description: Restores extended attributes from file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw
+  description: Do not decode the attribute value
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version of  setfattr and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print help explaining the command line options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump
+  description: option.  If a dash (c
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

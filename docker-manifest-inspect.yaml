@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: "\thelp for inspect"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: insecure
+  description: "\tAllow communication with an insecure registry"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: "\tOutput additional info including layers and platform SEE ALSO"
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

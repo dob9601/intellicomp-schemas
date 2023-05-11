@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: domain
+  description: The provided host/domain argument is a NT domainname
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: username
+  description: Ordinarily, the username is derived from the unix username of the user adding…
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

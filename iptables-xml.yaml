@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: combine
+  description: combine consecutive rules with the same matches but different targets
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Output xml comments containing the iptables line from which the XML is derive…
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

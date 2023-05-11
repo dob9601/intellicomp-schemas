@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: service
+  description: Register a service.  avahi-publish-service is equivalent to avahi-publish -s
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: address
+  description: Register an address/host name mapping
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Enable verbose mode
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: host
+  description: Specify a host name for this service, in case it doesn\'t reside on the local …
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: domain
+  description: Publish the service in the specified domain
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: subtype
+  description: Register the service with an additional subtype in addition to the main type
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-fail
+  description: Don\'t fail if the daemon is not found running
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

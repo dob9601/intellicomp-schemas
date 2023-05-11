@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: v
+  description: switch is given, gftopk operates silently.   With
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

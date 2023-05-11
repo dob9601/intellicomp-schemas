@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: local
+  description: Only bind the web server to the local IP (127. 0. 0. 1)
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: httpd
+  description: The HTTP daemon command-line that will be executed
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: module-path
+  description: The module path (only needed if httpd is Apache)
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: 'The port number to bind the httpd to.  (Default: 1234)'
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: browser
+  description: The web browser that should be used to view the gitweb page
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: start
+  description: Start the httpd instance and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stop
+  description: Stop the httpd instance and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart
+  description: Restart the httpd instance and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

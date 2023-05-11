@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: dry-run
+  description: Don\'t actually remove any objects, only show those that would have been remov…
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Squelch the progress indicator
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

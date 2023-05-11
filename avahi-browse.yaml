@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: all
+  description: Browse for all service types registered on the LAN, not just the one specifie…
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: browse-domains
+  description: Browse for browsing domains instead for services
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: domain
+  description: Browse in the specified domain
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Enable verbose mode
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: terminate
+  description: Terminate after dumping a more or less complete list
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cache
+  description: Terminate after dumping all entries available in the cache
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-local
+  description: Ignore local services, show only remote services
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: resolve
+  description: Automatically resolve services found
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-fail
+  description: Don\'t fail if the daemon is not found running
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parsable
+  description: Make output easily parsable for usage in scripts
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-db-lookup
+  description: Don\'t lookup services types in service type database
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump-db
+  description: Dump the service type database (may be combined with -k)
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

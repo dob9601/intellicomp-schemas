@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show a summary of the usage
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: doc
+  description: Show the man page
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: 'Show progress and debug messages (default: no) '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bboxfrom
+  description: 'Method for determining the BoundingBox  (default: guess)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: papersize
+  description: '(default: default) (bp)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: threshold
+  description: 'min color for 1 in 8->1 bit conv  (default: 128) '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gs-cmd
+  description: 'path to Ghostscript program (default: gs or gswin32c)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gs-ccmd
+  description: 'path to Ghostscript for BoundingBox calculation (default: gs or gswin32c)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gsextra
+  description: Pass extra arguments to gs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

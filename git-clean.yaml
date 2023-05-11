@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: d
+  description: Normally, when no <pathspec> is specified, git clean will not recurse into un…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: If the Git configuration variable clean
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interactive
+  description: Show what would be done and clean files interactively
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: Don\'t actually remove anything, just show what would be done
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Be quiet, only report errors, but not the files that are successfully removed
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude
+  description: Use the given exclude pattern in addition to the standard ignore rules (see g…
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: Don\'t use the standard ignore rules (see gitignore(5)), but still use the ign…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: X
+  description: Remove only files ignored by Git
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

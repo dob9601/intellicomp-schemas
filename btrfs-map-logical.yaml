@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: logical
+  description: Logical extent to map
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: copy
+  description: Copy of the extent to read(usually 1 or 2)
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Output file to hold the extent
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bytes
+  description: Number of bytes to read
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

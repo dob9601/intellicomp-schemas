@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: discussion-category
+  description: Start a discussion in the specified category when publishing a draft
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: draft
+  description: Save the release as a draft instead of publishing it
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: latest
+  description: Explicitly mark the release as "Latest"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: notes
+  description: Release notes
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: notes-file
+  description: Read release notes from file (use "-" to read from standard input)
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prerelease
+  description: Mark the release as a prerelease
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tag
+  description: The name of the tag
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target
+  description: 'Target branch or full commit SHA (default: main branch)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: title
+  description: Release title OPTIONS INHERITED FROM PARENT COMMANDS
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: Select another repository using the [HOST/]OWNER/REPO format EXAMPLE Publish …
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

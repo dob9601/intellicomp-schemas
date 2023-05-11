@@ -1,0 +1,221 @@
+description: ''
+keyword_arguments:
+- name: optimize
+  description: Perform optimization of entropy encoding parameters
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: progressive
+  description: Create progressive JPEG file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart
+  description: Emit a JPEG restart marker every N MCU rows, or every N MCU blocks if "B" is …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: arithmetic
+  description: Use arithmetic coding
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scans
+  description: Use the scan script given in the specified text file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: flip
+  description: Mirror image horizontally (left-right)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rotate
+  description: Rotate image 90 degrees clockwise
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: transpose
+  description: Transpose image (across UL-to-LR axis)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: transverse
+  description: Transverse transpose (across UR-to-LL axis)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trim
+  description: Drop non-transformable edge blocks
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: perfect
+  description: If you are only interested in perfect transformations, add the  -perfect swit…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rot
+  description: foo. jpg  || djpeg  foo. jpg  | pnmflip -r90 | cjpeg)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crop
+  description: Crop the image to a rectangular region of width W and height H, starting at p…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wipe
+  description: Wipe (gray out) a rectangular region of width W and height H from the input i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: drop
+  description: 'Drop (insert) another image at point X,Y '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: grayscale
+  description: Force grayscale output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: copy
+  description: Copy no extra markers from source file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: icc
+  description: Embed ICC color management profile contained in the specified file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: maxmemory
+  description: Set limit for amount of memory to use in processing large images
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: maxscans
+  description: Abort if the input image contains more than  N scans
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: outfile
+  description: Send output image to the named file, not to standard output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: report
+  description: Report transformation progress
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strict
+  description: Treat all warnings as fatal
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Enable debug printout.   More  -v \'s give more output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: 'Same as  -verbose '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: opt
+  description: or
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Upper and lower case are equivalent.  British spellings are also accepted (e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: optimise
+  description: though for brevity these are not mentioned below
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max
+  description: selects 4000000 bytes.   If more space is needed, an error will occur
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: give more output.   Also, version information is printed at startup
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version information and exit.  EXAMPLES
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

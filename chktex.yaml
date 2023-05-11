@@ -1,0 +1,165 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print a help screen
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: license
+  description: Show distribution information
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: localrc
+  description: Read local . chktexrc formatted  file
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Debug information.  Give it a number
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reset
+  description: 'Reset settings to default. PP Muting warning messages:'
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: warnon
+  description: 'Makes msg # given a warning and turns it on'
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: erroron
+  description: 'Makes msg # given an error and turns it on'
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: msgon
+  description: 'Makes msg # given a message and turns it on'
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nowarn
+  description: 'Mutes msg # given'
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nolinesupp
+  description: Do not allow per-line suppressions
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbosity
+  description: How errors are displayed.  Default 1, 0=Less, 2=Fancy, 3=lacheck
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pipeverb
+  description: How errors are displayed when stdout != tty.  Defaults to the same as -v
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: splitchar
+  description: String used to split fields when doing -v0
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Redirect error report to a file
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Shuts up about version information
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pseudoname
+  description: Input file-name when reporting
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: format
+  description: 'Format to use for output  '
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: backup
+  description: Backup output file
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wipeverb
+  description: Ignore contents of `\\\\verb\' commands
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: globalrc
+  description: Read global . chktexrc file
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inputfiles
+  description: Execute \\\\input statements
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: headererr
+  description: 'Show errors found in front of \\\\begin{document} . PP Miscellaneous switches:'
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Version information If no LaTeX files are specified on the command line, we w…
+  shorthand: W
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

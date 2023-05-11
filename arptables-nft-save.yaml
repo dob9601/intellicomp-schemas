@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: modprobe
+  description: Specify the path to the modprobe program
+  shorthand: M
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: counters
+  description: Include the current values of all packet and byte counters in the output
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version information and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

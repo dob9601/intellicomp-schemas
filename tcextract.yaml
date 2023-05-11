@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: i
+  description: Specify input source.   If ommited, stdin is assumed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C
+  description: extract and print out only this frame interval (video) or bytes (audio) [all]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: source file magic
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: source pdeudo-codec, if not detected when reading from stdin
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a
+  description: extract selected audio or video track from source
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: With this option you can specify a bitmask to enable different levels of verb…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Print version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

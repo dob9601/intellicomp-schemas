@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show summary of options
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version of callgrind_annotate
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show
+  description: Only show figures for events A,B,C
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: threshold
+  description: Percentage of counts (of primary sort event) we are interested in
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sort
+  description: Sort columns by events A,B,C [event column order]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-percs
+  description: When enabled, a percentage is printed next to all event counts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auto
+  description: Annotate all source files containing functions that helped reach the event co…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: context
+  description: Print N lines of context before and after annotated lines
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inclusive
+  description: Add subroutine costs to functions calls
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tree
+  description: Print for each function their callers, the called functions or both
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include
+  description: Add dir to the list of directories to search for source files
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

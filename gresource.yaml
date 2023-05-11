@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: section
+  description: option.  Use the sections command to find available sections.  COMMANDS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

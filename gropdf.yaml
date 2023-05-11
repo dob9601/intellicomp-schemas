@@ -1,0 +1,144 @@
+description: ''
+keyword_arguments:
+- name: d
+  description: Include debug information as comments within the PDF
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: e
+  description: Forces  gropdf to embed  all fonts (even the 14 base PDF fonts)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: F
+  description: Prepend directory R dir /dev name to the search path for font, and device des…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: I
+  description: This option may be used to add a directory to the search path for files named…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Orient the document in landscape format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Set physical dimension of output medium
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Append a comment line to end of PDF showing statistics, i. e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u\\c
+  description: RI " [" cmapfile ]  Gropdf normally includes a ToUnicode CMap with any font c…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: TQ  --version Print the version number and exit. \\"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: w
+  description: '\\" Lines should be drawn using a thickness of . \\" R n \\~\\c '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Tpdf
+  description: option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: P
+  description: option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uc
+  description: ' [ cmapfile ] Gropdf normally includes a ToUnicode CMap with any font created…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version number and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: y
+  description: Set the foundry to use for selecting fonts of the same name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: or
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: L
+  description: the drawing is left aligned
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C
+  description: or
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R
+  description: a linelength greater than the width of the drawing is required as well
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u\'\\c
+  description: Convert your font to something groff understands
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

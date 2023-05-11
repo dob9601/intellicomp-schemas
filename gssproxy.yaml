@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: daemon
+  description: Become a daemon after starting up
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: Specify a config file to use as the main config file (read before the rest of…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: configdir
+  description: Specify a non-default config dir.  Files named of the form "##-foo
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Turn on debugging.  This option is identical to --debug-level=1
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug-level
+  description: Turn on debugging at the specified level
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interactive
+  description: Run in the foreground, don\\*(Aqt become a daemon
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: userproxy
+  description: Run gssproxy in userproxy mode
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: socket
+  description: Specify a custom default socket name
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: syslog-status
+  description: Enable additional logging to syslog
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version number and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

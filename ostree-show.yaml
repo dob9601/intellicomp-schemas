@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: print-related
+  description: Show the "related" commits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-variant-type
+  description: Memory map OBJECT (in this case a filename) to the GVariant type string
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-metadata-keys
+  description: List the available metadata keys
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-metadata-key
+  description: Print string value of metadata key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-detached-metadata-keys
+  description: List the available detached metadata keys
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-detached-metadata-key
+  description: Print string value of detached metadata key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-sizes
+  description: Show the commit size metadata
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw
+  description: Show raw variant data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gpg-homedir
+  description: GPG home directory to use when looking for keyrings (if have GPGME - GNU Priv…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

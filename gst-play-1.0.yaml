@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: wait-on-eos
+  description: Keep showing the last frame on EOS until quit or playlist change command (gap…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

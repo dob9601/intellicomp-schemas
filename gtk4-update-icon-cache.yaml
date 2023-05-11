@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: force
+  description: Overwrite an existing cache file even if it appears to be up-to-date
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-theme-index
+  description: Don\'t check for the existence of index. theme in the icon theme directory
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: index-only
+  description: Don\'t include image data in the cache
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include-image-data
+  description: Include image data in the cache
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: source
+  description: Output a C header file declaring a constant NAME with the contents of the ico…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Turn off verbose output
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: validate
+  description: Validate existing icon cache
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

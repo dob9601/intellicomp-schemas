@@ -1,0 +1,466 @@
+description: ''
+keyword_arguments:
+- name: always-on-top
+  description: Make scrcpy window always on top (above other windows)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio-bit-rate
+  description: Encode the audio at the given bit-rate, expressed in bits/s
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio-buffer
+  description: Configure the audio buffering delay (in milliseconds)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio-codec
+  description: Select an audio codec (opus, aac or raw).   Default is opus
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio-codec-options
+  description: Set a list of comma-separated key:type=value options for the device audio enc…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio-encoder
+  description: Use a specific MediaCodec audio encoder (depending on the codec provided by -…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: video-bit-rate
+  description: Encode the video at the given bit-rate, expressed in bits/s
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crop
+  description: Crop the device screen on the server
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: select-usb
+  description: Use USB device (if there is exactly one, like adb -d)
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-screensaver
+  description: Disable screensaver while scrcpy is running
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: display
+  description: Specify the device display id to mirror
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: display-buffer
+  description: Add a buffering delay (in milliseconds) before displaying
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: select-tcpip
+  description: Use TCP/IP device (if there is exactly one, like adb -e)
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-adb-forward
+  description: Do not attempt to use "adb reverse" to connect to the device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: forward-all-clicks
+  description: By default, right-click triggers BACK (or POWER on) and middle-click triggers…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fullscreen
+  description: Start in fullscreen
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print this help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hid-keyboard
+  description: Simulate a physical keyboard by using HID over AOAv2
+  shorthand: K
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: legacy-paste
+  description: Inject computer clipboard text as a sequence of key events on Ctrl+v (like MO…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-encoders
+  description: List video and audio encoders available on the device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-displays
+  description: List displays available on the device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lock-video-orientation
+  description: Lock video orientation to value
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-fps
+  description: Limit the framerate of screen capture (officially supported since Android 10,…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-size
+  description: Limit both the width and height of the video to value
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hid-mouse
+  description: Simulate a physical mouse by using HID over AOAv2
+  shorthand: M
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-cleanup
+  description: By default, scrcpy removes the server binary from the device and restores the…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-clipboard-autosync
+  description: By default, scrcpy automatically synchronizes the computer clipboard to the d…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-downsize-on-error
+  description: By default, on MediaCodec error, scrcpy automatically tries again with a lowe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-control
+  description: Disable device control (mirror the device in read-only)
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-display
+  description: Do not display device (only when screen recording is enabled)
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-key-repeat
+  description: Do not forward repeated key events when a key is held down
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-mipmaps
+  description: If the renderer is OpenGL 3. 0+ or OpenGL ES 2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-power-on
+  description: Do not power on the device on start
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: otg
+  description: 'Run in OTG mode: simulate physical keyboard and mouse, as if the computer key…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: Set the TCP port (range) used by the client to listen
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: power-off-on-close
+  description: Turn the device screen off when closing scrcpy
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefer-text
+  description: Inject alpha characters and space as text events instead of key events
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-fps
+  description: Start FPS counter, to print framerate logs to the console
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: push-target
+  description: Set the target directory for pushing files to the device by drag & drop
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw-key-events
+  description: Inject key events for all input keys, and ignore text events
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: record
+  description: 'Record screen to R file '
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: record-format
+  description: Force recording format (either mp4 or mkv)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: render-driver
+  description: Request SDL to use the given render driver (this is just a hint)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: require-audio
+  description: By default, scrcpy mirrors only the video if audio capture fails on the device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rotation
+  description: Set the initial display rotation.  Possibles values are 0, 1, 2 and 3
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: serial
+  description: The device serial number
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shortcut-mod
+  description: Specify the modifiers to use for scrcpy shortcuts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tcpip
+  description: Configure and reconnect the device over TCP/IP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: turn-screen-off
+  description: Turn the device screen off immediately
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-touches
+  description: Enable "show touches" on start, restore the initial value on exit
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tunnel-host
+  description: Set the IP address of the adb tunnel to reach the scrcpy server
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tunnel-port
+  description: Set the TCP port of the adb tunnel to reach the scrcpy server
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v4l2-sink
+  description: Output to v4l2loopback device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v4l2-buffer
+  description: Add a buffering delay (in milliseconds) before pushing frames
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbosity
+  description: Set the log level ("verbose", "debug", "info", "warn" or "error")
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version of scrcpy
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: video-codec
+  description: Select a video codec (h264, h265 or av1).   Default is h264
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: video-codec-options
+  description: Set a list of comma-separated key:type=value options for the device video enc…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: video-encoder
+  description: Use a specific MediaCodec video encoder (depending on the codec provided by -…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stay-awake
+  description: Keep the device on while scrcpy is running, when the device is plugged in
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: window-borderless
+  description: Disable window decorations (display borderless window)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: window-title
+  description: Set a custom window title
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: window-x
+  description: Set the initial window horizontal position.   Default is "auto"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: window-y
+  description: Set the initial window vertical position.   Default is "auto"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: window-width
+  description: Set the initial window width.   Default is 0 (automatic)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: window-height
+  description: Set the initial window height
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

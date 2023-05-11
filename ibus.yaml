@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: type
+  description: is given, It tries to restart via systemd only.  If
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xim
+  description: '& GNOME desktop runs ibus-daemon via systemd and other desktops run ibus-daem…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: system
+  description: is not given.  Show the content of the system registry cache if
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: is given
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: font
+  description: option.  Can choose a language of emoji annotations with
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lang
+  description: option.  If LANG="en", IBus Emojier loads /usr/share/ibus/dicts/emoji-en
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: partial-match
+  description: option enables to match annotations with a partial string
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

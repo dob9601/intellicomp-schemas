@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: all
+  description: 'Compiler. codecache Prints code cache layout and bounds.  Impact: Low'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parallel
+  description: heap inspection
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gz
+  description: gzipped format using the given compression level
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: overwrite
+  description: overwritten if it exists (BOOLEAN, false)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: e
+  description: false) [bu] 2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: (BOOLEAN, false) VM
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: (BOOLEAN, false) [bu] 2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: subclasses in addition to its superclasses
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: table (BOOLEAN, false) VM. symboltable [options] Dumps the symbol table
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: date
+  description: '(BOOLEAN, false) VM. version Prints JVM version information.  Impact: Low'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

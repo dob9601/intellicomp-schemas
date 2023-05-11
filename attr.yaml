@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: g
+  description: option tells attr to search the named object and print (to stdout) the value …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: flag, stdout will be exactly and only the value of the attribute, suitable fo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: option tells attr to list the names of all the attributes that are associated…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: option tells attr to remove an attribute with the given name from the object …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: option tells attr to set the named attribute of the object to the value read …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: flag, the attribute will be set to have a value of attrvalue and stdin will n…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: L
+  description: option is given and the named object is a symbolic link, operate on the attri…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R
+  description: option is given and the process has appropriate privileges, operate in the ro…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: S
+  description: option is similar, except it specifies use of the security attribute namespace
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

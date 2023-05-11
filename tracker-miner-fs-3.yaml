@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show summary of options
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Returns the version of this binary
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: initial-sleep
+  description: Sets the initial sleep time before crawling the file system is started
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-daemon
+  description: Tells the miner to exit once all indexing has finished and the database is up…
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: eligible
+  description: Checks if FILE is eligible for being mined based on the current configuration…
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

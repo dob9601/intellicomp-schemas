@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: force
+  description: Force overwriting of an existing setup
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wrapping
+  description: Use an independent wrapping passphrase, different from the login passphrase
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: username
+  description: User to setup, default is current user if omitted
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loginpass
+  description: System passphrase for USER, used to wrap MOUNTPASS, will interactively prompt…
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mountpass
+  description: Passphrase for mounting the ecryptfs directory, default is 16 bytes from /dev…
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bootstrap
+  description: Bootstrap a new user\'s entire home directory
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: undo
+  description: Display instructions on how to undo an encrypted private setup
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-fnek
+  description: Do not encrypt filenames; otherwise, filenames will be encrypted on systems w…
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nopwcheck
+  description: Do not check the validity of the specified login password (useful for LDAP us…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noautomount
+  description: Setup this user such that the encrypted private directory is not automaticall…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noautoumount
+  description: Setup this user such that the encrypted private directory is not automaticall…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

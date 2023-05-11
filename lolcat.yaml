@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: spread
+  description: 'Inclination of the rainbow stripes '
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: freq
+  description: Frequency of the rainbow effect. br (low values around 0
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: seed
+  description: Initial value for the random number generator; 0 means automatic
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: animate
+  description: Fade every line through an animation before printing the next one
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: duration
+  description: Duration of the animation
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: speed
+  description: Speed of the animation. br (frame rate, ie
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: invert
+  description: Inverts the background and foreground colors
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: truecolor
+  description: Enables 24-bit truecolor mode
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Force color even when stdout is not a tty
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Shows lolcat version
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Shows options summary
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: requirement
+  description: Uninstall all the packages listed in the given requirements file
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: yes
+  description: Don\\(aqt ask for confirmation of uninstall deletions
+  shorthand: y
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: root-user-action
+  description: Action if pip is run as a root user.  By default, a warning message is shown
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: break-system-packages
+  description: Allow pip to modify an EXTERNALLY-MANAGED Python installation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,172 @@
+description: ''
+keyword_arguments:
+- name: page-size
+  description: Uses the given page size instead of the default
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-interpreter
+  description: Change the dynamic loader ("ELF interpreter") of executable given to INTERPRE…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-interpreter
+  description: Prints the ELF interpreter of the executable
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-os-abi
+  description: Prints the OS ABI of the executable (EI_OSABI field of an ELF file)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-os-abi
+  description: Changes the OS ABI of the executable (EI_OSABI field of an ELF file)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-soname
+  description: Prints DT_SONAME entry of . dynamic section
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-soname
+  description: Sets DT_SONAME entry of a library to SONAME
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-rpath
+  description: Change the DT_RUNPATH of the executable or library to RUNPATH
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-rpath
+  description: Add RUNPATH to the existing DT_RUNPATH of the executable or library
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-rpath
+  description: Removes the DT_RPATH or DT_RUNPATH entry of the executable or library
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shrink-rpath
+  description: Remove from the DT_RUNPATH or DT_RPATH all directories that do not contain a …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allowed-rpath-prefixes
+  description: Combined with the "--shrink-rpath" option, this can be used for further rpath…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-rpath
+  description: Prints the DT_RUNPATH or DT_RPATH for an executable or library
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-rpath
+  description: Forces the use of the obsolete DT_RPATH in the file instead of DT_RUNPATH
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-needed
+  description: Adds a declared dependency on a dynamic library (DT_NEEDED)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replace-needed
+  description: Replaces a declared dependency on a dynamic library with another one (DT_NEED…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-needed
+  description: Removes a declared dependency on LIBRARY (DT_NEEDED entry)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-needed
+  description: Prints all DT_NEEDED entries of the executable
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-default-lib
+  description: Marks the object so that the search for dependencies of this object will igno…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-sort
+  description: Do not sort program headers or section headers
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-debug-tag
+  description: 'Adds DT_DEBUG tag to the '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Set the output file name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Prints details of the changes made to the input file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Shows the version of patchelf
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

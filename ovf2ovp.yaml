@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: charcode-format
+  description: output character codes according to type, either `hex\', `octal\' or `ascii\'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: char-format
+  description: output character codes according to stype, either `num\' or `ascii\'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: num-format
+  description: output numbers according to ntype, either `hex\' or `octal\'; default is hex
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: text-format
+  description: output coding scheme and family according to ttype, either `mixed\' or `upper\'…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display a brief summary of syntax and options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: display progress reports
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

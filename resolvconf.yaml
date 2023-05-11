@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: f
+  description: Ignore non existent interfaces.  Only really useful for deleting interfaces
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: Set the metric of the interface when adding it, default of 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Marks the interface resolv. conf as private
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: Mark the interface resolv
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: List the interfaces and protocols, optionally matching pattern, we have resolv
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: List the resolv. conf files we have
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Force resolvconf to update all its subscribers
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Echo the resolvconf version to stdout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: I
+  description: Initialise the state directory /run/resolvconf
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R
+  description: Echo the command used to restart a service
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: If the service is running then restart it
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Echo variables DOMAINS, SEARCH and NAMESERVERS so that the subscriber can con…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: Same as v except that only the information configured in resolvconf
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

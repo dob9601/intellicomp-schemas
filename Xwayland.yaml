@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: decorate
+  description: Add decorations to the Xwayland root window when running rootful
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: eglstream
+  description: Use EGLStream backend for NVidia GPUs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fullscreen
+  description: Set the Xwayland window fullscreen when running rootful
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: geometry
+  description: Sets the geometry of the Xwayland window to WxH when running rootful
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: host-grab
+  description: Disable host keyboard shorcuts and confine the pointer when running rootful
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: initfd
+  description: Add the given fd as a listen socket for initialization of X clients
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listen
+  description: deprecated, use -listenfd instead
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listenfd
+  description: Add given fd as a listen socket
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noTouchPointerEmulation
+  description: Disable touch pointer emulation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-xrandr-emulation
+  description: Force additional non-native modes to be exposed when viewporter is not suppor…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rootless
+  description: Run Xwayland rootless, so that X clients integrate seamlessly with Wayland cl…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shm
+  description: Force the shared memory backend instead of glamor (if available) for passing …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Sets the verbosity level for information printed on stderr
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show the server version and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wm
+  description: This option is used by the Wayland server to pass Xwayland the socket where t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

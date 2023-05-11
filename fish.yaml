@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: command
+  description: Evaluate the specified commands instead of reading from the commandline, pass…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: init-command
+  description: Evaluate specified commands after reading the configuration but before execut…
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Enables debug output and specify a pattern for matching debug categories
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug-output
+  description: Specifies a file path to receive the debug output, including categories and  …
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interactive
+  description: The shell is interactive
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: login
+  description: Act as if invoked as a login shell
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-config
+  description: Do not read configuration files
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-execute
+  description: Do not execute any commands, only perform syntax checking
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: profile
+  description: when fish exits, output timing information on all executed commands to the sp…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: profile-startup
+  description: Will write timing for fish startup to specified file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: private
+  description: 'Enables \\%private mode: fish will not access old or store new history'
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-rusage-self
+  description: When fish exits, output stats from getrusage
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-debug-categories
+  description: Print all debug categories, and then exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: features
+  description: Enables one or more comma-separated %feature flags
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

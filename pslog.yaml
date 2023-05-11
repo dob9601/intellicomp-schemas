@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: V
+  description: Display version information.  SEE ALSO pgrep (1), ps (1), pwdx (1)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

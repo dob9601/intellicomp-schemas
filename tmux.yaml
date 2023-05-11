@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: '2'
+  description: Force tmux to assume the terminal supports 256 colours
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C
+  description: Start in control mode (see the CONTROL MODE section)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Execute shell-command using the default shell
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: D
+  description: Do not start the tmux server as a daemon
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: Specify an alternative configuration file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: L
+  description: tmux stores the server socket in a directory under TMUX_TMPDIR or /tmp if it …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Behave as a login shell
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: N
+  description: Do not start the server even if the command would normally do so (for example…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: S
+  description: Specify a full alternative path to the server socket
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Write UTF-8 output to the terminal even if the first environment variable of …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: T
+  description: Set terminal features for the client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Request verbose logging.  Log messages will be saved into tmux-client-PID
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: Report the tmux version
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

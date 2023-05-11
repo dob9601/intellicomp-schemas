@@ -1,0 +1,144 @@
+description: ''
+keyword_arguments:
+- name: bytes
+  description: Display the amount of memory in bytes
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kibi
+  description: Display the amount of memory in kibibytes.   This is the default
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mebi
+  description: Display the amount of memory in mebibytes
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gibi
+  description: Display the amount of memory in gibibytes
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tebi
+  description: Display the amount of memory in tebibytes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pebi
+  description: Display the amount of memory in pebibytes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kilo
+  description: Display the amount of memory in kilobytes.  Implies --si
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mega
+  description: Display the amount of memory in megabytes.  Implies --si
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: giga
+  description: Display the amount of memory in gigabytes.  Implies --si
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tera
+  description: Display the amount of memory in terabytes.  Implies --si
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: peta
+  description: Display the amount of memory in petabytes.  Implies --si
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: human
+  description: Show all output fields automatically scaled to shortest three digit unit and …
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wide
+  description: Switch to the wide mode
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: count
+  description: Display the result  count times.   Requires the  -s option
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lohi
+  description: Show detailed low and high memory statistics
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: seconds
+  description: Continuously display the result delay  seconds apart
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: si
+  description: Use kilo, mega, giga etc (power of 1000) instead of kibi, mebi, gibi (power o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: total
+  description: Display a line showing the column totals
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print help
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display version information
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

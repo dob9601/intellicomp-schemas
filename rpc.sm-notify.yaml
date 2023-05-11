@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: d
+  description: Keeps  sm-notify attached to its controlling terminal and running in the fore…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: Send notifications even if  sm-notify has already run since the last system r…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: Specifies the length of time, in minutes, to continue retrying notifications …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Prevents  sm-notify from updating the local system\'s NSM state number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Specifies the source port number  sm-notify should use when sending reboot no…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: state-directory-path
+  description: Specifies the pathname of the parent directory where NSM state information re…
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Specifies the network address from which to send reboot notifications, and th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: "\thelp for inspect"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pretty
+  description: "\tPrint the information in a human friendly format SEE ALSO"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

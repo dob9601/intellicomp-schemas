@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: poll
+  description: poll AppArmor logs and display desktop notifications
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: display
+  description: el
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: search \\s-1FILE\\s0 for AppArmor messages
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: since-last
+  description: show summary since last login
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: since-days
+  description: show summary for last \\s-1NUM\\s0 of days
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: user to drop privileges to when running privileged
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wait
+  description: wait \\s-1NUM\\s0 seconds before displaying notifications (for use with -p)
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: show messages with summaries
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

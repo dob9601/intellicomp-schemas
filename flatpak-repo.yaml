@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show help options and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: info
+  description: Print general information about a local repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: branches
+  description: List the branches in a local repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: metadata
+  description: Print metadata for a branch in the repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: commits
+  description: Show commits and deltas for a branch in the repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Print debug information during command processing
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ostree-verbose
+  description: Print OSTree debug information during command processing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

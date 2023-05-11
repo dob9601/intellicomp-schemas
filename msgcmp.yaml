@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: directory
+  description: add DIRECTORY to list for input files search . SS "Operation modifiers:"
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: multi-domain
+  description: apply ref. pot to each of the domains in def. po
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-fuzzy-matching
+  description: do not use fuzzy matching
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-fuzzy
+  description: consider fuzzy entries
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-untranslated
+  description: consider untranslated entries . SS "Input file syntax:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: properties-input
+  description: input files are in Java . properties syntax
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stringtable-input
+  description: 'input files are in NeXTstep/GNUstep . strings syntax '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit AUTHOR Written by Peter Miller
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

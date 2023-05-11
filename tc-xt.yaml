@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: j
+  description: Perform a jump to the given iptables target, optionally passing any target sp…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

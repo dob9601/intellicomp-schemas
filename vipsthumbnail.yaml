@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: size
+  description: Set the output thumbnail size to   N  x   N  pixels
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Set the output format string
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: eprofile
+  description: Export thumbnails with this ICC profile
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iprofile
+  description: Import images with this ICC profile, if no profile is embdedded in the image
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crop
+  description: Crop the output image down
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delete
+  description: Delete the output profile from the image
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rotate
+  description: Auto-rotate images using EXIF orientation tags
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: oprofile
+  description: option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: linear
+  description: Shrink images in linear light colour space.  This can be much slower
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

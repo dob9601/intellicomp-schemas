@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: target
+  description: Specify the target architecture triplet for cross-compiling
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wine-objdir
+  description: Specify the Wine object directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: winebuild
+  description: Specifies the path and name of the winebuild binary that will be launched aut…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fno-short-wchar
+  description: Override the underlying type for wchar_t to be the default for the  target, i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mconsole
+  description: This option passes \'--subsystem console\' to winebuild, to build console appli…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mno-cygwin
+  description: Use Wine implementation of MSVCRT, instead of linking against the host system…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: municode
+  description: Set the default entry point of the application to be the Unicode wmain() inst…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mwindows
+  description: This option adds -lgdi32, -lcomdlg32, and -lshell32 to the list of default li…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nodefaultlibs
+  description: Do not use the standard system libraries when linking
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nostartfiles
+  description: Do not add the winecrt0 library when linking
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Wb
+  description: Pass an option to winebuild
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: out-implib
+  description: When linking a dll, also create its corresponding import library
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

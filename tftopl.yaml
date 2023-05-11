@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: charcode-format
+  description: The argument  format specifies how character codes are output in the PL file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Without this option, tftopl operates silently
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

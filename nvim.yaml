@@ -1,0 +1,270 @@
+description: ''
+keyword_arguments:
+- name: t
+  description: Finds tag in the tags file, the associated file becomes the current file and …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: QuickFix mode.  Display the first error in errorfile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: e
+  description: Ex mode, reading stdin as Ex commands.  ":help Ex-mode"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: E
+  description: Ex mode, reading stdin as text.  :help Ex-mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: es
+  description: Silent (non-interactive) Ex mode, reading stdin as Ex commands
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\&Es
+  description: Silent (non-interactive) Ex mode, reading stdin as text
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Diff mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R
+  description: Read-only mode.  Sets the \'readonly\' option.  Implies n
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: Resets the \'write\' option, to disable file modifications
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: M
+  description: Resets the \'write\' and \'modifiable\' options, to disable file and buffer modif…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: Binary mode.  ":help edit-binary"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: A
+  description: Arabic mode.  Sets the \'arabic\' option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H
+  description: Hebrew mode.  Sets the \'hkmap\' and \'rightleft\' options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: Verbose mode.  Prints debug messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: D
+  description: Vimscript debug mode.  Started when executing the first command from a script
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Disable the use of swap files.  Sets the \'updatecount\' option to 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Recovery mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: L
+  description: Alias for r
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Use vimrc instead of the default ~/. config/nvim/init. vim
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: Use shada instead of the default ~/. local/state/nvim/shada/main. shada
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noplugin
+  description: Skip loading plugins.  Implied by -u NONE
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clean
+  description: Start Nvim with "factory defaults" (no user config and plugins, no shada)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Open N windows stacked horizontally
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: O
+  description: Like o, but tile windows vertically
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Like o, but for tab pages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cmd
+  description: Like c, but execute command before processing any vimrc
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Execute Lua script with optional args after processing any preceding Nvim sta…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: S
+  description: Execute session after the first file argument has been read
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Read normal mode commands from scriptin
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: w
+  description: Append all typed characters to scriptout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: W
+  description: Like w, but truncate scriptout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: startuptime
+  description: During startup, append timing messages to file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: api-info
+  description: Dump API metadata serialized to msgpack and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: embed
+  description: Use standard input and standard output as a msgpack-rpc channel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: headless
+  description: Do not start a UI
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listen
+  description: Start RPC server on this pipe or TCP socket
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Print usage information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Print version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

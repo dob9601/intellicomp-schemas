@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: F
+  description: 'Set output fps code (default: same as input)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C
+  description: Specify 2-3 pull down cycle list file name to write
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: O
+  description: Specify cycle list name to read with old yuv stream to retry
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: N
+  description: Specify cycle list name to read with new yuv stream to repair
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: 'Specify noise level of input (default: 10)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: 'Specify threshold to decide pictures in 2 frames are same (default: 4)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: yuvkineco deinterlaces each frame after 2-3 pulldown reverting process, speci…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: 'Set interlace information in header of output to unknown (default: non-interl…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

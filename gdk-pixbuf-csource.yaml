@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: stream
+  description: 'Generate pixbuf data stream: a single string containing a serialized GdkPixda…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: struct
+  description: Generate GdkPixdata structure; your code needs the GdkPixdata structure defin…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: macros
+  description: Generate *_ROWSTRIDE, *_WIDTH, *_HEIGHT, *_BYTES_PER_PIXEL and *_RLE_PIXEL_DA…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rle
+  description: Enables run-length encoding for the generated pixel data (default)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw
+  description: Disables run-length encoding for the generated pixel data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extern
+  description: Generate extern symbols
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: static
+  description: Generate static symbols (default)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: decoder
+  description: Provide a *_RUN_LENGTH_DECODE(image_buf, rle_data, size, bpp) macro definitio…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: Specifies the identifier name (prefix) for the generated variables or macros …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: build-list
+  description: Enables (name, image) pair parsing mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Prints a brief help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Prints the tool version and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: g-fatal-warnings
+  description: Makes warnings fatal, and causes the program to abort.  SEE ALSO
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: h
+  description: Displays in an human readable form the hexadecimal security descriptors saved…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a
+  description: 'Audits the volume : all the global security data on volume are scanned and er…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: displays the security parameters of all files and subdirectories in directory…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: Recursively extracts to standard output the NTFS ACLs of files in volume and …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Sets the NTFS ACLS as indicated in backup-file or standard input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Displays a proposed contents for a user mapping file, based on the ownership …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: blkio-weight
+  description: "\tBlock IO (relative weight), between 10 and 1000, or 0 to disable (default 0)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-period
+  description: "\tLimit CPU CFS (Completely Fair Scheduler) period"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-quota
+  description: "\tLimit CPU CFS (Completely Fair Scheduler) quota"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-rt-period
+  description: "\tLimit the CPU real-time period in microseconds"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-rt-runtime
+  description: "\tLimit the CPU real-time runtime in microseconds"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-shares
+  description: "\tCPU shares (relative weight)"
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpus
+  description: "\tNumber of CPUs"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpuset-cpus
+  description: "\tCPUs in which to allow execution (0-3, 0,1)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpuset-mems
+  description: "\tMEMs in which to allow execution (0-3, 0,1)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for update"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory
+  description: "\tMemory limit"
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory-reservation
+  description: "\tMemory soft limit"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory-swap
+  description: "\tSwap limit equal to memory plus swap: -1 to enable unlimited swap"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pids-limit
+  description: "\tTune container pids limit (set -1 for unlimited)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart
+  description: "\tRestart policy to apply when a container exits SEE ALSO"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

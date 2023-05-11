@@ -1,0 +1,123 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: print this help, then exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print version number, then exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: verbosely report processing
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: don\'t remove temporary files
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: save output in FILE (defaults to \'-\', stdout)
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: don\'t rely on cached values
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: warnings
+  description: report the warnings falling in CATEGORY
+  shorthand: W
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: language
+  description: specify the set of M4 macros to use
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cache
+  description: preserve results for future runs in DIRECTORY
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-cache
+  description: disable the cache
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mode
+  description: change the non trace output file mode (0666)
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: melt
+  description: don\'t use M4 frozen files . SS "Languages include:"
+  shorthand: M
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prepend-include
+  description: prepend directory DIR to search path
+  shorthand: B
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include
+  description: append directory DIR to search path . SS "Tracing:"
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trace
+  description: report the MACRO invocations
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preselect
+  description: prepare to trace MACRO in a future run . SS "Freezing:"
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: freeze
+  description: 'produce an M4 frozen state file for FILES '
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

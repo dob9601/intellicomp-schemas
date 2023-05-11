@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: add
+  description: Add an entry to CATALOGFILE.  TYPE indicates the type of entry
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: create
+  description: Create a new XML catalog
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: del
+  description: Remove entries from CATALOGFILE matching VALUE(S)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noout
+  description: Save output to the named file rather than outputting to stdout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-super-update
+  description: Do not update the SGML super catalog
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shell
+  description: Run a shell allowing interactive queries on catalog file CATALOGFILE
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sgml
+  description: Uses SGML super catalogs for --add and --del options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Output debugging information
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

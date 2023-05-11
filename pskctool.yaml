@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strict
+  description: Fail hard on PSKC parse error  (default=off)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Show debug messages on stderr  (default=off)
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Quiet operation  (default=off)
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: 'Produce more output  (default=off) '
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: info
+  description: 'Parse and print human readable summary of PSKC input (default=off) P Mode: va…'
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: validate
+  description: 'Validate PSKC input against XML Schema  (default=off) P Mode: sign P Digitall…'
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sign
+  description: Sign PSKC input  (default=off)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sign-key
+  description: Private key to sign with
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sign-crt
+  description: X
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verify
+  description: Verify signed PSKC input  (default=off)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verify-crt
+  description: Trusted X. 509 certificate for verification EXAMPLES See <https://www. nongnu
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

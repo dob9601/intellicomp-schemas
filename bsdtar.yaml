@@ -1,0 +1,627 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: Create a new archive containing the specified items
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Like c, but new entries are appended to the archive
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: List archive contents to stdout.  The long option form is list
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Like r, but new entries are added only if they have a modification date newer…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: Extract to disk from the archive
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a
+  description: (c mode only) Use the archive suffix to decide a set of the format and the co…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: acls
+  description: (c, r, u, x modes only) Archive or extract POSIX. 1e or NFSv4 ACLs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: B
+  description: Ignored for compatibility with other tar 1 implementations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: Specify the block size, in 512-byte records, for tape drive I/O
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C
+  description: In c and r mode, this changes the directory before adding the following files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: chroot
+  description: (x mode only) chroot to the current directory after processing any C options …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clear-nochange-fflags
+  description: (x mode only) Before removing file system objects to replace them, clear plat…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude
+  description: Do not process files or directories that match the specified pattern
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-vcs
+  description: Do not process files or directories internally used by the version control sy…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fflags
+  description: (c, r, u, x modes only) Archive or extract platform-specific file attributes …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: format
+  description: (c, r, u mode only) Use the specified format for the created archive
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: Read the archive from or write the archive to the specified file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gid
+  description: Use the provided group id number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gname
+  description: Use the provided group name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H
+  description: (c and r modes only) Symbolic links named on the command line will be followe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: (c and r modes only) Synonym for L
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: I
+  description: Synonym for T
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show usage
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hfsCompression
+  description: (x mode only) Mac OS X specific (v10. 6 or later)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-zeros
+  description: An alias of options Cm read_concatenated_archives for compatibility with GNU …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include
+  description: Process only files or directories that match the specified pattern
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: J
+  description: (c mode only) Compress the resulting archive with xz 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: j
+  description: (c mode only) Compress the resulting archive with bzip2 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k
+  description: (x mode only) Do not overwrite existing files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep-newer-files
+  description: (x mode only) Do not overwrite existing files that are newer than the version…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: L
+  description: (c and r modes only) All symbolic links will be followed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: (c and r modes only) Issue a warning message unless all links to each file ar…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lrzip
+  description: (c mode only) Compress the resulting archive with lrzip 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lz4
+  description: (c mode only) Compress the archive with lz4-compatible compression before wri…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: zstd
+  description: (c mode only) Compress the archive with zstd-compatible compression before wr…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lzma
+  description: (c mode only) Compress the resulting archive with the original LZMA algorithm
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lzop
+  description: (c mode only) Compress the resulting archive with lzop 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: (x mode only) Do not extract modification time
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mac-metadata
+  description: (c, r, u and x mode only) Mac OS X specific
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Do not operate recursively on the content of directories
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: newer
+  description: (c, r, u modes only) Only include files and directories newer than the specif…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: newer-mtime
+  description: (c, r, u modes only) Like newer, except it compares mtime entries instead of …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: newer-than
+  description: (c, r, u modes only) Only include files and directories newer than the specif…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: newer-mtime-than
+  description: (c, r, u modes only) Like newer-than, except it compares mtime entries instea…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nodump
+  description: (c and r modes only) Honor the nodump file flag by skipping this file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nopreserveHFSCompression
+  description: (x mode only) Mac OS X specific (v10. 6 or later)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: 'null'
+  description: (use with I or T ) Filenames or patterns are separated by null characters, no…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-acls
+  description: (c, r, u, x modes only) Do not archive or extract POSIX. 1e or NFSv4 ACLs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-fflags
+  description: (c, r, u, x modes only) Do not archive or extract file attributes or file fla…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-mac-metadata
+  description: (x mode only) Mac OS X specific
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-read-sparse
+  description: (c, r, u modes only) Do not read sparse file information from disk
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-safe-writes
+  description: (x mode only) Do not create temporary files and use rename 2 to replace the o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-same-owner
+  description: (x mode only) Do not extract owner and group IDs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-same-permissions
+  description: (x mode only) Do not extract full permissions (SGID, SUID, sticky bit, file a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-xattrs
+  description: (c, r, u, x modes only) Do not archive or extract extended file attributes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: numeric-owner
+  description: 'This is equivalent to uname Qq gname '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: O
+  description: (x, t modes only) In extract (-x) mode, files will be written to standard out…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: (x mode) Use the user and group of the user running the program rather than t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: older
+  description: (c, r, u modes only) Only include files and directories older than the specif…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: older-mtime
+  description: (c, r, u modes only) Like older, except it compares mtime entries instead of …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: older-than
+  description: (c, r, u modes only) Only include files and directories older than the specif…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: older-mtime-than
+  description: (c, r, u modes only) Like older-than, except it compares mtime entries instea…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: one-file-system
+  description: (c, r, and u modes) Do not cross mount points
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: options
+  description: Select optional behaviors for particular modules
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: P
+  description: Preserve pathnames
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: (x mode only) Preserve file permissions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: passphrase
+  description: The passphrase is used to extract or create an encrypted archive
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: posix
+  description: (c, r, u mode only) Synonym for format Ar pax
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: (x and t mode only) Extract or list only the first archive entry that matches…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: read-sparse
+  description: (c, r, u modes only) Read sparse file information from disk
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: S
+  description: (x mode only) Extract files as sparse files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Modify file or archive member names according to pattern
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: safe-writes
+  description: (x mode only) Extract files atomically
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: same-owner
+  description: (x mode only) Extract owner and group IDs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strip-components
+  description: Remove the specified number of leading path elements
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: T
+  description: In x or t mode, bsdtar will read the list of names to be extracted from filen…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: totals
+  description: (c, r, u modes only) After archiving all files, print a summary to stderr
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: U
+  description: (x mode only) Unlink files before creating them
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uid
+  description: Use the provided user id number and ignore the user name from the archive
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uname
+  description: Use the provided user name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-compress-program
+  description: Pipe the input (in x or t mode) or the output (in c mode) through program ins…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Produce verbose output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version of bsdtar and bsdtar libarchive, and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: w
+  description: Ask for confirmation for every action
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: X
+  description: Read a list of exclusion patterns from the specified file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xattrs
+  description: (c, r, u, x modes only) Archive or extract extended file attributes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: y
+  description: (c mode only) Compress the resulting archive with bzip2 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Z
+  description: (c mode only) Compress the resulting archive with compress 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: z
+  description: (c mode only) Compress the resulting archive with gzip 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,137 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print out the `Usage:\' command syntax summary. PP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id
+  description: This option allows the user to specify a target window wdid on the command li…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: This option allows the user to specify that the window named wdname is the ta…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: root
+  description: This option specifies that X\'s root window is the target window
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: int
+  description: This option specifies that all X window ids should be displayed as integer va…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: children
+  description: This option causes the root, parent, and children windows\' ids and names of t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tree
+  description: This option is like -children but displays all children recursively. PP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stats
+  description: This option causes the display of various attributes pertaining to the locati…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bits
+  description: This option causes the display of various attributes pertaining to the select…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: events
+  description: This option causes the selected window\'s event masks to be displayed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: size
+  description: This option causes the selected window\'s sizing hints to be displayed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wm
+  description: This option causes the selected window\'s window manager hints to be displayed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shape
+  description: This option causes the selected window\'s window and border shape extents to b…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: frame
+  description: This option causes window manager frames to be considered when manually selec…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: metric
+  description: This option causes all individual height, width, and x and y positions to be …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: english
+  description: This option causes all individual height, width, and x and y positions to be …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all
+  description: This option is a quick way to ask for all information possible. PP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: display
+  description: This option allows you to specify the server to connect to; see X(7). PP
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: This option indicates that xwininfo should print its version information and …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

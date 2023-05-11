@@ -1,0 +1,200 @@
+description: ''
+keyword_arguments:
+- name: show-all
+  description: Show non-printable characters like space, tab or newline
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nonprintable-notation
+  description: Specify how to display non-printable characters when using --show-all
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: plain
+  description: Only show plain style, no decorations.  This is an alias for \'--style=plain\'
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: language
+  description: Explicitly set the language for syntax highlighting
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H
+  description: Highlight the specified line ranges with a different background color
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file-name
+  description: Specify the name to display for a file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: diff
+  description: Only show lines that have been added/removed/modified with respect to the Git…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: diff-context
+  description: Include N lines of context around added/removed/modified lines when using \'--…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tabs
+  description: Set the tab width to T spaces
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wrap
+  description: Specify the text-wrapping mode (*auto*, never, character)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: terminal-width
+  description: Explicitly set the width of the terminal instead of determining it automatica…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: number
+  description: Only show line numbers, no other decorations
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: color
+  description: Specify when to use colored output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: italic-text
+  description: Specify when to use ANSI sequences for italic text in the output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: decorations
+  description: Specify when to use the decorations that have been specified via \'--style\'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-colorization
+  description: Alias for \'--decorations=always --color=always\'
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: paging
+  description: Specify when to use the pager
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: P
+  description: which pager is used, see the \'--pager\' option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pager
+  description: Determine which pager is used
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: map-syntax
+  description: Map a glob pattern to an existing syntax name
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: theme
+  description: Set the theme for syntax highlighting
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-themes
+  description: Display a list of supported themes for syntax highlighting
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: style
+  description: Configure which elements (line numbers, file headers, grid borders, Git modif…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: 'Only print the specified range of lines for each file.  For example:'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-languages
+  description: Display a list of supported languages for syntax highlighting
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unbuffered
+  description: This option exists for POSIX-compliance reasons (\'u\' is for \'unbuffered\')
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print this help message
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information.  POSITIONAL ARGUMENTS
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: in
+  description: read text into X selection from standard input or files (default)
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: out
+  description: print the selection to standard out (generally for piping to a file or progra…
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: filter
+  description: when xclip is invoked in the in mode with output level set to silent (the def…
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rmlastnl
+  description: when the last character of the selection is a newline character, remove it
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loops
+  description: number of X selection requests (pastes into X applications) to wait for befor…
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target
+  description: specify a particular data format using the given target atom
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: display
+  description: X display to use (e. g
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: show quick summary of options
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: selection
+  description: specify which X selection to use, options are "primary" to use XA_PRIMARY (de…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: show version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: silent
+  description: fork into the background to wait for requests, no informational output, error…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: show informational messages on the terminal and run in the foreground
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: provide a running commentary of what xclip is doing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noutf8
+  description: operate in legacy (i. e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

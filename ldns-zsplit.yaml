@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: n
+  description: Split after NUMBER RRs, ldns-zsplit will not split in the middle of an RRs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: use ORIGIN as origin when reading the zonefile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: z
+  description: Sort the zone before splitting
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Show version number and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

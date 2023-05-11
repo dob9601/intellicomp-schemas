@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: T
+  description: Specify the transport on which the service is required
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a
+  description: Use serv_address as the (universal) address for the service on transport to p…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: Make an RPC broadcast to procedure 0 of the specified prognum and versnum and…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Delete registration for the RPC service of the specified prognum and versnum
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Display a list of entries with a given prognum and versnum on the specified h…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: Display a table of statistics of rpcinfo rpcbind operations on the given host
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Use portnum as the port number for the t and u options instead of the port nu…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Probe rpcinfo rpcbind on host using version 2 of the rpcinfo rpcbind protocol…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Display a concise list of all registered RPC programs on host
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: Make an RPC call to procedure 0 of prognum on the specified host using TCP, a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Make an RPC call to procedure 0 of prognum on the specified host using UDP, a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

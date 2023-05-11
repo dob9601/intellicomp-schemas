@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Displays the options that djxl supports
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pixels_to_jpeg
+  description: By default, if the input JPEG XL contains a recompressed JPEG file, djxl reco…
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jpeg_quality
+  description: When decoding to . jpg, use this output quality
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show list of available options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: backend
+  description: 'Name of backend to load.  Possible values are: creg, regf, dir and rpc'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: credentials
+  description: Credentials to use, if any
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

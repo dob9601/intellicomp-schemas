@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: auto-servernum
+  description: Try to get a free server number, starting at 99, or the argument to  --server…
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: error-file
+  description: 'Store output from  xauth and  Xvfb in R file .  The default is R /dev/null '
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auth-file
+  description: 'Store X authentication data in R file '
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display a usage message and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: server-num
+  description: Use  servernumber as the server number (but see the  -a, --auto-servernum opt…
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listen-tcp
+  description: Enable TCP port listening in the X server
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xauth-protocol
+  description: Use  protocolname as the X authority protocol to use.  The default is \\(oq
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: server-args
+  description: Pass  arguments to the  Xvfb server
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wait
+  description: Wait delay seconds after launching Xvfb before attempting to start the specif…
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: faces
+  description: argument) inside the Xvfb X server, configured with a root window of 1024 by …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

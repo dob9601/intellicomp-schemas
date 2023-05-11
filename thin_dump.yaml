@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version information and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: format
+  description: 'Choose output format. PP . nf '
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repair
+  description: Repair the metadata whilst dumping it
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: metadata-snap
+  description: 'Dump metadata snapshot. PP . nf '
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dev-id
+  description: 'Dump the specified device. PP . nf '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: transaction-id
+  description: Override the transaction id given in the input xml
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: data-block-size
+  description: Override the data block size given in the input xml
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nr-data-blocks
+  description: Override the nr data blocks given in the input xml
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-mappings
+  description: Do not dump the mappings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Specify a file for the output rather than writing to stdout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

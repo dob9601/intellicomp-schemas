@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: '1'
+  description: suppress column 1 (lines unique to FILE1)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '2'
+  description: suppress column 2 (lines unique to FILE2)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '3'
+  description: suppress column 3 (lines that appear in both files)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check-order
+  description: check that the input is correctly sorted, even if all input lines are pairable
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nocheck-order
+  description: do not check that the input is correctly sorted
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-delimiter
+  description: separate columns with STR
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: total
+  description: output a summary
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: zero-terminated
+  description: line delimiter is NUL, not newline
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: h--help
+  description: Show help about options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v--version
+  description: Show version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shutdown
+  description: Shut down cookie jar and the D-Bus service
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove
+  description: Removes cookies for domain from the cookie jar
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-all
+  description: Removes all the cookies from the cookie jar
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reaload-config
+  description: Reloads the configuration file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

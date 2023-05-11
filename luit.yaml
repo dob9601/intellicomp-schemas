@@ -1,0 +1,242 @@
+description: ''
+keyword_arguments:
+- name: V
+  description: Print luit\'s version and quit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: alias
+  description: 'the locale alias file . br (default: /usr/share/X11/locale/locale. alias)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: argv0
+  description: Set the child\'s name (as passed in argv[0])
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Function as a simple converter from standard input to standard output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: encoding
+  description: Set up  luit to use  encoding rather than the current locale\'s encoding
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: g0
+  description: Set the output charset initially selected in G0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: g1
+  description: Set the output charset initially selected in G1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: g2
+  description: Set the output charset initially selected in G2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: g3
+  description: Set the output charset initially selected in G3
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gl
+  description: Set the initial assignment of GL in the output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gr
+  description: Set the initial assignment of GR in the output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Display a usage and options message on the standard output and quit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ilog
+  description: Log into  filename all the bytes received from the child
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k7
+  description: Generate seven-bit characters for keyboard input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kg0
+  description: Set the input charset initially selected in G0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kg1
+  description: Set the input charset initially selected in G1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kg2
+  description: Set the input charset initially selected in G2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kg3
+  description: Set the input charset initially selected in G3
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kgl
+  description: Set the initial assignment of GL in the input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kgr
+  description: Set the initial assignment of GR in the input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kls
+  description: Generate locking shifts (SO/SI) for keyboard input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list
+  description: List the supported charsets and encodings, then quit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-builtin
+  description: List the built-in encodings used as a fallback when data from iconv or fonten…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-fontenc
+  description: List the encodings provided by \\*(``
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-iconv
+  description: List the encodings and locales supported by the iconv library
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: olog
+  description: Log into  filename all the bytes sent to the terminal emulator
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: In startup, establish a handshake between parent and child processes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefer
+  description: Set the lookup-order preference for character set information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-builtin
+  description: Show a built-in encoding, e. g. , from a \\*(``. enc\\*(\'\' file using the \\*(``
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-fontenc
+  description: Show a given encoding, e. g. , from a \\*(``. enc\\*(\'\' file using the \\*(``
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-iconv
+  description: Show a given encoding, using the \\*(``. enc\\*(\'\' format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: Initialize luit using the locale and command-line options, but do not open a …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Be verbose.  Repeating the option, e. g
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: Exit as soon as the child dies
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

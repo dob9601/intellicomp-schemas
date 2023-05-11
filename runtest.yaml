@@ -1,0 +1,186 @@
+description: ''
+keyword_arguments:
+- name: all
+  description: Output all test results.  By default, only unexpected results are displayed
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: build
+  description: The configuration TRIPLET for the build system
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Turn on  Expect internal debugging output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: directory
+  description: Run only tests in the specified DIRECTORY
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: global_init
+  description: The NAME to use for the global init file in libdir.  The default is site
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Prints a usage message and then exits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: host
+  description: The configuration TRIPLET for the host system
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: host_board
+  description: The host board definition to use
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore
+  description: Do not run the specified tests
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: local_init
+  description: The NAME to use for the testsuite local init file in both the current directo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log_dialog
+  description: Emit Expect output to standard output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mail
+  description: Electronic mail addresses to receive test results
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: objdir
+  description: PATH is a directory containing compiled test code
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: outdir
+  description: The name of a DIRECTORY for test log output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reboot
+  description: Reboot the target board when runtest initializes (if supported)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: srcdir
+  description: PATH is a directory containing test directories
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strace
+  description: Turns on  Expect internal tracing to N levels deep
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target
+  description: The configuration TRIPLET for the target
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target_board
+  description: A list of target board NAMEs to run tests on
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tool
+  description: Specify the tool to be tested
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tool_exec
+  description: Specify the PATH to the executable to test
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tool_opts
+  description: Additional OPTIONS to pass to the tool
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Turns on more debugging output from test cases and DejaGnu utility code
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Prints out the versions of DejaGnu, Expect and Tcl
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xml
+  description: 'Generate XML output.   The output file is named after the tool with an '
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: D
+  description: Activate the Tcl debugger.   number can be either 1 or 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

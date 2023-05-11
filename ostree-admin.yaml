@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Usage help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sysroot
+  description: Creates a new OSTree sysroot at PATH
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-current-dir
+  description: Prints the full path to the deployment directory for the currently active dep…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

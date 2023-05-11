@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: encoding
+  description: 'Read the encoding from R file , which must contain an encoding in '
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: encoding-text
+  description: 'Use the encoding in the  text argument, which must be formatted as a '
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: 'Set the output font\''s PostScript name to R name '
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: full-name
+  description: 'Set the output font\''s FullName to R name '
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Send output to  file instead of standard output.  \' . Sp
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pfb
+  description: Output a PFB font.   This is the default.  \' . Sp
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pfa
+  description: Output a PFA font.  \' . Sp
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print usage information and exit.  \' . Sp
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version number and some short non-warranty information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: option).   The new font will be called WarnockPro-RegularOsF
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

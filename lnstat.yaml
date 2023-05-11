@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show summary of options
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version of program
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: count
+  description: Print <count> number of intervals
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump
+  description: Dump list of available files/keys
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: Statistics file to use, may be specified multiple times
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interval
+  description: Set interval to \'intv\' seconds
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: json
+  description: Display results in JSON format
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keys
+  description: Display only keys specified.  Each key k is of the form [file:]key
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: subject
+  description: Specify display of subject/header
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: width
+  description: Width for each field.  USAGE EXAMPLES
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

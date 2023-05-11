@@ -1,0 +1,438 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: display this help information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-all
+  description: display help information for all commands/options and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-<cmd>
+  description: display help information for command <cmd> and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keys
+  description: keys XML file manipulation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sign
+  description: sign data and output XML document
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verify
+  description: verify signed document
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sign-tmpl
+  description: create and sign dynamicaly generated signature template
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: encrypt
+  description: encrypt data and output XML document
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: decrypt
+  description: decrypt data from XML document OPTIONS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-manifests
+  description: do not process <dsig:Manifest> elements
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: store-references
+  description: store and print the result of <dsig:Reference/> element processing just befor…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: store-signatures
+  description: store and print the result of <dsig:Signature> processing just before calcula…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enabled-reference-uris
+  description: 'comma separated list of of the following values: "empty", "same-doc", "local"…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-visa3d-hack
+  description: enables Visa3D protocol specific hack for URI attributes processing when we a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: binary-data
+  description: binary <file> to encrypt
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xml-data
+  description: XML <file> to encrypt
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enabled-cipher-reference-uris
+  description: 'comma separated list of of the following values: "empty", "same-doc", "local"…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: session-key
+  description: generate new session <keyKlass> key of <keySize> bits size (for example, "--s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: write result document to file <filename>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-debug
+  description: print debug information to stdout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-xml-debug
+  description: print debug information to stdout in xml format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dtd-file
+  description: load the specified file as the DTD
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: node-id
+  description: set the operation start point to the node with given <id>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: node-name
+  description: set the operation start point to the first node with given <name> and <namesp…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: node-xpath
+  description: set the operation start point to the first node selected by the specified XPa…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id-attr
+  description: adds attributes <attr-name> (default value "id") from all nodes with<node-nam…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enabled-key-data
+  description: comma separated list of enabled key data (list of registered key data klasses…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enabled-retrieval-uris
+  description: 'comma separated list of of the following values: "empty", "same-doc", "local"…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-key
+  description: generate new <keyKlass> key of <keySize> bits size, set the key name to <name…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keys-file
+  description: load keys from XML file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: privkey-pem
+  description: load private key from PEM file and certificates that verify this key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: privkey-der
+  description: load private key from DER file and certificates that verify this key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pkcs8-pem
+  description: load private key from PKCS8 PEM file and PEM certificates that verify this key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pkcs8-der
+  description: load private key from PKCS8 DER file and DER certificates that verify this key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pubkey-pem
+  description: load public key from PEM file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pubkey-der
+  description: load public key from DER file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: aeskey
+  description: load AES key from binary file <file>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: deskey
+  description: load DES key from binary file <file>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hmackey
+  description: load HMAC key from binary file <file>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pwd
+  description: the password to use for reading keys and certs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pkcs12
+  description: load load private key from pkcs12 file <file>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pkcs12-persist
+  description: persist loaded private key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pubkey-cert-pem
+  description: load public key from PEM cert file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pubkey-cert-der
+  description: load public key from DER cert file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trusted-pem
+  description: load trusted (root) certificate from PEM file <file>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: untrusted-pem
+  description: load untrusted certificate from PEM file <file>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trusted-der
+  description: load trusted (root) certificate from DER file <file>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: untrusted-der
+  description: load untrusted certificate from DER file <file>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verification-time
+  description: the local time in "YYYY-MM-DD HH:MM:SS" format used certificates verification
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verification-gmt-time
+  description: the GMT time in "YYYY-MM-DD HH:MM:SS" format used certificates verification
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: depth
+  description: maximum certificates chain depth
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: X509-skip-strict-checks
+  description: skip strict checking of X509 data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: insecure
+  description: do not verify certificates
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: privkey-openssl-engine
+  description: load private key by OpenSSL ENGINE interface; specify the name of engine (lik…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crypto
+  description: 'the name of the crypto engine to use from the following list: openssl, mscryp…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crypto-config
+  description: path to crypto engine configuration
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repeat
+  description: repeat the operation <number> times
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-error-msgs
+  description: do not print xmlsec error messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-crypto-error-msgs
+  description: print errors stack at the end
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xxe
+  description: enable External Entity resolution
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: url-map:<url>
+  description: maps a given <url> to the given <file> for loading external resources AUTHOR …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

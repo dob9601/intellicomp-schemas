@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Output basic usage information and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Output ctanify\'s version number and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pkgname
+  description: Specify explicitly a package name
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noauto
+  description: Do not automatically add files to the tarball
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

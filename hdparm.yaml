@@ -1,0 +1,627 @@
+description: ''
+keyword_arguments:
+- name: a
+  description: Get/set sector count for filesystem (software) read-ahead
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: A
+  description: Get/set the IDE drive\'s read-lookahead feature (usually ON by default)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: Get/set bus state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: B
+  description: Get/set Advanced Power Management feature, if the drive supports it
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Get/set (E)IDE 32-bit I/O support
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C
+  description: Check the current IDE power mode status, which will always be one of  unknown…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Get/set the "using_dma" flag for this drive
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dco-freeze
+  description: DCO stands for Device Configuration Overlay, a way for vendors to selectively…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dco-identify
+  description: Query and dump information regarding drive configuration settings which can b…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dco-restore
+  description: Reset all drive settings, features, and accessible capacities back to factory…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: direct
+  description: Use the kernel\'s "O_DIRECT" flag when performing a  -t timing test
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: drq-hsm-error
+  description: VERY DANGEROUS, DON\'T EVEN THINK ABOUT USING IT
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: D
+  description: Enable/disable the on-drive defect management feature, whereby the drive firm…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: E
+  description: Set cd/dvd drive speed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: Sync and flush the buffer cache for the device on exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fallocate
+  description: This option currently works only on ext4 and xfs filesystem types
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fibmap
+  description: When used, this must be the only option given
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fwdownload
+  description: When used, this should be the only option given
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: F
+  description: Flush the on-drive write cache buffer (older drives may not implement this)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: g
+  description: Display the drive geometry (cylinders, heads, sectors), the size (in sectors)…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Display terse usage information (help)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H
+  description: Read the temperature from some (mostly Hitachi) drives
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: Display the identification info which the kernel drivers (IDE, libata) have s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: idle-immediate
+  description: Issue an ATA IDLE_IMMEDIATE command, to put the drive into a lower power state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: idle-unload
+  description: Issue an ATA IDLE_IMMEDIATE_WITH_UNLOAD command, to unload or park the heads …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: I
+  description: Request identification info directly from the drive, which is displayed in a …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Iraw
+  description: This option dumps the drive\'s identify data in raw binary to the specified fi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Istdin
+  description: This is a special variation on the  -I option, which accepts a drive identifi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Istdout
+  description: This option dumps the drive\'s identify data in hex to stdout, in a format sim…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: J
+  description: Get/set the Western Digital (WD) Green Drive\'s "idle3" timeout value
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k
+  description: Get/set the "keep_settings_over_reset" flag for the drive
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: K
+  description: Set the drive\'s "keep_features_over_reset" flag
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: L
+  description: Set the drive\'s doorlock flag
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: Get/set sector count for multiple sector I/O on the drive
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: make-bad-sector
+  description: Deliberately create a bad sector (aka.  "media error") on the disk
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: M
+  description: Get/set Automatic Acoustic Management (AAM) setting
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Get or set the "ignore_write_errors" flag in the driver
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: N
+  description: Get/set max visible number of sectors, also known as the  Host Protected Area…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: offset
+  description: Offsets to given number of GiB (1024*1024*1024) when performing   -t timings …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Attempt to reprogram the IDE interface chipset for the specified PIO mode, or…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: P
+  description: Set the maximum sector count for the drive\'s internal prefetch mechanism
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefer-ata12
+  description: When using the SAT (SCSI ATA Translation) protocol, hdparm normally prefers t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: Handle the next option quietly, suppressing normal output (but not error mess…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Q
+  description: Get or set the device\'s command queue_depth, if supported by the hardware
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Get/set read-only flag for the device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R
+  description: Get/set Write-Read-Verify feature, if the drive supports it
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: read-sector
+  description: Reads from the specified sector number, and dumps the contents in hex to stan…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repair-sector
+  description: This is an alias for the  --write-sector option.   VERY DANGEROUS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Enable/disable the power-on in standby feature, if supported by the drive
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: S
+  description: Put the drive into idle (low-power) mode, and also set the standby (spindown)…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-sector-size
+  description: For drives which support reconfiguring of the Logical Sector Size, this flag …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: Perform timings of device reads for benchmark and comparison purposes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: T
+  description: Perform timings of cache reads for benchmark and comparison purposes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trim-sector-ranges
+  description: For Solid State Drives (SSDs).   EXCEPTIONALLY DANGEROUS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trim-sector-ranges-stdin
+  description: Identical to  --trim-sector-ranges above, except the list of lba:count pairs …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Get/set the interrupt-unmask flag for the drive
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Display some basic settings, similar to -acdgkmur for IDE
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: Display program version and exit immediately
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Display extra diagnostics from some commands
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: w
+  description: Perform a device reset  (DANGEROUS).  Do NOT use this option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: write-sector
+  description: Writes zeros to the specified sector number.   VERY DANGEROUS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: W
+  description: Get/set the IDE/SATA drive\'s write-caching feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: X
+  description: Set the IDE transfer mode for (E)IDE/ATA drives
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: y
+  description: Force an IDE drive to immediately enter the low power consumption  standby mo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Y
+  description: Force an IDE drive to immediately enter the lowest power consumption  sleep m…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: z
+  description: Force a kernel re-read of the partition table of the specified device(s)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Z
+  description: Disable the automatic power-saving function of certain Seagate drives (ST3xxx…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: acdgkmur
+  description: is assumed.  For "Get/set" options, a query without the optional parameter (e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: A0
+  description: (disable) or
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: A1
+  description: (enable)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d1
+  description: to ensure that the drive itself is programmed for the correct DMA mode, altho…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Np
+  description: maximum size restriction has also been set
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fwdownload-mode3
+  description: ','
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fwdownload-mode3-max
+  description: ', and'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fwdownload-mode7
+  description: variations on basic
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dmu
+  description: settings over a soft reset, (as done during the error recovery sequence)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: APSWXZ
+  description: over a soft reset (as done during the error recovery sequence)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R0
+  description: (disable) or
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R1
+  description: (enable)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: security-help
+  description: Display terse usage info for all of the --security-* options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: security-freeze
+  description: Freeze the drive\'s security settings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: security-prompt-for-password
+  description: Prompt for the --security PWD rather than getting from the command line args
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: security-unlock
+  description: Unlock the drive, using password PWD
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: security-set-pass
+  description: Lock the drive, using password PWD (Set Password) (DANGEROUS)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: security-disable
+  description: Disable drive locking, using password PWD
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: security-erase
+  description: Erase (locked) drive, using password PWD (DANGEROUS)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: security-erase-enhanced
+  description: Enhanced erase (locked) drive, using password PWD (DANGEROUS)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user-master
+  description: Specifies which password (user/master) to select.  Defaults to user password
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: security-mode
+  description: Specifies which security mode (high/maximum) to set.  Defaults to high
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: command line option will show all available options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

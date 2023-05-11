@@ -1,0 +1,214 @@
+description: ''
+keyword_arguments:
+- name: signal
+  description: TQ --signal signal Defines the signal to send to each matched process
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: count
+  description: Suppress normal output; instead print a count of matching processes
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delimiter
+  description: Sets the string used to delimit each process ID in the output (by default a n…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: echo
+  description: Display name and PID of the process being killed. RB ( pkill only. )
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: full
+  description: The  pattern is normally only matched against the process name
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pgroup
+  description: Only match processes in the process group IDs listed
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: group
+  description: Only match processes whose real group ID is listed
+  shorthand: G
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-case
+  description: Match processes case-insensitively
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-name
+  description: List the process name as well as the process ID. RB ( pgrep only. )
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-full
+  description: List the full command line as well as the process ID. RB ( pgrep only. )
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: newest
+  description: Select only the newest (most recently started) of the matching processes
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: oldest
+  description: Select only the oldest (least recently started) of the matching processes
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: older
+  description: Select processes older than secs
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parent
+  description: Only match processes whose parent process ID is listed
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: session
+  description: Only match processes whose process session ID is listed
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: terminal
+  description: Only match processes whose controlling terminal is listed
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: euid
+  description: Only match processes whose effective user ID is listed
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uid
+  description: Only match processes whose real user ID is listed
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inverse
+  description: Negates the matching
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lightweight
+  description: Shows all thread ids instead of pids in  pgrep \'s or  pwait \'s context
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exact
+  description: Only match processes whose names (or command lines if -f is specified)  exact…
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pidfile
+  description: Read PIDs from file
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logpidfile
+  description: Fail if pidfile (see -F) not locked
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: runstates
+  description: Match only processes which match the process state
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ns
+  description: Match processes that belong to the same namespaces
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nslist
+  description: Match only the provided namespaces
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: queue
+  description: Use  sigqueue(3) rather than  kill(2) and the value argument is used to speci…
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display version information and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: signal
+  description: Defines the signal to send to each matched process
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

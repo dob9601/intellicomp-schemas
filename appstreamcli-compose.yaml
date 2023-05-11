@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: origin
+  description: Set the AppStream data origin identifier
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: result-root
+  description: Sets the directory where all generated output that is deployed to a user\\*(Aq…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: data-dir
+  description: Override the directory where the generated AppStream metadata catalog will be…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: icons-dir
+  description: Override the directory where the cached icons are exported to
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hints-dir
+  description: Set a directory where hints reported generated during metadata processing are…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: media-dir
+  description: 'If set, creates a directory with media content (icons, screenshots, '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: media-baseurl
+  description: The URL under which the contents of a directory set via --media-dir will be s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: Set the default prefix that is used in the processed directories
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-report
+  description: Print the issue hints report (that gets exported as HTML and YAML document wh…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: components
+  description: Set a comma-separated list of AppStream component IDs that should be consider…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-color
+  description: Don\\*(Aqt print colored output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Display extra debugging information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display the version number of appstreamcli compose
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

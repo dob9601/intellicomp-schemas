@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: all-events
+  description: Show records for all virtualization related events
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Print debug messages to stderr
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: Read records from the given file instead from the system audit log file
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print help message and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: proof
+  description: Add after each event a line containing all the identifiers of the audit recor…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-uuid
+  description: Add the guest\'s UUID to each record
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdin
+  description: Read records from the standard input instead from the system audit log file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: summary
+  description: Print a summary with information about the events found
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: end
+  description: Search for events with time stamps equal to or before the given end time
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: start
+  description: Search for events with time stamps equal to or after the given end time
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uuid
+  description: Only show events related to the guest with the given UUID
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vm
+  description: Only show events related to the guest with the given name
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

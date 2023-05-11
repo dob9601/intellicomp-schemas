@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: verbose
+  description: diagnose to stderr any signal sent upon timeout
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: 'output version information and exit '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preserve-status
+  description: exit with the same status as COMMAND, even when the command times out
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: foreground
+  description: when not running timeout directly from a shell prompt, allow COMMAND to read …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kill-after
+  description: also send a KILL signal if COMMAND is still running this long after the initi…
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: signal
+  description: specify the signal to be sent on timeout; SIGNAL may be a name like \'HUP\' or …
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

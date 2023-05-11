@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: list
+  description: For historical reasons, refs without this option will strip the specified pre…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: create
+  description: Create a ref pointing to the commit EXISTING
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delete
+  description: Delete refs which match PREFIX, rather than listing them
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: revision
+  description: When listing refs, also print their revisions
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: alias
+  description: If used with --create, create an alias.  Otherwise just list aliases
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: collections
+  description: Enable interactions with refs using the combination of their collection IDs a…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: When creating NEWREF with --create, allow an existing ref to be updated inste…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

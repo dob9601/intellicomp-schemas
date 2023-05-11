@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: autostart
+  description: The directory DIR to be searched for autostart . desktop files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: session
+  description: Use the applications defined in SESSION. session.  If not specified, gnome
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: builtin
+  description: Use the legacy non-systemd method of managing the user session
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: systemd
+  description: Use the systemd method of managing the user session
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: failsafe
+  description: Run in fail-safe mode.  User-specified applications will not be started
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Enable debugging code
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: whale
+  description: Show the fail whale in a dialog for debugging it
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

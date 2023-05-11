@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: format
+  description: Specify the format of the generated profile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-mmap-events
+  description: Print mmap events
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-disassembly
+  description: Print disassembled code
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x86-asm-syntax
+  description: Specify whether to print assembly code in AT&T syntax (the default) or Intel …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: perfscript
+  description: Path of perf-script trace created by Linux perf tool with script command(the …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: binary
+  description: Path of the input profiled binary files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Path of the output profile file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

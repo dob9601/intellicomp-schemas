@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: create
+  description: If this option is passed, all files and directories marked with f, F, w, d, D…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clean
+  description: If this option is passed, all files and directories with an age parameter con…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove
+  description: If this option is passed, the contents of directories marked with D or R, and…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: Execute "user" configuration, i. e.  tmpfiles
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: boot
+  description: Also execute lines with an exclamation mark
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: Only apply rules with paths that start with the specified prefix
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-prefix
+  description: Ignore rules with paths that start with the specified prefix
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: E
+  description: A shortcut for "--exclude-prefix=/dev --exclude-prefix=/proc --exclude-prefix…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: root
+  description: Takes a directory path as an argument
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: image
+  description: Takes a path to a disk image file or block device node
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replace
+  description: When this option is given, one or more positional arguments must be specified
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cat-config
+  description: Copy the contents of config files to standard output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-pager
+  description: Do not pipe output into a pager
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a short help text and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print a short version string and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

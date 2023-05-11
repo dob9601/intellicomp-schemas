@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: debug
+  description: Enable debug logging
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log
+  description: Set the log destination to path.  The default is to log to stderr
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-format
+  description: Set the log format (default is text)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: root
+  description: Set the root directory to store containers\' state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: criu
+  description: Set the path to the criu(8) binary used for checkpoint and restore
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: systemd-cgroup
+  description: Enable systemd cgroup support.  If this is set, the container spec (config
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rootless
+  description: Enable or disable rootless mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version.  SEE ALSO
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

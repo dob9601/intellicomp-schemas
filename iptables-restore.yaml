@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: counters
+  description: restore the values of all packet and byte counters
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a short option summary
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noflush
+  description: don\'t flush the previous contents of the table
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test
+  description: Only parse and construct the ruleset, but do not commit it
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Print additional debug info during ruleset processing
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the program version number
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wait
+  description: Wait for the xtables lock
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: modprobe
+  description: Specify the path to the modprobe program
+  shorthand: M
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: table
+  description: Restore only the named table even if the input stream contains other ones
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

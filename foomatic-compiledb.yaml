@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: t
+  description: Output file type, either ppd or xml
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: 'Force: Write into the destination directory even if it already exists'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: j
+  description: 'n = number of work processes to run driver '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

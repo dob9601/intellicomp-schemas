@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: ri
+  description: Remove all info attributes that exist with the same name before adding the ne…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ci
+  description: Clear the existing info attributes in the target objects before annotating
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cu
+  description: Clear the existing userdata from the target objects
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cd
+  description: Clear the existing distances from the topology
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Report version and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display help message and exit.  DESCRIPTION
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

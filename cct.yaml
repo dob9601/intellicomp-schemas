@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: Specify input columns for (up to) 4 input parameters.  Defaults to 1,2,3,4
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: New in version 5. 2. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: I
+  description: Do the inverse transformation. UNINDENT NDENT 0. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Specify the name of the output file. UNINDENT NDENT 0. 0
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: time
+  description: Specify a fixed observation time to be used for all input data
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: height
+  description: Specify a fixed observation height to be used for all input data
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-lines
+  description: New in version 5. 1. 0. sp Skip the first n lines of input
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Write non-essential, but potentially useful, information to stderr
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

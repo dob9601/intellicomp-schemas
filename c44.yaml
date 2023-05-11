@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: slice
+  description: Specify the number of slices in each chunk
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: size
+  description: Specify size targets for each chunk expressed in bytes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bpp
+  description: Specify size targets for each chunk expressed in bits-per-pixel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: percent
+  description: Specify size targets for each chunk expressed as a percentage of the input fi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: decibel
+  description: Specify quality targets for each chunk expressed as a comma-separated list of…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dbfrac
+  description: Indicate that the decibel values specified in option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dpi
+  description: Specify the resolution information encoded into the output file expressed in …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gamma
+  description: Specify the gamma correction information encoded into the output file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mask
+  description: 'The design of the '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crcbnormal
+  description: Select normal chrominance encoding
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crcbhalf
+  description: Selects half resolution chrominance encoding
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crcbdelay
+  description: 'This option can be used with '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crcbfull
+  description: Select the highest possible quality for encoding the chrominance information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crcbnone
+  description: Disable the encoding of the chrominance
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

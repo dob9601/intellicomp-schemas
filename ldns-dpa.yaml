@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: Count occurrences of matching expressions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: 'Filter: only process packets that match the expression'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Show usage
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Show the total number of correct DNS packets, and percentage of -u and -c val…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: of
+  description: Write all packets that match the -f flag to file, as pcap data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ofh
+  description: Write all packets that match the -f flag to file, in hexadecimal format, read…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Show possible match names
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sf
+  description: Only evaluate packets (in representation format) that match the -f filter
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Count every occurrence of every value of the matchname (for instance, count a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ua
+  description: For every matchname in -u, show the average value of all matches
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uac
+  description: For every matchname in -u, show the average number of times this value was en…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: um
+  description: Only show the results from -u for values that occurred more than <number> tim…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Set verbosity to level (1-5, 5 being the highest).  Mostly used for debugging
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: notip
+  description: Write packets that were not recognized as IP packets to file (as pcap data)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: baddns
+  description: Write dns packets that were too mangled to parse to file (as pcap data)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

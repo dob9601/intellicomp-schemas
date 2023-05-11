@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: xml
+  description: Print the recording in XML format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: json
+  description: Print the recording in JSON format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: categories
+  description: Select events matching a category name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: events
+  description: Select events matching an event name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stack-depth
+  description: Number of frames in stack traces, by default 5 <file> Location of the recordi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: The location to write the disassembled file, by default the current directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-chunks
+  description: Maximum number of chunks per file, by default 5
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-size
+  description: Maximum number of bytes per file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

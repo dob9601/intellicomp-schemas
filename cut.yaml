@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: bytes
+  description: select only these bytes
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: characters
+  description: select only these characters
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delimiter
+  description: use DELIM instead of TAB for field delimiter
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fields
+  description: select only these fields;  also print any line that contains no delimiter cha…
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: (ignored)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: complement
+  description: complement the set of selected bytes, characters or fields
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: only-delimited
+  description: do not print lines not containing delimiters
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-delimiter
+  description: use STRING as the output delimiter the default is to use the input delimiter
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: zero-terminated
+  description: line delimiter is NUL, not newline
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: 'output version information and exit '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: M
+  description: from first to M\'th (included) byte, character or field AUTHOR Written by Davi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: print help message and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print version info and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: license
+  description: 'print license info and exit. PD . SS Input/output options:'
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: write output to this file
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nodefaults
+  description: Turn off default options
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: invert
+  description: Invert the input image
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: filter
+  description: Apply a highpass filter to the image
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nofilter
+  description: Turn off highpass filtering
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: blur
+  description: Blur the image
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scale
+  description: Scale the image by an integer factor n>0
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: linear
+  description: Use linear interpolation when scaling to a higher resolution
+  shorthand: '1'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cubic
+  description: Use cubic interpolation when scaling to a higher resolution
+  shorthand: '3'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: threshold
+  description: Set the threshold grey value for bilevel conversion
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: grey
+  description: Disable bilevel conversion
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

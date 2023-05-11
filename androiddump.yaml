@@ -1,0 +1,123 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print program arguments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print program version
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extcap-version
+  description: Print extcapized version
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Print additional messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extcap-interfaces
+  description: List available interfaces
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extcap-interface
+  description: Use specified interfaces
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extcap-dlts
+  description: List DLTs of specified interface
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extcap-config
+  description: List configuration options of specified interface
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: capture
+  description: Start capturing from the specified interface and save it in the location spec…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fifo
+  description: Save captured packet to file or send it through pipe
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: adb-server-ip
+  description: Use other than default (127. 0. 0. 1) ADB daemon\'s IP address
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: adb-server-tcp-port
+  description: Use other than default (5037) ADB daemon\'s TCP port
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logcat-text
+  description: If TRUE then use text logcat rather then binary
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bt-server-tcp-port
+  description: Use other than default Bluetooth server TCP port on Android side
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bt-forward-socket
+  description: If TRUE then socket from Android side is forwarded to host side
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bt-local-ip
+  description: Use other than default (127. 0. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bt-local-tcp-port
+  description: Specify port to be used on host side for forwarded socket
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

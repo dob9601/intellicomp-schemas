@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: q
+  description: Be quiet and do not report anything except errors
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

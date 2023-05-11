@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: daemonize
+  description: Fork into background when ready
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: autoexit
+  description: Automatically exit when directory is deleted
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port-file
+  description: Write port number to PATH (- for standard output)
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: Use the specified TCP port to listen on
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-range-requests
+  description: Force range requests by only serving half of files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

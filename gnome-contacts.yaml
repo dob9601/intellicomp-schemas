@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Prints a short help text and exits
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: email
+  description: Show contact with this email address
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: individual
+  description: Show contact with this individual id
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show the current version of Contacts
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

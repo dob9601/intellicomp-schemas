@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: Config Name (default \'pipewire. conf\')
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: Config Prefix (default \'\')
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-newline
+  description: Omit newlines after values
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: recurse
+  description: Reformat config sections recursively
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-colors
+  description: Disable color output
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: color
+  description: whether to enable color support.  WHEN is never, always, or auto
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

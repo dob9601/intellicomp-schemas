@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: archive
+  description: Download the source code archive in the specified format (zip or tar. gz)
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clobber
+  description: Overwrite existing files of the same name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dir
+  description: The directory to download files into
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: The file to write a single asset to (use "-" to write to standard output)
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pattern
+  description: Download only assets that match a glob pattern
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-existing
+  description: Skip downloading when files of the same name exist OPTIONS INHERITED FROM PAR…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: 'Select another repository using the [HOST/]OWNER/REPO format EXAMPLE # downlo…'
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

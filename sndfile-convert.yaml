@@ -1,0 +1,130 @@
+description: ''
+keyword_arguments:
+- name: override-sample-rate
+  description: Make the input use sample rate of rate Hz
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: endian
+  description: Make the output file use little endian data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: normalize
+  description: Normalize the audio data in the output file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pcms8
+  description: signed 8 bit pcm
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pcmu8
+  description: unsigned 8 bit pcm
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pcm16
+  description: 16 bit pcm
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pcm24
+  description: 24 bit pcm
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pcm32
+  description: 32 bit pcm
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: float32
+  description: 32 bit floating point
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ulaw
+  description: ULAW
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: alaw
+  description: ALAW
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ima-adpcm
+  description: IMA ADPCM (WAV only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-adpcm
+  description: MS ADPCM (WAV only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gsm610
+  description: GSM6. 10 (WAV only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dwvw12
+  description: 12 bit DWVW (AIFF only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dwvw16
+  description: 16 bit DWVW (AIFF only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dwvw24
+  description: 24 bit DWVW (AIFF only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vorbis
+  description: Vorbis (OGG only) El Pp If no encoding is specified for the output file, sndf…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

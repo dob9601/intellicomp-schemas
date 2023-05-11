@@ -1,0 +1,123 @@
+description: ''
+keyword_arguments:
+- name: force
+  description: When adding notes to an object that already has notes, overwrite the existing…
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: message
+  description: Use the given note message (instead of prompting)
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: Take the note message from the given file
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reuse-message
+  description: Take the given blob object (for example, another note) as the note message
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reedit-message
+  description: Like -C, but with -c the editor is invoked, so that the user can further edit…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-empty
+  description: Allow an empty note object to be stored
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ref
+  description: Manipulate the notes tree in <ref>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-missing
+  description: Do not consider it an error to request removing notes from an object that doe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdin
+  description: Also read the object names to remove notes from the standard input (there is …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: Do not remove anything; just report the object names whose notes would be rem…
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strategy
+  description: When merging notes, resolve notes conflicts using the given strategy
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: commit
+  description: Finalize an in-progress git notes merge
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: abort
+  description: Abort/reset an in-progress git notes merge, i. e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: When merging notes, operate quietly
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: When merging notes, be more verbose
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-notes
+  description: option to the git log family of commands, or by the
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: notes
+  description: option accepted by those commands
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

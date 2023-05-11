@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: H
+  description: Link directly to a sam. ldb file instead of using path in system smb. conf
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Link directly to smb
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

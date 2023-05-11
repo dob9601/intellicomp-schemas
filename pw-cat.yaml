@@ -1,0 +1,144 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Verbose operation
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remote
+  description: The name the remote instance to connect to
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: playback
+  description: Playback mode.  Read data from the specified file, and play it back
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: record
+  description: Recording mode.  Capture data and write it to the specified file
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: midi
+  description: MIDI mode.  FILE is a MIDI file
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dsd
+  description: DSD mode.  FILE is a DSF file
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: media-type
+  description: Set the media type property (default Audio/Midi depending on mode)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: media-category
+  description: Set the media category property (default Playback/Capture depending on mode)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: media-role
+  description: Set the media role property (default Music)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target
+  description: 'Set a node target (default auto).  The value can be: NDENT 7. 0'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: latency
+  description: 'Set the node latency (default 100ms) '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: properties
+  description: Set extra stream properties as a JSON object
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quality
+  description: Resampler quality
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rate
+  description: The sample rate, default 48000
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: channels
+  description: The number of channels, default 2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: channel-map
+  description: The channelmap
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: format
+  description: 'The sample format to use.  One of: u8, s8, s16 (default), s24, s32, f32, f64'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: volume
+  description: The stream volume, default 1. 000
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: commit-metadata-only
+  description: Fetch only the commit metadata
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cache-dir
+  description: Use an alternate cache directory in DIR
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-fsync
+  description: Do no invoke fsync()
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: localcache-repo
+  description: Like git\\*(Aqs clone --reference
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: untrusted
+  description: Do not trust local sources, verify checksums and don\\*(Aqt hardlink into sour…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-static-deltas
+  description: Do not use static deltas
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mirror
+  description: Write refs suitable for a mirror, i. e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: subpath
+  description: Only pull the provided subpath
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: depth
+  description: 'Traverse DEPTH parents (-1=infinite) (default: 0)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: network-retries
+  description: Specifies how many times each download should be retried upon error (default:…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-verify-bindings
+  description: Disable verification of commit metadata bindings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

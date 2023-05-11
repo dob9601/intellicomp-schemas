@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: no-ask-password
+  description: Do not query the user for authentication for privileged operations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: adjust-system-clock
+  description: If set-local-rtc is invoked and this option is passed, the system clock is sy…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: monitor
+  description: If timesync-status is invoked and this option is passed, then timedatectl mon…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all
+  description: When showing properties of systemd-timesyncd
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: property
+  description: When showing properties of systemd-timesyncd
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: value
+  description: When printing properties with show-timesync, only print the value, and skip t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: host
+  description: Execute the operation remotely
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: machine
+  description: Execute operation on a local container
+  shorthand: M
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a short help text and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print a short version string and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-pager
+  description: Do not pipe output into a pager
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

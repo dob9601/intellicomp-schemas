@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show summary of options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show installed libijs version
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: Print the linker flags that are necessary to link an IJS program
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cflags
+  description: Print the compiler flags that are necessary to compile an IJS program
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: If specified, use PREFIX instead of the installation prefix that IJS was buil…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exec-prefix
+  description: If specified, use PREFIX instead of the installation exec prefix that IJS was…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

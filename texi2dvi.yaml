@@ -1,0 +1,193 @@
+description: ''
+keyword_arguments:
+- name: debug
+  description: turn on shell debugging (set -x)
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit successfully
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: leave output in OFILE; only one input FILE is allowed
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: no output unless errors
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: display version information and exit successfully
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: report on what is done
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-iterations
+  description: don\'t process files more than N times [7]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mostly-clean
+  description: 'remove auxiliary files or directories from previous runs (but not the output) '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dvi
+  description: output a DVI file [default]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dvipdf
+  description: output a PDF file via DVI (using a dvi-to-pdf program)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: html
+  description: output an HTML file from LaTeX, using HeVeA
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: info
+  description: output an Info file from LaTeX, using HeVeA
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pdf
+  description: use pdftex or pdflatex for processing
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ps
+  description: output a PostScript file via DVI (using dvips)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: text
+  description: output a plain text file from LaTeX, using HeVeA . SS "TeX tuning:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: expand
+  description: macro expansion using makeinfo
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: I
+  description: search DIR for Texinfo files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: language
+  description: specify LANG for FILE, either latex or texinfo
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-line-error
+  description: do not pass --file-line-error to TeX
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shell-escape
+  description: pass --shell-escape to TeX
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: src-specials
+  description: pass --src-specials to TeX
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: translate-file
+  description: use given charset translation file for TeX
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: command
+  description: insert CMD in copy of input file . SS "Build modes:"
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: build
+  description: specify the treatment of auxiliary files [local]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tidy
+  description: same as --build=\\,tidy\\/
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clean
+  description: same as --build=\\,clean\\/
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: build-dir
+  description: specify where the tidy compilation is performed; implies --tidy; defaults to …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,130 @@
+description: ''
+keyword_arguments:
+- name: r
+  description: Specifies the realm to be operated on
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: D
+  description: Specifies the Distinguished Name (DN) of the user who has sufficient rights t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: w
+  description: Specifies the password of user_dn.   This option is not recommended
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H
+  description: Specifies the URI of the LDAP server
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: subtrees
+  description: Specifies the list of subtrees containing the principals of a realm
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sscope
+  description: Specifies the scope for searching the principals under the subtree
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: containerref
+  description: Specifies the DN of the container object in which the principals of a realm w…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k
+  description: Specifies the key type of the master key in the database
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kv
+  description: Specifies the version number of the master key in the database; the default i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: M
+  description: Specifies the principal name for the master key in the database
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: Specifies that the master database password should be read from the TTY rathe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: P
+  description: Specifies the master database password.  This option is not recommended
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sf
+  description: Specifies the stash file of the master database password
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Specifies that the stash file is to be created
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: maxtktlife
+  description: (getdate string) Specifies maximum ticket life for principals in this realm
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: maxrenewlife
+  description: (getdate string) Specifies maximum renewable life of tickets for principals i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: If specified, will not prompt the user for confirmation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Forces the deletion of the policy object
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

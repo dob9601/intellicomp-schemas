@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: only-variables
+  description: calculate the location statistics only for local variables
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: only-formal-parameters
+  description: calculate the location statistics only for formal parameters
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-debug-entry-values
+  description: ignore the location statistics on locations containing the debug entry values…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: draw-plot
+  description: make histogram of location buckets generated (requires matplotlib)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: compare
+  description: compare the debug location coverage on two files provided, and draw a plot sh…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

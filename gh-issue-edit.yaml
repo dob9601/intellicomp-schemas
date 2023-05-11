@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: add-assignee
+  description: Add assigned users by their login.  Use "@me" to assign yourself
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-label
+  description: Add labels by name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-project
+  description: Add the issue to projects by name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: body
+  description: Set the new body
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: body-file
+  description: Read body text from file (use "-" to read from standard input)
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: milestone
+  description: Edit the milestone the issue belongs to by name
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-assignee
+  description: Remove assigned users by their login.  Use "@me" to unassign yourself
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-label
+  description: Remove labels by name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-project
+  description: Remove the issue from projects by name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: title
+  description: Set the new title.  OPTIONS INHERITED FROM PARENT COMMANDS
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: Select another repository using the [HOST/]OWNER/REPO format EXAMPLE $ gh iss…
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

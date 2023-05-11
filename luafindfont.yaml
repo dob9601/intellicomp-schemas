@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: obvious .  :-)
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: otfinfo
+  description: Use the program otfinfo for the font with the given number
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: info
+  description: List the given fontstyles (regular, bold, italic, bolditalic) for the font wi…
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Give more informations, by now only -v works
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max_string
+  description: The maximum of the stringlength of the full path of fonts
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nosymbolicnames
+  description: The fontlist contains only fontfile and fontpath
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

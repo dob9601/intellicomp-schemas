@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: version
+  description: show encodedv version number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: start-frame
+  description: start encoding at frame number count (defaults to 0)
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: end-frame
+  description: end encoding at frame number count (defaults to unlimited)
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wrong-interlace
+  description: flip lines to compensate for wrong interlacing in the input data
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vlc-passes
+  description: vlc code distribution passes (1-3) greater values = better quality but not  n…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: show encoder statistics / status information
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: input
+  description: 'Choose input-filter: [>ppm<, pgm, video] The ppm-filter only supports raw rgb…'
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio-input
+  description: 'Choose audio-input-filter: [>none<, wav, dsp]'
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: 'Choose output-filter: [>raw<]'
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: static-qno
+  description: Static qno tables for quantisation on 2 VLC passes
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fps
+  description: 'Set frames per second (default: use all frames)'
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-dct
+  description: Force dct mode (88 or 248) for whole picture . PP Help Options
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help message
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: Display brief usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

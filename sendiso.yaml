@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: loop
+  description: Send dump file COUNT times.   Defaults to 1
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: infinite
+  description: Send dump file in an endless loop
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: speed
+  description: Send packets at speed SPEED, which can be given as 100, 200 and 400 (in Mbit/…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: Choose port PORT for sending
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help text and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

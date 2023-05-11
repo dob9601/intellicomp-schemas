@@ -1,0 +1,123 @@
+description: ''
+keyword_arguments:
+- name: reverb
+  description: Turns on an 8 point reverb engine that adds depth to the final mix. P
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: Uses the configuration file stated by config-file instead of /etc/wildmidi/wi…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device
+  description: Send the audio to audiodev instead of the default
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Displays command line options. PP
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: frequency
+  description: Use frequency F Hz for playback (MUS). PP
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: convert
+  description: 'Convert XMI: 0 - No Conversion (default)              1 - MT32 to GM         …'
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log_vol
+  description: Some MIDI files have been recorded on hardware that uses a volume curve, maki…
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mastervol
+  description: Set the overall volume level to volume-level
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wavout
+  description: Records the audio in wav format to wav-file. PP
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rate
+  description: Set the audio output rate to sndrate.  The default rate is 32072. PP
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: roundtempo
+  description: Round tempo to nearest whole number. PP
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skipsilentstart
+  description: Skips any silence at the start of playback. PP
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display version and copyright information. PP
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tomidi
+  description: Convert a MUS or an XMI file to midi and save to file
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test_bank
+  description: Set the test bank to N.  Range is 0 to 127
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test_patch
+  description: Set the test patch to N.  Range is 0 to 127
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test_midi
+  description: Plays the built in test midi which plays all 127 notes
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

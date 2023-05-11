@@ -1,0 +1,1698 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show help options
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-all
+  description: Show all help options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-dms
+  description: Show Device Management Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-nas
+  description: Show Network Access Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-wds
+  description: Show Wireless Data Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-pbm
+  description: Show Phonebook Management options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-pdc
+  description: Show platform device configurations options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-uim
+  description: Show User Identity Module options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-sar
+  description: Show Specific Absorption Rate options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-wms
+  description: Show Wireless Messaging Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-wda
+  description: Show Wireless Data Administrative options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-voice
+  description: Show Voice Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-loc
+  description: Show location options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-qos
+  description: Show Quality of Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-gas
+  description: Show General Application Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-gms
+  description: Show General Modem Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-dsd
+  description: Show Data System Determination options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-dpm
+  description: Show Data Port Mapper Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-fox
+  description: Show Foxconn Modem Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-link-management
+  description: Show link management specific options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-qmiwwan
+  description: Show qmi_wwan driver specific options . SS "DMS options:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-ids
+  description: Get IDs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-capabilities
+  description: Get capabilities
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-manufacturer
+  description: Get manufacturer
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-model
+  description: Get model
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-revision
+  description: Get revision
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-msisdn
+  description: Get MSISDN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-power-state
+  description: Get power state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-uim-set-pin-protection
+  description: Set PIN protection in the UIM
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-uim-verify-pin
+  description: Verify PIN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-uim-unblock-pin
+  description: Unblock PIN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-uim-change-pin
+  description: Change PIN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-uim-get-pin-status
+  description: Get PIN status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-uim-get-iccid
+  description: Get ICCID
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-uim-get-imsi
+  description: Get IMSI
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-uim-get-state
+  description: Get UIM State
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-uim-get-ck-status
+  description: Get CK Status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-uim-set-ck-protection
+  description: Disable CK protection
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-uim-unblock-ck
+  description: Unblock CK
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-hardware-revision
+  description: Get the HW revision
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-operating-mode
+  description: Get the device operating mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-set-operating-mode
+  description: Set the device operating mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-time
+  description: Get the device time
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-prl-version
+  description: Get the PRL version
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-activation-state
+  description: Get the state of the service activation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-activate-automatic
+  description: Request automatic service activation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-activate-manual
+  description: Request manual service activation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-user-lock-state
+  description: Get the state of the user lock
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-set-user-lock-state
+  description: Set the state of the user lock
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-set-user-lock-code
+  description: Change the user lock code
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-read-user-data
+  description: Read user data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-write-user-data
+  description: Write user data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-read-eri-file
+  description: Read ERI file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-restore-factory-defaults
+  description: Restore factory defaults
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-validate-service-programming-code
+  description: Validate the Service Programming Code
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-set-firmware-id
+  description: Set firmware id
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-band-capabilities
+  description: Get band capabilities
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-factory-sku
+  description: Get factory stock keeping unit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-list-stored-images
+  description: List stored images
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-select-stored-image
+  description: Select stored image
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-delete-stored-image
+  description: Delete stored image
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-firmware-preference
+  description: Get firmware preference
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-set-firmware-preference
+  description: 'Set firmware preference (required keys: firmware-version, config-version, car…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-boot-image-download-mode
+  description: Get boot image download mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-set-boot-image-download-mode
+  description: Set boot image download mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-software-version
+  description: Get software version
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-set-fcc-authentication
+  description: Set FCC authentication
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-supported-messages
+  description: Get supported messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-hp-change-device-mode
+  description: Change device mode (HP specific)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-swi-get-current-firmware
+  description: Get Current Firmware (Sierra Wireless specific)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-swi-get-usb-composition
+  description: Get current and supported USB compositions (Sierra Wireless specific)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-swi-set-usb-composition
+  description: Set USB composition (Sierra Wireless specific)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-foxconn-change-device-mode
+  description: Change device mode (Foxconn specific)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-foxconn-get-firmware-version
+  description: Get firmware version (Foxconn specific)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-foxconn-set-fcc-authentication
+  description: Set FCC authentication (Foxconn specific)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-foxconn-set-fcc-authentication-v2
+  description: Set FCC authentication (Foxconn specific, v2)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-get-mac-address
+  description: Get default MAC address
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-reset
+  description: Reset the service state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dms-noop
+  description: Just allocate or release a DMS client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-signal-strength
+  description: Get signal strength
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-signal-info
+  description: Get signal info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-tx-rx-info
+  description: Get TX/RX info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-home-network
+  description: Get home network
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-serving-system
+  description: Get serving system
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-system-info
+  description: Get system info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-technology-preference
+  description: Get technology preference
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-preferred-networks
+  description: Get preferred networks
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-set-preferred-networks
+  description: Set preferred networks list
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-system-selection-preference
+  description: Get system selection preference
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-set-system-selection-preference
+  description: Set system selection preference
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-network-scan
+  description: Scan networks
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-cell-location-info
+  description: Get Cell Location Info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-force-network-search
+  description: Force network search
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-operator-name
+  description: Get operator name data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-plmn-name
+  description: Get plmn name data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-lte-cphy-ca-info
+  description: Get LTE Cphy CA Info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-rf-band-info
+  description: Get RF Band Info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-drx
+  description: Get DRX
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-get-supported-messages
+  description: Get supported messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-swi-get-status
+  description: Get status ((Sierra Wireless specific)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-reset
+  description: Reset the service state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nas-noop
+  description: Just allocate or release a NAS client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-start-network
+  description: 'Start network (allowed keys: apn, 3gpp-profile, 3gpp2-profile, auth (PAP|CHAP…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-follow-network
+  description: Follow the network status until disconnected.  Use with `--wds-start-network\'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-stop-network
+  description: Stop network
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-current-settings
+  description: Get current settings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-packet-service-status
+  description: Get packet service status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-packet-statistics
+  description: Get packet statistics
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-data-bearer-technology
+  description: Get data bearer technology
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-current-data-bearer-technology
+  description: Get current data bearer technology
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-go-dormant
+  description: Make the active data connection go dormant
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-go-active
+  description: Make the active data connection go active
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-dormancy-status
+  description: Get the dormancy status of the active data connection
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-create-profile
+  description: 'Create new profile using first available profile index (optional keys: name, …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-swi-create-profile-indexed
+  description: Create new profile at specified profile index [Sierra Wireless specific] (opt…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-modify-profile
+  description: 'Modify existing profile (optional keys: name, apn, pdp-type (IP|PPP|IPV6|IPV4…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-delete-profile
+  description: Delete existing profile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-profile-list
+  description: Get profile list
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-default-profile-number
+  description: Get default profile number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-set-default-profile-number
+  description: Set default profile number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-default-settings
+  description: Get default settings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-autoconnect-settings
+  description: Get autoconnect settings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-set-autoconnect-settings
+  description: Set autoconnect settings (roaming settings optional)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-supported-messages
+  description: Get supported messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-reset
+  description: Reset the service state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-bind-data-port
+  description: Bind data port to controller device to be used with `--client-no-release-cid\'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-bind-mux-data-port
+  description: 'Bind qmux data port to controller device (allowed keys: mux-id, ep-type (unde…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-set-ip-family
+  description: Set IP family
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-channel-rates
+  description: Get channel data rates
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-lte-attach-parameters
+  description: Get LTE attach parameters
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-max-lte-attach-pdn-num
+  description: Get the maximum number of LTE attach PDN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-get-lte-attach-pdn-list
+  description: Get the list of LTE attach PDN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-set-lte-attach-pdn-list
+  description: Set the list of LTE attach PDN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wds-noop
+  description: Just allocate or release a WDS client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pbm-get-all-capabilities
+  description: Get all phonebook capabilities
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pbm-noop
+  description: Just allocate or release a PBM client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pdc-list-configs
+  description: List all configs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pdc-delete-config
+  description: Delete config
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pdc-activate-config
+  description: Activate config
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pdc-deactivate-config
+  description: Deactivate config
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pdc-load-config
+  description: Load config to device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pdc-monitor-refresh
+  description: Watch for refresh indications
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pdc-noop
+  description: Just allocate or release a PDC client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-set-pin-protection
+  description: Set PIN protection
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-verify-pin
+  description: Verify PIN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-unblock-pin
+  description: Unblock PIN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-change-pin
+  description: Change PIN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-read-transparent
+  description: Read a transparent file given the file path
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-get-file-attributes
+  description: Get the attributes of a given file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-read-record
+  description: 'Read a record from given file (allowed keys: record-number, record-length, fi…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-get-card-status
+  description: Get card status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-get-supported-messages
+  description: Get supported messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-sim-power-on
+  description: Power on SIM card
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-sim-power-off
+  description: Power off SIM card
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-change-provisioning-session
+  description: 'Change provisioning session (allowed keys: session-type, activate, slot, aid)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-get-slot-status
+  description: Get slot status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-switch-slot
+  description: Switch active physical slot
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-monitor-slot-status
+  description: Watch for slot status indications
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-reset
+  description: Reset the service state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-monitor-refresh-file
+  description: Watch for REFRESH events for given file paths
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-monitor-refresh-all
+  description: Watch for REFRESH events for any file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-get-configuration
+  description: Get personalization status of the modem
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-depersonalization
+  description: Deactivates or unblocks personalization feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uim-noop
+  description: Just allocate or release a UIM client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sar-rf-get-state
+  description: Get RF state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sar-rf-set-state
+  description: Set RF state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sar-noop
+  description: Just allocate or release a SAR client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wms-get-supported-messages
+  description: Get supported messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wms-get-routes
+  description: Get SMS route information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wms-set-routes
+  description: 'Set SMS route information (keys: type, class, storage, receipt-action)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wms-reset
+  description: Reset the service state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wms-noop
+  description: Just allocate or release a WMS client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wda-set-data-format
+  description: 'Set data format (allowed keys: link-layer-protocol (802-3|raw-ip), ul-protoco…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wda-get-data-format
+  description: 'Get data format (allowed keys: ep-type (undefined|hsusb|pcie|embedded), ep-if…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wda-get-supported-messages
+  description: Get supported messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wda-noop
+  description: Just allocate or release a WDA client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: voice-get-config
+  description: Get Voice service configuration
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: voice-get-supported-messages
+  description: Get supported messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: voice-noop
+  description: Just allocate or release a VOICE client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-session-id
+  description: Session ID for the LOC session
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-start
+  description: Start location gathering
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-stop
+  description: Stop location gathering
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-get-position-report
+  description: Get position reported by the location module
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-get-gnss-sv-info
+  description: Show GNSS space vehicle info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-timeout
+  description: Maximum time to wait for information in `--loc-get-position-report\' and `--lo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-follow-position-report
+  description: Follow all position updates reported by the location module indefinitely
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-follow-gnss-sv-info
+  description: Follow all GNSS space vehicle info updates reported by the location module in…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-follow-nmea
+  description: Follow all NMEA trace updates reported by the location module indefinitely
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-delete-assistance-data
+  description: Delete positioning assistance data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-get-nmea-types
+  description: Get list of enabled NMEA traces
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-set-nmea-types
+  description: Set list of enabled NMEA traces
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-get-operation-mode
+  description: Get operation mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-set-operation-mode
+  description: Set operation mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-get-engine-lock
+  description: Get engine lock status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-set-engine-lock
+  description: Set engine lock status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loc-noop
+  description: Just allocate or release a LOC client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: qos-get-flow-status
+  description: Get QoS flow status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: qos-get-network-status
+  description: Gets the network status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: qos-swi-read-data-stats
+  description: Read data stats (Sierra Wireless specific)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: qos-reset
+  description: Reset the service state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: qos-noop
+  description: Just allocate or release a QOS client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gas-dms-set-usb-composition
+  description: Sets the USB composition
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gas-dms-get-usb-composition
+  description: Gets the current USB composition
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gas-dms-get-firmware-list
+  description: Gets the list of stored firmware
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gas-dms-get-active-firmware
+  description: Gets the currently active firmware
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gas-dms-set-active-firmware
+  description: Sets the active firmware index
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gas-noop
+  description: Just allocate or release a GAS client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gms-test-get-value
+  description: Gets test value
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gms-test-set-value
+  description: Sets test value
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gms-noop
+  description: Just allocate or release a GMS client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dsd-get-apn-info
+  description: Gets the settings associated to a given APN type
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dsd-set-apn-type
+  description: Sets the types associated to a given APN name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dsd-get-system-status
+  description: Gets system status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dsd-noop
+  description: Just allocate or release a DSD client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dpm-open-port
+  description: 'Open port (allowed-keys: ctrl-ep-type, ctrl-ep-iface-number, ctrl-port-name, …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dpm-close-port
+  description: Close port
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dpm-noop
+  description: Just allocate or release a DPM client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fox-get-firmware-version
+  description: Get firmware version
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fox-noop
+  description: Just allocate or release a FOX client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: link-list
+  description: List links created from a given interface
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: link-add
+  description: Create new network interface link
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: link-delete
+  description: Delete a given network interface link
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: link-delete-all
+  description: 'Delete all network interface links from the given interface '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: get-wwan-iface
+  description: Get the associated WWAN iface name
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: get-expected-data-format
+  description: Get the expected data format in the WWAN iface
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-expected-data-format
+  description: Set the expected data format in the WWAN iface . SS "Application Options:"
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device
+  description: Specify device path or QRTR URI (e. g.  qrtr://0)
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: get-service-version-info
+  description: Get service version info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-set-instance-id
+  description: Set instance ID
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-version-info
+  description: Run version info check when opening device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-sync
+  description: Run sync operation when opening device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-proxy
+  description: Request to use the \'qmi-proxy\' proxy
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-qmi
+  description: Open a cdc-wdm device explicitly in QMI mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-mbim
+  description: Open a cdc-wdm device explicitly in MBIM mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-auto
+  description: Open a cdc-wdm device in either QMI or MBIM mode (default)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-net
+  description: Open device with specific link protocol and QoS flags
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: client-cid
+  description: Use the given CID, don\'t allocate a new one
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: client-no-release-cid
+  description: Do not release the CID when exiting
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Run action with verbose logs, including the debug ones
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose-full
+  description: Run action with verbose logs, including the debug ones and personal info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: silent
+  description: Run action with no logs; not even the error/warning ones
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version COPYRIGHT Copyright © 2012-2022 Aleksander Morgado License GPLv…
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

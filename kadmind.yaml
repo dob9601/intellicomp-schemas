@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: r
+  description: specifies the realm that kadmind will serve; if it is not specified, the defa…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: causes the master database password to be fetched from the keyboard (before t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nofork
+  description: causes the server to remain in the foreground and remain associated to the te…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: proponly
+  description: causes the server to only listen and respond to Kerberos replica incremental …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: specifies the port on which the administration server listens for connections
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: P
+  description: specifies the file to which the PID of kadmind process should be written afte…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: specifies the path to the kdb5_util command to use when dumping the KDB in re…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: K
+  description: specifies the path to the kprop command to use to send full dumps to replicas…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k
+  description: specifies the port by which the kprop process that is spawned by kadmind conn…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: F
+  description: specifies the file path to be used for dumping the KDB in response to full re…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: specifies database-specific arguments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

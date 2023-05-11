@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: object-format
+  description: Specify the given object format (hash algorithm) for the index file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: output
+  description: Name of the output file
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: string
+  description: Use  string as the title inside the output graph
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: time
+  description: Use time (rather than number of function calls) as the scale for the X axis
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: total
+  description: Also draw a graph of total memory consumption
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x-size
+  description: Make the output graph  size pixels wide
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: y-size
+  description: Make the output graph  size pixels high
+  shorthand: y
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a help message and exit
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: Print a short usage message and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: (or
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: data
+  description: option of memusage (1)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version information and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

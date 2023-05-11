@@ -1,0 +1,312 @@
+description: ''
+keyword_arguments:
+- name: app
+  description: Filter by GitHub App author
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: archived
+  description: Restrict search to archived repositories
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: assignee
+  description: Filter by assignee
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: author
+  description: Filter by author
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: base
+  description: Filter on base branch name
+  shorthand: B
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: checks
+  description: 'Filter based on status of the checks: {pending|success|failure}'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: closed
+  description: Filter on closed at date
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: commenter
+  description: Filter based on comments by user
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: comments
+  description: Filter on number of comments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: created
+  description: Filter based on created at date
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: draft
+  description: Filter based on draft state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: head
+  description: Filter on head branch name
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interactions
+  description: Filter on number of reactions and comments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: involves
+  description: Filter based on involvement of user
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jq
+  description: Filter JSON output using a jq expression
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: json
+  description: Output JSON with the specified fields
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label
+  description: Filter on label
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: language
+  description: Filter based on the coding language
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: limit
+  description: Maximum number of results to fetch
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: locked
+  description: Filter on locked conversation status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: match
+  description: 'Restrict search to specific field of issue: {title|body|comments}'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mentions
+  description: Filter based on user mentions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: merged
+  description: Filter based on merged state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: merged-at
+  description: Filter on merged at date
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: milestone
+  description: Filter by milestone title
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-assignee
+  description: Filter on missing assignee
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-label
+  description: Filter on missing label
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-milestone
+  description: Filter on missing milestone
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-project
+  description: Filter on missing project
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: order
+  description: 'Order of results returned, ignored unless \''--sort\'' flag is specified: {asc|de…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: owner
+  description: Filter on repository owner
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: project
+  description: Filter on project board number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reactions
+  description: Filter on number of reactions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: Filter on repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: review
+  description: 'Filter based on review status: {none|required|approved|changes_requested}'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: review-requested
+  description: Filter on user or team requested to review
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reviewed-by
+  description: Filter on user who reviewed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sort
+  description: 'Sort fetched results: {comments|reactions|reactions-+1|reactions--1|reactions…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: state
+  description: 'Filter based on state: {open|closed}'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: team-mentions
+  description: Filter based on team mentions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: template
+  description: Format JSON output using a Go template; see "gh help formatting"
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: updated
+  description: Filter on last updated at date
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: visibility
+  description: 'Filter based on repository visibility: {public|private|internal}'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: web
+  description: 'Open the search query in the web browser EXAMPLE # search pull requests match…'
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

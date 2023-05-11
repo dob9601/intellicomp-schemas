@@ -1,0 +1,361 @@
+description: ''
+keyword_arguments:
+- name: auto
+  description: Generate a small document for testing purposes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: catalogs
+  description: Use the SGML catalog(s) from SGML_CATALOG_FILES
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: chkregister
+  description: Turn on node registration
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: compress
+  description: Turn on gzip(1) compression of output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: copy
+  description: Test the internal copy implementation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c14n
+  description: Use the W3C XML Canonicalisation (C14N) to serialize the result of parsing to…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dtdvalid
+  description: Use the DTD specified by an URL for validation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dtdvalidfpi
+  description: Use the DTD specified by a Formal Public Identifier FPI for validation, note …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Parse a file and output an annotated tree of the in-memory version of the doc…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debugent
+  description: Debug the entities defined in the document
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dropdtd
+  description: Remove DTD from output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dtdattr
+  description: Fetch external DTD and populate the tree with inherited attributes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: encode
+  description: Output in the given encoding
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: format
+  description: Reformat and reindent the output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print out a short usage summary for xmllint
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: html
+  description: Use the HTML parser
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: htmlout
+  description: Output results as an HTML file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: insert
+  description: Test for valid insertions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loaddtd
+  description: Fetch an external DTD
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: load-trace
+  description: Display all the documents loaded during the processing to stderr
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: maxmem
+  description: Test the parser memory support
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory
+  description: Parse from memory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noblanks
+  description: Drop ignorable blank spaces
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nocatalogs
+  description: Do not use any catalogs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nocdata
+  description: Substitute CDATA section by equivalent text nodes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noent
+  description: Substitute entity values for entity references
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nonet
+  description: Do not use the Internet to fetch DTDs or entities
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noout
+  description: Suppress output.  By default, xmllint outputs the result tree
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nowarning
+  description: Do not emit warnings from the parser and/or validator
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nowrap
+  description: Do not output HTML doc wrapper
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noxincludenode
+  description: Do XInclude processing but do not generate XInclude start and end nodes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nsclean
+  description: Remove redundant namespace declarations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Define a file path where xmllint will save the result of parsing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: path
+  description: Use the (space- or colon-separated) list of filesystem paths specified by PAT…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pattern
+  description: Used to exercise the pattern recognition engine, which can be used with the r…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: postvalid
+  description: Validate after parsing has completed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: push
+  description: Use the push mode of the parser
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: recover
+  description: Output any parsable portions of an invalid document
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: relaxng
+  description: Use RelaxNG file named SCHEMA for validation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repeat
+  description: Repeat 100 times, for timing or profiling
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: schema
+  description: Use a W3C XML Schema file named SCHEMA for validation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shell
+  description: Run a navigating shell
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xpath
+  description: Run an XPath expression given as argument and print the result
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stream
+  description: Use streaming API - useful when used in combination with --relaxng or --valid…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: testIO
+  description: Test user input/output support
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timing
+  description: Output information about the time it takes xmllint to perform the various ste…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: valid
+  description: Determine if the document is a valid instance of the included Document Type D…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display the version of libxml(3) used
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: walker
+  description: Test the walker module, which is a reader interface but for a document tree, …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xinclude
+  description: Do XInclude processing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xmlout
+  description: Used in conjunction with --html
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: f
+  description: use  file for sasldb
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Print libsasl2 version number and exit.  SEE ALSO saslpasswd2(8)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: input
+  description: Read the package script build script instead of the default
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Write the updated file to build script instead of overwriting the input file
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: newest
+  description: Always use the newest available template file
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: template-dir
+  description: Change the dir where we are looking for template files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

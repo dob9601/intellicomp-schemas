@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: cflags
+  description: option, pcap-config writes to the standard output the
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: I
+  description: compiler flags required to include libpcap\'s header files.  When run with the
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: option, pcap-config writes to the standard output the
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: L
+  description: and
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: linker flags required to link with libpcap, including
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: additional-libs
+  description: option, pcap-config writes to the standard output the
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lpcap
+  description: flag to link with libpcap itself
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: static
+  description: flag causes it to write flags appropriate for compiling with a statically-lin…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

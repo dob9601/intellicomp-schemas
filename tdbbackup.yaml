@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: h
+  description: Get help information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: The -s option allows the administrator to specify a file backup extension
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: The -v will check the database for damages (corrupt data) which if detected c…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: The -n option sets the hash size for the new backup tdb
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: This options disables any locking, by passing TDB_NOLOCK to tdb_open_ex()
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

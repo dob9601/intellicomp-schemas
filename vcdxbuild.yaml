@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: image-type
+  description: 'specify image type for output (default: \''bincue\'')'
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: image-option
+  description: specify image option
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cue-file
+  description: 'specify cue file for output (default: \''videocd. cue\'')'
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bin-file
+  description: 'specify bin file for output (default: \''videocd. bin\'')'
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cdrdao-file
+  description: specify cdrdao-style image filename base
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sector-2336
+  description: use 2336 byte sectors for output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: create-time
+  description: 'specify creation date on files in CD image (default: current date)'
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: progress
+  description: show progress
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump-dtd
+  description: dump internal DTD to stdout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: filename-encoding
+  description: use given charset encoding for filenames instead of UTF8
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: be verbose
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: show only critical messages
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gui
+  description: enable GUI mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: display version and copyright information and exit . SS "Help options:"
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show this help message
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: Display brief usage message AUTHOR Written by Herbert Valerio Riedel and Rock…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

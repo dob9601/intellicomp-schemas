@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: auth
+  description: Disable authentication
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: may-view
+  description: Clients may view without prompt
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: may-interact
+  description: Clients may interact without prompt
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sec-rdp
+  description: Disable RDP security (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sec-tls
+  description: Disable TLS protocol security (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sec-nla
+  description: Disable NLA protocol security (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

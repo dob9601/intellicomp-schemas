@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: Cn
+  description: Set the  non-repeaters field in the GETBULK PDU
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cr
+  description: Set the max-repetitions field in the GETBULK PDU
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

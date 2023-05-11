@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: dguid:0xff2584e39b078a2e
+  description: Sometimes resetting the Firewire bus can help ("ffado-test BusReset") if  the…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

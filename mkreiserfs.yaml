@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: block-size
+  description: N is block size in bytes
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hash
+  description: HASH specifies which hash function will sort the names in the directories
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: format
+  description: FORMAT specifies the format for the new filsystem.  Choose format 3. 5 or 3
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uuid
+  description: Sets  the  Universally  Unique  IDentifier  of  the  filesystem  to  UUID  (s…
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label
+  description: Sets  the  volume  label  of  the filesystem
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Sets mkreiserfs to work quietly without producing messages, progress or quest…
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: journal-device
+  description: FILE is the name of the block device on which is to be places the  filesystem…
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: journal-offset
+  description: N is the offset where the journal starts when it is to be on a separate device
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: journal-size
+  description: N is the size of the journal in blocks
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: transaction-max-size
+  description: N is the maximum transaction size parameter for the journal
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: badblocks
+  description: File is the file name of the file that contains the list of blocks to be  mar…
+  shorthand: B
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: Forces mkreiserfs to continue even when the device is the whole disk,  looks …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Sets mkreiserfs to print debugging information during mkreiserfs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: Prints the version and then exits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

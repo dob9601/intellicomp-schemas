@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: L
+  description: Add DIRECTORY to the front of Guile\'s module load path
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Load Scheme source code from FILE
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: e
+  description: After reading SCRIPT, apply FUNCTION to command-line arguments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Stop argument processing, and evaluate EXPR as a Scheme expression
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Load Scheme source from SCRIPT-FILE and execute as a script
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ds
+  description: Carry out -s SCRIPT at this point in the option sequence
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Start  guile with the debugging VM
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-debug
+  description: Start  guile without the debugging VM, even if  guile is being run interactiv…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auto-compile
+  description: Compile source files automatically (default behavior)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-auto-compile
+  description: Disable automatic source file compilation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listen
+  description: Listen on a port or socket for remote REPL connections
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-srfi
+  description: Load SRFI extensions N, M, etc.  For example,  --use-srfi=8,13
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: Add EXTENSION to the  guile load extension list
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Describe command-line options and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display guile version and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: In interactive mode, suppress loading the user\'s initialization file, ~/
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

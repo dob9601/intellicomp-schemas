@@ -1,0 +1,151 @@
+description: ''
+keyword_arguments:
+- name: output
+  description: 'Write output to OUTFILE instead of stdout(3) '
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: full-html
+  description: 'Generate full HTML document, including header '
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stat
+  description: 'Measure time of input parsing '
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: 'Display help and exit '
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: 'Display version and exit . SS Markdown dialect options: '
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: commonmark
+  description: 'CommonMark (the default) '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: github
+  description: 'Github Flavored Markdown '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fcollapse-whitespace
+  description: 'Collapse non-trivial whitespace '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fverbatim-entities
+  description: 'Do not translate entities '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fpermissive-atx-headers
+  description: 'Allow ATX headers without delimiting space '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fpermissive-url-autolinks
+  description: 'Allow URL autolinks without "<" and ">" delimiters '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fpermissive-www-autolinks
+  description: 'Allow WWW autolinks without any scheme (e. g.  "www. example. com") '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fpermissive-email-autolinks
+  description: 'Allow e-mail autolinks without "<", ">" and "mailto:" '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fpermissive-autolinks
+  description: 'Enable all 3 of the above permissive autolinks options '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fno-indented-code
+  description: 'Disable indented code blocks '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fno-html-blocks
+  description: 'Disable raw HTML blocks '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fno-html-spans
+  description: 'Disable raw HTML spans '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fno-html
+  description: 'Same as --fno-html-blocks --fno-html-spans '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ftables
+  description: 'Enable tables '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fstrikethrough
+  description: 'Enable strikethrough spans '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ftasklists
+  description: Enable task lists
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

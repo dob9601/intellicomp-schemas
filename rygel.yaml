@@ -1,0 +1,123 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show summary of options
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version of program
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: network-interface
+  description: Set the network interfaces rygel listens on
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: Set the listen-port
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-transcoding
+  description: Disable any transcoding
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disallow-upload
+  description: Disable uploading of media files via UPnP
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disallow-deletion
+  description: UPnP clients are not allowed to delete media files on the server
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-level
+  description: Comma-separated list of DOMAIN:LEVEL pairs, allowing to set the log level ind…
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: plugin-path
+  description: Set the plugin search path
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: engine-path
+  description: Set the media streaming and transcoding engine search path
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-plugin
+  description: Disable the plugin PLUGIN_NAME
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: title
+  description: Set the title of plugin PLUGIN_NAME to TITLE You can use this option more tha…
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: plugin-option
+  description: Set options for a plugin
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-upnp
+  description: Disable advertisement via UPnP and set rygel into streaming-only mode
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: Use CONFIG_FILE instead of ${XDG_CONFIG_DIR}/rygel. conf
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shutdown
+  description: Shutdown a currently running instance of rygel
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replace
+  description: Replace the currently running instance of rygel with this instance
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

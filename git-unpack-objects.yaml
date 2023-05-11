@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: n
+  description: Dry run.  Check the pack file without actually unpacking the objects
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: The command usually shows percentage progress.  This flag suppresses it
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: When unpacking a corrupt packfile, the command dies at the first corruption
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strict
+  description: Don\'t write objects with broken content or links
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-input-size
+  description: Die, if the pack is larger than <size>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

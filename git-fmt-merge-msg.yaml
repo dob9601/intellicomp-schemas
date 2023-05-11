@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: log
+  description: In addition to branch names, populate the log message with one-line descripti…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-log
+  description: Do not list one-line descriptions from the actual commits being merged
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: summary
+  description: Synonyms to --log and --no-log; these are deprecated and will be removed in t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: message
+  description: Use <message> instead of the branch names for the first line of the log messa…
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: into-name
+  description: Prepare the merge message as if merging to the branch <branch>, instead of th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: Take the list of merged objects from <file> instead of stdin
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

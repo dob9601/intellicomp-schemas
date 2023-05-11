@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: force
+  description: "\tForce the removal of one or more volumes"
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for rm EXAMPLE $ docker volume rm hello hello SEE ALSO"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

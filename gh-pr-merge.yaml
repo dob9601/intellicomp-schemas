@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: admin
+  description: Use administrator privileges to merge a pull request that does not meet requi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: author-email
+  description: Email text for merge commit author
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auto
+  description: Automatically merge only after necessary requirements are met
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: body
+  description: Body text for the merge commit
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: body-file
+  description: Read body text from file (use "-" to read from standard input)
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delete-branch
+  description: Delete the local and remote branch after merge
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-auto
+  description: Disable auto-merge for this pull request
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: match-head-commit
+  description: Commit SHA that the pull request head must match to allow merge
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: merge
+  description: Merge the commits with the base branch
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rebase
+  description: Rebase the commits onto the base branch
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: squash
+  description: Squash the commits into one commit and merge it into the base branch
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: subject
+  description: Subject text for the merge commit OPTIONS INHERITED FROM PARENT COMMANDS
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: Select another repository using the [HOST/]OWNER/REPO format SEE ALSO
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: \\-help
+  description: Print help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-rules
+  description: The XKB ruleset
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-model
+  description: The XKB model
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-layout
+  description: The XKB layout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-variant
+  description: The XKB layout variant
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-option
+  description: The XKB options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-keymap
+  description: Specify a keymap path
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-report\\-state\\-changes
+  description: Report changes to the keyboard state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-enable\\-compose
+  description: Enable Compose functionality
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-consumed\\-mode
+  description: 'Set the consumed modifiers mode (default: xkb)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-without\\-x11\\-offset
+  description: Don\'t add an offset of 8 when converting an evdev keycode to an XKB keycode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

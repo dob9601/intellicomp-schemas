@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: tag-file
+  description: 'Use specified tag file (default: \\(dqtags\\(dq)'
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: override-sort-detection
+  description: 'Override sort detection of tag file.  METHOD: unsorted|sorted|foldcase'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: icase-match
+  description: Perform case-insensitive matching in the NAME action
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix-match
+  description: Perform prefix matching in the NAME action
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Turn on debugging output
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: escape-output
+  description: Escape characters like tabs in output as described in tags(5)
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extension-fields
+  description: Include extension fields in output
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: line-number
+  description: Also include the line number field when -e option is give
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: filter
+  description: Filter the tags listed by ACTION with EXP before printing
+  shorthand: Q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sorter
+  description: Sort the tags listed by ACTION with EXP before printing
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: formatter
+  description: Format the tags listed by ACTION with EXP when printing
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list
+  description: List regular tags
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-pseudo-tags
+  description: Equivalent to --list-pseudo-tags
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '1'
+  description: 'same file: $ readtags -S \''(<or> (<> $input &input) (<> $line &line))\'' -l The …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

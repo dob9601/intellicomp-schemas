@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: input
+  description: Name of file for which to create a thumbnail
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Name of the file in which to store the thumbnail
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: size
+  description: Size of thumbnail in pixels; the thumbnail will be at most N*N pixels large
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display a brief usage message LICENSE
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,130 @@
+description: ''
+keyword_arguments:
+- name: nssdir
+  description: Specify the database directory containing the certificate and key database fi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nss-pwd
+  description: Specify the password needed to access the NSS database (if any)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nocert
+  description: Do not validate the certificate
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-ocsp
+  description: Do not perform online OCSP certificate revocation check (local Certificate Re…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: aia
+  description: Enable the use of Authority Information Access (AIA) extension to fetch missi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump
+  description: Dump all signatures into current directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-signature
+  description: Add a new signature to the document
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: new-signature-field-name
+  description: Specifies the field name to be used when adding a new signature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sign
+  description: Sign the document in the specified signature field present in the document (m…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nick
+  description: Use the certificate with the given nickname for signing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kpw
+  description: Use the given password for the signing key (this might be missing if the key …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: digest
+  description: 'Use the given digest algorithm for signing (default: SHA256)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reason
+  description: 'Set the given reason string for the signature (default: no reason set)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: etsi
+  description: Create a signature of type ETSI. CAdES. detached instead of adbe. pkcs7
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-nicks
+  description: List available nicknames in the NSS database
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Print copyright and version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Print usage information.  ( -help and
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: are equivalent. ) EXAMPLES
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

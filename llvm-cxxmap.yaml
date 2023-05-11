@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: remapping-file
+  description: Specify a file containing a list of equivalence rules that should be used to …
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Specify a file to write the list of matched names to
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Wambiguous
+  description: Produce a warning if there are multiple equivalent (but distinct) symbols in …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Wincomplete
+  description: Produce a warning if symbol-file-1 contains a symbol for which there is no eq…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

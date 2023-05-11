@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: list
+  description: List all tags
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-files
+  description: Show the files associated with each tag
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add
+  description: Add a tag with the name TAG
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delete
+  description: Delete a tag with the name TAG
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: description
+  description: This option ONLY applies when using --add and provides a description to go wi…
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: limit
+  description: Limit search to N results.  The default is 512
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: offset
+  description: Offset the search results by N
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: and-operator
+  description: 'Use AND operator for search terms instead of OR (the default).  For example:'
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

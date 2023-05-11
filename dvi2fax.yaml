@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: hi
+  description: use high fax resolution (204x196 dpi) (default)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lo
+  description: use low fax resolution (204x98)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: jobname
+  description: It is the name of the job.  `<jobname>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: texname
+  description: The name of the TeX input file, if it differs from <jobname>. tex
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: texopt
+  description: Additional option for the TeX compiler, examples are \\f(CW\\*(C`--ini\\*(C\' or …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: destdir
+  description: Specifies the name of the destination directory where the result is collected
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Also add output files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strace
+  description: Use method with program strace, see \\*(L"\\s-1DESCRIPTION\\s0\\*(R"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: copy
+  description: Files are copied instead of creating symbolic links
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: flat
+  description: Files are linked or copied without path elements
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-ext
+  description: Files with extension <ext> are excluded
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cmd-tex
+  description: Command for the TeX compiler.  Default is pdflatex
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cmd-kpsewhich
+  description: Command for kpsewhich
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cmd-texhash
+  description: Command for updating the file name database of the generated texmf tree
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cmd-strace
+  description: Command for strace
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Verbose messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display help screen
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

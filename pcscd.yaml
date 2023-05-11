@@ -1,0 +1,130 @@
+description: ''
+keyword_arguments:
+- name: apdu
+  description: log APDUs and SW using the debug method (see  --debug )
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: Specifies the directory dir as an alternate location for R /etc/reader. conf
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: foreground
+  description: Runs pcscd in the foreground and sends log messages to stderr instead of sysl…
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: color
+  description: force use of colored logs
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: use the lowest log level
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: info
+  description: use info log level.  This is the default log level
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: error
+  description: use error log level
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: critical
+  description: use critical log level
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-reader-polling
+  description: ignore the IFD_GENERATE_HOTPLUG reader capability
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-thread
+  description: maximum number of threads (default 200)
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-card-handle-per-thread
+  description: 'maximum number of card handle per thread (default: 200)'
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-card-handle-per-reader
+  description: 'maximum number of card handle per reader (default: 200)  This is the maximum …'
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Displays information about the pcscd command line
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Displays the program version number
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hotplug
+  description: Ask pcscd to re-read the  /etc/reader. conf. d/my_reader
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auto-exit
+  description: pcscd will quit after 60 seconds of inactivity after the release of the last …
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reader-name-no-serial
+  description: Do not include the USB serial number in the reader name
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reader-name-no-interface
+  description: Do not include the USB interface name in the reader name
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

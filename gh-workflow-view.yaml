@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: ref
+  description: The branch or tag name which contains the version of the workflow file you\'d …
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: web
+  description: Open workflow in the browser
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: yaml
+  description: View the workflow yaml file OPTIONS INHERITED FROM PARENT COMMANDS
+  shorthand: y
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: 'Select another repository using the [HOST/]OWNER/REPO format EXAMPLE # Intera…'
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: quiet
+  description: Only print error messages
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delete
+  description: Remove corrupted objects
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-tombstones
+  description: Add tombstone commit for referenced but missing commits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verify-bindings
+  description: Verify that the commits pointed to by each ref have that ref in the binding s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verify-back-refs
+  description: Verify that all the refs listed in a commit\'s ref-bindings point to that comm…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

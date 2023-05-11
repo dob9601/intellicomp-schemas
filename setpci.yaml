@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: v
+  description: Tells  setpci to be verbose and display detailed information about configurat…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: Tells  setpci not to complain when there\'s nothing to do (when no devices are…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: D
+  description: '`Demo mode\'' -- don\''t write anything to the configuration registers'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Avoids bus scan if each operation selects a specific device (uses the  -s sel…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show  setpci version.  This option should be used stand-alone
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show detailed help on available options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dumpregs
+  description: Show a list of all known PCI registers and capabilities
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: A
+  description: The library supports a variety of methods to access the PCI hardware
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: O
+  description: The behavior of the library is controlled by several named parameters
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H1
+  description: Use direct hardware access via Intel configuration mechanism 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H2
+  description: Use direct hardware access via Intel configuration mechanism 2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: selector with specific domain, bus, slot, and function)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: G
+  description: Increase debug level of the library
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Select devices with specified vendor, device, class ID, and programming inter…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

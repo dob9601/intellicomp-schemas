@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: deprecations
+  description: Warn about uses of deprecated types in the UI definition file.  Enumeration
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: callbacks
+  description: Print the names of callbacks as well.  Preview
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id
+  description: The ID of the object to preview
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: css
+  description: Load style information from the given CSS file.  Screenshot
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: node
+  description: Write a serialized node file instead of a png image
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Overwrite an existing file.  Simplification
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replace
+  description: Write the content back to the UI definition file instead of using the standar…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: 3to4
+  description: Transform a GTK 3 UI definition file to the equivalent GTK 4 definitions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

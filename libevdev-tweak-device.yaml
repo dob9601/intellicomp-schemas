@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: abs
+  description: Change the given named ABS_ kernel axis, e. g.  ABS_X
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: min
+  description: Set the absinfo minimum to the value v
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max
+  description: Set the absinfo maximum to the value v
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: res
+  description: Set the absinfo resolution to the value v
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fuzz
+  description: Set the absinfo fuzz to the value v
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: flat
+  description: Set the absinfo flat to the value v . PP . SS Changing the x/y resolution
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: resolution
+  description: Changes the resolution of the ABS_X, ABS_MT_POSITION_X, ABS_Y, and ABS_MT_POS…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: led
+  description: Change the given LED, e. g.  LED_NUML.  For a full list, see linux/input. h
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: on
+  description: Change the LED state to on
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: off
+  description: Change the LED state to off NOTES
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

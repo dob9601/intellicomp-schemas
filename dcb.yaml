@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: netns
+  description: 'switches  dcb to the specified network namespace R NETNS '
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Version
+  description: Print the version of the  dcb utility and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: batch
+  description: Read commands from provided file or standard input and invoke them
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Don\'t terminate dcb on errors in batch mode
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iec
+  description: When showing rates, use ISO/IEC 1024-based prefixes (Ki, Mi, Bi) instead of t…
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: json
+  description: Generate JSON output
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Numeric
+  description: If the subtool in question translates numbers to symbolic names in some way, …
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pretty
+  description: When combined with -j generate a pretty JSON output
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: statistics
+  description: If the object in question contains any statistical counters, shown them as pa…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

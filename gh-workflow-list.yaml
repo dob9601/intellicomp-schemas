@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: all
+  description: Show all workflows, including disabled workflows
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: limit
+  description: Maximum number of workflows to fetch OPTIONS INHERITED FROM PARENT COMMANDS
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: Select another repository using the [HOST/]OWNER/REPO format SEE ALSO
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

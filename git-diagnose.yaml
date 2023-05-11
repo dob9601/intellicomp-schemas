@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: output-directory
+  description: Place the resulting diagnostics archive in <path> instead of the current dire…
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: suffix
+  description: Specify an alternate suffix for the diagnostics archive name, to create a fil…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mode
+  description: Specify the type of diagnostics that should be collected
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

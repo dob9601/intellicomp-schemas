@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: Cc
+  description: Do not check whether the returned OIDs are increasing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Ci
+  description: Include the given OID in the search range
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cn
+  description: Set the  non-repeaters field in the GETBULK PDUs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cp
+  description: Upon completion of the walk, print the number of variables found
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cr
+  description: Set the max-repetitions field in the GETBULK PDUs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

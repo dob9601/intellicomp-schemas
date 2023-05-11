@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: broadcast
+  description: Display broadcast (BWF) info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cart
+  description: Display the cart chunk of a WAV (or related) file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: channel-map
+  description: Display channel map
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: instrument
+  description: 'Display instrument info: a base note, gain, velocity, key, and loop points'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print program arguments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print program version
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extcap-interfaces
+  description: List available interfaces
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extcap-interface
+  description: Use specified interfaces
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extcap-dlts
+  description: List DLTs of specified interface
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extcap-config
+  description: List configuration options of specified interface
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: capture
+  description: Start capturing from specified interface save saved it in place specified by …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fifo
+  description: Save captured packet to file or send it through pipe
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: maxbytes
+  description: Set the max number of bytes per packet
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: count
+  description: Number of packets to generate (-1 for infinite)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delay
+  description: Wait a number of milliseconds after writing each packet
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: random-type
+  description: Choose a random packet type for all packets if set to true
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all-random
+  description: Choose a different random packet type for each packet if set to true
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: type
+  description: Use the selected packet type
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

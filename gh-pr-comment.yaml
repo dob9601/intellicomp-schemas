@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: body
+  description: The comment body text
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: body-file
+  description: Read body text from file (use "-" to read from standard input)
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: edit-last
+  description: Edit the last comment of the same author
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: editor
+  description: Skip prompts and open the text editor to write the body in
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: web
+  description: Open the web browser to write the comment OPTIONS INHERITED FROM PARENT COMMA…
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: Select another repository using the [HOST/]OWNER/REPO format EXAMPLE $ gh pr …
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

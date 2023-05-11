@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: delete
+  description: Delete signatures having any of the GPG KEY-IDs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gpg-homedir
+  description: GPG Homedir to use when looking for keyrings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

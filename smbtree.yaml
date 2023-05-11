@@ -1,0 +1,165 @@
+description: ''
+keyword_arguments:
+- name: domains
+  description: Only print a list of all the domains known on broadcast or by the master brow…
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: servers
+  description: Only print a list of all the domains and servers responding on broadcast or k…
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a summary of command line options
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: Display brief usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debuglevel
+  description: level is an integer from 0 to 10
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug-stdout
+  description: This will redirect debug output to STDOUT
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: configfile
+  description: The file specified contains the configuration details required by the client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: option
+  description: Set the smb. conf(5) option "<name>" to value "<value>" from the command line
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-basename
+  description: Base directory name for log/debug files.  The extension "
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: leak-report
+  description: Enable talloc leak reporting on exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: leak-report-full
+  description: Enable full talloc leak reporting on exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Prints the program version number
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: Sets the SMB username or username and password
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-pass
+  description: If specified, this parameter suppresses the normal password prompt from the c…
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: password
+  description: Specify the password on the commandline
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pw-nt-hash
+  description: The supplied password is the NT hash
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: authentication-file
+  description: This option allows you to specify a file from which to read the username and …
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: machine-pass
+  description: Use stored machine account password
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: simple-bind-dn
+  description: DN to use for a simple bind
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-kerberos
+  description: This parameter determines whether Samba client tools will try to authenticate…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-krb5-ccache
+  description: Specifies the credential cache location for Kerberos authentication
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-winbind-ccache
+  description: Try to use the credential cache by winbind
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: client-protection
+  description: Sets the connection protection the client tool should use
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

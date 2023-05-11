@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: d
+  description: Create a duplicate (true clone) filesystem
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: The buffered option can be used to ensure direct IO is not attempted to any o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: L
+  description: Specifies the location of the  log if the default location of  /var/tmp/xfs_c…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: Prints the version number and exits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: v
+  description: Verbose mode (show progress).  Enables printout of running scan lines
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Dumps the color maps
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: e
+  description: Dumps encoded bytes - the pixels after compressed using LZ algorithm and chai…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: z
+  description: Dumps the LZ codes of the image
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Dumps the pixels of the image.  Dumps in hex - 2 digit per pixel (<=byte)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Dumps raw pixels as one byte per pixel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Print one line of command line help, similar to Usage above
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

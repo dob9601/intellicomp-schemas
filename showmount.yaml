@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: all
+  description: List both the client hostname or IP address and mounted directory in host:dir…
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: directories
+  description: List only the directories mounted by some client
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exports
+  description: Show the NFS server\'s export list
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Provide a short help summary
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Report the current version number of the program
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-headers
+  description: Suppress the descriptive headings from the output.  SEE ALSO rpc
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

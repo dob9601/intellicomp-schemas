@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: comments
+  description: View issue comments
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jq
+  description: Filter JSON output using a jq expression
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: json
+  description: Output JSON with the specified fields
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: template
+  description: Format JSON output using a Go template; see "gh help formatting"
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: web
+  description: Open an issue in the browser OPTIONS INHERITED FROM PARENT COMMANDS
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: Select another repository using the [HOST/]OWNER/REPO format SEE ALSO
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

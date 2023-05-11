@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: filter
+  description: "\tFilter output based on conditions provided"
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: format
+  description: "\tFormat the output using the given Go template"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for events"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: since
+  description: "\tShow all events created since timestamp"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: until
+  description: "\tStream events until this timestamp SEE ALSO"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

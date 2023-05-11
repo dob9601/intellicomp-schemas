@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: binary
+  description: read in binary mode
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check
+  description: read checksums from the FILEs and check them
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tag
+  description: create a BSD-style checksum
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: text
+  description: read in text mode (default)
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: zero
+  description: 'end each output line with NUL, not newline, and disable file name escaping '
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-missing
+  description: don\'t fail or report status for missing files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: don\'t print OK for each successfully verified file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: status
+  description: don\'t output anything, status code shows success
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strict
+  description: exit non-zero for improperly formatted checksum lines
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: warn
+  description: warn about improperly formatted checksum lines
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

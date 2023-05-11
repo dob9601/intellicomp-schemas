@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print help LIBINPUT Part of the libinput(1) suite
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

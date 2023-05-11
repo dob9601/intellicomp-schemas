@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: input32
+  description: set input filename for 32-bit part
+  shorthand: '3'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: input64
+  description: set input filename for 64-bit part
+  shorthand: '6'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: set output filename.  Default is STDOUT
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: print verbose messages
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: give this help list
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: give a short usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print program version
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

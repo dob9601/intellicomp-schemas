@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: appendix-sections
+  description: 'Use appendix sectioning commands (\\f(CW@appendix, '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: base-level
+  description: Sets the level of the \\f(CW\\*(C`head1\\*(C\' commands
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Set debugging level to \\s-1NUM\\s0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: headings-as-sections
+  description: 'Use headings commands (\\f(CW@heading, '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: menus
+  description: Output node menus
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Name for the first manual, or the main manual if there is a main manual
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-section-nodes
+  description: Use anchors for sections instead of nodes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-fill-section-gaps
+  description: Do not fill sectioning gaps with empty \\f(CW@unnumbered files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preamble
+  description: Insert \\s-1STR\\s0 as top boilerplate before menu and includes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: setfilename
+  description: Use \\s-1STR\\s0 in top boilerplate before menu and includes for \\f(CW@setfilen…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: subdir
+  description: If there is a main manual with include files (each corresponding to an input …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unnumbered-sections
+  description: 'Use unnumbered sectioning commands (\\f(CW@unnumbered, '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: top
+  description: Name of the \\f(CW@top element for the main manual.   May contain Texinfo code
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

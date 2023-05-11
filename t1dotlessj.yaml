@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: output
+  description: Send output to  file instead of standard output.  \' . Sp
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pfb
+  description: Output a PFB font.   This is the default.  \' . Sp
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pfa
+  description: Output a PFA font.  \' . Sp
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: 'Set the output font\''s PostScript name to R name '
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Do not generate any error messages.  \' . Sp
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print usage information and exit.  \' . Sp
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version number and some short non-warranty information and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: daemonize
+  description: Start ts_uinput as a daemon and return
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Print debug information to stdout and stderr
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: 'Set the name of the new input event device.  Default: ts_uinput'
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: idev
+  description: Explicitly choose the original input event device for tslib to use
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fbdev
+  description: Explicitly choose the framebuffer device to use
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: slots
+  description: Explicitly set the possible concurrent touch contacts supported
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nofb
+  description: Read the screen resolution values from the input device, not the framebuffer …
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

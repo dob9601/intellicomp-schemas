@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: raw
+  description: Print the raw gpg status output to standard error instead of the normal human…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Print the contents of the commit object before validating it
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

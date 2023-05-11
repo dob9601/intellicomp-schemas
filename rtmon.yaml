@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: Version
+  description: Print version and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: family
+  description: Specify protocol family
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '4'
+  description: Use IPv4.  Shortcut for -family inet
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '6'
+  description: Use IPv6.  Shortcut for -family inet6
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '0'
+  description: Use a special family identifier meaning that no networking protocol is involv…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

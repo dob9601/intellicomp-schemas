@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: a
+  description: The architecture to use for resolving the system call
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: If necessary, translate the system call name to the proper system call number…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: A simple one-line usage display
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

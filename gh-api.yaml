@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: field
+  description: request method to POST
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: method
+  description: The -F/--field flag has magic type conversion based on the format of the valu…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cache
+  description: Cache the response, e. g.  "3600s", "60m", "1h"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: F
+  description: Add a typed parameter in key=value format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: header
+  description: Add a HTTP request header in key:value format
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hostname
+  description: The GitHub hostname for the request (default "github. com")
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include
+  description: Include HTTP response status line and headers in the output
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: input
+  description: The file to use as body for the HTTP request (use "-" to read from standard i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jq
+  description: Query to select values from the response using jq syntax
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: X
+  description: The HTTP method for the request
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: paginate
+  description: Make additional HTTP requests to fetch all pages of results
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preview
+  description: GitHub API preview names to request (without the "-preview" suffix)
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw-field
+  description: Add a string parameter in key=value format
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: silent
+  description: Do not print the response body
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: template
+  description: 'Format JSON output using a Go template; see "gh help formatting" EXAMPLE # li…'
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

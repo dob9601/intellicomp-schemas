@@ -1,0 +1,305 @@
+description: ''
+keyword_arguments:
+- name: add
+  description: Add the entries specified to the ACL
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: modify
+  description: Modify the mask value (permissions) for the ACEs specified on the command line
+  shorthand: M
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delete
+  description: Delete any ACEs specified on the command line
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set
+  description: This command sets the ACL on the object with only what is specified on the co…
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: chown
+  description: The owner of a file or directory can be changed to the name given using the -…
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: chgrp
+  description: The group owner of a file or directory can be changed to the name given using…
+  shorthand: G
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inherit
+  description: Set or unset the windows "Allow inheritable permissions" check box using the …
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: propagate-inheritance
+  description: Add, modify, delete or set ACEs on an entire directory tree according to the …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: numeric
+  description: This option displays all ACL information in numeric format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-protocol
+  description: This allows the user to select the highest SMB protocol level that smbcacls w…
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test-args
+  description: Don\\*(Aqt actually do anything, only validate the correctness of the arguments
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-security-info
+  description: The security-info flags for queries
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-security-info
+  description: The security-info flags for queries
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sddl
+  description: Output and input acls in sddl format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: domain-sid
+  description: SID used for sddl processing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: maximum-access
+  description: When displaying an ACL additionally query the server for effective maximum pe…
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a summary of command line options
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: Display brief usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debuglevel
+  description: level is an integer from 0 to 10
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug-stdout
+  description: This will redirect debug output to STDOUT
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: configfile
+  description: The file specified contains the configuration details required by the client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: option
+  description: Set the smb. conf(5) option "<name>" to value "<value>" from the command line
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-basename
+  description: Base directory name for log/debug files.  The extension "
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: leak-report
+  description: Enable talloc leak reporting on exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: leak-report-full
+  description: Enable full talloc leak reporting on exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Prints the program version number
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name-resolve
+  description: This option is used to determine what naming services and in what order to re…
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: socket-options
+  description: TCP socket options to set on the client socket
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: netbiosname
+  description: This option allows you to override the NetBIOS name that Samba uses for itself
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: netbios-scope
+  description: This specifies a NetBIOS scope that nmblookup will use to communicate with wh…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: workgroup
+  description: Set the SMB domain of the username
+  shorthand: W
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: realm
+  description: Set the realm for the domain
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: Sets the SMB username or username and password
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-pass
+  description: If specified, this parameter suppresses the normal password prompt from the c…
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: password
+  description: Specify the password on the commandline
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pw-nt-hash
+  description: The supplied password is the NT hash
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: authentication-file
+  description: This option allows you to specify a file from which to read the username and …
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: machine-pass
+  description: Use stored machine account password
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: simple-bind-dn
+  description: DN to use for a simple bind
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-kerberos
+  description: This parameter determines whether Samba client tools will try to authenticate…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-krb5-ccache
+  description: Specifies the credential cache location for Kerberos authentication
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-winbind-ccache
+  description: Try to use the credential cache by winbind
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: client-protection
+  description: Sets the connection protection the client tool should use
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

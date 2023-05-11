@@ -1,0 +1,193 @@
+description: ''
+keyword_arguments:
+- name: cnf-line
+  description: Parse  string as a  texmf. cnf configuration line.   See the Kpathsea manual
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: compress
+  description: Enable the use of compression for the HINT file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: empty-page
+  description: When writing books, often empty pages are inserted - for example to begin cha…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-empty-page
+  description: This option tries to eliminate empty pages in the output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: etex
+  description: Enable the e-\\*(TX extensions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file-line-error
+  description: Print error messages in the form  file:line:error which is similar to the way…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-file-line-error
+  description: Disable printing error messages in the  file:line:error style
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fmt
+  description: Use  format as the name of the format to be used, instead of the name by whic…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print help message and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hint-debug
+  description: 'Sets HINT file debugging flags according to the  R bitmask '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hint-debug-help
+  description: Print an explanation of the HINT debugging flags and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hyphenate-first-word
+  description: \\*(TX will usually not attempt to insert hyphenation points into the first  w…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-hyphenate-first-word
+  description: Disable the automatic insertion of hyphenation points in the first word of a …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ini
+  description: Start in  INI mode, which is used to dump formats
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interaction
+  description: Sets the interaction mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jobname
+  description: Use  name for the job name, instead of deriving it from the name of the input…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kpathsea-debug
+  description: Sets path searching debugging flags according to the bitmask
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ltx
+  description: Enable the \\*(LX extensions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mfmode
+  description: Use  mode as the \\*(MF   mode when generating missing fonts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mktex
+  description: 'Enable '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-mktex
+  description: 'Disable '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-directory
+  description: Write output files in  directory instead of the current directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parse-first-line
+  description: If the first line of the main input file begins with  %& parse it to look for…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-parse-first-line
+  description: Disable parsing of the first line of the main input file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: progname
+  description: 'Pretend to be program R name '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: resolution
+  description: When using \\*(MF to generate missing pk fonts, use a resolution of   number D…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

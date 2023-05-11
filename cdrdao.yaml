@@ -1,0 +1,235 @@
+description: ''
+keyword_arguments:
+- name: device
+  description: Sets the SCSI address of the CD-recorder in form of a bus/id/lun triple, e. g
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: source-device
+  description: Like above but used for the  copy command to specify the source device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: driver
+  description: Force usage of specified driver instead of the automatically determined driver
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: source-driver
+  description: Like above but used for the device specified with option  --source-device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: speed
+  description: Set the writing speed to  value.  Default is the highest possible speed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: blank-mode
+  description: Sets the blanking mode.  Available modes are  full and  minimal
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: datafile
+  description: Used for  "read-toc, read-cd" and  copy
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: read-raw
+  description: Only used for commands  read-cd and  read-toc
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: read-subchan
+  description: Used by commands  read-cd,  read-toc and  copy
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-mode2-mixed
+  description: Only used for commands  read-cd and  read-toc
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tao-source
+  description: This option indicates to the commands  read-toc and  read-cd that the source …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tao-source-adjust
+  description: Specifies the number of link blocks for tracks written in TAO mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fast-toc
+  description: Only used for command  read-toc
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: buffers
+  description: Specifies the number of buffers that are allocated to avoid buffer under runs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: multi
+  description: If this option is given the session will not be closed after the audio data i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: overburn
+  description: By default cdrdao will not allow one to write more data on a medium than spec…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: eject
+  description: Eject the CD-R after writing or write simulation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: swap
+  description: Swap the byte order of all samples that are send to the CD-recorder
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: session
+  description: Used for  read-toc and  read-cd to specify the session which should be proces…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reload
+  description: Indicates that the tray may be opened before writing without prompting the us…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Forces the execution of an operation that otherwise would not be performed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: paranoia-mode
+  description: Sets the correction mode for digital audio extraction
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keepimage
+  description: If a CD is copied with command  copy this option will cause that the created …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: on-the-fly
+  description: Perform CD copy on the fly without creating an image file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: with-cddb
+  description: Enables the automatic fetching of CDDB data for use as CD-TEXT data for comma…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cddb-servers
+  description: Sets space or \',\' separated list of CDDB servers used for command  read-cddb …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cddb-timeout
+  description: Sets the timeout in seconds used for connections to CDDB servers
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cddb-directory
+  description: Specifies the local CDDB database directory where fetched CDDB records will b…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tmpdir
+  description: Specifies the directory in which to store temporary data files created from d…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep
+  description: Upon exit from cdrdao, do not delete temporary WAV files created from MP3 and…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: save
+  description: Saves some of the current options to the settings file "$HOME/
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Suppresses the 10 second pause before writing or simulating
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Sets verbose level
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

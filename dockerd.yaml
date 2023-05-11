@@ -1,0 +1,480 @@
+description: ''
+keyword_arguments:
+- name: add-runtime
+  description: '  Runtimes can be registered with the daemon either via the configuration fil…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-nondistributable-artifacts
+  description: '  Push nondistributable artifacts to the specified registries'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: api-cors-header
+  description: '  Set CORS headers in the Engine API.  Default is cors disabled'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: authorization-plugin
+  description: '  Set authorization plugins to load'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bridge
+  description: '  Attach containers to a pre-existing network bridge; use \''none\'' to disable  …'
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bip
+  description: '  Use the provided CIDR notation address for the dynamically created bridge  …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cgroup-parent
+  description: '  Set parent cgroup for all containers'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config-file
+  description: '  Specifies the JSON file path to load the configuration from'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: containerd
+  description: '  Path to containerd socket'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: data-root
+  description: '  Path to the directory used to store persisted Docker data such as   configu…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: '  Enable debug mode.  Default is false'
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-cgroupns-mode
+  description: '  Set the default cgroup namespace mode for newly created containers'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-gateway
+  description: '  IPv4 address of the container default gateway; this address must be part of…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-gateway-v6
+  description: '  IPv6 address of the container default gateway'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-address-pool
+  description: '  Default address pool from which IPAM driver selects a subnet for the networ…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-runtime
+  description: '  Set default runtime if there\''re more than one specified by --add-runtime'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-ipc-mode
+  description: '  Set the default IPC mode for newly created containers'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-shm-size
+  description: '  Set the daemon-wide default shm size for containers.  Default is 64MiB'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-ulimit
+  description: '  Default ulimits for containers'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns
+  description: '  Force Docker to use specific DNS servers'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-opt
+  description: '  DNS options to use'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-search
+  description: '  DNS search domains to use'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exec-opt
+  description: '  Set runtime execution options.  See RUNTIME EXECUTION OPTIONS'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exec-root
+  description: '  Path to use as the root of the Docker execution state files'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: experimental
+  description: '  Enable the daemon experimental features'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fixed-cidr
+  description: '  IPv4 subnet for fixed IPs (e. g. , 10. 20. 0'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fixed-cidr-v6
+  description: '  IPv6 subnet for global IPv6 addresses (e. g. , 2a00:1450::/64)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: group
+  description: '  Group to assign the unix socket specified by -H when running in daemon mode'
+  shorthand: G
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: host
+  description: unix://[/path/to/socket] to use
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: '  Print usage statement'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: icc
+  description: '  Allow unrestricted inter-container and Docker daemon host communication'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: init
+  description: '  Run an init process inside containers for signal forwarding and process   r…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: init-path
+  description: '  Path to the docker-init binary'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: insecure-registry
+  description: '  Enable insecure registry communication, i. e'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ip
+  description: '  Default IP address to use when binding container ports.  Default is 0. 0. 0'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ip-forward
+  description: '  Enables IP forwarding on the Docker host.  The default is true'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ip-masq
+  description: '  Enable IP masquerading for bridge\''s IP range.  Default is true'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iptables
+  description: '  Enable Docker\''s addition of iptables rules.  Default is true'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ipv6
+  description: '  Enable IPv6 support.  Default is false'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: isolation
+  description: '   Isolation specifies the type of isolation technology used by containers'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-level
+  description: '  Set the logging level.  Default is info'
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label
+  description: '  Set key=value labels to the daemon (displayed in docker info)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: live-restore
+  description: '  Enable live restore of running containers when the daemon starts so that th…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-driver
+  description: '  Default driver for container logs.  Default is json-file'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-opt
+  description: '  Logging driver specific options'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mtu
+  description: '  Set the containers network mtu.  Default is 0'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-concurrent-downloads
+  description: '  Set the max concurrent downloads.  Default is 3'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-concurrent-uploads
+  description: '  Set the max concurrent uploads.  Default is 5'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-download-attempts
+  description: '  Set the max download attempts for each pull.  Default is 5'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: node-generic-resources
+  description: '  Advertise user-defined resource.  Default is []'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pidfile
+  description: '  Path to use for daemon PID file.  Default is /var/run/docker. pid'
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw-logs
+  description: '  Output daemon logs in full timestamp format without ANSI coloring'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: registry-mirror
+  description: '  Prepend a registry mirror to be used for image pulls'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: storage-driver
+  description: '  Force the Docker runtime to use a specific storage driver'
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: seccomp-profile
+  description: '  Path to seccomp profile'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: selinux-enabled
+  description: '  Enable selinux support.  Default is false'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shutdown-timeout
+  description: '  Set the shutdown timeout value in seconds.  Default is 15'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: storage-opt
+  description: '  Set storage driver options.  See STORAGE DRIVER OPTIONS'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: swarm-default-advertise-addr
+  description: '  Set default address or interface for swarm to advertise as its   externally…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tls
+  description: '  Use TLS; implied by --tlsverify.  Default is false'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tlscacert
+  description: '  Trust certs signed only by this CA'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tlscert
+  description: '  Path to TLS certificate file'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tlskey
+  description: '  Path to TLS key file'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tlsverify
+  description: '  Use TLS and verify the remote (daemon: verify client, client: verify daemon)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: userland-proxy
+  description: '  Rely on a userland proxy implementation for inter-container and   outside-t…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: userland-proxy-path
+  description: '  Path to the userland proxy binary'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: userns-remap
+  description: '  Enable user namespaces for containers on the daemon'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: validate
+  description: '  Validate daemon configuration and exit.  STORAGE DRIVER OPTIONS'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

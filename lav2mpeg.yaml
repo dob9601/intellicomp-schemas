@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: s/S
+  description: Turn stereo off/on                   (default auto)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k/K
+  description: Turn keeping of raw files off/on      (default off)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f/F
+  description: Turn use of fifos off/on              (default off)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l/L
+  description: Turn logging of entire process off/on (default off)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n/N
+  description: Turn "noisy logging" off/on           (default off)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: y/Y
+  description: Turn use of yuvdenoise off/on         (default off)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: one of MODES (see below)              (default vcd)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: e
+  description: 'encoding quality : 0, 1, or 2         (default 2)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: output file  ( defaults to firstInputFileName. mpg )
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: video bitrate in kbps  ( only used when -o is "mpeg1" or "mpeg2" )
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a
+  description: audio bitrate in kpbs  ( only used when -o is not "vcd*" )
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: quality for mpeg2enc   ( only used when -o is "mpeg1" or "mpeg2" )
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: dimensions XxY         ( only used when -o is "mpeg1" or "mpeg2" ) defaults t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

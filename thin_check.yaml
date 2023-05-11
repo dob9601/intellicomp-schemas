@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: quiet
+  description: Suppress output messages, return only exit code
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Output version information and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: super-block-only
+  description: Only check the superblock
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-mappings
+  description: Skip checking of the block mappings which make up the bulk of the metadata
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-non-fatal-errors
+  description: 'Will only return a non-zero exit code if it finds a fatal error. PP . nf '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clear-needs-check-flag
+  description: 'Clears the \''needs_check\'' flag in the superblock. PP . nf '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: metadata-snapshot
+  description: 'Check the metadata snapshot. PP . nf '
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auto-repair
+  description: 'Automatically repair any trivial issues found with the metadata. PP . nf '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: override-mapping-root
+  description: Specify a mapping root to use.      Don\'t use this
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

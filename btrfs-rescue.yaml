@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: y
+  description: assume an answer of yes to all questions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: help
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: '(deprecated) alias for global -v option NOTE: Since chunk-recover will scan t…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

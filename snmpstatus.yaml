@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: Cf
+  description: option is given, see below), but this variable will then be missing from the …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

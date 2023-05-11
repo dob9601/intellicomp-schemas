@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: 'Specify a compression scheme to use when writing image data: -c none for no c…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Write data with a specified number of rows per strip; by default the number o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R
+  description: Specify the percentage of the red channel to use (default 28)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: G
+  description: Specify the percentage of the green channel to use (default 59)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: B
+  description: Specify the percentage of the blue channel to use (default 11)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

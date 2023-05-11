@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: q
+  description: Suppresses the output of the class name, JAR file name, and arguments passed …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mlvV
+  description: You can specify any combination of these options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: The output may be null for embedded JVMs.  [bu] 2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: main class or the full path name to the application[aq]s JAR file.  [bu] 2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: '[bu] 2'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: arguments passed to the main method, producing a list of only local JVM ident…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Displays the help message for the jps command.  DESCRIPTION
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

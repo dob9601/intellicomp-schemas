@@ -1,0 +1,585 @@
+description: ''
+keyword_arguments:
+- name: device
+  description: Use device <dev> as the CEC device
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: driver
+  description: Use a cec device that has driver name <drv>, as returned by the CEC_ADAP_G_CA…
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: adapter
+  description: Use a cec device that has adapter name <adap-name>, as returned by the CEC_AD…
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Turn on verbose reporting
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wall-clock
+  description: Show timestamps as wall-clock time.  This also turns on verbose reporting
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Prints the help message
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: phys-addr
+  description: Use this physical address.  The address can be a number (e. g
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: phys-addr-from-edid
+  description: Parse the given EDID file (in raw binary format) and extract the physical add…
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: phys-addr-from-edid-poll
+  description: Parse the given EDID file (in raw binary format) and extract the physical add…
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: osd-name
+  description: Use this OSD name.  The maximum length is 14 characters
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vendor-id
+  description: Use this vendor ID.  The vendor ID is a number from 0x0 to 0xffffff
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logical-address
+  description: Show first configured logical address or nothing if the device is unconfigured
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logical-addresses
+  description: Show all configured logical addresses or nothing if the device is unconfigured
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clear
+  description: Clear all logical addresses, leaving the CEC device unconfigured
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-reply
+  description: By default when sending a CEC message that expects a reply this utility will …
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: non-blocking
+  description: Transmit messages in non-blocking mode
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: to
+  description: Send the message to the given logical address (0-15)
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: from
+  description: Send message from the given logical address
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-raw
+  description: Show the raw CEC message in hex
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-info
+  description: Skip the Driver Info output section
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-topology
+  description: Show the CEC topology, detecting which other CEC devices are on the CEC bus
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: poll
+  description: Send a poll message
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trace
+  description: Trace all called ioctls.  Useful for debugging
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cec-version-1.4
+  description: Use CEC Version 1. 4 instead of 2. 0 (the default)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-unreg-fallback
+  description: Allow fallback to Unregistered if all logical addresses are claimed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-rc-passthrough
+  description: Disable the RC passthrough
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reply-to-followers
+  description: The reply will be sent to followers as well
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timeout
+  description: Set the reply timeout in milliseconds (default is 1000 ms)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tv
+  description: Configure the CEC adapter as a TV
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: record
+  description: Configure the CEC adapter as a recording and playback device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tuner
+  description: Configure the CEC adapter as a tuner device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: playback
+  description: Configure the CEC adapter as a playback device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio
+  description: Configure the CEC adapter as an audio system device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: processor
+  description: Configure the CEC adapter as a processor device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: switch
+  description: Configure the CEC adapter as a pure CEC switch
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cdc-only
+  description: Configure the CEC adapter as a CDC-only device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unregistered
+  description: Configure the CEC adapter as an unregistered device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: feat-record-tv-screen
+  description: Signal the Record TV Screen feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: feat-set-osd-string
+  description: Signal the Set OSD String feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: feat-deck-control
+  description: Signal the Deck Control feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: feat-set-audio-rate
+  description: Signal the Set Audio Rate feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: feat-sink-has-arc-tx
+  description: Signal the sink ARC Tx feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: feat-source-has-arc-rx
+  description: Signal the source ARC Rx feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rc-tv-profile-1
+  description: Signal RC TV Profile 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rc-tv-profile-2
+  description: Signal RC TV Profile 2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rc-tv-profile-3
+  description: Signal RC TV Profile 3
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rc-tv-profile-4
+  description: Signal RC TV Profile 4
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rc-src-dev-root
+  description: Signal that the RC source has a Dev Root Menu
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rc-src-dev-setup
+  description: Signal that the RC source has a Dev Setup Menu
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rc-src-contents
+  description: Signal that the RC source has a Contents Menu
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rc-src-media-top
+  description: Signal that the RC source has a Media Top Menu
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rc-src-media-context
+  description: Signal that the RC source has a Media Context Menu
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: monitor
+  description: Start monitoring CEC traffic
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: monitor-all
+  description: Start monitoring all CEC traffic
+  shorthand: M
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: monitor-pin
+  description: Start monitoring and analyzing the low-level CEC pin transitions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: monitor-time
+  description: Monitor for the given number of seconds, then exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore
+  description: Ignore messages from logical address <la> and opcode <opcode> when monitoring
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: store-pin
+  description: Store the CEC pin events to the given file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: analyze-pin
+  description: Read and analyze the CEC pin events from the given file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test-power-cycle
+  description: This option tests the power cycle behavior of the display
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stress-test-power-cycle
+  description: 'This option performs a stress test for a display: it power cycles the display…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-all
+  description: Prints the help message for all options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-audio-rate-control
+  description: Show help for the Audio Rate Control feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-audio-return-channel-control
+  description: Show help for the Audio Return Channel Control feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-capability-discovery-and-control
+  description: Show help for the Capability Discovery and Control feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-deck-control
+  description: Show help for the Deck Control feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-device-menu-control
+  description: Show help for the Device Menu Control feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-device-osd-transfer
+  description: Show help for the Device OSD Transfer feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-dynamic-audio-lipsync
+  description: Show help for the Dynamic Audio Lipsync feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-htng
+  description: Show help for the Hospitality Profile Next Generation feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-osd-display
+  description: Show help for the OSD Display feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-one-touch-play
+  description: Show help for the One Touch Play feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-one-touch-record
+  description: Show help for the One Touch Record feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-power-status
+  description: Show help for the Power Status feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-remote-control-passthrough
+  description: Show help for the Remote Control Passthrough feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-routing-control
+  description: Show help for the Routing Control feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-standby
+  description: Show help for the Standby feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-system-audio-control
+  description: Show help for the System Audio Control feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-system-information
+  description: Show help for the System Information feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-timer-programming
+  description: Show help for the Timer Programming feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-tuner-control
+  description: Show help for the Tuner Control feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-vendor-specific-commands
+  description: Show help for the Vendor Specific Commands feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

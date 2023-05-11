@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: auto-syntax
+  description: Choose --csh-syntax or --sh-syntax based on the SHELL environment variable
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: binary-syntax
+  description: Write to stdout a nul-terminated bus address, then the bus PID as a binary in…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: close-stderr
+  description: Close the standard error output stream before starting the D-Bus daemon
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config-file
+  description: Pass --config-file=FILENAME to the bus daemon, instead of passing it the --se…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: csh-syntax
+  description: Emit csh compatible code to set up environment variables
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exit-with-x11
+  description: If this option is provided, a persistent "babysitter" process will be created…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exit-with-session
+  description: If this option is provided, a persistent "babysitter" process will be created…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: autolaunch
+  description: This option implies that dbus-launch should scan for a previously-started ses…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sh-syntax
+  description: Emit Bourne-shell compatible code to set up environment variables
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version of dbus-launch
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print the help info of dbus-launch
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

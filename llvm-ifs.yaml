@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: input-format
+  description: Specify input file format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-elf
+  description: Specify the output file for ELF shared object stub
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-ifs
+  description: Specify the output file for text IFS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-tbd
+  description: Specify the output file for Apple TAPI tbd
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: arch
+  description: This flag is optional and it should only be used when reading an IFS file whi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: endianness
+  description: This flag is optional and it should only be used when reading an IFS file whi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bitwidth
+  description: This flag is optional and it should only be used when reading an IFS file whi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target
+  description: This flag is optional and should only be used when reading an IFS file which …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hint-ifs-target
+  description: This flag is optional and should only be used when reading an ELF shared obje…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strip-ifs-endianness
+  description: This flag is optional and should only be used when outputting an IFS file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strip-ifs-bitwidth
+  description: This flag is optional and should only be used when outputting an IFS file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strip-ifs-target
+  description: This flag is optional and should only be used when outputting an IFS file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: write-if-changed
+  description: When this flag is set, llvm-ifs will only write the output file if it does no…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strip-size
+  description: When this flag is set, llvm-ifs will remove the size field from the output if…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '-'
+  description: 'IFSVersion: 3. 0 SoName: libtest'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: missing-ok
+  description: Normally git write-tree ensures that the objects referenced by the directory …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: Writes a tree object that represents a subdirectory <prefix>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

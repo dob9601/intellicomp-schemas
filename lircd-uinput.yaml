@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: uinput
+  description: uinput kernel device, defaults to /dev/uinput
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: release-suffix
+  description: lircd-uinput generates different events depending on if the button name ends …
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repeat
+  description: Set kernel autorepeat parameters of the created  /dev/input/event device
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-release-events
+  description: Generate synthetic release events
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disabled
+  description: The path of a file which contains name of buttons to be disabled, one per line
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: options-file
+  description: Options file holding default values.  Defaults to  /etc/lircd/lirc_options
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logfile
+  description: Select the log file, either the string \'syslog\' indicating that syslog(1) sho…
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loglevel
+  description: Determine the amount of logging information
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display usage summary
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: release
+  description: option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display version info
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

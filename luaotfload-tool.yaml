@@ -1,0 +1,221 @@
+description: ''
+keyword_arguments:
+- name: update
+  description: Update the database; indexes new fonts
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Force rebuilding of the database; re-indexes all fonts
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: local
+  description: Include font files in $PWD
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-reload
+  description: Suppress auto-updates to the database (e. g
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-compress
+  description: Do not filter the plain text version of the font index through gzip
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefer-texmf
+  description: Organize the file name database in a way so that it prefer fonts in the TEXMF…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: formats
+  description: Extensions of the font files to index
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: find
+  description: Resolve a font name; this looks up <name> in the database and prints the file…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fuzzy
+  description: Show approximate matches to the file name if the lookup was unsuccessful (req…
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: info
+  description: Display basic information to a resolved font file (requires --find)
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inspect
+  description: Display detailed information by loading the font and analyzing the font table…
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list
+  description: 'Show entries, where CRITERION is one of the following: NDENT 7. 0'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fields
+  description: Comma-separated list of fields that should be printed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: flush-lookups
+  description: Clear font name lookup cache (experimental)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cache
+  description: 'Cache control, where DIRECTIVE is one of the following: NDENT 7. 0'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-blacklist
+  description: Show blacklisted files (not directories)
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: "Donâ\x80\x99t load fonts when updating the database; scan directories only"
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-strip
+  description: Do not strip redundant information after building the database
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-fonts
+  description: Process at most N font files, including fonts already indexed in the count
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bisect
+  description: Bisection of the font database
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Set verbosity level to n or the number of repetitions of -v
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: No verbose output (log level set to zero)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log
+  description: Redirect log output (for database troubleshooting), where CHANNEL can be NDEN…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version numbers of components as well as some basic information and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help message and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: diagnose
+  description: 'Run the diagnostic procedure CHECK.  Available procedures are: NDENT 7. 0'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '>'
+  description: environment and kpse variables;
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: conf
+  description: Read the configuration from FILE.  See luaotfload
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dumpconf
+  description: Print the currently active configuration; the output can be saved to a file a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: aliases
+  description: Dump the font name database as a kpathsea aliases file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ttc
+  description: TrueType fonts and font collections; 2.  3
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: export-all
+  description: option is used) allows pulling only for those repositories that have git-daem…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: dump-tli
+  description: Print \\(dqavailable\\(dq/\\(dqnot available\\(dq for each library function, acco…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a summary of command line options and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libdir
+  description: A base directory to prepend to each library file path
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: report
+  description: The amount of information to report
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: separate
+  description: Read and report a summary for each library file separately
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: triple
+  description: The triple to use for initializing TargetLibraryInfo
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

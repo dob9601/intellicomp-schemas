@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: quiet
+  description: Do not generate any error messages.   The only output will be the exit status
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print usage information and exit.  \' . Sp
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version number and some short non-warranty information and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

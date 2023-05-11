@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: u
+  description: Username for authentication on the server.  Defaults to root
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: The password to authenticate with
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: The host address of the server to connect to.  Defaults to localhost
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: The TCP port number to connect to.  Defaults to 3350
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: 'Specifies the command to execute on the server.  Valid commands are: . RS 4'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

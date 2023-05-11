@@ -1,0 +1,690 @@
+description: ''
+keyword_arguments:
+- name: volumes-from
+  description: You can supply additional options for each bind mount following an additional…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-host
+  description: "\tAdd a custom host-to-IP mapping (host:ip)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: attach
+  description: "\tAttach to STDIN, STDOUT or STDERR"
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: blkio-weight
+  description: "\tBlock IO (relative weight), between 10 and 1000, or 0 to disable (default 0)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: blkio-weight-device
+  description: "\tBlock IO weight (relative device weight)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cap-add
+  description: "\tAdd Linux capabilities"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cap-drop
+  description: "\tDrop Linux capabilities"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cgroup-parent
+  description: "\tOptional parent cgroup for the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cgroupns
+  description: "\tCgroup namespace to use (host|private)            default-cgroupns-mode opti…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cidfile
+  description: "\tWrite the container ID to the file"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-count
+  description: "\tCPU count (Windows only)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-percent
+  description: "\tCPU percent (Windows only)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-period
+  description: "\tLimit CPU CFS (Completely Fair Scheduler) period"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-quota
+  description: "\tLimit CPU CFS (Completely Fair Scheduler) quota"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-rt-period
+  description: "\tLimit CPU real-time period in microseconds"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-rt-runtime
+  description: "\tLimit CPU real-time runtime in microseconds"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-shares
+  description: "\tCPU shares (relative weight)"
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpus
+  description: "\tNumber of CPUs"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpuset-cpus
+  description: "\tCPUs in which to allow execution (0-3, 0,1)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpuset-mems
+  description: "\tMEMs in which to allow execution (0-3, 0,1)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device
+  description: "\tAdd a host device to the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-cgroup-rule
+  description: "\tAdd a rule to the cgroup allowed devices list"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-read-bps
+  description: "\tLimit read rate (bytes per second) from a device"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-read-iops
+  description: "\tLimit read rate (IO per second) from a device"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-write-bps
+  description: "\tLimit write rate (bytes per second) to a device"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-write-iops
+  description: "\tLimit write rate (IO per second) to a device"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-content-trust
+  description: "\tSkip image verification"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns
+  description: "\tSet custom DNS servers"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-option
+  description: "\tSet DNS options"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-search
+  description: "\tSet custom DNS search domains"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: domainname
+  description: "\tContainer NIS domain name"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: entrypoint
+  description: "\tOverwrite the default ENTRYPOINT of the image"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env
+  description: "\tSet environment variables"
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env-file
+  description: "\tRead in a file of environment variables"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: expose
+  description: "\tExpose a port or a range of ports"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gpus
+  description: "\tGPU devices to add to the container (\\'all\\' to pass all GPUs)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: group-add
+  description: "\tAdd additional groups to join"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-cmd
+  description: "\tCommand to run to check health"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-interval
+  description: "\tTime between running the check (ms|s|m|h) (default 0s)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-retries
+  description: "\tConsecutive failures needed to report unhealthy"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-start-period
+  description: "\tStart period for the container to initialize before starting health-retries …"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-timeout
+  description: "\tMaximum time to allow one check to run (ms|s|m|h) (default 0s)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\tPrint usage"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hostname
+  description: "\tContainer host name"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: init
+  description: "\tRun an init inside the container that forwards signals and reaps processes"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interactive
+  description: "\tKeep STDIN open even if not attached"
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: io-maxbandwidth
+  description: "\tMaximum IO bandwidth limit for the system drive (Windows only)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: io-maxiops
+  description: "\tMaximum IOps limit for the system drive (Windows only)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ip
+  description: "\tIPv4 address (e. g. , 172. 30. 100. 104)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ip6
+  description: "\tIPv6 address (e. g. , 2001:db8::33)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ipc
+  description: "\tIPC mode to use"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: isolation
+  description: "\tContainer isolation technology"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kernel-memory
+  description: "\tKernel memory limit"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label
+  description: "\tSet meta data on a container"
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label-file
+  description: "\tRead in a line delimited file of labels"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: link
+  description: "\tAdd link to another container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: link-local-ip
+  description: "\tContainer IPv4/IPv6 link-local addresses"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-driver
+  description: "\tLogging driver for the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-opt
+  description: "\tLog driver options"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mac-address
+  description: "\tContainer MAC address (e. g. , 92:d0:c6:0a:29:33)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory
+  description: "\tMemory limit"
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory-reservation
+  description: "\tMemory soft limit"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory-swap
+  description: "\tSwap limit equal to memory plus swap: \\'-1\\' to enable unlimited swap"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory-swappiness
+  description: "\tTune container memory swappiness (0 to 100)"
+  shorthand: '1'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mount
+  description: "\tAttach a filesystem mount to the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: "\tAssign a name to the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: network
+  description: "\tConnect a container to a network"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: network-alias
+  description: "\tAdd network-scoped alias for the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-healthcheck
+  description: "\tDisable any container-specified HEALTHCHECK"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: oom-kill-disable
+  description: "\tDisable OOM Killer"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: oom-score-adj
+  description: "\tTune host\\'s OOM preferences (-1000 to 1000)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid
+  description: "\tPID namespace to use"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pids-limit
+  description: "\tTune container pids limit (set -1 for unlimited)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: platform
+  description: "\tSet platform if server is multi-platform capable"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: privileged
+  description: "\tGive extended privileges to this container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: publish
+  description: "\tPublish a container\\'s port(s) to the host"
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: publish-all
+  description: "\tPublish all exposed ports to random ports"
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pull
+  description: "\tPull image before creating (\"always\", \"|missing\", \"never\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: "\tSuppress the pull output"
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: read-only
+  description: "\tMount the container\\'s root filesystem as read only"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart
+  description: "\tRestart policy to apply when a container exits"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rm
+  description: "\tAutomatically remove the container when it exits"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: runtime
+  description: "\tRuntime to use for this container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: security-opt
+  description: "\tSecurity Options"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shm-size
+  description: "\tSize of /dev/shm"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stop-signal
+  description: "\tSignal to stop the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stop-timeout
+  description: "\tTimeout (in seconds) to stop a container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: storage-opt
+  description: "\tStorage driver options for the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sysctl
+  description: "\tSysctl options"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tmpfs
+  description: "\tMount a tmpfs directory"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tty
+  description: "\tAllocate a pseudo-TTY"
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ulimit
+  description: "\tUlimit options"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: "\tUsername or UID (format: [:])"
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: userns
+  description: "\tUser namespace to use"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uts
+  description: "\tUTS namespace to use"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: volume
+  description: "\tBind mount a volume"
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: volume-driver
+  description: "\tOptional volume driver for the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: workdir
+  description: "\tWorking directory inside the container EXAMPLE ### Specify isolation technol…"
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

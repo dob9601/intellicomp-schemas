@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: "\thelp for login"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: password
+  description: "\tPassword"
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: password-stdin
+  description: "\tTake the password from stdin"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: username
+  description: "\tUsername SEE ALSO"
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

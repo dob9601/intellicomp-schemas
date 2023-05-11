@@ -1,0 +1,123 @@
+description: ''
+keyword_arguments:
+- name: build-ids
+  description: Inject build-ids of DSOs hit by samples into the output stream
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: buildid-all
+  description: Inject build-ids of all DSOs into the output stream regardless of hits and sk…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: known-build-ids
+  description: Override build-ids to inject using these comma-separated pairs of build-id an…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Be more verbose
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: input
+  description: 'Input file name.  (default: stdin)'
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: 'Output file name.  (default: stdout)'
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sched-stat
+  description: Merge sched_stat and sched_switch for getting events where and how long tasks…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vmlinux
+  description: vmlinux pathname
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-vmlinux
+  description: Ignore vmlinux files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kallsyms
+  description: kallsyms pathname
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: itrace
+  description: Decode Instruction Tracing data, replacing it with synthesized events
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strip
+  description: Use with --itrace to strip out non-synthesized events
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jit
+  description: Process jitdump files by injecting the mmap records corresponding to jitted f…
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Don\'t complain, do it
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vm-time-correlation
+  description: Some architectures may capture AUX area data which contains timestamps affect…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: guest-data
+  description: Insert events from a perf
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: guestmount
+  description: Guest OS root file system mount directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

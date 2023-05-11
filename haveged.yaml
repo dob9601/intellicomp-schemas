@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: buffer
+  description: Set collection buffer size to nnn KW.  Default is 128KW (or 512KB)
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: command
+  description: Switch to command mode and send a command to an already running  haveged proc…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: data
+  description: Set data cache size to nnn KB.  Default is 16 or as determined dynamically
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: Set output file path for non-daemon use
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Foreground
+  description: Run daemon in foreground.  Do not fork and detach
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: once
+  description: Provide entropy to the kernel once and quit immediatelly
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inst
+  description: Set instruction cache size to nnn KB
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: number
+  description: Set number of bytes written to the output file
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: onlinetest
+  description: Specify online tests to run
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pidfile
+  description: Set file path for the daemon pid file.  Default is "/var/run/haveged. pid",
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: run
+  description: 'Set run level for daemon interface:  n = 0 Run as daemon - must be root'
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: 'Set diagnostic bitmap as sum of following options:  1=Show build/tuning summa…'
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: write
+  description: Set write_wakeup_threshold of daemon interface to nnn bits
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version information and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: This summary of program options
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

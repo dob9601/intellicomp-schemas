@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: n
+  description: option is used, no \\input or \\include commands will be processed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: option can be used to force LaTeX mode and the
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: option can be used to force TeX mode regardless of input content
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: e
+  description: option can be used to specify a comma separated environment-list of environme…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: option can be used in LaTeX mode to have detex echo the arguments to \\cite, \\…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: option tries to naively replace $. $, $$. $$, \\(. \\) and \\[
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: w
+  description: flag is given, the output is a word list, one `word\' (string of two or more l…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '1'
+  description: option will prefix each printed line with `filename:linenumber:` indicating w…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: attach
+  description: "\tAttach STDOUT/STDERR and forward signals"
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: checkpoint
+  description: "\tRestore from this checkpoint"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: checkpoint-dir
+  description: "\tUse a custom checkpoint storage directory"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detach-keys
+  description: "\tOverride the key sequence for detaching a container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for start"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interactive
+  description: "\tAttach container\\'s STDIN SEE ALSO"
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

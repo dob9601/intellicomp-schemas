@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: e
+  description: Specify a directory containing encoding files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: do not scan for fonts, do not write font directory files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Specify a prefix that is prepended to the encoding file path names when they …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Keep non-absolute encoding directories in their relative form when writing th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: 'Ignore fonts files of type R suffix '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

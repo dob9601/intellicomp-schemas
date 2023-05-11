@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: force
+  description: force upgrade extension, or ignore if latest already installed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pin
+  description: pin extension to a release tag or commit ref EXAMPLE $ gh extension install o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

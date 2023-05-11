@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print program version and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: targetdir
+  description: Store gschemas. compiled in the TARGET directory instead of DIRECTORY
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strict
+  description: Abort on any errors in schemas
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: 'Don\\*(Aqt write gschemas. compiled.  This option can be used to check '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-any-name
+  description: Do not enforce restrictions on key names
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

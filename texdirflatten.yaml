@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: file
+  description: Specifies input (La)TeX file
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: onetex
+  description: If specified, produces a single TeX file by expanding all input and include c…
+  shorthand: '1'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Directory to collect all files
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: imgexts
+  description: Prepends to the prioritized list of image extensions to search when trying to…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Enables copious amounts of debugging output - useful if something is going wr…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Displays the current version number and the usage and exits
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

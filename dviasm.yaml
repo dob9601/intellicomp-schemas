@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: version
+  description: Show program\'s version number and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show this help message and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unit
+  description: 'Set unit [default: `pt\'']'
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Set filename for output instead of stdout
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: encoding
+  description: 'Set encoding for input/output of dumped text [default: `utf8\'']'
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xxx-encoding
+  description: 'Set encoding for interpreting `xxx:\'' strings [default: `none\'']'
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tabsize
+  description: 'Set tab size for push/pop [default: 2]'
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ptex
+  description: Dump and compile ISO-2022-JP-encoded DVI for Japanese pTeX
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: subfont
+  description: Specify the list of fonts with UCS2 subfont scheme in the comma-separated for…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

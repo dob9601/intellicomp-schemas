@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: D
+  description: Sets the named variable for use in the source file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: I
+  description: Specifies an alternate include directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Specifies the output file.  The supported extensions are . po or . po
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Displays usage information and exits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Displays capability sets and IAB tuples even when they are empty, or redundant
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: depth
+  description: 'Displays the process tree to a depth of R n '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: color
+  description: Colo[u]rs the targeted PIDs, if stdout is a TTY, in red
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

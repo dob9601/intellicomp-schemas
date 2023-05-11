@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: verbose
+  description: Tells  lsusb to be verbose and display detailed information about the devices…
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: 'Show only devices in specified  bus and/or R devnum '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Show only devices with the specified vendor and product ID
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: D
+  description: Do not scan the /dev/bus/usb directory, instead display only information abou…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tree
+  description: Tells  lsusb to dump the physical USB device hierarchy as a tree
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version information on standard output, then exit successfully
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

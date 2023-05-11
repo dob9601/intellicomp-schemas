@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: scheme
+  description: Choose scoring scheme tailored for different types of input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: track
+  description: Make fzf track the current selection when the result list is updated
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: border-label
+  description: Label to print on the horizontal border line
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: border-label-pos
+  description: Position of the border label on the border line
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: separator
+  description: The given string will be repeated to form the horizontal separator on the inf…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-separator
+  description: Do not display horizontal separator on the info line
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scrollbar
+  description: Use the given character to render scrollbar
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-scrollbar
+  description: Do not display scrollbar.  A synonym for --scrollbar=\'\'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ellipsis
+  description: 'Ellipsis to show when line is truncated (default: \''. \'') . SS Display'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preview-label
+  description: Label to print on the horizontal border line of the preview window
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preview-label-pos
+  description: Position of the border label on the border line of the preview window
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listen
+  description: Start HTTP server on the given port
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

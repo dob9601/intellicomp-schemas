@@ -1,0 +1,158 @@
+description: ''
+keyword_arguments:
+- name: byte
+  description: If any clusters of the file cannot be recovered, the missing parts will be fi…
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: case
+  description: When scanning an NTFS volume, any filename matching (using the  --match optio…
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: copy
+  description: This wizard\'s option will write a block of MFT FILE records to a file
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: destination
+  description: This option controls where to put the output file of the  --undelete and  --c…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: This will override some sensible defaults, such as not overwriting an existin…
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show a list of options with a brief description of each one
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inodes
+  description: Recover the files with these inode numbers
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: match
+  description: Filter the output by only looking for matching filenames
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: optimistic
+  description: Recover parts of the file even if they are currently marked as in use
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Use this option to set name of output file that  --undelete or  --copy will c…
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parent
+  description: Display the parent directory of a deleted file
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: percentage
+  description: Filter the output of the  --scan option, by only matching files with a certai…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Reduce the amount of output to a minimum
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scan
+  description: Search through an NTFS volume and print a list of files that could be recover…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: size
+  description: Filter the output of the  --scan option, by looking for a particular range of…
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: time
+  description: Filter the output of the  --scan option
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: truncate
+  description: If  ntfsundelete is confident about the size of a deleted file, then it will …
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: undelete
+  description: Select  undelete mode
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Increase the amount of output that  ntfsundelete prints
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fv
+  description: is equivalent to
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: percent
+  description: and
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: 'Show the version number, copyright and license for ntfsundelete '
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

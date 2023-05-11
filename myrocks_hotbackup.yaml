@@ -1,0 +1,137 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: show this help message and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interval
+  description: Number of seconds to renew checkpoint
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: checkpoint_dir
+  description: Local directory name where checkpoints will be created
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: datadir
+  description: 'backup mode: src MySQL datadir.  move_back mode: dest MySQL datadir'
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stream
+  description: Setting streaming backup options
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: destination
+  description: Remote server name.  Only used for WDT mode so far
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: avg_mbytes_per_sec
+  description: Average backup rate in MBytes/sec.  WDT only
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extra_wdt_sender_options
+  description: Extra options for WDT sender
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extra_wdt_receiver_options
+  description: Extra options for WDT receiver
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: MySQL user name
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: password
+  description: MySQL password name
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: MySQL port number
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: socket
+  description: MySQL socket path.  Takes precedence over --port
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: move_back
+  description: Moving MyRocks backup files to proper locations
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rocksdb_datadir
+  description: RocksDB target data directory where backup data files will be moved
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rocksdb_waldir
+  description: RocksDB target data directory where backup wal files will be moved
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: backup_dir
+  description: 'backup mode for WDT: Remote directory to store backup'
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip_check_frm_timestamp
+  description: skipping to check if frm files are updated after starting backup
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug_signal_file
+  description: 'debugging purpose: waiting until the specified file is created SEE ALSO For m…'
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

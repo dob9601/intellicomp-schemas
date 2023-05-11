@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show summary of options
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Returns the version of this binary
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-feed
+  description: Adds a feed to be indexed.  This must be used with --title option
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: title
+  description: The title to use when adding a feed (see the --add-feed option)
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

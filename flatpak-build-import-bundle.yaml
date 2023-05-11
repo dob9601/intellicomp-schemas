@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show help options and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Print debug information during command processing
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ostree-verbose
+  description: Print OSTree debug information during command processing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ref
+  description: Override the ref specified in the bundle
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: oci
+  description: Import an OCI image instead of a Flatpak bundle
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-appstream
+  description: Update the appstream branch after the build
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-update-summary
+  description: Don\\*(Aqt update the summary file after the new commit is added
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gpg-sign
+  description: Sign the commit with this GPG key.  This option can be used multiple times
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gpg-homedir
+  description: GPG Homedir to use when looking for keyrings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

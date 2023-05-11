@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: keep-file-descriptors
+  description: Exec in Ruby 2. 0 began discarding non-standard file descriptors
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

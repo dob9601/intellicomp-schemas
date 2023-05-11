@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: number
+  description: Produce this many items in the report.   Defaults to 10
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sort
+  description: Sort results by the given field
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reverse
+  description: Reverses the selected sort
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: match
+  description: Consider only items where the specified key matches the given value
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude
+  description: Remove items for where the specified key matches the given value
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: case-sensitive
+  description: Using this option causes --match and --exclude to work case-sensitively
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delete
+  description: Sets the \\f(CW\\*(C`DeleteFiles\\*(C\' option to DBI::ProfileData which causes t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dumpnodes
+  description: Print the list of nodes in the form of a perl data structure
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

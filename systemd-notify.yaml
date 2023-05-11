@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: ready
+  description: Inform the init system about service start-up completion
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid
+  description: Inform the service manager about the main PID of the daemon
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uid
+  description: Set the user ID to send the notification from
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: status
+  description: Send a free-form status string for the daemon to the init systemd
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: booted
+  description: Returns 0 if the system was booted up with systemd, non-zero otherwise
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-block
+  description: Do not synchronously wait for the requested operation to finish
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a short help text and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print a short version string and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

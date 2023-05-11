@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: base64
+  description: same as \'base64\' program (RFC4648 section 4)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: base64url
+  description: file- and url-safe base64 (RFC4648 section 5)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: base32
+  description: same as \'base32\' program (RFC4648 section 6)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: base32hex
+  description: extended hex alphabet base32 (RFC4648 section 7)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: base16
+  description: hex encoding (RFC4648 section 8)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: base2msbf
+  description: bit string with most significant bit (msb) first
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: base2lsbf
+  description: bit string with least significant bit (lsb) first
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: decode
+  description: decode data
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-garbage
+  description: when decoding, ignore non-alphabet characters
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wrap
+  description: wrap encoded lines after COLS character (default 76)
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: z85
+  description: ascii85-like encoding (ZeroMQ spec:32/Z85); when encoding, input length must …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

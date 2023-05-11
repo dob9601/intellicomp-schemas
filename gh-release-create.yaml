@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: discussion-category
+  description: Start a discussion in the specified category
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: draft
+  description: Save the release as a draft instead of publishing it
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: generate-notes
+  description: Automatically generate title and notes for the release
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: latest
+  description: 'Mark this release as "Latest" (default: automatic based on date and version)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: notes
+  description: Release notes
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: notes-file
+  description: Read release notes from file (use "-" to read from standard input)
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: notes-start-tag
+  description: Tag to use as the starting point for generating release notes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prerelease
+  description: Mark the release as a prerelease
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target
+  description: 'Target branch or full commit SHA (default: main branch)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: title
+  description: Release title
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verify-tag
+  description: Abort in case the git tag doesn\'t already exist in the remote repository OPTI…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: Select another repository using the [HOST/]OWNER/REPO format EXAMPLE Interact…
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

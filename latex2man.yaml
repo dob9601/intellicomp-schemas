@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: ttransfile
+  description: Translation for user defined LaTeX macros
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cCSSfile
+  description: If you use the -H you can also specify a file that contains CSS  style sheets
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: M
+  description: Produce output suitable for the man(1) command (default)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H
+  description: Instead of producing output suitable for the man(1) command, HTML code is pro…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: T
+  description: Instead of producing output suitable for the man(1) command, TexInfo code is …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: L
+  description: The LaTeX source is written to the outfile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cname
+  description: Output the conditional text for name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: achar
+  description: 'Is used only in conjunction with -T. br Background: '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Show a help text
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a
+  description: supresses the indentation of a line
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: ' Show version information'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C\'abc
+  description: and have a look to the generated output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: CHTML
+  description: ' the lines 1a, 2b, 3b, and 4b; '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: CTEXI
+  description: ' the lines 1b, 2a, 3b, and 4b; '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: CMAN
+  description: ' the lines 1b, 2b, 3a, and 4b; '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: CLATEX
+  description: ' the lines 1b, 2b, 3b, and 4a; '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

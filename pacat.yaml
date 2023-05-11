@@ -1,0 +1,200 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: record
+  description: Capture audio data and write it to the specified file or to STDOUT if none is…
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: playback
+  description: Read audio data from the specified file or STDIN if none is specified, and pl…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Enable verbose operation
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: server
+  description: Choose the server to connect to
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device
+  description: Specify the symbolic name of the sink/source to play/record this stream on/fr…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: monitor-stream
+  description: Record from the sink input with index INDEX
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: client-name
+  description: Specify the client name paplay shall pass to the server when connecting
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stream-name
+  description: Specify the stream name paplay shall pass to the server when creating the str…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: volume
+  description: Specify the initial playback volume to use
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rate
+  description: Capture or play back audio with the specified sample rate
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: format
+  description: Capture or play back audio with the specified sample format.  See https://www
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: channels
+  description: Capture or play back audio with the specified number of channels
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: channel-map
+  description: Explicitly choose a channel map when playing back this stream
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fix-format
+  description: If passed, the sample format of the stream is changed to the native format of…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fix-rate
+  description: If passed, the sampling rate of the stream is changed to the native rate of t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fix-channels
+  description: If passed, the number of channels and the channel map of the stream is change…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-remix
+  description: Never upmix or downmix channels
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-remap
+  description: Never remap channels
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: latency
+  description: Explicitly configure the latency, with a time specified in bytes in the selec…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: latency-msec
+  description: Explicitly configure the latency, with a time specified in milliseconds
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: process-time
+  description: Explicitly configure the process time, with a time specified in bytes in the …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: process-time-msec
+  description: Explicitly configure the process time, with a time specified in milliseconds
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: property
+  description: Attach a property to the client and stream.  May be used multiple times
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw
+  description: Play/record raw audio data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file-format
+  description: Play/record encoded audio data in the file format specified
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-file-formats
+  description: List supported file formats
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

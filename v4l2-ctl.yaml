@@ -1,0 +1,256 @@
+description: ''
+keyword_arguments:
+- name: device
+  description: Use device <dev> as the V4L2 device
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Turn on verbose reporting
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wrapper
+  description: Use the libv4l2 wrapper library for all V4L2 device accesses
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Prints the help message
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-io
+  description: Prints the help message for all options that get/set/list inputs and outputs,…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-misc
+  description: Prints the help message for miscellaneous options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-overlay
+  description: Prints the help message for all options that get/set/list overlay and framebu…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-sdr
+  description: Prints the help message for all options that get/set/list software defined ra…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-selection
+  description: Prints the help message for all options that deal with selections (cropping a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-stds
+  description: Prints the help message for all options that deal with SDTV standards and Dig…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-streaming
+  description: Prints the help message for all options that deal with streaming
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-subdev
+  description: Prints the help message for all options that deal with v4l-subdevX devices
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-tuner
+  description: Prints the help message for all options that deal with tuners and modulators
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-vbi
+  description: Prints the help message for all options that get/set/list VBI formats
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-vidcap
+  description: Prints the help message for all options that get/set/list video capture forma…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-vidout
+  description: Prints the help message for all options that get/set/list video output formats
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-edid
+  description: Prints the help message for all options that get/set EDIDs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-all
+  description: Prints the help message for all options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all
+  description: Display all information available
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: get-ctrl
+  description: Get the value of the controls [VIDIOC_G_EXT_CTRLS]
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-ctrl
+  description: Set the value of the controls [VIDIOC_S_EXT_CTRLS]
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: info
+  description: Show driver info [VIDIOC_QUERYCAP]
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: out-device
+  description: Use device <dev> for output streams instead of the default device as set with…
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: export-device
+  description: Use device <dev> for exporting DMA buffers
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: media-bus-info
+  description: Find the media device with the given <bus-info> string
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: concise
+  description: Be more concise if possible
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-ctrls
+  description: Display all controls and their values [VIDIOC_QUERYCTRL]
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-ctrls-menus
+  description: Display all controls and their menus [VIDIOC_QUERYMENU]
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: subset
+  description: The subset of the N-dimensional array to get/set for control <ctrl>, for ever…
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-devices
+  description: List all v4l devices
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-status
+  description: Log the board status in the kernel log [VIDIOC_LOG_STATUS]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: get-priority
+  description: Query the current access priority [VIDIOC_G_PRIORITY]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-priority
+  description: Set the new access priority [VIDIOC_S_PRIORITY]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: silent
+  description: Only set the result code, do not print any messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sleep
+  description: Sleep <secs>, call QUERYCAP and close the file handle
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

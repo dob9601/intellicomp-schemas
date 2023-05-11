@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: xa
+  description: The optional -xa argument indicates arguments to pass to xterm
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xc
+  description: The optional -xc argument indicates a command to be run in each named xterm (…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xd
+  description: The optional -xd argument indicates a directory to search for files that will…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xf
+  description: The optional -xf argument indicates a file to be read at startup
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xn
+  description: The optional -xn argument indicates a name for each xterm
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xv
+  description: The optional -xv flag puts multixterm into a verbose mode where it will descr…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: make them easy to remember, all the multixterm flags begin with -x
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

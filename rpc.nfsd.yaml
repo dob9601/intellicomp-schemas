@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: debug
+  description: enable logging of debugging messages
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: host
+  description: specify a particular hostname (or address) that NFS requests will be accepted…
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: specify a different port to listen on for NFS requests.  By default,  rpc
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rdma
+  description: specify that NFS requests on the standard RDMA port ("nfsrdma", port 20049) s…
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-nfs-version
+  description: This option can be used to request that   rpc
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: syslog
+  description: By default,  rpc
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tcp
+  description: Instruct the kernel nfs server to open and listen on a TCP socket
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-tcp
+  description: Instruct the kernel nfs server not to open and listen on a TCP socket
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: udp
+  description: Instruct the kernel nfs server to open and listen on a UDP socket
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-udp
+  description: Instruct the kernel nfs server not to open and listen on a UDP socket
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nfs-version
+  description: This option can be used to request that   rpc
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lease-time
+  description: Set the lease-time used for NFSv4
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: grace-time
+  description: Set the grace-time used for NFSv4 and NLM (for NFSv2 and NFSv3)
+  shorthand: G
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

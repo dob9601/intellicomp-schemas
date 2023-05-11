@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: install
+  description: Runs bundle install after the given gems have been removed from the Gemfile, …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

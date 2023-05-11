@@ -1,0 +1,830 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show help options
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-all
+  description: Show all help options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-basic-connect
+  description: Show Basic Connect Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-phonebook
+  description: Show Phonebook Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-dss
+  description: Show Device Service Stream options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-ms-firmware-id
+  description: Show Microsoft Firmware ID Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-ms-host-shutdown
+  description: Show Microsoft Host Shutdown Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-ms-sar
+  description: Show Microsoft SAR Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-atds
+  description: Show AT&T Device Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-intel-firmware-update
+  description: Show Intel Firmware Update Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-ms-basic-connect-extensions
+  description: Show Microsoft Basic Connect Extensions Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-quectel
+  description: Show Quectel Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-link-management
+  description: Show link management specific options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-intel-thermal-rf
+  description: Show Intel Thermal RF Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-ms-voice-extensions
+  description: Show Microsoft Voice Extensions Service options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-ms-uicc-low-level-access
+  description: 'Show Microsoft UICC Low Level Access Service options '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-device-caps
+  description: Query device capabilities
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-subscriber-ready-status
+  description: Query subscriber ready status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-radio-state
+  description: Query radio state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-radio-state
+  description: Set radio state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-device-services
+  description: Query device services
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-pin-state
+  description: Query PIN state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enter-pin
+  description: 'Enter PIN (PIN type is optional, defaults to PIN1, allowed options: (pin1,net…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: change-pin
+  description: Change PIN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-pin
+  description: Enable PIN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-pin
+  description: Disable PIN (PIN type is optional, see enter-pin for details)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enter-puk
+  description: 'Enter PUK (PUK type is optional, defaults to PUK1, allowed options: (puk1,net…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-pin-list
+  description: Query PIN list
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-home-provider
+  description: Query home provider
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-preferred-providers
+  description: Query preferred providers
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-visible-providers
+  description: Query visible providers
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-registration-state
+  description: Query registration state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: register-automatic
+  description: Launch automatic registration
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-signal-state
+  description: Query signal state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-packet-service-state
+  description: Query packet service state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: attach-packet-service
+  description: Attach to the packet service
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detach-packet-service
+  description: Detach from the packet service
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-connection-state
+  description: Query connection state (SessionID is optional, defaults to 0)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: connect
+  description: 'Connect (allowed keys: session-id, access-string, ip-type, auth, username, pa…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-ip-configuration
+  description: Query IP configuration (SessionID is optional, defaults to 0)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disconnect
+  description: Disconnect (SessionID is optional, defaults to 0)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-packet-statistics
+  description: Query packet statistics
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-ip-packet-filters
+  description: Query IP packet filters (SessionID is optional, defaults to 0)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-ip-packet-filters
+  description: 'Set IP packet filters (allowed keys: session-id, packet-filter, packet-mask, …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-provisioned-contexts
+  description: Query provisioned contexts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-provisioned-contexts
+  description: 'Set provisioned contexts (allowed keys: context-id, context-type, auth, compr…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-signal-state
+  description: 'Set signal state (allowed keys: signal-strength-interval, rssi-threshold, err…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-network-idle-hint
+  description: Set network idle hint
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-network-idle-hint
+  description: Query network idle hint
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-emergency-mode
+  description: Set emergency mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query-emergency-mode
+  description: Query emergency mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-service-activation
+  description: Set service activation . SS "Phonebook options:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: phonebook-query-configuration
+  description: Query the phonebook configuration
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: phonebook-read
+  description: Read phonebook entry with given index
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: phonebook-read-all
+  description: Read all phonebook entries
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: phonebook-write
+  description: Add new phonebook entry or update an existing one
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: phonebook-delete
+  description: Delete phonebook entry with given index
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: phonebook-delete-all
+  description: Delete all phonebook entries . SS "Device Service Stream options:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dss-connect
+  description: Connect DSS session
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dss-disconnect
+  description: Disconnect DSS session . SS "Microsoft Firmware ID options:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-firmware-id
+  description: Query firmware ID . SS "Microsoft Host Shutdown options:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-notify-host-shutdown
+  description: Notify that host is shutting down . SS "Microsoft SAR options:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-set-sar-config
+  description: Set SAR config
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-sar-config
+  description: Query SAR config
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-set-transmission-status
+  description: Set transmission status and hysteresis timer (in seconds)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-transmission-status
+  description: Query transmission status . SS "AT&T Device Service options:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: atds-query-signal
+  description: Query signal info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: atds-query-location
+  description: Query cell location . SS "Intel Firmware Update Service options:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: intel-modem-reboot
+  description: Reboot modem.  Boot mode and timeout arguments only required if MBIMEx >= 2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-pco
+  description: Query PCO value (SessionID is optional, defaults to 0)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-lte-attach-configuration
+  description: Query LTE attach configuration
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-lte-attach-info
+  description: Query LTE attach status information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-sys-caps
+  description: Query system capabilities
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-device-caps
+  description: Query device capabilities
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-slot-info-status
+  description: Query slot information status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-set-device-slot-mappings
+  description: Set device slot mappings for each executor
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-device-slot-mappings
+  description: Query device slot mappings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-location-info-status
+  description: Query location info status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-set-provisioned-contexts
+  description: 'Set provisioned contexts (allowed keys: operation, context-type, ip-type, sta…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-provisioned-contexts
+  description: Query provisioned contexts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-base-stations-info
+  description: Query base stations info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-version
+  description: Exchange supported version information.  Since MBIMEx v2. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-registration-parameters
+  description: Query registration parameters.  Since MBIMEx v3. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-set-registration-parameters
+  description: 'Set registration parameters (required keys: mico-mode, drx-cycle, ladn-info, …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-modem-configuration
+  description: Query modem configuration.  Since MBIMEx v3. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-wake-reason
+  description: Query wake reason.  Since MBIMEx v3. 0. SS "Quectel options:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quectel-query-radio-state
+  description: Query radio state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quectel-set-radio-state
+  description: Set radio state . SS "Link management options:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: link-list
+  description: List links created from a given interface
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: link-add
+  description: Create new network interface link
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: link-delete
+  description: Delete a given network interface link
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: link-delete-all
+  description: 'Delete all network interface links from the given interface '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: intel-query-rfim
+  description: Query RFIM frequency information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: intel-set-rfim
+  description: 'Enable or disable RFIM (disabled by default) '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-nitz
+  description: 'Query network identity and time zone '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-uicc-application-list
+  description: Query UICC application list
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-uicc-file-status
+  description: 'Query UICC file status (allowed keys: application-id, file-path)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-uicc-read-binary
+  description: 'Read UICC binary file (allowed keys: application-id, file-path, read-offset, …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-uicc-read-record
+  description: 'Read UICC record file (allowed keys: application-id, file-path, record-number…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-set-uicc-open-channel
+  description: 'Set UICC open channel (allowed keys: application-id, selectp2arg, channel-gro…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-set-uicc-close-channel
+  description: 'Set UICC close channel (allowed keys: channel, channel-group)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-uicc-atr
+  description: Query UICC atr
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-set-uicc-apdu
+  description: 'Set UICC apdu (allowed keys: channel, secure-message, classbyte-type, command)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-set-uicc-reset
+  description: Set UICC reset
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-uicc-reset
+  description: Query UICC reset
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-set-uicc-terminal-capability
+  description: 'Set UICC terminal capability (allowed keys: terminal-capability)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ms-query-uicc-terminal-capability
+  description: Query UICC terminal capability . SS "Application Options:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device
+  description: Specify device path
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-proxy
+  description: Request to use the \'mbim-proxy\' proxy
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-ms-mbimex-v2
+  description: Request to enable Microsoft MBIMEx v2. 0 support
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-ms-mbimex-v3
+  description: Request to enable Microsoft MBIMEx v3. 0 support
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-open
+  description: Do not explicitly open the MBIM device before running the command
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-close
+  description: Do not close the MBIM device after running the command
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noop
+  description: Don\'t run any command
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Run action with verbose logs, including the debug ones
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose-full
+  description: Run action with verbose logs, including the debug ones and personal info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: silent
+  description: Run action with no logs; not even the error/warning ones
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version COPYRIGHT Copyright © 2013-2021 Aleksander Morgado License GPLv…
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

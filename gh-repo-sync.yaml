@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: force
+  description: by synced using a hard reset
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: branch
+  description: 'Branch to sync (default: main branch)'
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: source
+  description: 'Source repository EXAMPLE # Sync local repository from remote parent $ gh rep…'
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

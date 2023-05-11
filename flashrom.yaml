@@ -1,0 +1,179 @@
+description: ''
+keyword_arguments:
+- name: read
+  description: 'Read flash ROM contents and save them into the given  <file> '
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: write
+  description: Write  <file> into flash ROM
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noverify
+  description: Skip the automatic verification of flash ROM contents after writing
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noverify-all
+  description: Skip not included regions during automatic verification after writing (cf
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verify
+  description: 'Verify the flash ROM contents against the given  <file> '
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: erase
+  description: Erase the flash ROM chip
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: More verbose output.  This option can be supplied multiple times (max
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: chip
+  description: Probe only for the specified flash ROM chip
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: 'Force one or more of the following actions: '
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: layout
+  description: Read ROM layout from  <file> . sp flashrom supports ROM layouts
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fmap
+  description: Read layout from fmap in flash chip
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fmap-file
+  description: Read layout from a  <file> containing binary fmap (e. g.  coreboot roms)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ifd
+  description: Read ROM layout from Intel Firmware Descriptor
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: image
+  description: Only flash region/image  <imagename> from flash layout
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: flash-name
+  description: Prints out the detected flash chips name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: flash-size
+  description: Prints out the detected flash chips size
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-supported
+  description: List the flash chips, chipsets, mainboards, and external programmers (includi…
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-supported-wiki
+  description: Same as  --list-supported , but outputs the supported hardware in MediaWiki s…
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: programmer
+  description: Specify the programmer device
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show a help text and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: 'Save the full debug log to  <logfile> '
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R
+  description: or no operation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p/--programmer
+  description: option to be used (please see below)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: VVV
+  description: for even more debug output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

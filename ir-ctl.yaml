@@ -1,0 +1,165 @@
+description: ''
+keyword_arguments:
+- name: device
+  description: lirc device to control, /dev/lirc0 by default
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: features
+  description: List the features of the lirc device
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: receive
+  description: Receive IR and print to standard output if no file is specified, else save to…
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: send
+  description: Send IR in text file.  It must be in the format described below
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scancode
+  description: Send the IR scancode in the protocol specified
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keycode
+  description: Send the KEYCODE from the keymap which must be specified with --keymap
+  shorthand: K
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keymap
+  description: The rc keymap file in toml format
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: oneshot
+  description: When receiving, stop receiving after the first message, i. e
+  shorthand: '1'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mode2
+  description: When receiving, output IR in mode2 format.  One line per space or pulse
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wideband
+  description: Use the wideband receiver if available on the hardware
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: narrowband
+  description: Switches back to the normal, narrowband receiver if the wideband receiver was…
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: carrier-range
+  description: Set the accepted carrier range for the narrowband receiver
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: measure-carrier
+  description: If the hardware supports it, report what the carrier frequency is on receiving
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-measure-carrier
+  description: Disable reporting of the carrier frequency
+  shorthand: M
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timeout
+  description: Set the length of a space at which the receiver goes idle, specified in micro…
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: carrier
+  description: Sets the send carrier frequency
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: duty-cycle
+  description: Set the duty cycle for sending in percent if the hardware support it
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: emitters
+  description: Comma separated list of emitters to use for sending
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gap
+  description: Set the gap between scancodes or the gap between files when multiple files ar…
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Prints the help message
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: Give a short usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Verbose output; this prints the IR before sending
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print the v4l2-utils version
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

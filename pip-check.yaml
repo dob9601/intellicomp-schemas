@@ -1,0 +1,172 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Let unhandled exceptions propagate outside the main subroutine, instead of lo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: isolated
+  description: Run pip in an isolated mode, ignoring environment variables and user configur…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: require-virtualenv
+  description: Allow pip to only run in a virtual environment; exit with an error otherwise
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: python
+  description: Run pip with the specified Python interpreter
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Give more output.  Option is additive, and can be used up to 3 times
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Give less output
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log
+  description: Path to a verbose appending log
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-input
+  description: Disable prompting for input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: proxy
+  description: Specify a proxy in the form scheme://[user:passwd@]proxy. server:port
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: retries
+  description: Maximum number of retries each connection should attempt (default 5 times)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timeout
+  description: Set the socket timeout (default 15 seconds)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exists-action
+  description: 'Default action when a path already exists: (s)witch, (i)gnore, (w)ipe, (b)ack…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trusted-host
+  description: Mark this host or host:port pair as trusted, even though it does not have val…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cert
+  description: Path to PEM-encoded CA certificate bundle
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: client-cert
+  description: Path to SSL client certificate, a single file containing the private key and …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cache-dir
+  description: Store the cache data in <dir>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-cache-dir
+  description: Disable the cache
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-pip-version-check
+  description: Don\\(aqt periodically check PyPI to determine whether a new version of pip is…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-color
+  description: Suppress colored output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-python-version-warning
+  description: Silence deprecation warnings for upcoming unsupported Pythons
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-feature
+  description: Enable new functionality, that may be backward incompatible
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-deprecated
+  description: Enable deprecated functionality, that will be removed in the future
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

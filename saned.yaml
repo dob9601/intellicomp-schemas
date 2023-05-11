@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: alone
+  description: is equivalent to the combination of  -l -D -u  username options
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: requests that  saned drop root privileges and run as the user (and group) ass…
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bind
+  description: tells  saned to bind to the  address given
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: tells  saned to listen on the  port given
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listen
+  description: requests that  saned run in standalone daemon mode
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: daemonize
+  description: will request  saned to detach from the console and run in the background
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: once
+  description: requests that  saned exits after the first client disconnects
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: 'sets the level of  saned debug output to R n '
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stderr
+  description: will divert  saned debug output to stderr instead of the syslog default
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d128
+  description: will request output of all debug info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: displays a short help message
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

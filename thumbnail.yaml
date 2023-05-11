@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: w
+  description: Specify the width of thumbnail images in pixels
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Specify the height of thumbnail images in pixels
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Specify a contrast curve to apply in generating the thumbnail images
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

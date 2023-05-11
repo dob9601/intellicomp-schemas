@@ -1,0 +1,165 @@
+description: ''
+keyword_arguments:
+- name: 'null'
+  description: Input items are terminated by a null character instead of by whitespace, and …
+  shorthand: '0'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: arg-file
+  description: Read items from  file instead of standard input
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delimiter
+  description: Input items are terminated by the specified character
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: E
+  description: Set the end of file string to eof-str
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: eof
+  description: This option is a synonym for the  -E option
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: I
+  description: Replace occurrences of replace-str in the initial-arguments with names read f…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replace
+  description: This option is a synonym for  -I replace-str if  replace-str is specified
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: L
+  description: Use at most max-lines nonblank input lines per command line
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-lines
+  description: Synonym for the  -L option
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-args
+  description: Use at most max-args arguments per command line
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-procs
+  description: Run up to  max-procs processes at a time; the default is 1
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: open-tty
+  description: Reopen stdin as  /dev/tty in the child process before executing the command
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interactive
+  description: Prompt the user about whether to run each command line and read a line from t…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: process-slot-var
+  description: Set the environment variable  name to a unique value in each running child pr…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-run-if-empty
+  description: If the standard input does not contain any nonblanks, do not run the command
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-chars
+  description: Use at most max-chars characters per command line, including the command and …
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-limits
+  description: Display the limits on the command-line length which are imposed by the operat…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Print the command line on the standard error output before executing it
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exit
+  description: Exit if the size (see the  -s option) is exceeded
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a summary of the options to  xargs and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print0
+  description: option does this for you
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show\\-limits
+  description: Display the limits on the command-line length which are imposed by the operat…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version number of xargs and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

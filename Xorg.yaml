@@ -1,0 +1,263 @@
+description: ''
+keyword_arguments:
+- name: allowMouseOpenFail
+  description: Allow the server to start up even if the mouse device can\'t be opened or init…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allowNonLocalXvidtune
+  description: Make the VidMode extension available to remote clients
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bgamma
+  description: Set the blue gamma correction.   value must be between 0. 1 and 10
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bpp
+  description: No longer supported
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: 'Read the server configuration from R file '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: configdir
+  description: 'Read the server configuration files from R directory '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: configure
+  description: When this option is specified, the  Xorg server loads all video driver module…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crt
+  description: SCO only
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: depth
+  description: Sets the default color depth.   Legal values are 1, 4, 8, 15, 16, and 24
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disableVidMode
+  description: Disable the parts of the VidMode extension (used by the xvidtune client) that…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fbbpp
+  description: Sets the number of framebuffer bits per pixel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gamma
+  description: Set the gamma correction.   value must be between 0. 1 and 10
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ggamma
+  description: Set the green gamma correction.   value must be between 0. 1 and 10
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignoreABI
+  description: The  Xorg server checks the ABI revision levels of each module that it loads
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: isolateDevice
+  description: 'Restrict device resets to the device at R bus-id '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keeptty
+  description: Prevent the server from detaching its initial controlling terminal
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keyboard
+  description: Use the xorg
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: layout
+  description: 'Use the xorg. conf(5) file  Layout section called R layout-name '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logfile
+  description: Use the file called  filename as the  Xorg server log file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logverbose
+  description: Sets the verbosity level for information printed to the  Xorg server log file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: modulepath
+  description: 'Set the module search path to R searchpath '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noautoBindGPU
+  description: Disable automatically setting secondary GPUs up as output sinks and offload s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nosilk
+  description: Disable Silken Mouse support
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: novtswitch
+  description: Disable the automatic switching on X server reset and shutdown to the VT that…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pointer
+  description: Use the xorg
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Suppress most informational messages at startup
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rgamma
+  description: Set the red gamma correction.   value must be between 0. 1 and 10
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sharevts
+  description: Share virtual terminals with another X server, if supported by the OS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: screen
+  description: 'Use the xorg. conf(5) file  Screen section called R screen-name '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showconfig
+  description: This is the same as the  -version option, and is included for compatibility r…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showDefaultModulePath
+  description: Print out the default module path the server was compiled with
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showDefaultLibPath
+  description: Print out the path libraries should be installed to
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showopts
+  description: For each driver module installed, print out the list of options and their arg…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: weight
+  description: Set RGB weighting at 16 bpp.   The default is 565
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Sets the verbosity level for information printed on stderr
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listen
+  description: option (see the Xserver(1) man page for details)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: option, and is included for compatibility reasons
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

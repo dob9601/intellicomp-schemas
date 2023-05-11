@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: "\thelp for join-token"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: "\tOnly display token"
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rotate
+  description: "\tRotate join token SEE ALSO"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: a
+  description: This option will cause the output to be appended to R logfile , instead of re…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: This option will cause  logsave to skip writing to the log file text which is…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: This option will make logsave to be more verbose in its output to the user
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: Cf
+  description: Don\'t fix errors and retry the request
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Ct
+  description: Flag will determine time interval from the monitored entity
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cs
+  description: Flag will display a timestamp
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: CS
+  description: Generates a "sum count" in addition to the individual instance counts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cm
+  description: Prints the max value ever attained
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: CF
+  description: Tells  snmpdelta to read it\'s configuration from the specified file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cl
+  description: Tells  snmpdelta to write it\'s configuration to files whose names correspond …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cp
+  description: Specifies the number of seconds between polling periods
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: CP
+  description: Specifies the reporting period in number of polling periods
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Ck
+  description: When the polling period (-Cp) is an increment of 60 seconds and the timestamp…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: CT
+  description: Makes   snmpdelta print its output in tabular form
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cv
+  description: Specifies the maximum number of oids allowed to be packaged in a single PDU
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

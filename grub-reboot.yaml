@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: print this message and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print the version information and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: boot-directory
+  description: expect GRUB images under the directory DIR/grub instead of the ,/boot/grub/ d…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

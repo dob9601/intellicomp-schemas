@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: compose-file
+  description: "\tPath to a Compose file, or \"-\" to read from stdin"
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for deploy"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prune
+  description: "\tPrune services that are no longer referenced"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: resolve-image
+  description: "\tQuery the registry to resolve image digest and supported platforms (\"always\"…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: with-registry-auth
+  description: "\tSend registry authentication details to Swarm agents SEE ALSO"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

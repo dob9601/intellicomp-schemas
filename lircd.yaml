@@ -1,0 +1,137 @@
+description: ''
+keyword_arguments:
+- name: device
+  description: Select the character device which lircd should read from
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: driver
+  description: The driver to use
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: 'Displays short help message. P Other options:'
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-simulate
+  description: Enable the SIMULATE command which can be issued using irsend(1) or the client…
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: connect
+  description: Connects to other lircd servers that provide a network socket at the given ho…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: effective-user
+  description: If started as user root, lircd drops it privileges and runs as user <uid> aft…
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: immediate-init
+  description: Lircd normally initializes the driver when the first client connects
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: driver-options
+  description: Set one or more options for the driver
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dynamic-codes
+  description: Allows use of codes which have been decoded for one remote but are not define…
+  shorthand: Y
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listen
+  description: Let lircd listen for network connections on the given address/port
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logfile
+  description: Select the lircd daemon log file
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loglevel
+  description: Determine the amount of logging information
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: options-file
+  description: File containing default values for all options
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Select Unix domain socket, which lircd will write remote key codes to
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: permission
+  description: Gives the file permission of the output socket if it has to be created in oct…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pidfile
+  description: Select the lircd daemon pid file, defaults to /var/run/lirc/lircd. pid
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: plugindir
+  description: Sets the directory from which lircd loads it\'s userspace drivers
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repeat-max
+  description: Sets an upper limit to the number of repeats when sending a signal
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: option is yet not parsed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

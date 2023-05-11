@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: os
+  description: Use a different operating system root than the current one
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pull-only
+  description: Only perform a pull into the repository; do not create a deployment
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: deploy-only
+  description: Create a new deployment from the latest commit in the tracked origin refspec
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stage
+  description: Perform deployment finalization at shutdown time
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reboot
+  description: Reboot after a successful upgrade
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-downgrade
+  description: Permit deployment of chronologically older trees
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: override-commit
+  description: Deploy CHECKSUM instead of the latest tree
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

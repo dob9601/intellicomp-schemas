@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: CE
+  description: Set usmUserEngineID to be used as part of the index of the usmUserTable
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cp
+  description: Set the usmUserPublic value of the (new) user to the specified STRING
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Ca
+  description: Change the authentication key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cx
+  description: Change the privacy key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Ck
+  description: Allows one to use localized key (must start with 0x) instead of passphrase
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

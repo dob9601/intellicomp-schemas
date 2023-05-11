@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Displays this information
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory_file
+  description: 'Debug: Memory dump file to use instead of physical memory'
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display libsmbios version information SEE ALSO The full documentation for smb…
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

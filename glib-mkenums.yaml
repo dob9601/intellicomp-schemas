@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: fhead
+  description: Emits TEXT prior to processing input files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fprod
+  description: Emits TEXT every time a new input file is being processed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ftail
+  description: Emits TEXT after all input files have been processed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: eprod
+  description: Emits TEXT every time an enum is encountered in the input files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vhead
+  description: Emits TEXT before iterating over the set of values of an enum
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vprod
+  description: Emits TEXT for every value of an enum
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vtail
+  description: Emits TEXT after iterating over all values of an enum
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: comments
+  description: Template for auto-generated comments, the default (for C code generations) is…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: template
+  description: Read templates from the given file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: identifier-prefix
+  description: Indicates what portion of the enum name should be interpreted as the prefix (…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: symbol-prefix
+  description: Indicates what prefix should be used to correspond to the identifier prefix i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print brief help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Write output to FILE instead of stdout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

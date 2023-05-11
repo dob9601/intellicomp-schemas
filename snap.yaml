@@ -1,0 +1,669 @@
+description: ''
+keyword_arguments:
+- name: last
+  description: Select last change of given type (install, refresh, remove, try, auto-refresh…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-wait
+  description: Do not wait for the operation to finish but just print the change id
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: abs-time
+  description: Display absolute times (in RFC 3339 format)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: users
+  description: 'Check data of only specific users (comma-separated) (default: all users) conn…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all
+  description: Show connected and unconnected plugs and slots create-cohort Create cohort ke…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: required
+  description: Ensure that given backend:feature is available debug stacktraces Obtain stack…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: changes
+  description: List all changes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: task
+  description: ID of the task to inspect
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: change
+  description: ID of the change to inspect
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check
+  description: Check change consistency
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: connections
+  description: List all connections
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: connection
+  description: Show details of the matching connections (snap or snap:plug,snap:slot or snap…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: is-seeded
+  description: Output seeding status (true or false)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dot
+  description: Dot (graphviz) output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-hold
+  description: Omit tasks in \'Hold\' state in the change output debug timings Get the timings…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ensure
+  description: 'Show timings for a change related to the given Ensure activity (one of: auto-…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: startup
+  description: 'Show timings for the startup of given subsystem (one of: load-state, ifacemgr)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Show more information disable Disable a snap in the system
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: forget
+  description: Forget remembered state about the given connection
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: channel
+  description: Use this channel instead of stable
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: edge
+  description: Install from the edge channel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: beta
+  description: Install from the beta channel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: candidate
+  description: Install from the candidate channel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stable
+  description: Install from the stable channel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: revision
+  description: Download the given revision of a snap, to which you must have developer access
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: basename
+  description: Use this basename for the snap and assertion files (defaults to <snap>_<revis…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target-directory
+  description: Download to this directory (defaults to the current directory)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cohort
+  description: Download from the given cohort enable Enable a snap in the system
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: private
+  description: Search private snaps
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: narrow
+  description: "Only search for snaps in â\x80\x9Cstableâ\x80\x9D"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: section
+  description: Restrict the search to a given section
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: color
+  description: Use a little bit of color to highlight some things
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unicode
+  description: Use a little bit of Unicode to improve legibility.  forget Delete a snapshot
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: Strict typing with nulls and quoted strings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Always return document, even with single key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Always return list, even with single key help Show help about a command
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: devmode
+  description: Put snap in development mode and disable security confinement
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jailmode
+  description: Put snap in enforced confinement mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: classic
+  description: Put snap in classic mode and disable security confinement
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dangerous
+  description: Install the given snap file even if there are no pre-acknowledged signatures …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unaliased
+  description: Install the given snap without enabling its automatic aliases
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: Install the snap file under the given instance name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-validation
+  description: Ignore validation by other snaps blocking the installation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: transaction
+  description: Have one transaction per-snap or one for all the specified snaps
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quota-group
+  description: Add the snap to a quota group on install interface Show details of snap inter…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: attrs
+  description: Show interface attributes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remote
+  description: Query the store for the assertion, via snapd if possible
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: direct
+  description: Query the store for the assertion, without attempting to go via snapd list Li…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Show only the given number of lines, or \'all\'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: Wait for new lines and print them as they come in
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: serial
+  description: Print the serial assertion instead of the model assertion
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: assertion
+  description: Print the raw assertion.  okay Acknowledge warnings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check-skeleton
+  description: Validate snap-dir metadata only
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: filename
+  description: Output to this filename
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: compression
+  description: Compression to use (e. g
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preseed
+  description: Preseed (UC20+ only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preseed-sign-key
+  description: Name of the key to use to sign preseed assertion, otherwise use the default k…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: apparmor-features-dir
+  description: Optional path to apparmor kernel features directory (UC20+ only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sysfs-overlay
+  description: Optional sysfs overlay to be used when running preseeding steps
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: arch
+  description: Specify an architecture for snaps for --classic when the model does not
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: snap
+  description: Include the given snap from the store or a local file and/or specify the chan…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: revisions
+  description: Specify a seeds
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: write-revisions
+  description: Writes a manifest file containing references to the exact snap revisions used…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: run
+  description: Boot into run mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: install
+  description: Boot into install mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: recover
+  description: Boot into recover mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: factory-reset
+  description: Boot into factory-reset mode recovery List available recovery systems
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-keys
+  description: Show recovery keys (if available) to unlock encrypted partitions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: amend
+  description: Allow refresh attempt on snap unknown to the store
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: leave-cohort
+  description: Refresh the snap out of its cohort
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list
+  description: Show the new versions of snaps that would be updated with the next refresh
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: time
+  description: Show auto refresh information but do not perform a refresh
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hold
+  description: Hold refreshes for a specified duration (or forever, if no value is specified)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unhold
+  description: Remove refresh hold remove Remove snaps from the system
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: purge
+  description: Remove the snap without saving a snapshot of its data remove-quota Remove quo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reload
+  description: If the service has a reload command, use it instead of restarting
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shell
+  description: Run a shell instead of the command (useful for debugging)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug-log
+  description: Enable debug logging during early snap startup phases
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strace
+  description: Run the command under strace (useful for debugging)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gdbserver
+  description: Run the command with gdbserver
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trace-exec
+  description: Display exec calls timing data save Save a snapshot of the current data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id
+  description: Show only a specific snapshot.  services Query the status of services
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Parse the value as a string set-quota Create or update a quota group
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory
+  description: Memory quota
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu
+  description: CPU quota
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-set
+  description: CPU set quota
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: threads
+  description: Threads quota
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: journal-size
+  description: Journal size quota
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: journal-rate-limit
+  description: Journal rate limit as <message count>/<message period>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parent
+  description: Parent quota group start Start services
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable
+  description: As well as starting the service now, arrange for it to be started on boot
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable
+  description: As well as stopping the service now, arrange for it to no longer be started o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: monitor
+  description: Monitor the given validations set
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enforce
+  description: Enforce the given validation set
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: refresh
+  description: Refresh or install snaps to satisfy enforced validation sets
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

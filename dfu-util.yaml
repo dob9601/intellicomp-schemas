@@ -1,0 +1,137 @@
+description: ''
+keyword_arguments:
+- name: list
+  description: List the currently attached DFU capable USB devices
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device
+  description: RS Specify run-time and/or DFU mode vendor and/or product IDs of the DFU devi…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: path
+  description: Specify the path to the DFU device
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cfg
+  description: Specify the configuration of the DFU device
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: intf
+  description: Specify the DFU interface number
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: alt
+  description: Specify the altsetting of the DFU interface by name or by number
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: serial
+  description: RS Specify the run-time and DFU mode serial numbers used to further restrict …
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: transfer-size
+  description: Specify the number of bytes per USB transfer
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: upload-size
+  description: Specify the expected upload size, in bytes
+  shorthand: Z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: upload
+  description: 'Read firmware from device into  FILE '
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: download
+  description: Write firmware from  FILE into device
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reset
+  description: Issue USB reset signalling after upload or download has finished
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detach
+  description: Request that the device re-enumerate out of run-time mode and into DFU mode a…
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detach-delay
+  description: When uploading or downloading, wait  SECONDS seconds for the device to re-enu…
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wait
+  description: Wait until matching device appears on the USB bus
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dfuse-address
+  description: Specify target address for raw binary download/upload on DfuSe devices
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Print more information about dfu-util\'s operation
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show a help text and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

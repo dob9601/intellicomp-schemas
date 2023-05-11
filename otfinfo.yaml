@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: scripts
+  description: Print supported scripts and language systems
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: features
+  description: Print GSUB and GPOS features supported by the selected script (see the  --scr…
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: optical-size
+  description: 'Print optical size information.  For example: '
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: postscript-name
+  description: 'Print each font\''s PostScript name.  For example: '
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: family
+  description: 'Print each font\''s family name.  For example: . nf   Minion Pro . fi \'' . Sp'
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: font-version
+  description: 'Print font version information, if available.  For example: . nf   OTF 1'
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: info
+  description: Print each font\'s name, version, designer, vendor, copyright, and license inf…
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: glyphs
+  description: 'Print the name of every glyph in each font, one per line.  For example: '
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unicode
+  description: Print each Unicode code point supported by the font, followed by the glyph nu…
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tables
+  description: 'Print the size and name of every OpenType table in the font.  For example: '
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump-table
+  description: 'Print the contents of the font\''s OpenType table table.  \'' . PD \'' \'' '
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: script
+  description: Select the script system  script and language system R lang used to look up f…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Write progress messages to standard error.  \' . Sp
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Do not generate any error messages.  \' . Sp
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print usage information and exit.  \' . Sp
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version number and some short non-warranty information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

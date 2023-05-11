@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: version
+  description: show program\'s version number and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: show help message and exit  . SS GENERAL
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: paper
+  description: Format of the output paper dimensions as latex keyword (e. g
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: short-edge
+  description: Format the booklet for short-edge double-sided printing
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-crop
+  description: Prevent the cropping to the content area  . SS MARGINS
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: outer-margin
+  description: 'Defines the outer margin in the booklet (default: 40)'
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inner-margin
+  description: 'Defines the inner margin between the pages in the booklet (default: 150)'
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: top-margin
+  description: 'Defines the top margin in the booklet (default: 30)'
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bottom-margin
+  description: 'Defines the bottom margin in the booklet (default: 30)  . SS ADVANCED'
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: signature
+  description: Define the signature for the booklet handed to pdfjam, needs to be multiple o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: signature*
+  description: Same as --signature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: resolution
+  description: 'Resolution used by ghostscript in bp (default: 72)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

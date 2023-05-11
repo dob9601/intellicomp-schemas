@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: list
+  description: Dumps list of details of functions and variables
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: demangle
+  description: Dump the demangled output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: defined-only
+  description: Dump only the defined symbols
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-value
+  description: Dump initial values of the variables
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name-sort
+  description: Sort the symbols alphabetically
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: size-sort
+  description: Sort the symbols according to size
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reverse-sort
+  description: Dump the symbols in reverse order
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-sort
+  description: Dump the symbols in order of occurrence
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: symbol
+  description: Dump the details of specific symbol
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: objects
+  description: Dump the details of \\s-1LTO\\s0 objects
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: type-stats
+  description: Dump the statistics of tree types
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tree-stats
+  description: Dump the statistics of trees
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gimple-stats
+  description: Dump the statistics of gimple statements
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump-level
+  description: For deciding the optimization level of body
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump-body
+  description: Dump the specific gimple body
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

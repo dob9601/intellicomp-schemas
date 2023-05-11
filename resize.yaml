@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: This option indicates that C shell commands should be generated even if the u…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: This option indicates that Sun console escape sequences will be used instead …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: This option indicates that Bourne shell commands should be generated even if …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: This causes resizeand then exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

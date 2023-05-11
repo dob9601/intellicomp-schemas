@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: namespace
+  description: switch of journalctl(1) may be used to view the log stream of a specific name…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

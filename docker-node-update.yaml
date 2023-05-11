@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: availability
+  description: "\tAvailability of the node (\"active\", \"pause\", \"drain\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for update"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label-add
+  description: "\tAdd or update a node label (\"key=value\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label-rm
+  description: "\tRemove a node label if exists"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: role
+  description: "\tRole of the node (\"worker\", \"manager\") SEE ALSO"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

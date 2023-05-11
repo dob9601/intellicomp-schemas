@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: "\t-\t-103126\tLMT"
+  description: "1896-01-13\t12:01:26\t-1030\tHST 1933-04-30\t03\t-0930\tHDT\t1 1933-05-21\t11\t-1030\tH…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: "\t-\t+031212\tLMT"
+  description: "1924-04-30\t23:47:48\t+03 1930-06-21\t01\t+04 1981-04-01\t01\t+05\t\t1 1981-09-30\t23\t…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

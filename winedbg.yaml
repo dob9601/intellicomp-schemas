@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: commandstring
+  description: winedbg will execute the command string as if it was keyed on winedbg command…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: filefilename
+  description: winedbg will execute the list of commands contained in file filename as if th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-start
+  description: Don\'t launch gdb directly; instead, print the target remote GDB command to ex…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: portport
+  description: Start the GDB proxy debugging server on the given port
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: with-xterm
+  description: This will run the gdb front end in a new  xterm (1) window instead of using t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gdb
+  description: winedbg will be used as a proxy for gdb
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auto
+  description: This mode is used when winedbg is set up in AeDebug registry entry as the def…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: minidump
+  description: This mode is similar to the --auto one, except that instead of printing the i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: command
+  description: winedbg will execute the command string as if it was keyed on winedbg command…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: winedbg will execute the list of commands contained in file filename as if th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: Start the GDB proxy debugging server on the given port
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

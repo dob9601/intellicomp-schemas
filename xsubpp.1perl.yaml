@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: hiertype
+  description: Retains \'::\' in type names so that \\*(C+ hierarchical types can be mapped
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: except
+  description: Adds exception handling stubs to the C code
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: typemap
+  description: Indicates that a user-supplied typemap should take precedence over the defaul…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Specifies the name of the output file to generate
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Prints the xsubpp version number to standard output, then exits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prototypes
+  description: By default xsubpp will not automatically generate prototype code for all xsubs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noversioncheck
+  description: Disables the run time test that determines if the object file (derived from t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nolinenumbers
+  description: Prevents the inclusion of \'#line\' directives in the output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nooptimize
+  description: Disables certain optimizations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noinout
+  description: Disable recognition of \\f(CW\\*(C`IN\\*(C\', \\f(CW\\*(C`OUT_LIST\\*(C\' and \\f(CW\\*…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noargtypes
+  description: Disable recognition of ANSI-like descriptions of function signature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

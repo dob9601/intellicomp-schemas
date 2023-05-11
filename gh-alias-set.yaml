@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: shell
+  description: 'Declare an alias to be passed through a shell interpreter EXAMPLE # note: Com…'
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

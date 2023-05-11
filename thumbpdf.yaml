@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: device
+  description: 'GhostScript PNG device; dev = `mono\'', `gray\'', `16\'', `256\'', `16m\'' (default: `p…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

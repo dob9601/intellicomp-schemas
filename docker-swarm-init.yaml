@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: advertise-addr
+  description: "\tAdvertised address (format: \"[:port]\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: autolock
+  description: "\tEnable manager autolocking (requiring an unlock key to start a stopped manag…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: availability
+  description: "\tAvailability of the node (\"active\", \"pause\", \"drain\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cert-expiry
+  description: "\tValidity period for node certificates (ns|us|ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: data-path-addr
+  description: "\tAddress or interface to use for data path traffic (format: \"\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: data-path-port
+  description: "\tPort number to use for data path traffic (1024 - 49151)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-addr-pool
+  description: "\tdefault address pool in CIDR format"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-addr-pool-mask-length
+  description: "\tdefault address pool subnet mask length"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dispatcher-heartbeat
+  description: "\tDispatcher heartbeat period (ns|us|ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: external-ca
+  description: "\tSpecifications of one or more certificate signing endpoints"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-new-cluster
+  description: "\tForce create a new cluster from current state"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for init"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listen-addr
+  description: "\tListen address (format: \"[:port]\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-snapshots
+  description: "\tNumber of additional Raft snapshots to retain"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: snapshot-interval
+  description: "\tNumber of log entries between Raft snapshots"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: task-history-limit
+  description: "\tTask history retention limit SEE ALSO"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

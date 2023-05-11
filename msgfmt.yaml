@@ -1,0 +1,249 @@
+description: ''
+keyword_arguments:
+- name: directory
+  description: 'add DIRECTORY to list for input files search '
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: java
+  description: 'Java mode: generate a Java ResourceBundle class'
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: java2
+  description: like --java, and assume Java2 (JDK 1. 2 or higher)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: csharp
+  description: 'C# mode: generate a . NET . dll file'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: csharp-resources
+  description: 'C# resources mode: generate a . NET . resources file'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tcl
+  description: 'Tcl mode: generate a tcl/msgcat . msg file'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: qt
+  description: 'Qt mode: generate a Qt . qm file'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: desktop
+  description: 'Desktop Entry mode: generate a . desktop file'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xml
+  description: 'XML mode: generate XML file . SS "Output file location:"'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-file
+  description: write output to specified file
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strict
+  description: 'enable strict Uniforum mode '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: resource
+  description: resource name
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: locale
+  description: locale name, either language or language_COUNTRY
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: source
+  description: produce a . java file, instead of a . class file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: 'base directory of classes directory hierarchy '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: template
+  description: a . desktop file used as a template
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keyword
+  description: look for WORD as an additional keyword
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k
+  description: 'do not to use default keywords '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: language
+  description: recognise the specified XML language
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: properties-input
+  description: input files are in Java . properties syntax
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stringtable-input
+  description: 'input files are in NeXTstep/GNUstep . strings syntax '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check
+  description: perform all the checks implied by --check-format, --check-header, --check-dom…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check-format
+  description: check language dependent format strings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check-header
+  description: verify presence and contents of the header entry
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check-domain
+  description: check for conflicts between domain directives and the --output-file option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check-compatibility
+  description: check that GNU msgfmt behaves like X/Open msgfmt
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check-accelerators
+  description: check presence of keyboard accelerators for menu items
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-fuzzy
+  description: use fuzzy entries in output . SS "Output details:"
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: alignment
+  description: 'align strings to NUMBER bytes (default: 1)'
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: endianness
+  description: write out 32-bit numbers in the given byte order (big or little, default depe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-hash
+  description: binary file will not include the hash table . SS "Informative output:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: statistics
+  description: print statistics about translations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: increase verbosity level AUTHOR Written by Ulrich Drepper
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

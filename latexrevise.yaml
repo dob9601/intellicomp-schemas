@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: accept
+  description: Run in \\s-1ACCEPT\\s0 mode (delete all blocks marked by \\f(CW\\*(C`DIFdelbegin\\…
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: decline
+  description: Run in \\s-1DECLINE\\s0 mode (delete all blocks marked by \\f(CW\\*(C`DIFaddbegin…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: simplify
+  description: Run in \\s-1SIMPLIFY\\s0 mode (Keep all \\f(CW\\*(C`DIFaddbegin\\*(C\', \\f(CW\\*(C`D…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: comment
+  description: Remove \\f(CW\\*(C`cmd{. }\\*(C\' sequences
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: comment-environment
+  description: 'Remove explicit annotation environments from the text, i. e.  remove . Sp '
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: markup
+  description: Remove the markup command \\f(CW\\*(C`cmd\\*(C\' but leave its argument, i. e
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: markup-environment
+  description: Similarly, remove \\f(CW\\*(C`begin{envir}\\*(C\' and \\f(CW\\*(C`end{envir}\\*(C\' c…
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replace
+  description: For constructions \\f(CW\\*(C`cmd{. }{
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Verbose output
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

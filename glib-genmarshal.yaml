@@ -1,0 +1,137 @@
+description: ''
+keyword_arguments:
+- name: header
+  description: Generate header file contents of the marshallers
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: body
+  description: Generate C code file contents of the marshallers
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: Specify marshaller prefix
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-source
+  description: Skip source location remarks in generated comments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdinc
+  description: Use the standard marshallers of the GObject library, and include glib-object
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nostdinc
+  description: Do not use the standard marshallers of the GObject library, and skip glib-obj…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: internal
+  description: Mark generated functions as internal, using G_GNUC_INTERNAL
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: valist-marshallers
+  description: Generate valist marshallers, for use with g_signal_set_va_marshaller()
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version information
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: g-fatal-warnings
+  description: Make warnings fatal, that is, exit immediately once a warning occurs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print brief help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Write output to FILE instead of the standard output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prototypes
+  description: Generate function prototypes before the function definition in the C source f…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pragma-once
+  description: Use the once pragma instead of an old style header guard when generating the …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include-header
+  description: 'Adds a #include directive for the given file in the C source file'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: D
+  description: 'Adds a #define C pre-processor directive for SYMBOL and its given VALUE, or "…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: U
+  description: 'Adds a #undef C pre-processor directive to undefine the given SYMBOL'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Minimizes the output of glib-genmarshal, by printing only warnings and errors
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Increases the verbosity of glib-genmarshal, by printing debugging information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

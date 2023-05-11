@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print help text to console and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print versioning information to console and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: details
+  description: Include additional detailed information for each Generic Netlink family that …
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

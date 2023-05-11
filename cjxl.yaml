@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Displays the options that cjxl supports
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Increases verbosity
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: distance
+  description: The preferred way to specify quality
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quality
+  description: Alternative way to indicate the desired quality
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: effort
+  description: Controls the amount of effort that goes into producing an \\(lqoptimal\\(rq fil…
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

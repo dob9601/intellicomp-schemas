@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: console
+  description: the console device to be used;
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print version number;
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: print this usage message.  AUTHORS Written by Alexey Gladkov
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

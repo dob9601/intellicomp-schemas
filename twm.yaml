@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: clientId
+  description: Each time twm starts, it calls SmcOpenConnection to establish a new session
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: display
+  description: Specify the X server to use
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: Specify the name of the startup file to use
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Tells twm that it should not print error messages when it receives unexpected…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restore
+  description: When twm\'s session is stopped, it attempts to save the current window configu…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: single
+  description: Tells twm that only the default screen (as specified by -display or by the DI…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Tells twm that it should print error messages whenever it receives an unexpec…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: Tell twm to print its version to the standard output, and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

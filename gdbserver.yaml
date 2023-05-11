@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: List all options, with brief explanations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: This option causes gdbserver to print its version number and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: attach
+  description: 'gdbserver will attach to a running program.   The syntax is: . Sp '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: multi
+  description: To start \\f(CW\\*(C`gdbserver\\*(C\' without supplying an initial command to run…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Instruct \\f(CW\\*(C`gdbserver\\*(C\' to display extra status information about t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remote-debug
+  description: Instruct \\f(CW\\*(C`gdbserver\\*(C\' to display remote protocol debug output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug-file
+  description: Instruct \\f(CW\\*(C`gdbserver\\*(C\' to send any debug output to the given filen…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug-format
+  description: Instruct \\f(CW\\*(C`gdbserver\\*(C\' to include extra information in each line o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wrapper
+  description: Specify a wrapper to launch programs for debugging
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: clone
+  description: Clone the fork
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-branch-only
+  description: Only include the default branch in the fork
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fork-name
+  description: Rename the forked repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: org
+  description: Create the fork in an organization
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remote
+  description: Add a git remote for the fork
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remote-name
+  description: Specify the name for the new remote SEE ALSO
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

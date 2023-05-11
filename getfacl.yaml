@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: access
+  description: Display the file access control list
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default
+  description: Display the default access control list
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: omit-header
+  description: Do not display the comment header (the first three lines of each file\'s outpu…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all-effective
+  description: Print all effective rights comments, even if identical to the rights defined …
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-effective
+  description: Do not print effective rights comments
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-base
+  description: Skip files that only have the base ACL entries (owner, group, others)
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: recursive
+  description: List the ACLs of all files and directories recursively
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logical
+  description: Logical walk, follow symbolic links to directories
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: physical
+  description: Physical walk, do not follow symbolic links to directories
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tabular
+  description: Use an alternative tabular output format
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: absolute-names
+  description: Do not strip leading slash characters (`/\')
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: numeric
+  description: List numeric user and group IDs
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version of getfacl and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print help explaining the command line options
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: disable-internal-agent
+  description: option.  SECURITY NOTES
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep-cwd
+  description: is used to override this behavior
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

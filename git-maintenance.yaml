@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: auto
+  description: When combined with the run subcommand, run maintenance tasks only if certain …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: schedule
+  description: When combined with the run subcommand, run maintenance tasks only if certain …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Do not report progress or other information over stderr
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: task
+  description: If this option is specified one or more times, then only run the specified ta…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scheduler
+  description: When combined with the start subcommand, specify the scheduler for running th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: option to return success even when the current repository is not registered
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: batch-size
+  description: option for the repack subcommand in git-multi-pack-index(1)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

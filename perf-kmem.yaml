@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: input
+  description: 'For stat, select the input file (default: perf. data unless stdin is a fifo)'
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Don\'t do ownership validation
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Be more verbose.  (show symbol address, etc)
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: caller
+  description: Show per-callsite statistics
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: alloc
+  description: Show per-allocation statistics
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sort
+  description: 'Sort the output (default: frag,hit,bytes for slab and bytes,hit for page)'
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: line
+  description: Print n lines only
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw-ip
+  description: Print raw ip instead of symbol
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: slab
+  description: Analyze SLAB allocator events
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: page
+  description: Analyze page allocator events
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: live
+  description: Show live page stat
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: time
+  description: 'Only analyze samples within given time window: <start>,<stop>'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

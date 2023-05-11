@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: api-version
+  description: Reports the current API version (major. minor)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: build
+  description: Reports a system-specific build number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cflags
+  description: Reports the necessary compiler options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: datadir
+  description: Reports the default CUPS data directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Reports the program usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ldflags
+  description: Reports the necessary linker options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: Reports the necessary libraries to link to
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: serverbin
+  description: Reports the default CUPS binary directory, where filters and backends are sto…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: serverroot
+  description: Reports the default CUPS configuration file directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: static
+  description: When used with --libs, reports the static libraries instead of the default (s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Reports the full version number of the CUPS installation (major. minor
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: image
+  description: Formerly used to add the CUPS imaging library to the list of libraries
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

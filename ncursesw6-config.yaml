@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: prefix
+  description: echos the package-prefix of ncurses
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exec-prefix
+  description: echos the executable-prefix of ncurses
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cflags
+  description: echos the C compiler flags needed to compile with ncurses
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: echos the libraries needed to link with ncurses
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: echos the release+patchdate version of ncurses
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: abi-version
+  description: echos the ABI version of ncurses
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mouse-version
+  description: echos the mouse-interface version of ncurses
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bindir
+  description: echos the directory containing ncurses programs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: datadir
+  description: echos the directory containing ncurses data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: includedir
+  description: echos the directory containing ncurses header files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libdir
+  description: echos the directory containing ncurses libraries
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mandir
+  description: echos the directory containing ncurses manpages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: terminfo
+  description: 'echos the $TERMINFO terminfo database path, e. g. , . RS /usr/share/terminfo '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: terminfo-dirs
+  description: 'echos the $TERMINFO_DIRS directory list, e. g. , . RS /usr/share/terminfo '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: termpath
+  description: echos the $TERMPATH termcap list, if support for termcap is configured
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: prints this message SEE ALSO curses(3X)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

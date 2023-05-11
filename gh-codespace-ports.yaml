@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: codespace
+  description: Name of the codespace
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jq
+  description: Filter JSON output using a jq expression
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: json
+  description: Output JSON with the specified fields
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: Filter codespace selection by repository name (user/repo)
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: template
+  description: Format JSON output using a Go template; see "gh help formatting" SEE ALSO
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: debug
+  description: 'Turn on debugging.  Valid kinds are: all, auth, call, general and parse'
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a
+  description: Export or unexport all directories
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Specify a list of export options in the same manner as in  exports (5)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: Ignore the  /etc/exports file and files under  /etc/exports. d directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Reexport all directories, synchronizing  /var/lib/nfs/etab with R /etc/export…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Unexport one or more directories
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: If  /proc/fs/nfsd or  /proc/fs/nfs is mounted, flush everything out of the ke…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Be verbose.  When exporting or unexporting, show what\'s going on
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Display the current export list suitable for /etc/exports
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

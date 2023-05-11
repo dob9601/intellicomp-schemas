@@ -1,0 +1,284 @@
+description: ''
+keyword_arguments:
+- name: a
+  description: Adobe Audition (CoolEdit) mode for 32-bit floats
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-huge-tags
+  description: allow tag data up to 16 MB (embedding > 1 MB is not recommended for portable …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bn
+  description: enable hybrid compression, n = 2. 0 to 23
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: blocksize
+  description: specify block size in samples (max = 131072 and min = 16 with --merge-blocks,…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: create correction file (
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cc
+  description: maximum hybrid compression (hurts lossy quality & decode speed)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: channel-order
+  description: specify (comma separated) channel order if not Microsoft standard (which is F…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cross-decorr
+  description: use cross-channel correlation in hybrid mode (on by default in lossless mode …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: delete source file if successful (use with caution!)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: fast mode (fast, but some compromise in compression ratio)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-even-byte-depth
+  description: round the bit depth specified in the source file up to the next even byte (e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: g
+  description: general/normal mode, cancels previously specified -f and -h options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: high quality (better compression ratio, but slightly slower encode and decode…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hh
+  description: very high quality (best compression, but slowest and NOT recommended for use …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display extended help
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: ignore length in wav header and allow WAV files greater than 4 GB (note that …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: import-id3
+  description: import applicable tag items from ID3v2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jn
+  description: joint-stereo override (0 = left/right, 1 = mid/side)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: compute & store MD5 signature of raw audio data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: merge-blocks
+  description: merge consecutive blocks with equal redundancy (used with --blocksize option …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: calculate average and peak quantization noise (hybrid only, reference fullsca…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-overwrite
+  description: never overwrite, nor ask to overwrite, an existing file (this is handy for re…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-utf8-convert
+  description: don\\*(Aqt recode passed tags from local encoding to UTF-8, assume they are in…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: specify output filename (only if single source file) or target directory (mus…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pair-unassigned-chans
+  description: encode unassigned channels into stereo pairs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pre-quantize
+  description: pre-quantize samples to bits depth BEFORE encoding and MD5 calculation (commo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: quiet (keep console output to a minimum)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: parse headers to determine audio format and length but do not store the heade…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw-pcm
+  description: input data is raw pcm (44,100 Hz, 16-bit, 2-channels)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw-pcm-skip
+  description: skip begin bytes before encoding raw PCM (header) and skip end bytes at the E…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sn
+  description: override default hybrid mode noise shaping where n is a float value between -1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: copy input file\\*(Aqs time stamp to output file(s)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-dns
+  description: force use of dynamic noise shaping (hybrid mode only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: verify output file integrity after write (not for piped output)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: write program version to stdout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: w
+  description: write actual encoder metadata to APEv2 tag (e. g. , \\(lqEncoder=WavPack 5. 5
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: write-binary-tag
+  description: write the specified binary metadata file to APEv2 tag, normally used for cove…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: extra encode processing (optional n = 0 to 6, 1=default), -x0 for no extra pr…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: y
+  description: yes to all warnings (use with caution!)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: z
+  description: don\\*(Aqt set (n = 0 or omitted) or set (n = 1) console title to indicate pro…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

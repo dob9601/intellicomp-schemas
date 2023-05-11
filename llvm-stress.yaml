@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: o
+  description: Specify the output filename
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: size
+  description: Specify the size of the generated . ll file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: seed
+  description: Specify the seed to be used for the randomly generated instructions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

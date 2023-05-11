@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: file
+  description: Use a file with SPARQL content to query
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query
+  description: Use a sql string to query the database with
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

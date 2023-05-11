@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: version
+  description: 'Print the version number of  ldd '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Print all information, including, for example, symbol versioning information
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unused
+  description: Print unused direct dependencies.  (Since glibc 2. 3. 4. )
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: data-relocs
+  description: Perform relocations and report any missing objects (ELF only)
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: function-relocs
+  description: Perform relocations for both data objects and functions, and report any missi…
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Usage information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

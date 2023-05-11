@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: version
+  description: Print the currently installed version of libsane on the standard output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a short usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: Print the additional libraries that are necessary to link a SANE frontend to …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ldflags
+  description: Print the linker flags that are necessary to link a SANE frontend to libsane
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cflags
+  description: Print the compiler flags that are necessary to compile a SANE frontend
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: Print the prefix used during compilation of libsane
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exec-prefix
+  description: Print the exec-prefix used during compilation of libsane
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

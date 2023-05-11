@@ -1,0 +1,620 @@
+description: ''
+keyword_arguments:
+- name: attach
+  description: '   Attach to STDIN, STDOUT or STDERR'
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-host
+  description: '   Add a custom host-to-IP mapping (host:ip) Add a line to /etc/hosts'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: blkio-weight
+  description: '   Block IO weight (relative weight) accepts a weight value between 10 and 10…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: blkio-weight-device
+  description: '   Block IO weight (relative device weight, format: DEVICE_NAME:WEIGHT)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-shares
+  description: '   CPU shares (relative weight) By default, all containers get the same propo…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cap-add
+  description: '   Add Linux capabilities'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cap-drop
+  description: '   Drop Linux capabilities'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cgroupns
+  description: '   Set the cgroup namespace mode for the container'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cgroup-parent
+  description: '   Path to cgroups under which the cgroup for the container will be created'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cidfile
+  description: '   Write the container ID to the file'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-count
+  description: '    Limit the number of CPUs available for execution by the container'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-percent
+  description: '    Limit the percentage of CPU available for execution by a container runnin…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-period
+  description: '   Limit the CPU CFS (Completely Fair Scheduler) period Limit the container\''s…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpuset-cpus
+  description: '   CPUs in which to allow execution (0-3, 0,1)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpuset-mems
+  description: '   Memory nodes (MEMs) in which to allow execution (0-3, 0,1)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-quota
+  description: '   Limit the CPU CFS (Completely Fair Scheduler) quota Limit the container\''s …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-rt-period
+  description: '   Limit the CPU real-time period in microseconds Limit the container\''s Real …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-rt-runtime
+  description: '   Limit the CPU real-time runtime in microseconds Limit the containers Real …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpus
+  description: '   Number of CPUs.  The default is 0. 0 which means no limit'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detach
+  description: '   Detached mode: run the container in the background and print the new conta…'
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detach-keys
+  description: '   Override the key sequence for detaching a container; key is a single chara…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device
+  description: '   Add a host device onhost to the container under the incontainer name'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-cgroup-rule
+  description: '   Add a rule to the cgroup allowed devices list'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-read-bps
+  description: '   Limit read rate from a device (e. g.  --device-read-bps=/dev/sda:1mb)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-read-iops
+  description: '   Limit read rate from a device (e. g.  --device-read-iops=/dev/sda:1000)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-write-bps
+  description: '   Limit write rate to a device (e. g.  --device-write-bps=/dev/sda:1mb)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-write-iops
+  description: '   Limit write rate to a device (e. g.  --device-write-iops=/dev/sda:1000)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-search
+  description: '   Set custom DNS search domains (Use --dns-search='
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-option
+  description: '   Set custom DNS options'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns
+  description: '   Set custom DNS servers This option can be used to override the DNS configu…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: domainname
+  description: '   Container NIS domain name Sets the container\''s NIS domain name (see also s…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env
+  description: '   Set environment variables This option allows you to specify arbitrary envi…'
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: entrypoint
+  description: '   Overwrite the default ENTRYPOINT of the image This option allows you to ov…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env-file
+  description: '   Read in a line delimited file of environment variables'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: expose
+  description: '   Expose a port, or a range of ports (e. g'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: group-add
+  description: '   Add additional groups to run as'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hostname
+  description: '   Container host name Sets the container host name that is available inside …'
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: '   Print usage statement'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: init
+  description: '   Run an init inside the container that forwards signals and reaps processes'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interactive
+  description: '   Keep STDIN open even if not attached.  The default is false'
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ip
+  description: '   Sets the container\''s interface IPv4 address (e. g. , 172. 23. 0'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ip6
+  description: '   Sets the container\''s interface IPv6 address (e. g'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ipc
+  description: '   Sets the IPC mode for the container'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: isolation
+  description: '   Isolation specifies the type of isolation technology used by containers'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label
+  description: '   Set metadata on the container (for example, --label com. example'
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kernel-memory
+  description: '   Kernel memory limit; S is an optional suffix which can be one of b, k, m, …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label-file
+  description: '   Read in a line delimited file of labels'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: link
+  description: '   Add link to another container'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: link-local-ip
+  description: '   Add one or more link-local IPv4/IPv6 addresses to the container\''s interface'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-driver
+  description: '  Logging driver for the container'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-opt
+  description: '  Logging driver specific options'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory
+  description: '   Memory limit; S is an optional suffix which can be one of b, k, m, or g'
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory-reservation
+  description: '   Memory soft limit; S is an optional suffix which can be one of b, k, m, or…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory-swap
+  description: '   Combined memory plus swap limit; S is an optional suffix which can be one …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mac-address
+  description: '   Container MAC address (e. g'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mount
+  description: '   Attach a filesystem mount to the container Current supported mount TYPES a…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: '   Assign a name to the container The operator can identify a container in th…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: network
+  description: '   Set the Network mode for the container'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: network-alias
+  description: '   Add network-scoped alias for the container'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: oom-kill-disable
+  description: '   Whether to disable OOM Killer for the container or not'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: oom-score-adj
+  description: '   Tune the host\''s OOM preferences for containers (accepts -1000 to 1000)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: publish-all
+  description: '   Publish all exposed ports to random ports on the host interfaces'
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: publish
+  description: '   Publish a container\''s port, or range of ports, to the host'
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid
+  description: '   Set the PID mode for the container    Default is to create a private PID n…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: userns
+  description: '   Set the usernamespace mode for the container when userns-remap option is e…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pids-limit
+  description: '   Tune the container\''s pids (process IDs) limit'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uts
+  description: '   Set the UTS mode for the container'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: privileged
+  description: '   Give extended privileges to this container'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: read-only
+  description: '   Mount the container\''s root filesystem as read only'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart
+  description: '   Restart policy to apply when a container exits'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rm
+  description: '   Automatically remove the container when it exits.  The default is false'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: security-opt
+  description: '   Security Options for the container'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: storage-opt
+  description: '   Storage driver options per container $ docker run -it --storage-opt size=1…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stop-signal
+  description: '   Signal to stop the container'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stop-timeout
+  description: '  Timeout (in seconds) to stop a container, or -1 to disable timeout'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shm-size
+  description: '   Size of /dev/shm.  The format is <number><unit>'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sysctl
+  description: '  Configure namespaced kernel parameters at runtime IPC Namespace - current s…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sig-proxy
+  description: '   Proxy received signals to the process (non-TTY mode only)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory-swappiness
+  description: '   Tune a container\''s memory swappiness behavior'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tty
+  description: '   Allocate a pseudo-TTY.  The default is false'
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tmpfs
+  description: 'Mount a temporary filesystem (tmpfs) mount into a container, for example: $ d…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: '   Sets the username or UID used and optionally the groupname or GID for the …'
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ulimit
+  description: '    Ulimit options'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: volume
+  description: '   Create a bind mount'
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: volumes-from
+  description: You can supply additional options for each bind mount following an additional…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: volume-driver
+  description: '   Container\''s volume driver'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: workdir
+  description: '   Working directory inside the container The default working directory for r…'
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: permissive
+  description: '# docker run --security-opt label=disable -i -t fedora bash If you want a tig…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

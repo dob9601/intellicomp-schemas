@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: user
+  description: Talk to the service manager of the calling user, rather than the service mana…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: system
+  description: Talk to the service manager of the system.  This is the implied default
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: machine
+  description: Execute operation on a local container
+  shorthand: M
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bus-path
+  description: 'Path to the bus address.  Default: "unix:path=/run/dbus/system_bus_socket"'
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a short help text and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print a short version string and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

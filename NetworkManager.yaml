@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: version
+  description: Print the NetworkManager software version and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print NetworkManager\\*(Aqs available options and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-daemon
+  description: Do not daemonize
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Do not daemonize, and direct log output to the controlling terminal in additi…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid-file
+  description: Specify location of a PID file
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: state-file
+  description: Specify file for storing state of the NetworkManager persistently
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: Specify configuration file to set up various settings for NetworkManager
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: configure-and-quit
+  description: Quit after all devices reach a stable state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: plugins
+  description: List plugins used to manage system-wide connection settings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-level
+  description: Sets how much information NetworkManager sends to the log destination (usuall…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-domains
+  description: A comma-separated list specifying which operations are logged to the log dest…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-config
+  description: Print the NetworkManager configuration to stdout and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

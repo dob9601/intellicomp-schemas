@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: io
+  description: Also gather I/O related files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dmi
+  description: Also gather DMI/SMBIOS related files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-cpuid
+  description: Do not gather x86 CPUID dump using hwloc-gather-cpuid
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep
+  description: Keep the temporary copy of dumped files instead of destroying it
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Report version and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display help message and exit.  DESCRIPTION
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

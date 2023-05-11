@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: Version
+  description: Print the version of the  devlink utility and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: batch
+  description: Read commands from provided file or standard input and invoke them
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Don\'t terminate devlink on errors in batch mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-nice-names
+  description: Turn off printing out nice names, for example netdevice ifnames instead of de…
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: json
+  description: Generate JSON output
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pretty
+  description: When combined with -j generate a pretty JSON output
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Turn on verbose output
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: statistics
+  description: Output statistics
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Netns
+  description: Switches to the specified network namespace
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iec
+  description: Print human readable rates in IEC units (e. g.  1Ki = 1024)
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hex
+  description: Print dump numbers in hexadecimal format. SS  OBJECT
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

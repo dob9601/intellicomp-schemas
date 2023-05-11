@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: image-path
+  description: Set path for saving criu image files.  The default is . /checkpoint
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: work-path
+  description: Set path for saving criu work files and logs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parent-path
+  description: Set path for previous criu image files, in pre-dump
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: leave-running
+  description: Leave the process running after checkpointing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tcp-established
+  description: Allow checkpoint/restore of established TCP connections
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ext-unix-sk
+  description: Allow checkpoint/restore of external unix sockets
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shell-job
+  description: Allow checkpoint/restore of shell jobs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lazy-pages
+  description: Use lazy migration mechanism.  See criu --lazy-pages option \\[la]https://criu
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: status-fd
+  description: Pass a file descriptor fd to criu
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: page-server
+  description: Start a page server at the specified IP-address and port
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file-locks
+  description: Allow checkpoint/restore of file locks
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pre-dump
+  description: Do a pre-dump, i. e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: manage-cgroups-mode
+  description: Cgroups mode.  Default is soft
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: empty-ns
+  description: Checkpoint a namespace, but don\'t save its properties
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auto-dedup
+  description: Enable auto deduplication of memory images
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

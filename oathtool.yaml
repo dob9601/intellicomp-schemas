@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hotp
+  description: use event-based HOTP mode  (default=on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: totp
+  description: use time-variant TOTP mode (values "SHA1", "SHA256", or "SHA512")  (default=`…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: base32
+  description: use base32 encoding of KEY instead of hex (default=off)
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: counter
+  description: HOTP counter value
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: time-step-size
+  description: (default=`30s\')
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: start-time
+  description: when to start counting time steps for TOTP (default=`1970-01-01 00:00:00 UTC\')
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: now
+  description: use this time as current time for TOTP (default=`now\')
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: digits
+  description: number of digits in one-time password
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: window
+  description: number of additional OTPs to generate or validate against
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: explain what is being done  (default=off) EXAMPLES To generate a time-based (…
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print bluetooth-meshd options and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nodetach
+  description: Enable logging in foreground
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: io
+  description: 'Specifies I/O interface type: '
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: Specifies an explicit config file path instead of relying on the default path…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: storage
+  description: Specifies an explicit storage directory path instead of the default path(/var…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Enable debug output
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dbus-debug
+  description: Enable D-Bus debug output
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

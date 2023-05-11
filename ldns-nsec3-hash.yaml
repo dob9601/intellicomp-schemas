@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: a
+  description: Use the given algorithm number for the hash calculation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Use the given salt for the hash calculation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: Use count iterations for the hash calculation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

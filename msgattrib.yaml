@@ -1,0 +1,270 @@
+description: ''
+keyword_arguments:
+- name: directory
+  description: 'add DIRECTORY to list for input files search '
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-file
+  description: 'write output to specified file '
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: translated
+  description: keep translated, remove untranslated messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: untranslated
+  description: keep untranslated, remove translated messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-fuzzy
+  description: remove \'fuzzy\' marked messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: only-fuzzy
+  description: keep \'fuzzy\' marked messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-obsolete
+  description: 'remove obsolete #~ messages'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: only-obsolete
+  description: 'keep obsolete #~ messages . SS "Attribute manipulation:"'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-fuzzy
+  description: set all messages \'fuzzy\'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clear-fuzzy
+  description: set all messages non-\'fuzzy\'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-obsolete
+  description: set all messages obsolete
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clear-obsolete
+  description: set all messages non-obsolete
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: previous
+  description: when setting \'fuzzy\', keep previous msgids of translated messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clear-previous
+  description: remove the "previous msgid" from all messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: empty
+  description: when removing \'fuzzy\', also set msgstr empty
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: only-file
+  description: manipulate only entries listed in FILE. po
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-file
+  description: manipulate only entries not listed in FILE. po
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fuzzy
+  description: synonym for --only-fuzzy --clear-fuzzy
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: obsolete
+  description: synonym for --only-obsolete --clear-obsolete . SS "Input file syntax:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: properties-input
+  description: input file is in Java . properties syntax
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stringtable-input
+  description: input file is in NeXTstep/GNUstep . strings syntax . SS "Output details:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: color
+  description: use colors and other text attributes always
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: style
+  description: specify CSS style rule file for --color
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-escape
+  description: do not use C escapes in output (default)
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: escape
+  description: use C escapes in output, no extended chars
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-po
+  description: write PO file even if empty
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: indent
+  description: write the . po file using indented style
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-location
+  description: 'do not write \''#: filename:line\'' lines'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-location
+  description: 'generate \''#: filename:line\'' lines (default)'
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strict
+  description: write out strict Uniforum conforming . po file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: properties-output
+  description: write out a Java . properties file
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stringtable-output
+  description: write out a NeXTstep/GNUstep . strings file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: width
+  description: set output page width
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-wrap
+  description: do not break long message lines, longer than the output page width, into seve…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sort-output
+  description: generate sorted output
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sort-by-file
+  description: sort output by file location . SS "Informative output:"
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit AUTHOR Written by Bruno Haible
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

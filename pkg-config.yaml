@@ -1,0 +1,284 @@
+description: ''
+keyword_arguments:
+- name: version
+  description: Display the supported pkg-config version and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: atleast-pkgconfig-version
+  description: Exit with error if we do not support the requested pkg-config version
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: errors-to-stdout
+  description: Print all errors on the main output stream instead of the error output stream
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: silence-errors
+  description: Do not display any errors at all
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-all
+  description: Walk all directories listed in the PKG_CONFIG_PATH environmental variable and…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: simulate
+  description: Simulates resolving a dependency graph based on the requested modules on the …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-cache
+  description: Skip caching packages when they are loaded into the internal resolver
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-conflicts
+  description: Ignore Conflicts rules in modules
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env-only
+  description: Learn about pkgconf\'s configuration strictly from environmental variables
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: validate
+  description: Validate specific . pc files for correctness
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: maximum-traverse-depth
+  description: Impose a limit on the allowed depth in the dependency graph
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: static
+  description: Compute a deeper dependency graph and use compiler/linker flags intended for …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shared
+  description: Compute a simple dependency graph that is only suitable for shared linking
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pure
+  description: Treats the computed dependency graph as if it were pure
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-provides
+  description: Ignore Provides rules in modules when resolving dependencies
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: with-path
+  description: Adds a new module search path to pkgconf\'s dependency resolver
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: define-prefix
+  description: Attempts to determine the prefix variable to use for CFLAGS and LIBS entry re…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dont-define-prefix
+  description: Disables the define-prefix feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix-variable
+  description: Sets the prefix variable used by the define-prefix feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: relocate
+  description: Relocates a path using the pkgconf_path_relocate API
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dont-relocate-paths
+  description: Disables the path relocation feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: atleast-version
+  description: Exit with error if a module\'s version is less than the specified version
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exact-version
+  description: Exit with error if a module\'s version is not exactly the specified version
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-version
+  description: Exit with error if a module\'s version is greater than the specified version
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exists
+  description: Exit with a non-zero result if the dependency resolver was unable to find all…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uninstalled
+  description: Exit with a non-zero result if the dependency resolver uses an uninstalled mo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-uninstalled
+  description: Forbids the dependency resolver from considering \'uninstalled\' modules as par…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cflags
+  description: Display either all CFLAGS, only I CFLAGS or only CFLAGS that are not I
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: Display either all linker flags, only L linker flags, only l linker flags or …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep-system-cflags
+  description: Keep CFLAGS or linker flag fragments that would be filtered due to being incl…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: define-variable
+  description: Define VARNAME as VALUE
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-variables
+  description: Print all seen variables for a module to the output channel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-provides
+  description: Print all relevant Provides entries for a module to the output channel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: variable
+  description: Print the value of VARNAME
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-requires
+  description: Print the modules included in either the Requires field or the Requires
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: digraph
+  description: Dump the dependency resolver\'s solution as a graphviz dot file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: path
+  description: 'Display the filenames of the '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env
+  description: Print the requested values as variable declarations in a similar format as th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fragment-filter
+  description: Filter the fragment lists for the specified types
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: modversion
+  description: Print the version of the queried module
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: functions, e. g.  to copy the file to other local systems
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

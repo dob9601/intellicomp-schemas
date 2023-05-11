@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: pid
+  description: Specifies the PID of the process to which vgdb must connect to
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vgdb-prefix
+  description: Must be given to both Valgrind and vgdb if you want to change the default pre…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wait
+  description: Instructs vgdb to search for available Valgrind gdbservers for the specified …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-invoke-ms
+  description: Gives the number of milliseconds after which vgdb will force the invocation o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cmd-time-out
+  description: Instructs a standalone vgdb to exit if the Valgrind gdbserver it is connected…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: Instructs vgdb to use tcp/ip and listen for GDB on the specified port nr rath…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: To give more than one command to a standalone vgdb, separate the commands by …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Instructs a standalone vgdb to report the list of the Valgrind gdbserver proc…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: T
+  description: Instructs vgdb to add timestamps to vgdb information messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: D
+  description: Instructs a standalone vgdb to show the state of the shared memory used by th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Instructs vgdb to produce debugging output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

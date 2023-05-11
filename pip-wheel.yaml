@@ -1,0 +1,151 @@
+description: ''
+keyword_arguments:
+- name: wheel-dir
+  description: Build wheels into <dir>, where the default is the current working directory
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-binary
+  description: Do not use binary packages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: only-binary
+  description: Do not use source packages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefer-binary
+  description: Prefer older binary packages over newer source packages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-build-isolation
+  description: Disable isolation when building a modern source distribution
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-pep517
+  description: Use PEP 517 for building source distributions (use --no-use-pep517 to force l…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check-build-dependencies
+  description: Check the build dependencies when PEP517 is used
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: constraint
+  description: Constrain versions using the given constraints file
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: editable
+  description: Install a project in editable mode (i. e
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: requirement
+  description: Install from the given requirements file
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: src
+  description: Directory to check out editable projects into
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-requires-python
+  description: Ignore the Requires-Python information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-deps
+  description: Don\\(aqt install package dependencies
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: progress-bar
+  description: 'Specify whether the progress bar should be used [on, off] (default: on)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-verify
+  description: Don\\(aqt verify if built wheel is valid
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config-settings
+  description: Configuration settings to be passed to the PEP 517 build backend
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: build-option
+  description: Extra arguments to be supplied to \\(aqsetup. py bdist_wheel\\(aq
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: global-option
+  description: Extra global options to be supplied to the setup
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pre
+  description: Include pre-release and development versions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: require-hashes
+  description: Require a hash to check each requirement against, for repeatable installs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-clean
+  description: Don\\(aqt clean up build directories
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print out a usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: configdir
+  description: Outputs the default directory for OpenSSL configuration files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enginesdir
+  description: Outputs the default directory for OpenSSL engine modules
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: modulesdir
+  description: Outputs the default directory for OpenSSL dynamically loadable modules other …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dsoext
+  description: Outputs the \\s-1DSO\\s0 extension OpenSSL uses
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dirnamesep
+  description: Outputs the separator character between a directory specification and a filen…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listsep
+  description: Outputs the OpenSSL list separator character
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: seeds
+  description: Outputs the randomness seed sources
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

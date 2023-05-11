@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show help and exit
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: app-name
+  description: Specifies the app name for the notification
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: action
+  description: Specifies the actions to display to the user
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: urgency
+  description: Specifies the urgency level (low, normal, critical)
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: expire-time
+  description: The duration, in milliseconds, for the notification to appear on screen
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: icon
+  description: Specifies an icon filename or stock icon to display
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: category
+  description: Specifies the notification category
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hint
+  description: Specifies basic extra data to pass
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-id
+  description: Print the notification ID
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replace-id
+  description: The ID of the notification to replace
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wait
+  description: Wait for the notification to be closed before exiting
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: transient
+  description: Show a transient notification
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

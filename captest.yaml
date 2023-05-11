@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: ambient
+  description: This attempts to add CAP_CHOWN ambient capability
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: drop-all
+  description: This drops all capabilities including ambient and clears the bounding set
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: drop-caps
+  description: This drops just traditional capabilities
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id
+  description: This changes to uid and gid 99, drops supplemental groups, and clears the bou…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: init-grp
+  description: This changes to uid and gid 99 and then adds any supplemental groups that com…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: text
+  description: This option outputs the effective capabilities in text rather than numerically
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lock
+  description: This prevents the ability for child processes to regain privileges if the uid…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

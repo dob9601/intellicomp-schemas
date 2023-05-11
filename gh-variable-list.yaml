@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: env
+  description: List variables for an environment
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: org
+  description: List variables for an organization OPTIONS INHERITED FROM PARENT COMMANDS
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: Select another repository using the [HOST/]OWNER/REPO format SEE ALSO
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

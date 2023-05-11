@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: home
+  description: True if HOME is correctly configured for encryption, False otherwise
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: private
+  description: True if a non-HOME directory is correctly configured for encryption, False ot…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: filenames-encrypted
+  description: True if filenames are set for encryption, False otherwise
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: filenames-not-encrypted
+  description: True if filenames are not encrypted, False otherwise
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: By default, the current user\'s configuration is checked, override with this o…
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: This usage information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

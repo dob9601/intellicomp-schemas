@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: continuous
+  description: Begins a session where multiple key sequences can be inspected
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Tells fish_key_reader to output timing information and explain the sequence i…
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Displays help about using this command
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Displays the current fish version and then exits
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

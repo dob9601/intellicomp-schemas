@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: details
+  description: "\tShow extra details provided to logs"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: follow
+  description: "\tFollow log output"
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for logs"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-resolve
+  description: "\tDo not map IDs to Names in output"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-task-ids
+  description: "\tDo not include task IDs in output"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-trunc
+  description: "\tDo not truncate output"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw
+  description: "\tDo not neatly format logs"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: since
+  description: "\tShow logs since timestamp (e. g.  \"2013-01-02T13:23:37Z\") or relative (e. g"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tail
+  description: "\tNumber of lines to show from the end of the logs"
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timestamps
+  description: "\tShow timestamps SEE ALSO"
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

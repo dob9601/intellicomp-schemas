@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: resources
+  description: Read the new resource limtis from resources. json.  Use - to read from stdin
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: blkio-weight
+  description: Set a new io weight
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-period
+  description: Set CPU CFS period to be used for hardcapping (in microseconds)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-quota
+  description: Set CPU usage limit within a given period (in microseconds)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-rt-period
+  description: Set CPU realtime period to be used for hardcapping (in microseconds)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-rt-runtime
+  description: Set CPU realtime hardcap limit (in usecs)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-share
+  description: Set CPU shares (relative weight vs.  other containers)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpuset-cpus
+  description: Set CPU(s) to use.  The list can contain commas and ranges
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpuset-mems
+  description: Set memory node(s) to use.  The list format is the same as for --cpuset-cpus
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory
+  description: Set memory limit to num bytes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory-reservation
+  description: Set memory reservation, or soft limit, to num bytes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory-swap
+  description: Set total memory + swap usage to num bytes.  Use -1 to unset the limit (i. e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pids-limit
+  description: Set the maximum number of processes allowed in the container
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l3-cache-schema
+  description: Set the value for Intel RDT/CAT L3 cache schema
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mem-bw-schema
+  description: Set the Intel RDT/MBA memory bandwidth schema.  SEE ALSO
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

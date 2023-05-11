@@ -1,0 +1,137 @@
+description: ''
+keyword_arguments:
+- name: session
+  description: Connect to the session bus.  This is the default
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: system
+  description: Connect to the system bus
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: Before proceeding, request ownership of the well-known bus name NAME, for exa…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-read
+  description: Do not read from the D-Bus socket
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sleep-ms
+  description: Block for MS milliseconds before replying to a method call
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dest
+  description: Send method calls to the well-known or unique bus name NAME
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: count
+  description: Send N method calls in total.  The default is 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: queue
+  description: Send N method calls before waiting for any replies, then send one new call pe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: flood
+  description: Send all messages without waiting for a reply, equivalent to --queue with an …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-reply
+  description: Set the "no reply desired" flag on the messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: messages-per-conn
+  description: If given, send N method calls on the same connection, then disconnect and rec…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: string
+  description: The payload of each message is a UTF-8 string.  This is the default
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bytes
+  description: The payload of each message is a byte-array
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: empty
+  description: The messages have no payload
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: payload
+  description: Use S as the --string or --bytes in the messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdin
+  description: Read from standard input until end-of-file is reached, and use that as the --…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: message-stdin
+  description: Read a complete binary D-Bus method call message from standard input, and use…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: random-size
+  description: Read whitespace-separated ASCII decimal numbers from standard input, choose o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: seed
+  description: Use SEED as the seed for the pseudorandom number generator, to have somewhat …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

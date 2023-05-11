@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: volume-id
+  description: Switch to volume ID mode
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reset
+  description: Remove label in label mode or generate new ID in volume ID mode
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: codepage
+  description: Use DOS codepage PAGE to encode/decode label
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display a help message and terminate
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version number and terminate
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: V
+  description: If you are root, this option displays the compile options of suexec
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

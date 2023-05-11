@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print help text to console and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print versioning information to console and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Do not print informal notifications about actions taken to the console
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dev
+  description: Network device the qdisc is attached to
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parent
+  description: Identifier of the parent qdisc/class this qdisc is attached to
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id
+  description: Identifier of qdisc.  It can be specified as classid or name
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update
+  description: Update qdisc if it already exists, otherwise attempting to add a qdisc which …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replace
+  description: Replace or update qdisc if it already exists
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-only
+  description: Update an existing qdisc but do not create it if it does not exist
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replace-only
+  description: Update or replace an existing qdisc but do not create it if it does exist
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interactive
+  description: The interactive mode requires confirmation by the user for each qdisc deleted
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: yes
+  description: Make the default answer for interactive prompts be \'y\'es
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kind
+  description: Only delete qdiscs of this type. SS nl-qdisc-list Options
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: details
+  description: Show detailed information for each qdisc listed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stats
+  description: Show statistics information for each qdisc listed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: recursive
+  description: List all TC objects recurisvely attached to all qdiscs matching the filter
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

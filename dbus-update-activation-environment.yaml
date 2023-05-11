@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: all
+  description: Set all environment variables present in the environment used by dbus-update-…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: systemd
+  description: Set environment variables for systemd user services as well as for traditiona…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Output messages to standard error explaining what dbus-update-activation-envi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: aggressive
+  description: Usually git gc runs very quickly while providing good disk space utilization …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auto
+  description: With this option, git gc checks whether any housekeeping is required; if not,…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cruft
+  description: When expiring unreachable objects, pack them separately into a cruft pack ins…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prune
+  description: Prune loose objects older than date (default is 2 weeks ago, overridable by t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-prune
+  description: Do not prune any loose objects
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Suppress all progress reports
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Force git gc to run even if there may be another git gc instance running on t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep-largest-pack
+  description: 'All packs except the largest pack and those marked with a '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: depth
+  description: option when
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: window
+  description: of 10
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

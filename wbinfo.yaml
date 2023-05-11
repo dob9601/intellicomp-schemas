@@ -1,0 +1,452 @@
+description: ''
+keyword_arguments:
+- name: authenticate
+  description: Attempt to authenticate a user via winbindd(8)
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allocate-gid
+  description: Get a new GID out of idmap
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allocate-uid
+  description: Get a new UID out of idmap
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all-domains
+  description: List all domains (trusted and own domain)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: change-secret
+  description: Change the trust account password
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: change-secret-at
+  description: Change the trust account password at a specific domain controller
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ccache-save
+  description: Store user and password for ccache
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: change-user-password
+  description: Change the password of a user.  The old and new password will be prompted
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dc-info
+  description: Displays information about the current domain controller for a domain
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: domain
+  description: This parameter sets the domain on which any specified operations will perform…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: domain-info
+  description: Show most of the info we have about the specified domain
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dsgetdcname
+  description: Find a DC for a domain
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gid-info
+  description: Get group info from gid
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: group-info
+  description: Get group info from group name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: domain-groups
+  description: This option will list all groups available in the Windows NT domain for which…
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: get-auth-user
+  description: Print username and password used by winbindd(8) during session setup to a dom…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: getdcname
+  description: Get the DC name for the specified domain
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gid-to-sid
+  description: Try to convert a UNIX group id to a Windows NT SID
+  shorthand: G
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '?'
+  description: Print brief help overview
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user-info
+  description: Get user info
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: WINS-by-ip
+  description: The -I option queries winbindd(8) to send a node status request to get the Ne…
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: krb5auth
+  description: Attempt to authenticate a user via Kerberos
+  shorthand: K
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: krb5ccname
+  description: Allows one to request a specific kerberos credential cache type used for auth…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lanman
+  description: Use lanman cryptography for user authentication
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logoff
+  description: Logoff a user
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logoff-uid
+  description: Define user uid used during logoff request
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logoff-user
+  description: Define username used during logoff request
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lookup-sids
+  description: Looks up SIDs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trusted-domains
+  description: Produce a list of domains trusted by the Windows NT server winbindd(8) contac…
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name-to-sid
+  description: The -n option queries winbindd(8) for the SID associated with the name specif…
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: WINS-by-name
+  description: The -N option queries winbindd(8) to query the WINS server for the IP address…
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ntlmv1
+  description: Use NTLMv1 cryptography for user authentication
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ntlmv2
+  description: Use NTLMv2 cryptography for user authentication
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: online-status
+  description: Display whether winbind currently maintains an active connection or not
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: own-domain
+  description: List own domain
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pam-logon
+  description: Attempt to authenticate a user in the same way pam_winbind would do
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ping
+  description: Check whether winbindd(8) is still alive
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ping-dc
+  description: Issue a no-effect command to our DC
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user-groups
+  description: Try to obtain the list of UNIX group ids to which the user belongs
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lookup-rids
+  description: Converts RIDs to names.  Uses a comma separated list of rids
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-gid-mapping
+  description: Removes an existing GID to SID mapping from the database
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-uid-mapping
+  description: Removes an existing UID to SID mapping from the database
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sid-to-name
+  description: Use -s to resolve a SID to a name
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: separator
+  description: Get the active winbind separator
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sequence
+  description: This command has been deprecated
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-auth-user
+  description: Store username and password used by winbindd(8) during session setup to a dom…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-gid-mapping
+  description: Create a GID to SID mapping in the database
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-uid-mapping
+  description: Create a UID to SID mapping in the database
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sid-to-uid
+  description: Convert a SID to a UNIX user id
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sid-aliases
+  description: Get SID aliases for a given SID
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sid-to-fullname
+  description: Converts a SID to a full username (DOMAINusername)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sids-to-unix-ids
+  description: Resolve SIDs to Unix IDs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check-secret
+  description: Verify that the workstation trust account created when the Samba server is ad…
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: domain-users
+  description: This option will list all users available in the Windows NT domain for which …
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uid-info
+  description: Get user info for the user connected to user id UID
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: Print brief help overview
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user-domgroups
+  description: Get user domain groups
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user-sidinfo
+  description: Get user info by sid
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user-sids
+  description: Get user group SIDs for user
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uid-to-sid
+  description: Try to convert a UNIX user id to a Windows NT SID
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Print additional information about the query results
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sid-to-gid
+  description: Convert a SID to a UNIX group id
+  shorthand: Y
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Prints the program version number
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a summary of command line options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

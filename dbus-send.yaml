@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: dest
+  description: Specify the name of the connection to receive the message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-reply
+  description: Block for a reply to the message sent, and print any reply received in a huma…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reply-timeout
+  description: Wait for a reply for up to MSEC milliseconds
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: system
+  description: Send to the system message bus
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: session
+  description: Send to the session message bus.  (This is the default. )
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bus
+  description: Register on a message bus at ADDRESS, typically a dbus-daemon
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: peer
+  description: Send to a non-message-bus D-Bus server at ADDRESS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sender
+  description: Request ownership of name NAME before sending the message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: type
+  description: Specify method_call or signal (defaults to "signal")
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

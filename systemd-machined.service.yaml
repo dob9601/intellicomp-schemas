@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: M
+  description: switch to operate on local containers instead of the host system.  oc o 2. 3
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: recursive
+  description: switch has the effect of not only showing the locally running services, but r…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

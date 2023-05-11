@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: B
+  description: do not background and print scrub statistics when finished
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: print separate statistics for each device of the filesystem (-B only) at the …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: run in read-only mode, do not attempt to correct anything, can be run on a re…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R
+  description: raw print mode, print full data instead of summary
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: set IO priority class (see ionice(1) manpage)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: set IO priority classdata (see ionice(1) manpage)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: force starting new scrub even if a scrub is already running, this can useful …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: (deprecated) alias for global -q option status [options] <path>|<device> Show…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw
+  description: print all numbers raw values in bytes without the B suffix
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: human-readable
+  description: print human friendly numbers, base 1024, this is the default
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iec
+  description: select the 1024 base for the following options, according to the IEC standard
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: si
+  description: select the 1000 base for the following options, according to the SI standard
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kbytes
+  description: show sizes in KiB, or kB with --si
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mbytes
+  description: show sizes in MiB, or MB with --si
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gbytes
+  description: show sizes in GiB, or GB with --si
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tbytes
+  description: show sizes in TiB, or TB with --si EXIT STATUS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

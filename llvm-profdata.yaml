@@ -1,0 +1,242 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print a summary of command line options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Specify the output file name
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: weighted-input
+  description: Specify an input file name along with a weight
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: input-files
+  description: Specify a file which contains a list of files to merge
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remapping-file
+  description: Specify a file which contains a remapping from symbol names in the input prof…
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: instr
+  description: Specify that the input profile is an instrumentation-based profile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sample
+  description: Specify that the input profile is a sample-based profile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: binary
+  description: Emit the profile using a binary encoding
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extbinary
+  description: Emit the profile using an extensible binary encoding
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: text
+  description: Emit the profile in text mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gcc
+  description: Emit the profile using GCC\'s gcov format (Not yet supported)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sparse
+  description: Do not emit function records with 0 execution count
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: num-threads
+  description: Use N threads to perform profile merging
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: failure-mode
+  description: Set the failure mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prof-sym-list
+  description: Specify a file which contains a list of symbols to generate profile symbol li…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: compress-all-sections
+  description: Compress all sections when writing the profile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-md5
+  description: Use MD5 to represent string in name table when writing the profile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-partial-profile
+  description: Mark the profile to be a partial profile which only provides partial profile …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: supplement-instr-with-sample
+  description: Supplement an instrumentation profile with sample profile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: zero-counter-threshold
+  description: For the function which is cold in instr profile but hot in sample profile, if…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: instr-prof-cold-threshold
+  description: User specified cold threshold for instr profile which will override the cold …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: suppl-min-size-threshold
+  description: If the size of a function is smaller than the threshold, assume it can be inl…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug-info
+  description: Specify the executable or . dSYM that contains debug info for the raw profile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all-functions
+  description: Print details for every function
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: counts
+  description: Print the counter values for the displayed functions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: function
+  description: Print details for a function if the function\'s name contains the given string
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: topn
+  description: Instruct the profile dumper to show the top n functions with the hottest basi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memop-sizes
+  description: Show the profiled sizes of the memory intrinsic calls for shown functions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: value-cutoff
+  description: Show only those functions whose max count values are greater or equal to n
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-below-cutoff
+  description: Only output names of functions whose max count value are below the cutoff val…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showcs
+  description: Only show context sensitive profile counts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-prof-sym-list
+  description: Show profile symbol list if it exists in the profile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-sec-info-only
+  description: Show basic information about each section in the profile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cs
+  description: Only show overlap for the context sensitive profile counts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: dir
+  description: The directory where the user files with the failure records are kept
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: The user whose failure records should be displayed or cleared
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reset
+  description: Instead of displaying the user\\*(Aqs failure records, clear them
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

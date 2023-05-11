@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=/repos/intellicomp/nuacomp-core/specification.json
+arguments_valid_anywhere: false
+description:  flake8 is a python tool that glues together pycodestyle, pyflakes, mccabe, and third-party plugins to check the style and quality of some python code.
+keyword_arguments:
+  - arg_type:
+      type: Flag
+    description: Show an overview of this command
+    name: --help
+    repeatable: false
+    shorthand: -h

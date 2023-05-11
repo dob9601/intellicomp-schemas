@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: quiet
+  description: Don\'t output anything, just set exit status
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Instead of printing the paths that are excluded, for each path that matches a…
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdin
+  description: Read pathnames from the standard input, one per line, instead of from the com…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: z
+  description: The output format is modified to be machine-parsable (see below)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: non-matching
+  description: Show given paths which don\'t match any pattern
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-index
+  description: Don\'t look in the index when undertaking the checks
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

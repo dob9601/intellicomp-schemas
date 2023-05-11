@@ -1,0 +1,277 @@
+description: ''
+keyword_arguments:
+- name: requirement
+  description: Install from the given requirements file
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: constraint
+  description: Constrain versions using the given constraints file
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-deps
+  description: Don\\(aqt install package dependencies
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pre
+  description: Include pre-release and development versions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: editable
+  description: Install a project in editable mode (i. e
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: Don\\(aqt actually install anything, just print what would be
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target
+  description: Install packages into <dir>
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: platform
+  description: Only use wheels compatible with <platform>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: python-version
+  description: The Python interpreter version to use for wheel and \\(dqRequires-Python\\(dq c…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: implementation
+  description: Only use wheels compatible with Python implementation <implementation>, e. g
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: abi
+  description: Only use wheels compatible with Python abi <abi>, e. g.  \\(aqpypy_41\\(aq
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: Install to the Python user install directory for your platform.  Typically ~/
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: root
+  description: Install everything relative to this alternate root directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: Installation prefix where lib, bin and other top-level folders are placed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: src
+  description: Directory to check out editable projects into
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: upgrade
+  description: Upgrade all specified packages to the newest available version
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: upgrade-strategy
+  description: 'Determines how dependency upgrading should be handled [default: only-if-neede…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-reinstall
+  description: Reinstall all packages even if they are already up-to-date
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-installed
+  description: Ignore the installed packages, overwriting them
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-requires-python
+  description: Ignore the Requires-Python information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-build-isolation
+  description: Disable isolation when building a modern source distribution
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-pep517
+  description: Use PEP 517 for building source distributions (use --no-use-pep517 to force l…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check-build-dependencies
+  description: Check the build dependencies when PEP517 is used
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: break-system-packages
+  description: Allow pip to modify an EXTERNALLY-MANAGED Python installation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config-settings
+  description: Configuration settings to be passed to the PEP 517 build backend
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: install-option
+  description: This option is deprecated
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: global-option
+  description: Extra global options to be supplied to the setup
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: compile
+  description: Compile Python source files to bytecode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-compile
+  description: Do not compile Python source files to bytecode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-warn-script-location
+  description: Do not warn when installing scripts outside PATH
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-warn-conflicts
+  description: Do not warn about broken dependencies
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-binary
+  description: Do not use binary packages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: only-binary
+  description: Do not use source packages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefer-binary
+  description: Prefer older binary packages over newer source packages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: require-hashes
+  description: Require a hash to check each requirement against, for repeatable installs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: progress-bar
+  description: 'Specify whether the progress bar should be used [on, off] (default: on)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: root-user-action
+  description: Action if pip is run as a root user.  By default, a warning message is shown
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: report
+  description: Generate a JSON file describing what pip did to install the provided requirem…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-clean
+  description: Don\\(aqt clean up build directories
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

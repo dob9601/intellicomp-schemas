@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: basename
+  description: When matching files are extracted, ignore the directory path from the archive…
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-case
+  description: Make pattern matching case-insensitive
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-only
+  description: Print the pathname of each matching file from the archive to \\s-1STDOUT
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Log debugging info to \\s-1STDERR. \\s0
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

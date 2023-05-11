@@ -1,0 +1,130 @@
+description: ''
+keyword_arguments:
+- name: add-topic
+  description: Add repository topic
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-forking
+  description: Allow forking of an organization repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-update-branch
+  description: Allow a pull request head branch that is behind its base branch to be updated
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-branch
+  description: Set the default branch name for the repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delete-branch-on-merge
+  description: Delete head branch when pull requests are merged
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: description
+  description: Description of the repository
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-auto-merge
+  description: Enable auto-merge functionality
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-discussions
+  description: Enable discussions in the repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-issues
+  description: Enable issues in the repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-merge-commit
+  description: Enable merging pull requests via merge commit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-projects
+  description: Enable projects in the repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-rebase-merge
+  description: Enable merging pull requests via rebase
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-squash-merge
+  description: Enable merging pull requests via squashed commit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-wiki
+  description: Enable wiki in the repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: homepage
+  description: Repository home page URL
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-topic
+  description: Remove repository topic
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: template
+  description: Make the repository available as a template repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: visibility
+  description: Change the visibility of the repository to {public,private,internal} EXAMPLE …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

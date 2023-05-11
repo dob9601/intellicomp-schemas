@@ -1,0 +1,641 @@
+description: ''
+keyword_arguments:
+- name: args
+  description: "\tService command args"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cap-add
+  description: "\tAdd Linux capabilities"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cap-drop
+  description: "\tDrop Linux capabilities"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config-add
+  description: "\tAdd or update a config file on a service"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config-rm
+  description: "\tRemove a configuration file"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: constraint-add
+  description: "\tAdd or update a placement constraint"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: constraint-rm
+  description: "\tRemove a constraint"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: container-label-add
+  description: "\tAdd or update a container label"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: container-label-rm
+  description: "\tRemove a container label by its key"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: credential-spec
+  description: "\tCredential spec for managed service account (Windows only)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detach
+  description: "\tExit immediately instead of waiting for the service to converge"
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-add
+  description: "\tAdd or update a custom DNS server"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-option-add
+  description: "\tAdd or update a DNS option"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-option-rm
+  description: "\tRemove a DNS option"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-rm
+  description: "\tRemove a custom DNS server"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-search-add
+  description: "\tAdd or update a custom DNS search domain"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-search-rm
+  description: "\tRemove a DNS search domain"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: endpoint-mode
+  description: "\tEndpoint mode (vip or dnsrr)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: entrypoint
+  description: "\tOverwrite the default ENTRYPOINT of the image"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env-add
+  description: "\tAdd or update an environment variable"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env-rm
+  description: "\tRemove an environment variable"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: "\tForce update even if no changes require it"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: generic-resource-add
+  description: "\tAdd a Generic resource"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: generic-resource-rm
+  description: "\tRemove a Generic resource"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: group-add
+  description: "\tAdd an additional supplementary user group to the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: group-rm
+  description: "\tRemove a previously added supplementary user group from the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-cmd
+  description: "\tCommand to run to check health"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-interval
+  description: "\tTime between running the check (ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-retries
+  description: "\tConsecutive failures needed to report unhealthy"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-start-period
+  description: "\tStart period for the container to initialize before counting retries towards…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-timeout
+  description: "\tMaximum time to allow one check to run (ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for update"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: host-add
+  description: "\tAdd a custom host-to-IP mapping (\"host:ip\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: host-rm
+  description: "\tRemove a custom host-to-IP mapping (\"host:ip\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hostname
+  description: "\tContainer hostname"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: image
+  description: "\tService image tag"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: init
+  description: "\tUse an init inside each service container to forward signals and reap proces…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: isolation
+  description: "\tService container isolation mode"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label-add
+  description: "\tAdd or update a service label"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label-rm
+  description: "\tRemove a label by its key"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: limit-cpu
+  description: "\tLimit CPUs"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: limit-memory
+  description: "\tLimit Memory"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: limit-pids
+  description: "\tLimit maximum number of processes (default 0 = unlimited)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-driver
+  description: "\tLogging driver for service"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-opt
+  description: "\tLogging driver options"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-concurrent
+  description: "\tNumber of job tasks to run concurrently (default equal to --replicas)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mount-add
+  description: "\tAdd or update a mount on a service"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mount-rm
+  description: "\tRemove a mount by its target path"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: network-add
+  description: "\tAdd a network"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: network-rm
+  description: "\tRemove a network"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-healthcheck
+  description: "\tDisable any container-specified HEALTHCHECK"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-resolve-image
+  description: "\tDo not query the registry to resolve image digest and supported platforms"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: placement-pref-add
+  description: "\tAdd a placement preference"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: placement-pref-rm
+  description: "\tRemove a placement preference"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: publish-add
+  description: "\tAdd or update a published port"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: publish-rm
+  description: "\tRemove a published port by its target port"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: "\tSuppress progress output"
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: read-only
+  description: "\tMount the container\\'s root filesystem as read only"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replicas
+  description: "\tNumber of tasks"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replicas-max-per-node
+  description: "\tMaximum number of tasks per node (default 0 = unlimited)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reserve-cpu
+  description: "\tReserve CPUs"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reserve-memory
+  description: "\tReserve Memory"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart-condition
+  description: "\tRestart when condition is met (\"none\", \"on-failure\", \"any\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart-delay
+  description: "\tDelay between restart attempts (ns|us|ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart-max-attempts
+  description: "\tMaximum number of restarts before giving up"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart-window
+  description: "\tWindow used to evaluate the restart policy (ns|us|ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rollback
+  description: "\tRollback to previous specification"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rollback-delay
+  description: "\tDelay between task rollbacks (ns|us|ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rollback-failure-action
+  description: "\tAction on rollback failure (\"pause\", \"continue\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rollback-max-failure-ratio
+  description: "\tFailure rate to tolerate during a rollback"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rollback-monitor
+  description: "\tDuration after each task rollback to monitor for failure (ns|us|ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rollback-order
+  description: "\tRollback order (\"start-first\", \"stop-first\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rollback-parallelism
+  description: "\tMaximum number of tasks rolled back simultaneously (0 to roll back all at on…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: secret-add
+  description: "\tAdd or update a secret on a service"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: secret-rm
+  description: "\tRemove a secret"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stop-grace-period
+  description: "\tTime to wait before force killing a container (ns|us|ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stop-signal
+  description: "\tSignal to stop the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sysctl-add
+  description: "\tAdd or update a Sysctl option"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sysctl-rm
+  description: "\tRemove a Sysctl option"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tty
+  description: "\tAllocate a pseudo-TTY"
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ulimit-add
+  description: "\tAdd or update a ulimit option"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ulimit-rm
+  description: "\tRemove a ulimit option"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-delay
+  description: "\tDelay between updates (ns|us|ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-failure-action
+  description: "\tAction on update failure (\"pause\", \"continue\", \"rollback\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-max-failure-ratio
+  description: "\tFailure rate to tolerate during an update"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-monitor
+  description: "\tDuration after each task update to monitor for failure (ns|us|ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-order
+  description: "\tUpdate order (\"start-first\", \"stop-first\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-parallelism
+  description: "\tMaximum number of tasks updated simultaneously (0 to update all at once)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: "\tUsername or UID (format: [:])"
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: with-registry-auth
+  description: "\tSend registry authentication details to swarm agents"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: workdir
+  description: "\tWorking directory inside the container SEE ALSO"
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,137 @@
+description: ''
+keyword_arguments:
+- name: esp-path
+  description: Path to the EFI System Partition (ESP)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: boot-path
+  description: Path to the Extended Boot Loader partition, as defined in the \\m[blue]Boot Lo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: root
+  description: Takes a directory path as an argument
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: image
+  description: Takes a path to a disk image file or block device node
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: install-source
+  description: When installing binaries with --root= or --image=, selects where to source th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-esp-path
+  description: This option modifies the behaviour of status
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-boot-path
+  description: This option modifies the behaviour of status
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-variables
+  description: Do not touch the firmware\\*(Aqs boot loader list stored in EFI variables
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: graceful
+  description: Ignore failure when the EFI System Partition cannot be found, when EFI variab…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Suppress printing of the results of various commands and also the hints about…
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: make-entry-directory
+  description: Controls creation and deletion of the \\m[blue]Boot Loader Specification\\m[]\\s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: entry-token
+  description: Controls how to name and identify boot loader entries for this OS installation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all-architectures
+  description: Install binaries for all supported EFI architectures (this implies --no-varia…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: efi-boot-option-description
+  description: Description of the entry added to the firmware\\*(Aqs boot option list
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-pager
+  description: Do not pipe output into a pager
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: json
+  description: Shows output formatted as JSON
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a short help text and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print a short version string and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-booth-path
+  description: option mentioned above), is available independently from the boot loader used…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

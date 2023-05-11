@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: output
+  description: Choose the output mode, takes one of "classic", "friendly", "table", "json"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: json
+  description: Selects JSON output mode (like --output=json) and selects the precise display…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: service
+  description: Controls which services to query for users/groups
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: with-nss
+  description: Controls whether to include classic glibc/NSS user/group lookups in the output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: with-varlink
+  description: Controls whether to include Varlink user/group lookups in the output, i. e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: with-dropin
+  description: Controls whether to include user/group lookups in the output that are defined…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: synthesize
+  description: Controls whether to synthesize records for the root and nobody users/groups i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: N
+  description: This option is short for --with-nss=no --synthesize=no
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: multiplexer
+  description: Controls whether to do lookups via the multiplexer service (if specified as t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: chain
+  description: When used with the ssh-authorized-keys command, this will allow passing an ad…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-pager
+  description: Do not pipe output into a pager
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-legend
+  description: Do not print the legend, i. e.  column headers and the footer with hints
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a short help text and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print a short version string and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: print this help, then exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print version number, then exit AUTHOR Written by David J
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

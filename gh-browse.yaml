@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: branch
+  description: Select another branch by passing in the branch name
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: commit
+  description: Select another commit by passing in the commit SHA, default is the last commit
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-browser
+  description: Print destination URL instead of opening the browser
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: projects
+  description: Open repository projects
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: releases
+  description: Open repository releases
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: Select another repository using the [HOST/]OWNER/REPO format
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: settings
+  description: Open repository settings
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wiki
+  description: 'Open repository wiki EXAMPLE $ gh browse #=> Open the home page of the curren…'
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: dry-run
+  description: Walk through the patches in the series and warn if we cannot find all of the …
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: author
+  description: The author name and email address to use when no author information can be fo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: patches
+  description: The directory to find the quilt patches
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: series
+  description: The quilt series file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep-non-patch
+  description: Pass -b flag to git mailinfo (see git-mailinfo(1))
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: flag to git mailinfo (see git-mailinfo(1))
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

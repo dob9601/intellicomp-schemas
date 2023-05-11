@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: b
+  description: Black point compensation (CRD only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Precision (0=LowRes, 1=Normal, 2=Hi-res) (CRD only) [defaults to 1]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: 'Input profile: Generates Color Space Array (CSA)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Alternate way to set precision, number of CLUT points (CRD only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: 'p Output profile: Generates Color Rendering Dictionary(CRD)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: Intent (0=Perceptual, 1=Colorimetric, 2=Saturation, 3=Absolute) [defaults to …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Do NOT generate resource name on CRD
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

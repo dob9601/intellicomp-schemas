@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: print this help, then exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print version number, then exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: verbosely report processing
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: don\'t remove temporary files . SS "Library directories:"
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prepend-include
+  description: prepend directory DIR to search path
+  shorthand: B
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include
+  description: append directory DIR to search path AUTHOR Written by David J
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

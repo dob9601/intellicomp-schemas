@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print help output and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Update existing user-dirs. dirs, but force a full reset
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dummy-output
+  description: Write the configuration to PATH instead of the default configuration file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set
+  description: Sets the XDG user dir with the given name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

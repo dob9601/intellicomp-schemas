@@ -1,0 +1,123 @@
+description: ''
+keyword_arguments:
+- name: device
+  description: Use device <dev> as the CEC device
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: driver
+  description: Use a cec device that has driver name <drv>, as returned by the CEC_ADAP_G_CA…
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: adapter
+  description: Use a cec device that has adapter name <adap-name>, as returned by the CEC_AD…
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Turn on verbose reporting
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wall-clock
+  description: Show timestamps as wall-clock time.  This also turns on verbose reporting
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trace
+  description: Trace all called ioctls.  Useful for debugging
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Prints the help message
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-warnings
+  description: Turn off warning messages
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-msgs
+  description: Show received messages
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-state
+  description: Show state changes from the emulated device
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: service-by-dig-id
+  description: Report digital services by digital ID instead of by channel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: standby
+  description: Start the follower in the Standby status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: toggle-power-status
+  description: Toggle the power status every <secs> seconds
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore
+  description: Ignore messages from logical address <la> and opcode <opcode>
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-standby
+  description: Ignore every <n>th received Standby message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-view-on
+  description: Ignore every <n>th received Image/Text View On message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

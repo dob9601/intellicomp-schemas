@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show the help message
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show the version number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mod-filename
+  description: Specifies a Perl search-and-replace expression that is applied to all filenam…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mod-funcname
+  description: Like --mod-filename, but for filenames
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,438 @@
+description: ''
+keyword_arguments:
+- name: smarthome
+  description: Make the Home key smarter
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: backup
+  description: When saving a file, back up the previous version of it, using the current fil…
+  shorthand: B
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: backupdir
+  description: Make and keep not just one backup file, but make and keep a uniquely numbered…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: boldtext
+  description: For the interface, use bold instead of reverse video
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tabstospaces
+  description: Convert each typed tab to spaces -- to the number of spaces that a tab at tha…
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: multibuffer
+  description: Read a file into a new buffer by default
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: locking
+  description: Use vim-style file locking when editing files
+  shorthand: G
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: historylog
+  description: Save the last hundred search strings and replacement strings and executed com…
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignorercfiles
+  description: Don\'t look at the system\'s nanorc nor at the user\'s nanorc
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: guidestripe
+  description: Draw a vertical stripe at the given column, to help judge the width of the te…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rawsequences
+  description: Interpret escape sequences directly, instead of asking ncurses to translate t…
+  shorthand: K
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nonewlines
+  description: Don\'t automatically add a newline when a text does not end with one
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trimblanks
+  description: Snip trailing whitespace from the wrapped line when automatic hard-wrapping o…
+  shorthand: M
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noconvert
+  description: Disable automatic conversion of files from DOS/Mac format
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bookstyle
+  description: When justifying, treat any line that starts with whitespace as the beginning …
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: positionlog
+  description: For the 200 most recent files, log the last position of the cursor, and place…
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quotestr
+  description: Set the regular expression for matching the quoting part of a line
+  shorthand: Q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restricted
+  description: 'Restricted mode: don\''t read or write to any file not specified on the command…'
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: softwrap
+  description: Display over multiple screen rows lines that exceed the screen\'s width
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tabsize
+  description: Set the size (width) of a tab to number columns
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quickblank
+  description: Make status-bar messages disappear after 1 keystroke instead of after 20
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show the current version number and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wordbounds
+  description: Detect word boundaries differently by treating punctuation characters as part…
+  shorthand: W
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wordchars
+  description: Specify which other characters (besides the normal alphanumeric ones) should …
+  shorthand: X
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: syntax
+  description: Specify the name of the syntax highlighting to use from among the ones define…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: zap
+  description: Let an unmodified Backspace or Delete erase the marked region (instead of a s…
+  shorthand: Z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: atblanks
+  description: When doing soft line wrapping, wrap lines at whitespace instead of always at …
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: breaklonglines
+  description: Automatically hard-wrap the current line when it becomes overlong
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: constantshow
+  description: Constantly show the cursor position on the status bar
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rebinddelete
+  description: Interpret the Delete and Backspace keys differently so that both Backspace an…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: emptyline
+  description: Do not use the line below the title bar, leaving it entirely blank
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rcfile
+  description: Read only this file for setting nano\'s options, instead of reading both the s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showcursor
+  description: Make the cursor visible in the file browser (putting it on the highlighted it…
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show a summary of the available command-line options and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: autoindent
+  description: Automatically indent a newly created line to the same number of tabs and/or s…
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jumpyscrolling
+  description: Scroll the buffer contents per half-screen instead of per line
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cutfromcursor
+  description: Make the \'Cut Text\' command (normally ^K) cut from the current cursor positio…
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: linenumbers
+  description: Display line numbers to the left of the text area
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mouse
+  description: Enable mouse support, if available for your system
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noread
+  description: Treat any name given on the command line as a new file
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: operatingdir
+  description: Set the operating directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preserve
+  description: Preserve the XON and XOFF sequences (^Q and ^S) so they will be caught by the…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: indicator
+  description: Display a "scrollbar" on the righthand side of the edit window
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fill
+  description: Set the target width for justifying and automatic hard-wrapping at this numbe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: speller
+  description: Use this command to perform spell checking and correcting, instead of using t…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: saveonexit
+  description: Save a changed buffer without prompting (when exiting with ^X)
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unix
+  description: Save a file by default in Unix format
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: view
+  description: 'Just view the file and disallow editing: read-only mode'
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nowrap
+  description: Do not automatically hard-wrap the current line when it becomes overlong
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nohelp
+  description: Don\'t show the two help lines at the bottom of the screen
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: afterends
+  description: Make Ctrl+Right and Ctrl+Delete stop at word ends instead of beginnings
+  shorthand: y
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: magic
+  description: When neither the file\'s name nor its first line give a clue, try using libmag…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stateflags
+  description: 'Use the top-right corner of the screen for showing some state flags: I when a…'
+  shorthand: '%'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: minibar
+  description: Suppress the title bar and instead show information about the current buffer …
+  shorthand: _
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C
+  description: Make and keep not just one backup file, but make and keep a uniquely numbered…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: J
+  description: Draw a vertical stripe at the given column, to help judge the width of the te…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: T
+  description: Set the size (width) of a tab to number columns
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Y
+  description: Specify the name of the syntax highlighting to use from among the ones define…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: Read only this file for setting nano\'s options, instead of reading both the s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Set the operating directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Set the target width for justifying and automatic hard-wrapping at this numbe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: zero
+  description: Hide all elements of the interface (title bar, status bar, and help lines) an…
+  shorthand: '0'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

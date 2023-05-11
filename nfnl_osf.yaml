@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: f
+  description: 'Read signatures from file R fingerprints '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Instead of adding the signatures from fingerprints into the kernel, remove th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '1'
+  description: Illegal arguments passed, fingerprints file not readable or failure in netlin…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ENOENT
+  description: Fingerprints file not specified
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: EINVAL
+  description: Netlink handle initialization failed or fingerprints file format invalid
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

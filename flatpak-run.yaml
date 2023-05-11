@@ -1,0 +1,354 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show help options and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: Look for the application and runtime in per-user installations
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: system
+  description: Look for the application and runtime in the default system-wide installations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: installation
+  description: Look for the application and runtime in the system-wide installation specifie…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Print debug information during command processing
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ostree-verbose
+  description: Print OSTree debug information during command processing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: arch
+  description: The architecture to run
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: command
+  description: The command to run instead of the one listed in the application metadata
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cwd
+  description: The directory to run the command in
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: branch
+  description: The branch to use
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: devel
+  description: Use the devel runtime that is specified in the application metadata instead o…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: runtime
+  description: Use this runtime instead of the one that is specified in the application meta…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: runtime-version
+  description: Use this version of the runtime instead of the one that is specified in the a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: share
+  description: Share a subsystem with the host session
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unshare
+  description: Don\\*(Aqt share a subsystem with the host session
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: socket
+  description: Expose a well known socket to the application
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nosocket
+  description: Don\\*(Aqt expose a well known socket to the application
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device
+  description: Expose a device to the application
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nodevice
+  description: Don\\*(Aqt expose a device to the application
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow
+  description: Allow access to a specific feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disallow
+  description: Disallow access to a specific feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: filesystem
+  description: Allow the application access to a subset of the filesystem
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nofilesystem
+  description: Undo the effect of a previous --filesystem=FILESYSTEM in the app\\*(Aqs manife…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-policy
+  description: Add generic policy option.  For example, "--add-policy=subsystem
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-policy
+  description: Remove generic policy option.  This option can be used multiple times
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env
+  description: Set an environment variable in the application
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unset-env
+  description: Unset an environment variable in the application
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env-fd
+  description: Read environment variables from the file descriptor FD, and set them as if vi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: own-name
+  description: Allow the application to own the well known name NAME on the session bus
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: talk-name
+  description: Allow the application to talk to the well known name NAME on the session bus
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-talk-name
+  description: Don\\*(Aqt allow the application to talk to the well known name NAME on the se…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: system-own-name
+  description: Allow the application to own the well known name NAME on the system bus
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: system-talk-name
+  description: Allow the application to talk to the well known name NAME on the system bus
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: system-no-talk-name
+  description: Don\\*(Aqt allow the application to talk to the well known name NAME on the sy…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: persist
+  description: If the application doesn\\*(Aqt have access to the real homedir, make the (hom…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-session-bus
+  description: Run this instance without the filtered access to the session dbus connection
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: session-bus
+  description: Allow filtered access to the session dbus connection
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-a11y-bus
+  description: Run this instance without the access to the accessibility bus
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a11y-bus
+  description: Allow access to the accessibility bus
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sandbox
+  description: Run the application in sandboxed mode, which means dropping all the extra per…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-session-bus
+  description: Log session bus traffic
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-system-bus
+  description: Log system bus traffic
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: die-with-parent
+  description: Kill the entire sandbox when the launching process dies
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parent-pid
+  description: Specifies the pid of the "parent" flatpak, used by --parent-expose-pids and -…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parent-expose-pids
+  description: Make the processes of the new sandbox visible in the sandbox of the parent fl…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parent-share-pids
+  description: Use the same process ID namespace for the processes of the new sandbox and th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: instance-id-fd
+  description: Write the instance ID string to the given file descriptor
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file-forwarding
+  description: If this option is specified, the remaining arguments are scanned, and all arg…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: app-path
+  description: Instead of mounting the app\\*(Aqs content on /app in the sandbox, mount PATH …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usr-path
+  description: Instead of mounting the runtime\\*(Aqs files on /usr in the sandbox, mount PAT…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: v
+  description: Be verbose about what is going on, including progress status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Write the generated pack index into the specified file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rev-index
+  description: 'When this flag is provided, generate a reverse index (a '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdin
+  description: When this flag is provided, the pack is read from stdin instead and a copy is…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fix-thin
+  description: Fix a "thin" pack produced by git pack-objects --thin (see git-pack-objects(1…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep
+  description: 'Before moving the index into its final destination create an empty '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: index-version
+  description: This is intended to be used by the test suite only
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strict
+  description: Die, if the pack contains broken objects or links
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: progress-title
+  description: For internal use only. sp Set the title of the progress bar
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check-self-contained-and-connected
+  description: Die if the pack contains broken links.  For internal use only
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fsck-objects
+  description: For internal use only. sp Die if the pack contains broken objects
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: threads
+  description: Specifies the number of threads to spawn when resolving deltas
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-input-size
+  description: Die, if the pack is larger than <size>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: object-format
+  description: Specify the given object format (hash algorithm) for the pack
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: promisor
+  description: Before committing the pack-index, create a . promisor file for this pack
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verify
+  description: is given, ensure that the existing reverse index is correct
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

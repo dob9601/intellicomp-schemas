@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: debug
+  description: Print debugging information on stderr
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: foreground
+  description: Don\'t fork into the background
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cleanup
+  description: Cleanup the semaphores
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: key
+  description: Don\'t allocate a new communication channel, but use channel specified by key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: save-file
+  description: Save the environment to save-file on exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: load
+  description: Load a previously saved environment from the standard input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unknown-is-real
+  description: Use real ownership of previously-unknown files instead of setting them to roo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: Use TCP port tcp-port
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

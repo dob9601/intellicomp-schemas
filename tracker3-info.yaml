@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: full-namespaces
+  description: By default, all keys and values reported about any given file are returned in…
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: plain-text-content
+  description: If the resource being displayed has nie:PlainTextContent (i. e
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: resource-is-iri
+  description: In most cases, the file argument supplied points to a URL or PATH which is qu…
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: turtle
+  description: Output results as Turtle RDF
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

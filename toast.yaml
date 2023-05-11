@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: (cat) Write to the standard output; no files are changed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: (decode) Decode, rather than encode, the files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: (force) Force replacement of output files if they exist
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: (precious) Do not delete the source files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C
+  description: (LTP cut-off) Ignore most sample values when calculating the GSM long-term co…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: F
+  description: (fast) On systems with a floating point processor, but without a multiplicati…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: (version) outputs the version of toast (or untoast or tcat) to stdout and exi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: (help) prints a short overview of the options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: (\\(*mU-law) 8 kHz, 8 bit \\(*mU-law encoding (file suffix . u)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a
+  description: (A-law) 8 kHz, 8 bit A-law encoding (file suffix . A)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: '(Sun audio) 8 kHz, 8 bit \\(*mU-law encoding with audio header (file suffix '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: (linear) 8 kHz, 16 bit signed linear encoding in host byte order with 13 sign…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

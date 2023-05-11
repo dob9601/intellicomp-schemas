@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: is what you want in most cases
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdin
+  description: Enable stdin (keyboard) recording (see below)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: append
+  description: Append to existing recording
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw
+  description: Save raw STDOUT output, without timing information or other metadata
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: overwrite
+  description: Overwrite the recording if it already exists
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: command
+  description: Specify command to record, defaults to $SHELL
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env
+  description: List of environment variables to capture, defaults to SHELL,TERM
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: title
+  description: Specify the title of the asciicast
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: idle-time-limit
+  description: Limit recorded terminal inactivity to max <sec> seconds
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cols
+  description: Override terminal columns for recorded process
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rows
+  description: Override terminal rows for recorded process
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: yes
+  description: Answer [lq]yes[rq] to all prompts (e. g.  upload confirmation)
+  shorthand: y
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Be quiet, suppress all notices/warnings (implies -y) Stdin recording allows f…
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: speed
+  description: Playback speed (can be fractional) While playing the following keyboard short…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

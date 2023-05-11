@@ -1,0 +1,144 @@
+description: ''
+keyword_arguments:
+- name: output-file
+  description: 'specify xml file for output (default: \''videocd. xml\'')'
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: type
+  description: 'select VideoCD type (\''vcd11\'', \''vcd2\'', \''svcd\'' or \''hqvcd\'') (default: \''vcd2\'')'
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iso-volume-label
+  description: 'specify ISO volume label for video cd (default: \''VIDEOCD\'')'
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iso-application-id
+  description: 'specify ISO application id for video cd (default: \''\'')'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: info-album-id
+  description: 'specify album id for video cd set (default: \''\'')'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: volume-count
+  description: specify number of volumes in album set
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: volume-number
+  description: specify album set sequence number (< volume-count)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: broken-svcd-mode
+  description: enable non-compliant compatibility mode for broken devices
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-scan-offsets
+  description: update scan data offsets in video mpeg2 stream
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nopbc
+  description: don\'t create PBC
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-dirtree
+  description: add directory contents recursively to ISO fs root
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-dir
+  description: add empty dir to ISO fs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-file
+  description: add single file to ISO fs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-file-2336
+  description: add file containing full 2336 byte sectors to ISO fs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: filename-encoding
+  description: use given charset encoding for filenames instead of UTF8
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: be verbose
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: show only critical messages
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: display version and copyright information and exit . SS "Help options:"
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show this help message
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: Display brief usage message AUTHOR Written by Herbert Valerio Riedel and Rock…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

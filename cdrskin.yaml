@@ -1,0 +1,564 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show non-cdrecord compatible options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show cdrecord compatible options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print cdrskin id line, compatibility lure line, libburn version, cdrskin vers…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: atip
+  description: Retrieve some info about media state.  With CD-RW print "Is erasable"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio
+  description: Announces that the subsequent tracks are to be burned as audio
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: checkdrive
+  description: Retrieve some info about the addressed drive and then exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: copy
+  description: Create the subsequent tracks with permission for an unlimited number of copies
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dao
+  description: Alias for option -sao
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: data
+  description: Subsequent tracks are data tracks
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xa1
+  description: Subsequent tracks are data tracks with input suitable for CD-ROM XA mode 2 fo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dummy
+  description: Try to perform the drive operations without actually affecting the inserted m…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: eject
+  description: Eject the disc after work is done
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Assume that the user knows better in situations when cdrskin or libburn are i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: format
+  description: Same as blank=format_overwrite_full -force but restricted to DVD+RW
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: immed
+  description: 'Equivalent to: . br modesty_on_drive=1:min_percent=75:max_percent=95 '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inq
+  description: Print the identification of the drive and then exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: isosize
+  description: The next track following this option will try to obtain its source size from …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: load
+  description: Load the media and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lock
+  description: Like option -load but leave the drive\'s eject button disabled if there is any…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: minfo
+  description: Print information about the loaded media
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: msinfo
+  description: Retrieve multi-session info for preparing a follow-up session by option -C of…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: multi
+  description: This option keeps CD, unformatted DVD-R[W], DVD+R, or BD-R appendable after t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nocopy
+  description: Create subsequent tracks with permission for a single level of copies.  I. e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nopad
+  description: Do not add trailing zeros to the data stream
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nopreemp
+  description: Indicate for subsequent tracks that they were mastered without pre-emphasis
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pad
+  description: Add 30 kiB of trailing zeros to each data track
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preemp
+  description: Indicate for subsequent tracks that they were mastered with pre-emphasis
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sao
+  description: Write CD in Session At Once mode or sequential DVD-R[W] in Disc-at-once (DAO)…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scanbus
+  description: Scan the system for drives
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scms
+  description: Create subsequent tracks without permission for being copied
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: swab
+  description: Announce that the raw audio data source of subsequent tracks is byte swapped …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tao
+  description: Write CD in Track At Once (TAO) mode, sequential DVD-R[W] in Incremental Stre…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: text
+  description: Enable writing of CD-TEXT attributes read by option cuefile=
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: toc
+  description: Print the table of content (TOC) which describes the tracks recorded on disc
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Increment verbosity level by one.  Startlevel is 0 with only few messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: Enable logging of SCSI commands to stderr
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: waiti
+  description: Wait until input data is available at stdin or EOF occurs at stdin
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: adjust_speed_to_drive
+  description: Curb explicitly given speed= values to the maximum which is announced by the …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow_emulated_drives
+  description: Enable drive addresses of the form dev=stdio:<path>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow_setuid
+  description: Disable the loud warning about insecure discrepance between login user and ef…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: any_track
+  description: Allow source_addresses to begin with "-" (plus further characters) or to cont…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: demand_a_drive
+  description: Exit with a nonzero value if no drive can be found during a bus scan
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: devices
+  description: List the device file addresses of all accessible CD drives
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device_links
+  description: Like --devices, but presenting the drives with addresses of symbolic links wh…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extract_dap
+  description: Enable Digital Audio Play flaw obscuring mechanisms like audio data mute and …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: four_channel
+  description: Indicate for subsequent tracks that they were mastered with four channels
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: grow_overwriteable_iso
+  description: Enable emulation of multi-session writing on overwriteable media which contai…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list_formats
+  description: List the available format descriptors as reported by the drive for the loaded…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list_ignored_options
+  description: List all ignored cdrecord options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list_speeds
+  description: Put out a list of speed values as reported by the output drive with the loade…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: long_toc
+  description: 'Like option -toc but marking each session start by a line "first: X last: Y" …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no_load
+  description: When aquiring the optical drive, do not try to load its tray
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no_rc
+  description: Only if used as first command line argument this option prevents reading and …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pacifier_with_newline
+  description: Adds a newline character to each pacifier line that would elsewise be overwri…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prodvd_cli_compatible
+  description: Activates behavior modifications with some DVD situations which bring cdrskin…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: single_track
+  description: Accept only the last argument of the command line as track source address
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tell_media_space
+  description: Prepare a recording session, do not perform it but rather inquire the maximum…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: two_channel
+  description: Indicate for subsequent tracks that they were mastered with two channels
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: abort_handler
+  description: Establish default signal handling not to leave a drive in busy state but rath…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow_untested_media
+  description: Enable the use of media profiles which have been implemented but not yet test…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cdtext_dummy
+  description: Prepare a burn run, report the effective array of CD-TEXT packs to stdout, an…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cdtext_verbose
+  description: Like --cdtext_dummy but without preventing the burn run
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: drive_abort_on_busy
+  description: 'Linux specific: Abort process if a busy drive is encountered'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: drive_blocking
+  description: 'Linux specific: Try to wait for a busy drive to become free'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: drive_f_setlk
+  description: 'Linux specific: Try to get exclusive lock on drive device file via fcntl(2)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: drive_not_exclusive
+  description: 'Linux specific: Combine --drive_not_f_setlk and --drive_not_o_excl'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: drive_not_f_setlk
+  description: 'Linux specific: Do not try to get exclusive lock on drive device file via fcn…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: drive_not_o_excl
+  description: 'Linux specific: Do not ask the operating system to prevent opening busy drives'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: drive_scsi_exclusive
+  description: 'Linux specific: Try to exclusively reserve device files /dev/srN, /dev/scdM, …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fifo_disable
+  description: Disable fifo despite any fs=
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fifo_per_track
+  description: Use a separate fifo for each track
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fill_up_media
+  description: Expand the last track of the session to occupy all remaining free space on th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore_signals
+  description: Try to ignore any signals rather than to abort the program
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list_features
+  description: List the SCSI/MMC features which were obtained from the drive when it was las…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no_abort_handler
+  description: On signals exit even if the drive is in busy state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no_blank_appendable
+  description: Refuse to blank appendable CD-RW or DVD-RW
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no_convert_fs_adr
+  description: Do only literal translations of dev=
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: obs_pad
+  description: 'Pad the data of last write operation of a DVD-R[W] DAO session or stdio: pseu…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: old_pseudo_scsi_adr
+  description: 'Linux specific: Use and report literal Bus,Target,Lun addresses rather than r…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xa1-ignore
+  description: Silently interpret option -xa1 as -data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

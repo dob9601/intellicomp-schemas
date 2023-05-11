@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: verbose
+  description: Increase verbosity and print debugging information
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: 'Select a different config file to operate upon, default is  /etc/nfs. conf '
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump
+  description: Output an alphabetically sorted dump of the current configuration in conf fil…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: entry
+  description: retrieve the config entry rather than its current expanded value
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: isset
+  description: Test if a specific tag has a value set
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: get
+  description: Output the current value of the specified tag
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set
+  description: Update or Add a tag and value to the config file in a specified section, crea…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unset
+  description: Remove the specified tag and its value from the config file
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: arg
+  description: Select a specific sub-section Options only valid in --set mode
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: modified
+  description: Set the text on the Modified date comment in the file
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

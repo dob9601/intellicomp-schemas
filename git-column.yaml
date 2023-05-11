@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: command
+  description: Look up layout mode using configuration variable column. <name> and column
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mode
+  description: Specify layout mode.  See configuration variable column
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw-mode
+  description: Same as --mode but take mode encoded as a number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: width
+  description: Specify the terminal width
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: indent
+  description: String to be printed at the beginning of each line
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nl
+  description: String to be printed at the end of each line, including newline character
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: padding
+  description: The number of spaces between columns.  One space by default
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

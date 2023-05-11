@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: buttons
+  description: This option will cause xmessage to create one button for each comma-separated…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default
+  description: Defines the button with a matching label to be the default
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: File to display.  The corresponding resource is file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print
+  description: This will cause the program to write the label of the button pressed to stand…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: center
+  description: Pop up the window at the center of the screen
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nearmouse
+  description: Pop up the window near the mouse cursor
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timeout
+  description: Exit with status 0 after secs seconds if the user has not clicked on a button…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

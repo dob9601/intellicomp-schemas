@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: h
+  description: Force numeric data to be printed in hexadecimal rather than the default decim…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: Change the number of indirect data items that are printed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Dump the contents of the IFD at the a particular file offset
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

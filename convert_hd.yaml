@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: ids
+  description: write internal format (default) to "hd. ids"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-ids
+  description: do not write internal format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xml
+  description: write XML to "hd. xml", DTD to "hd. dtd"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-xml
+  description: do not write XML (default)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: with-source
+  description: add comment to each item indicating info source
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: internal-dtd
+  description: 'generate internal dtd Note: for more sophisticated operations on hardware dat…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

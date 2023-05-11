@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: dir
+  description: The directory to download artifacts into
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: Download artifacts that match any of the given names
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pattern
+  description: Download artifacts that match a glob pattern OPTIONS INHERITED FROM PARENT CO…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: 'Select another repository using the [HOST/]OWNER/REPO format EXAMPLE # Downlo…'
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

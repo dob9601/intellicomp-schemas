@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: dump
+  description: Causes llvm-bcanalyzer to dump the bitcode in a human readable format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a summary of command line options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: all
+  description: Show all fields
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: field
+  description: Print value of  FIELD  from image header
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

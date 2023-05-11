@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: write
+  description: Indents a specified file and immediately writes to that file
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-indent
+  description: Do not indent commands; only reformat to one job per line
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check
+  description: Do not indent, only return 0 if the code is already indented as fish_indent w…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Displays the current fish version and then exits
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ansi
+  description: Colorizes the output using ANSI escape sequences, appropriate for the current…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: html
+  description: Outputs HTML, which supports syntax highlighting if the appropriate CSS is de…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Enable debug output and specify a pattern for matching debug categories
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug-output
+  description: Specify a file path to receive the debug output, including categories and fis…
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump-parse-tree
+  description: Dumps information about the parsed statements to standard error
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Displays help about using this command
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

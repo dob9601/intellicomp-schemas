@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: user
+  description: Change to this user after startup (needs USB privileges)
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: foreground
+  description: Do not daemonize (implies one -v)
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-hotplug
+  description: Disables automatic discovery of devices on hotplug
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-exit
+  description: Enable "--exit" request from other instances and exit automatically if no dev…
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: udev
+  description: Run in udev operation mode (implies -n and -z)
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: systemd
+  description: Run in systemd operation mode (implies -z and -f)
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exit
+  description: Notify a running instance to exit if there are no devices connected (sends SI…
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-exit
+  description: Notify a running instance to exit even if there are still devices connected (…
+  shorthand: X
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: be verbose (use twice or more to increase verbose level)
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print version information and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: prints usage information
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

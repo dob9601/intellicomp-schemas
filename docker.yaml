@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: '  Print usage statement'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: '  Specifies the location of the Docker client configuration files'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: '  Enable debug mode.  Default is false'
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: host
+  description: unix://[/path/to/socket] to use
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-level
+  description: '  Set the logging level.  Default is info'
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tls
+  description: '  Use TLS; implied by --tlsverify.  Default is false'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tlscacert
+  description: '  Trust certs signed only by this CA'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tlscert
+  description: '  Path to TLS certificate file'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tlskey
+  description: '  Path to TLS key file'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tlsverify
+  description: '  Use TLS and verify the remote (daemon: verify client, client: verify daemon)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: '  Print version information and quit.  Default is false.  COMMANDS'
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

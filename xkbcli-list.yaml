@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: \\-help
+  description: Print help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-verbose
+  description: Increase verbosity, use multiple times for debugging output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-ruleset
+  description: Load the ruleset with the given name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-skip\\-default\\-paths
+  description: Do not load the default XKB include paths
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-load\\-exotic
+  description: Load exotic (extra) layouts El SEE ALSO xkbcli 1, https://xkbcommon
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

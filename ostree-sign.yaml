@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: verify
+  description: Verify signatures
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sign-type
+  description: Use particular signature mechanism
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keys-file
+  description: Read key(s) from file filename.  Valid for ed25519 signature type
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keys-dir
+  description: Redefine the system path, where to search files and subdirectories with well-…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

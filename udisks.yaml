@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: S
+  description: option in hdparm(8).  APMLevel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: B
+  description: option in hdparm(8).  AAMLevel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: M
+  description: option in hdparm(8).  WriteCacheEnabled
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: W
+  description: option in hdparm(8).  This key was added in 2. 1.  ReadLookaheadEnabled
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: A
+  description: option in hdparm(8).  This key was added in 2. 6. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

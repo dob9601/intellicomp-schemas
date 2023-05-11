@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: a
+  description: This option specifies the algorithm to use for the TSIG key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: This option prints a short summary of options and arguments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k
+  description: This option specifies the key name of the DDNS authentication key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: This option enables quiet mode, which prints only the key, with no explanator…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: This option generates a configuration example to allow dynamic updates of a s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: z
+  description: This option generates a configuration example to allow dynamic updates of a z…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

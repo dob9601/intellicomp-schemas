@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: r
+  description: only read from srcdev if no other zero-defect mirror exists
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: force using and overwriting targetdev even if it looks like it contains a val…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: B
+  description: no background replace
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enqueue
+  description: wait if there\'s another exclusive operation running, otherwise continue
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nodiscard
+  description: Do not perform whole device TRIM operation on devices that are capable of that
+  shorthand: K
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '1'
+  description: print once instead of print continuously until the replace operation finishes…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

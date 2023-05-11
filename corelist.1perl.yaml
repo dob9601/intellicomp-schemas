@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: a
+  description: lists all versions of the given module (or the matching modules, in case you …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: finds the first perl version where a module has been released by date, and no…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: diff
+  description: Given two versions of perl, this prints a human-readable table of all module …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: help! help! help! to see more help, try --man
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: man
+  description: all of the help
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: lists all of the perl release versions we got the CoreList for
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: 'lists all of the perl releases and when they were released '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: utils
+  description: 'lists the first version of perl each named utility program was released with '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: feature
+  description: lists the first version bundle of each named feature given
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

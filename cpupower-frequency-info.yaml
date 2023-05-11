@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: debug
+  description: Prints out debug information
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: freq
+  description: Get frequency the CPU currently runs at, according to the cpufreq core
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hwfreq
+  description: Get frequency the CPU currently runs at, by reading it from hardware (only av…
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hwlimits
+  description: Determine the minimum and maximum CPU frequency allowed
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: driver
+  description: Determines the used cpufreq kernel driver
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: policy
+  description: Gets the currently used cpufreq policy
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: governors
+  description: Determines available cpufreq governors
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: related-cpus
+  description: Determines which CPUs run at the same hardware frequency
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: affected-cpus
+  description: Determines which CPUs need to have their frequency coordinated by software
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stats
+  description: Shows cpufreq statistics if available
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: latency
+  description: Determines the maximum latency on CPU frequency changes
+  shorthand: y
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: proc
+  description: Prints out information like provided by the /proc/cpufreq interface in 2. 4
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: human
+  description: human-readable output for the -f, -w, -s and -y parameters
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-rounding
+  description: Output frequencies and latencies without rounding off values
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: perf
+  description: Get performances and frequencies capabilities of CPPC, by reading it from har…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

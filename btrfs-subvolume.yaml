@@ -1,0 +1,151 @@
+description: ''
+keyword_arguments:
+- name: i
+  description: Add the newly created subvolume to a qgroup
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: commit-after
+  description: wait for transaction commit at the end of the operation
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: commit-each
+  description: wait for transaction commit after deleting each subvolume
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: subvolid
+  description: subvolume id to be removed instead of the <path> that should point to the fil…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: (deprecated) alias for global -v option find-new <subvolume> <last_gen> List …
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: print only subvolumes below specified <path>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a
+  description: print all the subvolumes in the filesystem and distinguish between absolute a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: print the parent ID (parent here means the subvolume which contains this subv…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: g
+  description: print the generation of the subvolume (default)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: print the UUID of the subvolume
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: print the parent UUID of the subvolume (parent here means subvolume of which …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R
+  description: print the UUID of the sent subvolume, where the subvolume is the result of a …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: only snapshot subvolumes in the filesystem will be listed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: only readonly subvolumes in the filesystem will be listed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: 'list deleted subvolumes that are not yet cleaned.  Other:'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: 'print the result as a table.  Sorting:'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ']<value>'
+  description: list subvolumes in the filesystem that its generation is >=, <= or = value
+  shorthand: G
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sort
+  description: list subvolumes in order by specified items
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen
+  description: set-default [<subvolume>|<id> <path>] Set the default subvolume for the (moun…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rootid
+  description: show details about subvolume with root ID, looked up in path
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uuid
+  description: show details about subvolume with the given UUID, looked up in path snapshot …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: o
+  description: save output files to directory <dir> instead of the default /usr/var/run/hwlo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Report version and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display help message and exit.  DESCRIPTION
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

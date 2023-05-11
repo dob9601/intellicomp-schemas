@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: Encoding
+  description: Specify non-unicode encoding to be used
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: EscapeIn
+  description: Specify \'-EscapeIn YES\' (the default is \'NO\') to parse the input for \\\\u esca…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: EscapeOut
+  description: Specify \'-EscapeOut YES\' (the default is \'NO\') to generate \\\\u escape sequenc…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Unicode
+  description: Specify \'-Unicode IN\' (or \'-Unicode OUT\') to control the direction of convers…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

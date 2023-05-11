@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: h
+  description: The \\s-1URL\\s0 of the \\s-1HTTP/HTTPS\\s0 server listening for timestamp reques…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: e
+  description: If the -o option is not given this argument specifies the extension of the ou…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: This option can be specified only when just one request is sent to the server
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: The name of the currently processed request is printed on standard error
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Switches on verbose mode for the underlying perl module WWW::Curl::Easy
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k
+  description: (\\s-1HTTPS\\s0) In case of certificate-based client authentication over \\s-1HT…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: (\\s-1HTTPS\\s0) Specifies the passphrase for the private key specified by the …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: (\\s-1HTTPS\\s0) In case of certificate-based client authentication over \\s-1HT…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C
+  description: (\\s-1HTTPS\\s0) The trusted \\s-1CA\\s0 certificate store
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: P
+  description: (\\s-1HTTPS\\s0) The path containing the trusted \\s-1CA\\s0 certificates to veri…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: See \\*(L"Random State Options\\*(R" in openssl\\|(1) for more information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: g
+  description: The name of an \\s-1EGD\\s0 socket to get random data from.  (Optional)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

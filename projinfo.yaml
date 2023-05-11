@@ -1,0 +1,193 @@
+description: ''
+keyword_arguments:
+- name: o
+  description: 'formats is a comma separated combination of: all, default, PROJ, WKT_ALL, WKT…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k
+  description: When used to query a single object with a AUTHORITY:CODE, determines the (k)i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: summary
+  description: When listing coordinate operations available between 2 CRS, return the result…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: Turn on quiet mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: area
+  description: Specify an area of interest to restrict the results when researching coordina…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bbox
+  description: Specify an area of interest to restrict the results when researching coordina…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: spatial-test
+  description: Specify how the area of use of coordinate operations found in the database ar…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crs-extent-use
+  description: Specify which area of interest to consider when no explicit one is specified …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: grid-check
+  description: Specify how the presence or absence of a horizontal or vertical shift grid re…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pivot-crs
+  description: Determine if intermediate (pivot) CRS can be used when researching coordinate…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-superseded
+  description: When enabled, coordinate operations that are superseded by others will be lis…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hide-ballpark
+  description: New in version 7. 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: accuracy
+  description: New in version 8. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-ellipsoidal-height-as-vertical-crs
+  description: New in version 8. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: boundcrs-to-wgs84
+  description: When specified, this option researches a coordinate operation from the base g…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: authority
+  description: Specify the name of the authority into which to restrict looks up for objects…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: main-db-path
+  description: Specify the name and path of the database to be used by \\%projinfo
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: aux-db-path
+  description: Specify the name and path of auxiliary databases, that are to be combined wit…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: identify
+  description: When used with an object definition, this queries the PROJ database to find k…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump-db-structure
+  description: New in version 8. 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-crs
+  description: New in version 8. 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: 3d
+  description: New in version 6. 3
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-id
+  description: New in version 8. 1. sp Identifier to assign to the object (for SQL output)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c-ify
+  description: For developers only
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: single-line
+  description: Output PROJ, WKT or PROJJSON strings on a single line, instead of multiple in…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: searchpaths
+  description: New in version 7. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remote-data
+  description: New in version 7. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

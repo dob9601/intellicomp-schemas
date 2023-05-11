@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: 'Specify the compression to use for data written to the output file: '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: Specify the bit fill order to use in writing output data
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Make each strip have no more than the given number of rows
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: Set the threshold value for dithering.  By default the threshold value is 128
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

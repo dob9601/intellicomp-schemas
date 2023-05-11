@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stringprep
+  description: Prepare string according to nameprep profile
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: punycode-decode
+  description: Decode Punycode
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: punycode-encode
+  description: Encode Punycode
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: idna-to-ascii
+  description: Convert to ACE according to IDNA (default mode)
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: idna-to-unicode
+  description: Convert from ACE according to IDNA
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-unassigned
+  description: Toggle IDNA AllowUnassigned flag (default off)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usestd3asciirules
+  description: Toggle IDNA UseSTD3ASCIIRules flag (default off)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-tld
+  description: Don\'t check string for TLD specific rules Only for --idna-to-ascii and --idna…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nfkc
+  description: Normalize string according to Unicode v3. 2 NFKC
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: profile
+  description: 'Use specified stringprep profile instead Valid stringprep profiles: Nameprep …'
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Print debugging information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Silent operation AUTHOR Written by Simon Josefsson
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

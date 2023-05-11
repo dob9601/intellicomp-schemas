@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: all
+  description: Prints all the available commands on the standard output
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-external-commands
+  description: When used with --all, exclude the listing of external "git-*" commands found …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-aliases
+  description: When used with --all, exclude the listing of configured aliases
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: When used with --all print description for all recognized commands
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: List all available configuration variables
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: guides
+  description: Prints a list of the Git concept guides on the standard output
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user-interfaces
+  description: Prints a list of the repository, command and file interfaces documentation on…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: developer-interfaces
+  description: Print list of file formats, protocols and other developer interfaces document…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: info
+  description: Display manual page for the command in the info format
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: man
+  description: Display manual page for the command in the man format
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: web
+  description: Display manual page for the command in the web (HTML) format
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

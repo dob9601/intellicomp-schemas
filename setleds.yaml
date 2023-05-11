@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: num
+  description: Clear or set NumLock
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: caps
+  description: Clear or set CapsLock
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scroll
+  description: Clear or set ScrollLock
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,508 @@
+description: ''
+keyword_arguments:
+- name: exclude-compilands
+  description: When dumping compilands, compiland source-file contributions, or per-compilan…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-symbols
+  description: When dumping global, public, or per-compiland symbols, this option instructs …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-types
+  description: When dumping types, this option instructs llvm-pdbutil to omit any types that…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include-compilands
+  description: When dumping compilands, compiland source-file contributions, or per-compilan…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include-symbols
+  description: When dumping global, public, or per-compiland symbols, limit the initial sear…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include-types
+  description: When dumping types, limit the initial search to only those types that match t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: min-class-padding
+  description: Only display types that have at least the specified amount of alignment paddi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: min-class-padding-imm
+  description: Only display types that have at least the specified amount of alignment paddi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: min-type-size
+  description: Only display types T where sizeof(T) is greater than or equal to the specifie…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-compiler-generated
+  description: Don\'t show compiler generated types and symbols
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-enum-definitions
+  description: When dumping an enum, don\'t show the full enum (e. g
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-system-libs
+  description: Don\'t show symbols from system libraries
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all
+  description: Implies all other options in this category
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: class-definitions
+  description: Displays class definitions in the specified format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: class-order
+  description: Displays classes in the specified order
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: class-recurse-depth
+  description: When dumping class definitions, stop after recursing the specified number of …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: classes
+  description: Display classes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: compilands
+  description: Display compilands (e. g.  object files)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enums
+  description: Display enums
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: externals
+  description: Dump external (e. g.  exported) symbols
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: globals
+  description: Dump global symbols
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lines
+  description: Dump the mappings between source lines and code addresses
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: module-syms
+  description: Display symbols (variables, functions, etc) for each compiland
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sym-types
+  description: Type of symbols to dump when -globals, -externals, or -module-syms is specifi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: symbol-order
+  description: For symbols dumped via the -module-syms, -globals, or -externals options, sor…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: typedefs
+  description: Display typedef types
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: types
+  description: Display all types (implies -classes, -enums, -typedefs)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: color-output
+  description: Force color output on or off
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: load-address
+  description: When displaying relative virtual addresses, assume the process is loaded at t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: streams
+  description: dump a summary of all of the streams in the PDB file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stream-blocks
+  description: In conjunction with %-streams, add information to the output about what block…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: summary
+  description: Dump MSF and PDB header information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: modi
+  description: For all options that dump information from each module/compiland, limit to th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: files
+  description: Dump the source files that contribute to each displayed module
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: il
+  description: Dump inlinee line information (DEBUG_S_INLINEELINES CodeView subsection)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Dump line information (DEBUG_S_LINES CodeView subsection)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: modules
+  description: Dump compiland information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xme
+  description: Dump cross module exports (DEBUG_S_CROSSSCOPEEXPORTS CodeView subsection)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xmi
+  description: Dump cross module imports (DEBUG_S_CROSSSCOPEIMPORTS CodeView subsection)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: global-extras
+  description: dump additional information about the globals, such as hash buckets and hash …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: publics
+  description: dump public symbol records
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: public-extras
+  description: dump additional information about the publics, such as hash buckets and hash …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: symbols
+  description: dump symbols (functions, variables, etc) for each module dumped
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sym-data
+  description: For each symbol record dumped as a result of the %-symbols option, display th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: type-extras
+  description: Dump additional information from the TPI stream, such as hashes and the type …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: type-data
+  description: For each type record dumped, display the full bytes of the record in binary a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: type-index
+  description: Only dump types with the specified type index
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ids
+  description: Dump CodeView type records from IPI stream
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id-extras
+  description: Dump additional information from the IPI stream, such as hashes and the type …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id-data
+  description: For each ID record dumped, display the full bytes of the record in binary as …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id-index
+  description: only dump ID records with the specified hexadecimal type index
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dependents
+  description: When used in conjunction with %-type-index or %-id-index, dumps the entire de…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: section-contribs
+  description: Dump section contributions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: section-headers
+  description: Dump image section headers
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: section-map
+  description: Dump section map
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: string-table
+  description: Dump PDB string table
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: block-range
+  description: Dump binary data from specified range of MSF file blocks
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: byte-range
+  description: Dump binary data from specified range of bytes in the file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fpm
+  description: Dump the MSF free page map
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stream-data
+  description: Dump binary data from the specified streams.   Format is SN[:Start][@Size]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name-map
+  description: Dump bytes of PDB Name Map
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ec
+  description: Dump the edit and continue map substream of the DBI stream
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sc
+  description: Dump section contributions substream of the DBI stream
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sm
+  description: Dump the section map from the DBI stream
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: type-server
+  description: Dump the type server map from the DBI stream
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mod
+  description: Limit all options in this category to the specified module index
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: chunks
+  description: Dump the bytes of each module\'s C13 debug subsection
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: split-chunks
+  description: When specified with %-chunks, split the C13 debug subsection into a separate …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: syms
+  description: Dump the symbol record substream from each module
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id
+  description: Dump the record from the IPI stream with the given type index
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: type
+  description: Dump the record from the TPI stream with the given type index
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pdb
+  description: Write the resulting PDB to the specified file.  merge
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

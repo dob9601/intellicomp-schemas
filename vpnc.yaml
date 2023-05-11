@@ -1,0 +1,242 @@
+description: ''
+keyword_arguments:
+- name: gateway
+  description: 'IP/name of your IPSec gateway '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id
+  description: 'your group name . P conf-variable:  "IPSec ID" " <ASCII string>"'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: secret
+  description: 'your group password (cleartext) '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: username
+  description: 'your username . P conf-variable:  "Xauth username" " <ASCII string>"'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: password
+  description: 'your password (cleartext) '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: domain
+  description: '(NT-) Domain name for authentication '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xauth-inter
+  description: 'enable interactive extended authentication (for challenge response auth) '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vendor
+  description: vendor of your IPSec gateway
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: natt-mode
+  description: 'Which NAT-Traversal Method to use: . RS'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: script
+  description: command is executed using system() to configure the interface, routing and so…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dh
+  description: name of the IKE DH Group
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pfs
+  description: Diffie-Hellman group to use for PFS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-1des
+  description: 'Deprecated: Please use --enable-weak-encryption instead'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-weak-encryption
+  description: 'enables weak encryption methods (such as DES, 3DES) '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-no-encryption
+  description: enables using no encryption for data traffic (key exchanged must be encrypted…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-weak-authentication
+  description: 'enables weak authentication methods (such as MD5) '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: application-version
+  description: 'Application Version to report.  Note: Default string is generated at runtime'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ifname
+  description: 'visible name of the TUN/TAP interface '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ifmode
+  description: 'mode of TUN/TAP interface: . RS'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Show verbose debug messages . RS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid-file
+  description: store the pid of background process in <filename>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: local-addr
+  description: local IP to use for ISAKMP / ESP / .  (0. 0. 0. 0 == automatically assign)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: local-port
+  description: local ISAKMP port number to use (0 == use random port)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: udp-port
+  description: Local UDP port number to use (0 == use random port)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dpd-idle
+  description: Send DPD packet after not receiving anything for <idle> seconds
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: non-inter
+  description: 'Don\''t ask anything, exit on missing options '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auth-mode
+  description: 'Authentication mode: . RS'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ca-dir
+  description: path of the trusted CA-Directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target-network
+  description: Target network in dotted decimal or CIDR notation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: password-helper
+  description: 'path to password program or helper name '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ifmtu
+  description: Set MTU for TUN/TAP interface (default 0 == automatic detect)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-detach
+  description: Don\'t detach from the console after login
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ca-file
+  description: filename and path to the CA-PEM-File
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-config
+  description: Prints your configuration; output can be used as vpnc. conf
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

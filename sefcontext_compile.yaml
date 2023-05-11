@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: o
+  description: 'Specify an  outputfile that must be a fully qualified file name as the  '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Specify a binary policyfile that will be used to validate the context entries…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

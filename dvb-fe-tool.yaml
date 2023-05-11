@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: dvbv3
+  description: Use DVBv3 only
+  shorthand: '3'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: adapter
+  description: 'Digital TV adapter to use.  Default: 0'
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: acoustical
+  description: beeps if signal quality is good.  Also enables femon mode
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-delsys
+  description: Sets delivery system to the one specified at PARAMS
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: frontend
+  description: 'Digital TV frontend to use.  Default: 0'
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: get
+  description: Gets frontend parameters
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: femon
+  description: Monitors the frontend locking status and the available statistics for a front…
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Enables debug messages
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Outputs the usage help
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: Gives a short usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Prints program version.  EXIT STATUS On success, it returns 0.  EXAMPLES
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

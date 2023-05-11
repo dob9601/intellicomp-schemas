@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: blocksize
+  description: Set the blocksize in bytes (e. g.  4096) or K (e. g
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-full
+  description: Disable full compaction
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fuller
+  description: Enable fuller compaction (not recommended if you plan to update the compacted…
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: multipass
+  description: If merging more than 3 databases, merge the postlists in multiple passes (whi…
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-renumber
+  description: Preserve the numbering of document ids (useful if you have external reference…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: single-file
+  description: Produce a single file database (not supported for chert)
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

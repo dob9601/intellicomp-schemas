@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: T
+  description: Tell tabs which terminal type to use
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: The debugging option shows a ruler line, followed by two data lines
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: This option tells tabs to check the options and run any debugging option, but…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: reports the version of ncurses which was used in this program, and exits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a
+  description: Assembler, IBM S/370, first format . br 1,10,16,36,72
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a2
+  description: Assembler, IBM S/370, second format . br 1,10,16,40,72
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: COBOL, normal format . br 1,8,12,16,20,55
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c2
+  description: COBOL compact format . br 1,6,10,14,49
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c3
+  description: 'COBOL compact format extended '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: FORTRAN . br 1,7,11,15,19,23
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: PL/I . br 1,5,9,13,17,21,25,29,33,37,41,45,49,53,57,61
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: SNOBOL . br 1,10,55
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: 'UNIVAC 1100 Assembler . br 1,12,20,44 '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

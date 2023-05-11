@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Output a longer help message then quit
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Output version information then quit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: play-pause
+  description: Tell an already-running instance of   Videos to toggle between play and pause
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: play
+  description: Tell an already-running instance of  Videos to play (has no effect if already…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pause
+  description: Tell an already-running instance of  Videos to pause (has no effect if alread…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: next
+  description: Tell an already-running instance of   Videos to skip to the next movie or cha…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: previous
+  description: Tell an already-running instance of   Videos to return to the previous movie …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: seek-fwd
+  description: Tell an already-running instance of   Videos to seek forwards 15 seconds in t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: seek-bwd
+  description: Tell an already-running instance of   Videos to seek backwards 15 seconds in …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: volume-up
+  description: Tell an already-running instance of   Videos to raise the volume by 8%
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: volume-down
+  description: Tell an already-running instance of   Videos to lower the volume by 8%
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mute
+  description: Tell an already-running instance of   Videos to toggle between muted and unmu…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fullscreen
+  description: Tell an already-running instance of   Videos to toggle fullscreen mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quit
+  description: Tell an already-running instance of  Videos to quit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enqueue
+  description: Tell an already-running instance of  Videos to add a new stream to the playli…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replace
+  description: Tell an already-running instance of Videos to play from the playlist
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

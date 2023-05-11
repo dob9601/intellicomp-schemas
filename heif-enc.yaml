@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: qualityQUALITY
+  description: Defines quality level between 0 and 100 for the generated output file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lossless
+  description: Generate lossless output (-q has no effect)
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: thumbSIZE
+  description: 'Generate thumbnail with maximum size SIZE pixels (default: off)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-alpha
+  description: Do not save alpha channel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-thumb-alpha
+  description: Do not save alpha channel in thumbnail image
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: outputFILENAME
+  description: Output filename (optional)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Enable logging output (more -v will increase logging level)
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: params
+  description: Show all encoder parameters
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bDEPTH
+  description: 'Bit-depth of generated HEIF file when using 16-bit PNG input (default: 10 bit)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quality
+  description: Defines quality level between 0 and 100 for the generated output file
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: thumb
+  description: 'Generate thumbnail with maximum size SIZE pixels (default: off)'
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Output filename (optional)
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: 'Bit-depth of generated HEIF file when using 16-bit PNG input (default: 10 bit)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Set additional encoder parameters.  See NOTES below.  EXIT STATUS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

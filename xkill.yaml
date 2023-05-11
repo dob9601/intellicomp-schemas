@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: display
+  description: This option specifies the name of the X server to contact
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id
+  description: This option specifies the X identifier for the resource whose creator is to b…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: button
+  description: This option specifies the number of pointer button that should be used in sel…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all
+  description: This option indicates that all clients with top-level windows on the screen s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: frame
+  description: This option indicates that xkill should ignore the standard conventions for f…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: This option makes xkill print its version and exit without killing anything
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

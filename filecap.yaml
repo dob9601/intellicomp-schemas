@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: a
+  description: This tells the program to show all capabilities starting from the / directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: This dumps all capabilities for reference
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

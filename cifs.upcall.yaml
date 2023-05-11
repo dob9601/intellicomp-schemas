@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: This option is deprecated and is currently ignored
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-env-probe
+  description: Normally, cifs
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: krb5conf
+  description: This option allows administrators to set an alternate location for the krb5
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keytab
+  description: This option allows administrators to specify a keytab file to be used
+  shorthand: K
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trust-dns
+  description: With krb5 upcalls, the name used as the host portion of the service principal…
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: legacy-uid
+  description: Traditionally, the kernel has sent only a single uid= parameter to the upcall…
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: expire
+  description: Override default timeout value (600 seconds) for dns_resolver key
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version number and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

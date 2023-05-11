@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: "\thelp for push"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: insecure
+  description: "\tAllow push to an insecure registry"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: purge
+  description: "\tRemove the local manifest list after push SEE ALSO"
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

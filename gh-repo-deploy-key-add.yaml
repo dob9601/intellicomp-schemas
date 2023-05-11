@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: allow-write
+  description: Allow write access for the key
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: title
+  description: Title of the new key OPTIONS INHERITED FROM PARENT COMMANDS
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: 'Select another repository using the [HOST/]OWNER/REPO format EXAMPLE # genera…'
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

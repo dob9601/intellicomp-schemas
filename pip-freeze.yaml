@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: requirement
+  description: Use the order in the given requirements file and its comments when generating…
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: local
+  description: If in a virtualenv that has global access, do not output globally-installed p…
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: Only output packages installed in user-site
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: path
+  description: Restrict to the specified installation path for listing packages (can be used…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all
+  description: 'Do not skip these packages in the output: pip, setuptools, distribute, wheel'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-editable
+  description: Exclude editable package from output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude
+  description: Exclude specified package from the output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

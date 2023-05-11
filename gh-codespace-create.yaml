@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: branch
+  description: repository branch
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-permissions
+  description: do not prompt to accept additional permissions requested by the codespace
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: devcontainer-path
+  description: path to the devcontainer. json file to use when creating codespace
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: display-name
+  description: display name for the codespace
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: idle-timeout
+  description: allowed inactivity before codespace is stopped, e. g.  "10m", "1h"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: location
+  description: 'location: {EastUs|SouthEastAsia|WestEurope|WestUs2} (determined automatically…'
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: machine
+  description: hardware specifications for the VM
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: 'repository name with owner: user/repo'
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: retention-period
+  description: allowed time after shutting down before the codespace is automatically delete…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: status
+  description: show status of post-create command and dotfiles SEE ALSO
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

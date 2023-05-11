@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: exit-status
+  description: Exit with non-zero status if run fails
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interval
+  description: Refresh interval in seconds OPTIONS INHERITED FROM PARENT COMMANDS
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: 'Select another repository using the [HOST/]OWNER/REPO format EXAMPLE # Watch …'
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

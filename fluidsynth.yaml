@@ -1,0 +1,200 @@
+description: ''
+keyword_arguments:
+- name: audio-driver
+  description: The audio driver to use.  "-a help" to list valid options
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio-bufcount
+  description: Number of audio buffers
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: chorus
+  description: Turn the chorus on or off [0|1|yes|no, default = on]
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump
+  description: Dump incoming and outgoing MIDI events to stdout
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio-file-endian
+  description: Audio file endian for fast rendering or aufile driver ("-E help" for list)
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: load-config
+  description: Load command configuration file (shell commands)
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fast-render
+  description: Render MIDI file to raw audio data and store in [file]
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gain
+  description: Set the master gain [0 < gain < 10, default = 0. 2]
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio-groups
+  description: Defines the number of LADSPA audio nodes
+  shorthand: G
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print out this help summary
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-shell
+  description: Don\'t read commands from the shell [default = yes]
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: connect-jack-outputs
+  description: Attempt to connect the jack outputs to the physical ports
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: midi-channels
+  description: The number of midi channels [default = 16]
+  shorthand: K
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-lash
+  description: Don\'t connect to LASH server
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio-channels
+  description: The number of stereo audio channels [default = 1]
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: midi-driver
+  description: The name of the midi driver to use.  "-m help" to list valid options
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-midi-in
+  description: Don\'t create a midi driver to read MIDI input events [default = yes]
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Define a setting, -o name=value ("-o help" to dump current values)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio-file-format
+  description: Audio file format for fast rendering or aufile driver ("-O help" for list)
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: portname
+  description: Set MIDI port name (alsa_seq, coremidi drivers)
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Do not print welcome message or other informational output
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sample-rate
+  description: Set the sample rate
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reverb
+  description: Turn the reverb on or off [0|1|yes|no, default = on]
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: server
+  description: Start FluidSynth as a server process
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio-file-type
+  description: Audio file type for fast rendering or aufile driver ("\\T help" for list)
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Print out verbose messages about midi events (synth
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version of program
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audio-bufsize
+  description: Size of each audio buffer
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

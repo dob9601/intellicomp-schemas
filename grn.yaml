@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: T
+  description: 'Prepare output for printer R dev .  The default device is  ps '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: M
+  description: Prepend  dir to the default search path for  gremlin files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: F
+  description: 'Search  dir for subdirectories R dev name '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C
+  description: 'Recognize  . GS and  . GE (and  '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: '\\"This switch causes the picture to be traversed twice: '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: 'Print the version number.  GRN COMMANDS Each input line between . GS and '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: 1@@-1
+  description: Table 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '1.0'
+  description: ( AED version) or a single asterisk, [lq]*[rq] ( SUN / X11 version)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: backward
+  description: Examine the actions described in the logfile backward from the latest one to …
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clusters
+  description: Restrict the output generated when using options -b -f -u -p to the actions o…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: forward
+  description: Examine the actions described in the logfile forward from the first one to th…
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show some help information
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kill-fast-restart
+  description: When Windows has been interrupted with fast restart mode activated, part of p…
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-action
+  description: Do not apply any modification, useful when using the options -p, -s or -u
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: play
+  description: Undo COUNT transaction sets and redo a single one, a transaction set being al…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: range
+  description: Examine the actions described in the logfile forward restricted to the reques…
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sync
+  description: Sync the file system by applying the committed actions which have not been sy…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: transactions
+  description: Display the transaction parameters when examining the log file with one of th…
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: undo
+  description: Undo COUNT transaction sets, thus resetting the file system to some checkpoin…
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Display more debug/warning/error messages
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bv
+  description: is equivalent to
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: 'Show the version number, copyright and license of ntfsrecover '
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

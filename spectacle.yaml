@@ -1,0 +1,137 @@
+description: ''
+keyword_arguments:
+- name: fullscreen
+  description: Capture the entire desktop (default)
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: current
+  description: Capture the current monitor
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: activewindow
+  description: Capture the active window
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: windowundercursor
+  description: Capture the window currently under the cursor, including parents of pop-up me…
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: transientonly
+  description: Capture the window currently under the cursor, excluding parents of pop-up me…
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: region
+  description: Capture a rectangular region of the screen
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: launchonly
+  description: Launch Spectacle without taking a screenshot
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gui
+  description: Start in GUI mode (default)
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: background
+  description: Take a screenshot and exit without showing the GUI
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dbus
+  description: Start in DBus-Activation mode
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nonotify
+  description: In background mode, do not pop up a notification when the screenshot is taken
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: In background mode, save image to specified file fileName
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delay
+  description: In background mode, delay before taking the shot (in milliseconds)
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: copy-image
+  description: In background mode, copy screenshot only to clipboard, unless -o is also used
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: copy-path
+  description: In background mode, copy screenshot file path to clipboard
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: onclick
+  description: Wait for a click before taking screenshot.  Invalidates delay
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: new-instance
+  description: Starts a new GUI instance of spectacle without registering to DBus
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pointer
+  description: In background mode, include pointer in the screenshot
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-decoration
+  description: In background mode, do not include window decorations in the screenshot
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

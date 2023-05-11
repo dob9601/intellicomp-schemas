@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: loop
+  description: Loop the frames n number of times
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bgcolor
+  description: Background color of the canvas
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: duration
+  description: '     set the duration to \''d\'' for the whole animation'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

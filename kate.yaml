@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: start
+  description: Start Kate with a given session
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: startanon
+  description: Start Kate with a new anonymous session, implies -n
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: new
+  description: Force start of a new Kate instance (is ignored if start is used and another K…
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: block
+  description: If using an already running Kate instance, block until it exits, if URLs give…
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid
+  description: Only try to reuse kate instance with this pid (is ignored if start is used an…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: encoding
+  description: Set encoding for the file to open
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: line
+  description: Navigate to this line
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: column
+  description: Navigate to this column
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdin
+  description: Read the contents of stdin
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tempfile
+  description: The files/URLs opened by the application will be deleted after use
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

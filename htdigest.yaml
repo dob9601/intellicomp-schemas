@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: Create the passwdfile.  If passwdfile already exists, it is deleted first
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

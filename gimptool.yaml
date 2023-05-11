@@ -1,0 +1,305 @@
+description: ''
+keyword_arguments:
+- name: version
+  description: Print the currently installed version of GIMP on the standard output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print out the help blurb, showing commonly used commandline options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Run quietly without echoing any of the build commands
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: silent
+  description: Run silently without echoing any of the build commands.  Same as --quiet
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Test mode.  Print the commands but don\'t actually execute them
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: just-print
+  description: Test mode.  Print the commands but don\'t actually execute them.  Same as -n
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: Test mode.  Print the commands but don\'t actually execute them.  Same as -n
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: recon
+  description: Test mode.  Print the commands but don\'t actually execute them.  Same as -n
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: msvc-syntax
+  description: Useful on Windows
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bindir
+  description: Outputs the bindir used to install the GIMP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sbindir
+  description: Outputs the sbindir used to install the GIMP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libexecdir
+  description: Outputs the libexecdir used to install the GIMP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: datadir
+  description: Outputs the datadir used to install the GIMP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sysconfdir
+  description: Outputs the sysconfdir used to install the GIMP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sharedstatedir
+  description: Outputs the sharedstatedir used to install the GIMP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: localstatedir
+  description: Outputs the localstatedir used to install the GIMP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libdir
+  description: Outputs the libdir used to install the GIMP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: infodir
+  description: Outputs the infodir used to install the GIMP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mandir
+  description: Outputs the mandir used to install the GIMP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: includedir
+  description: Outputs the includedir used to install the GIMP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gimpdatadir
+  description: Outputs the actual directory where the GIMP data files were installed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gimpplugindir
+  description: Outputs the actual directory where the GIMP plug-ins were installed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: build
+  description: Compile and link plug-in. c into a GIMP plug-in
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: build-strip
+  description: Compile,link, and strip plug-in. c into a GIMP plug-in
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: install
+  description: Compile, link, and install plug-in
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: install-strip
+  description: Compile, link,strip, and install plug-in
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: install-admin
+  description: Compile, link, and install plug-in
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: install-bin
+  description: Install plug-in into the user\'s personal GIMP plug-in directory ($XDG_CONFIG_…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: install-admin-bin
+  description: Install plug-in into the system-wide GIMP plug-in directory (${exec_prefix}/l…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: install-bin-strip
+  description: Install stripped plug-in into the user\'s personal GIMP plug-in directory ($XD…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: install-admin-bin-strip
+  description: Install stripped plug-in into the system-wide GIMP plug-in directory (${exec_…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: install-script
+  description: Install script
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: install-admin-script
+  description: Install script
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uninstall-bin
+  description: Uninstall plug-in from the user\'s personal GIMP plug-in directory ($XDG_CONFI…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uninstall-admin-bin
+  description: Uninstall plug-in from the system-wide GIMP plug-in directory (${exec_prefix}…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uninstall-script
+  description: Uninstall script
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uninstall-admin-script
+  description: Uninstall script
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: Print the linker flags that are necessary to link a GIMP plug-in
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs-noui
+  description: Print the linker flags that are necessary to link a GIMP plug-in, for plug-in…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cflags
+  description: Print the compiler flags that are necessary to compile a GIMP plug-in
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clags-noui
+  description: Print the compiler flags that are necessary to compile a GIMP plug-in for plu…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: If specified, use PREFIX instead of the installation prefix that GIMP was bui…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exec-prefix
+  description: If specified, use PREFIX instead of the installation exec prefix that GIMP wa…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

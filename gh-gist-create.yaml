@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: desc
+  description: A description for this gist
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: filename
+  description: Provide a filename to be used when reading from standard input
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: public
+  description: 'List the gist publicly (default: secret)'
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: web
+  description: 'Open the web browser with created gist EXAMPLE # publish file \''hello'
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

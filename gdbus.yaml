@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: xml
+  description: option is used, the returned introspection XML is printed, otherwise a parsed…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: recurse
+  description: option can be used to introspect children (and their children and so on) and …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: only-properties
+  description: option can be used to only print the interfaces with properties.  monitor
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: activate
+  description: is specified, that bus name will be auto-started first
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timeout
+  description: 'to 0 to disable it: $ gdbus wait --session --timeout 30 org. bar. SomeName'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

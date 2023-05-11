@@ -1,0 +1,123 @@
+description: ''
+keyword_arguments:
+- name: nodiscard
+  description: do not perform discard (TRIM) by default
+  shorthand: K
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: force overwrite of existing filesystem on the given disk(s)
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enqueue
+  description: wait if there\'s another exclusive operation running, otherwise continue remov…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all-devices
+  description: Enumerate and register all devices, use as a fallback in case blkid is not av…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: forget
+  description: Unregister a given device or all stale devices if no path is given, the devic…
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reset
+  description: Print the stats and reset the values to zero afterwards
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check
+  description: Check if the stats are all zeros and return 0 if it is so
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: T
+  description: Print stats in a tabular form, devices as rows and stats as columns usage [op…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw
+  description: raw numbers in bytes, without the B suffix
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: human-readable
+  description: print human friendly numbers, base 1024, this is the default
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H
+  description: print human friendly numbers, base 1000
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iec
+  description: select the 1024 base for the following options, according to the IEC standard
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: si
+  description: select the 1000 base for the following options, according to the SI standard
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kbytes
+  description: show sizes in KiB, or kB with --si
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mbytes
+  description: show sizes in MiB, or MB with --si
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gbytes
+  description: show sizes in GiB, or GB with --si
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tbytes
+  description: show sizes in TiB, or TB with --si If conflicting options are passed, the las…
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

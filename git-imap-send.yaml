@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: verbose
+  description: Be verbose
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Be quiet
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: curl
+  description: Use libcurl to communicate with the IMAP server, unless tunneling into it
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-curl
+  description: Talk to the IMAP server using git\'s own IMAP routines instead of using libcurl
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

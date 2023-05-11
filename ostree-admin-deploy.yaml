@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: os
+  description: Use a different operating system root than the current one
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: origin-file
+  description: Use FILENAME as the origin, which is where OSTree will look for updated versi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: retain
+  description: Do not delete previous deployment
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: retain-pending
+  description: Do not delete pending deployments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: retain-rollback
+  description: Do not delete rollback deployments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: not-as-default
+  description: Append rather than prepend new deployment
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: karg-proc-cmdline
+  description: Import current /proc/cmdline
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: karg
+  description: Set kernel argument, like root=/dev/sda1; this overrides any earlier argument…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: karg-append
+  description: Append kernel argument; useful with e. g
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

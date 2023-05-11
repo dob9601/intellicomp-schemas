@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: ssh
+  description: Browse for SSH servers (and only SSH servers) regardless under which name the…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vnc
+  description: Browse for VNC servers (and only VNC servers) regardless under which name the…
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shell
+  description: Browse for both VNC and SSH servers regardless under which name the binary is…
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: domain
+  description: Browse in the specified domain
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

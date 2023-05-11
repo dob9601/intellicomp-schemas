@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: print help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: app-id
+  description: The application id to use when calling the gnome-session Inhibit() method
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reason
+  description: A human-readable reason to pass along when calling the gnome-session Inhibit(…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inhibit
+  description: ARG specifies the things to inhibit, as a colon-separated list
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inhibit-only
+  description: Do not launch COMMAND and wait forever instead
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list
+  description: list the existing inhibitions and exit
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

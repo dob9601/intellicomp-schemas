@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: force
+  description: Overwrite labels in the destination repository OPTIONS INHERITED FROM PARENT …
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: 'Select another repository using the [HOST/]OWNER/REPO format EXAMPLE # clone …'
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

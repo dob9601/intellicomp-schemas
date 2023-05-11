@@ -1,0 +1,123 @@
+description: ''
+keyword_arguments:
+- name: all
+  description: Fetch all remote refs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdin
+  description: Take the list of refs from stdin, one per line
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Pass -q flag to git unpack-objects; this makes the cloning process less verbo…
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep
+  description: Do not invoke git unpack-objects on received data, but create a single packfi…
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: thin
+  description: Fetch a "thin" pack, which records objects in deltified form based on objects…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include-tag
+  description: If the remote side supports it, annotated tags objects will be downloaded on …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: upload-pack
+  description: Use this to specify the path to git-upload-pack on the remote side, if is not…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exec
+  description: Same as --upload-pack=<git-upload-pack>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: depth
+  description: Limit fetching to ancestor-chains not longer than n
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shallow-since
+  description: Deepen or shorten the history of a shallow repository to include all reachabl…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shallow-exclude
+  description: Deepen or shorten the history of a shallow repository to exclude commits reac…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: deepen-relative
+  description: Argument --depth specifies the number of commits from the current shallow bou…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: refetch
+  description: Skips negotiating commits with the server in order to fetch all matching obje…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-progress
+  description: Do not show the progress
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check-self-contained-and-connected
+  description: Output "connectivity-ok" if the received pack is self-contained and connected
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Run verbosely
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stateless-rpc
+  description: is specified together with this option then the list of refs must be in packe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

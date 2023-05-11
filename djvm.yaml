@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: Create a bundled DjVu document named  doc. djvu by collecting files  page1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: Modify the bundled DjVu document named  doc. djvu by inserting file  page
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: 'Remove page  pagenum from the bundled multi-page DjVu document R doc. djvu '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: 'List all component files in the multi-page DjVu document doc. djvu '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

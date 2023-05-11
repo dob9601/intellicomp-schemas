@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: format
+  description: Mangling scheme to assume
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a summary of command line options
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-strip-underscore
+  description: Do not strip a leading underscore
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strip-underscore
+  description: Strip a single leading underscore, if present, from each input name before de…
+  shorthand: _
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: types
+  description: Attempt to demangle names as type names as well as function names
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display the version of the llvm-cxxfilt executable
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

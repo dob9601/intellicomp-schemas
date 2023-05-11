@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: tex
+  description: Specify the TeX compiler to be used.  Default is `pdflatex`
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tex-options
+  description: List of options to pass to the TeX compiler
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Run in debug mode.  Do not clean the generated `. chk` file
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Run in quiet mode.  Do not print the output of the TeX compiler
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parse-only
+  description: Do not run the LaTeX compiler but use the already existing `. chk` file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version of this script
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print this help.  AUTHOR Written by Jerome Lelong <jerome. lelong@gmail
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

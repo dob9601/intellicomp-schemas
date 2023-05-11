@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show a summary of the options
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: input
+  description: Set the input  FORMAT to one of \'rdfxml\' (RDF/XML, default), \'ntriples\' (N-Tr…
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: input-uri
+  description: Set the input/parser base  URI or use value \'-\' for no base
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Set the output  FORMAT to \'ntriples\' (N-Triples, default), \'rdfxml\' (RDF/XML)…
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-uri
+  description: Set the output/serializer base  URI or use value \'-\' for no base
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: count
+  description: Only count the triples and produce no other output
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-errors
+  description: Ignore errors, do not emit the messages and try to continue parsing
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: feature
+  description: Set a parser or serializer feature  FEATURE to a value, or to 1 if  VALUE is …
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: guess
+  description: Guess the parser to use from the source-URI rather than use the -i FORMAT
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: No extra information messages
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replace-newlines
+  description: Replace newlines in multi-line literals with spaces
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-graphs
+  description: Print graph names (URIs) as they are seen in the input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-namespaces
+  description: Print namespaces as they are seen in the input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trace
+  description: Print URIs retrieved during parsing
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-warnings
+  description: Ignore warnings, do not emit the messages
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the raptor version and exit.  EXAMPLES
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

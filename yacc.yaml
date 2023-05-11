@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: yacc
+  description: to activate the upward compatibility mode
+  shorthand: y
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

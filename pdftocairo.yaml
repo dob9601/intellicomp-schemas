@@ -1,0 +1,368 @@
+description: ''
+keyword_arguments:
+- name: png
+  description: Generates a PNG file(s)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jpeg
+  description: Generates a JPEG file(s).  See also -jpegopt
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tiff
+  description: Generates a TIFF file(s)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pdf
+  description: Generates a PDF file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ps
+  description: Generate a PS file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: eps
+  description: Generate an EPS file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: svg
+  description: Generate a SVG (Scalable Vector Graphics) file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print
+  description: (Windows only) Prints to a system printer.  See also -printer and -printeropt
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: printdlg
+  description: (Windows only) Prints to a system printer
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: Specifies the first page to convert
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Specifies the last page to convert
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Generates only the odd numbered pages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: e
+  description: Generates only the even numbered pages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: singlefile
+  description: Writes only the first page and does not add digits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Specifies the X and Y resolution, in pixels per inch of image files (or raste…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rx
+  description: Specifies the X resolution, in pixels per inch of image files (or rasterized …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ry
+  description: Specifies the Y resolution, in pixels per inch of image files (or rasterized …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scale-to
+  description: Scales the long side of each page (width for landscape pages, height for port…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scale-to-x
+  description: Scales each page horizontally to fit in scale-to-x pixels
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scale-to-y
+  description: Scales each page vertically to fit in scale-to-y pixels
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: Specifies the x-coordinate of the crop area top left corner in pixels (image …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: y
+  description: Specifies the y-coordinate of the crop area top left corner in pixels (image …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: W
+  description: Specifies the width of crop area in pixels (image output) or points (vector o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H
+  description: Specifies the height of crop area in pixels (image output) or points (vector …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sz
+  description: Specifies the size of crop square in pixels (image output) or points (vector …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cropbox
+  description: Uses the crop box rather than media box when generating the files (PNG/JPEG/T…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mono
+  description: Generate a monochrome file (PNG and TIFF only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gray
+  description: Generate a grayscale file (PNG, JPEG, and TIFF only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: antialias
+  description: Set the cairo antialias option used for text and drawing in image files (or r…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: transp
+  description: Use a transparent page color instead of white (PNG and TIFF only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: icc
+  description: Use the specified ICC file as the output profile (PNG only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jpegopt
+  description: When used with -jpeg, takes a list of options to control the jpeg compression
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: level2
+  description: Generate Level 2 PostScript (PS only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: level3
+  description: Generate Level 3 PostScript (PS only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: origpagesizes
+  description: This option is the same as "-paper match"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: paper
+  description: Set the paper size to one of "letter", "legal", "A4", or "A3" (PS,PDF,SVG onl…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: paperw
+  description: Set the paper width, in points (PS,PDF,SVG only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: paperh
+  description: Set the paper height, in points (PS,PDF,SVG only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nocrop
+  description: By default, printing output is cropped to the CropBox specified in the PDF fi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: expand
+  description: Expand PDF pages smaller than the paper to fill the paper (PS,PDF,SVG only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noshrink
+  description: Don\'t scale PDF pages which are larger than the paper (PS,PDF,SVG only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nocenter
+  description: By default, PDF pages smaller than the paper (after any scaling) are centered…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: duplex
+  description: 'Adds the %%IncludeFeature: *Duplex DuplexNoTumble DSC comment to the PostScri…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: printer
+  description: (Windows only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: printopt
+  description: (Windows only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: setupdlg
+  description: (Windows only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: opw
+  description: Specify the owner password for the PDF file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: upw
+  description: Specify the user password for the PDF file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: Don\'t print any messages or errors
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Print copyright and version information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Print usage information.  ( -help and
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: 'are equivalent. ) EXIT CODES The poppler tools use the following exit codes:'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

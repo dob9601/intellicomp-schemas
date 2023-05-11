@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: format
+  description: Print nice html output
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bodyonly
+  description: Don\'t print html header (useful for postprocessing the output)
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: side-by-side
+  description: Display all DIMMs side-by-side if possible
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: merge-cells
+  description: Merge neighbour cells with identical values (side-by-side output only, defaul…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-merge-cells
+  description: Don\'t merge neighbour cells with identical values (side-by-side output only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: checksum
+  description: Decode completely even if checksum fails
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: Read data from hexdump files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: X
+  description: Same as -x except treat multibyte hex data as little endian
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display the usage summary
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

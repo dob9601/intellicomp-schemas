@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: show-all
+  description: output all changes, bracketing conflicts
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ed
+  description: output ed script incorporating changes from OLDFILE to YOURFILE into MYFILE
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-overlap
+  description: like -e, but bracket conflicts
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: easy-only
+  description: like -e, but incorporate only nonoverlapping changes
+  shorthand: '3'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: overlap-only
+  description: like -e, but incorporate only overlapping changes
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: X
+  description: like -x, but bracket conflicts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: append \'w\' and \'q\' commands to ed scripts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: merge
+  description: output actual merged file, according to -A if no other options are given
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: text
+  description: treat all files as text
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strip-trailing-cr
+  description: strip trailing carriage return on input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: initial-tab
+  description: make tabs line up by prepending a tab
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: diff-program
+  description: use PROGRAM to compare files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label
+  description: use LABEL instead of file name (can be repeated up to three times)
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

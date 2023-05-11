@@ -1,0 +1,193 @@
+description: ''
+keyword_arguments:
+- name: software-encoding
+  description: By default, lavrec will capture in a mode that is only suitable for recording…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: software-encoding-yuvp
+  description: This option adds support for the EM28XX USB driver.  As this driver  is V4L2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f/--format
+  description: The format in which the video should be saved to the harddisk
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i/--input
+  description: or
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d/--decimation
+  description: Recording decimation, either 1, 2 or 4
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: g/--geometry
+  description: 'For hardware recording: An X-style geometry string, giving the geometry of th…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q/--quality
+  description: Quality of the JPEG-video to be recorded (in percent)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C/--channel
+  description: Choose the channel to record from (xawtv-style)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t/--time
+  description: Recording time in seconds.  The default is unlimited
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: S/--single-frame
+  description: Single-frame capture mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: T/--time-lapse
+  description: time-lapse factor, which means that only every <num>th frame is saved to the …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: w/--wait
+  description: If this option is given, lavrec will wait for the user to press enter before …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: B/--batch
+  description: This option turns off all possible interactivity options and limits console o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a/--audio-bitsize
+  description: Audio size in bits, either 0, 8 or 16 (default).  0 means no audio
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r/--audio-bitrate
+  description: Audio sampling rate in Hz
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s/--stereo
+  description: Capture in stereo.  By default, lavrec captures in mono
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l/--audio-volume
+  description: Recording level
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m/--mute
+  description: Mute sound output while recording
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R/--audio-source
+  description: Recording source, either (l)ine-in, (m)icrophone or (c)d-rom
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: U/--use-read
+  description: Use the read() system call rather than the mmap() system call for audio recor…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c/--synchronization
+  description: Audio/video synchronization level efforts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n/--mjpeg-buffers
+  description: Number of MJPEG-buffers.  Default is 32
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b/--mjpeg-buffer-size
+  description: MJPEG buffersize in kilobytes.  The default is 256 kB
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-file-size
+  description: The maximum file size per JPEG file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-file-frames
+  description: The maximum number of frames per per JPEG file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file-flush
+  description: Flush the file to disk after every num frames captured
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v/--verbose
+  description: Verbosity level (0, 1 or 2).  Default is 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: debug
+  description: Enable debug level logging
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: foreground
+  description: Runs the daemon in the foreground and prints all output to stderr
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pipefsdir
+  description: Location of the rpc_pipefs filesystem
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

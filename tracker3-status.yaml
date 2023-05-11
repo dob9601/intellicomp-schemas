@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: stat
+  description: By default, only common and useful classes are shown, e. g
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all
+  description: Display statistics about ALL RDF classes that exist in the database
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

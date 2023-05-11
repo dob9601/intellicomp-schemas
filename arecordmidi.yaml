@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Prints a list of options
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Prints the current version
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list
+  description: Prints a list of possible input ports
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: Sets the sequencer port(s) from which events are recorded
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bpm
+  description: Sets the musical tempo of the MIDI file, in beats per minute
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fps
+  description: Sets the SMPTE resolution, in frames per second
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ticks
+  description: Sets the resolution of timestamps (ticks) in the MIDI file, in ticks per beat…
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: split-channels
+  description: Specifies that the data for each MIDI channel should be written to a separate…
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: metronome
+  description: Plays a metronome signal on the specified sequencer port
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timesig
+  description: Sets the time signature for the MIDI file and metronome
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

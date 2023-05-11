@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: s
+  description: indications A read-only count of the received PFC frames per traffic class
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: list-processes
+  description: This lists all Tracker processes in the system
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kill
+  description: This uses SIGKILL to stop all Tracker processes found matching the parameter,…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: terminate
+  description: This uses SIGTERM to stop all Tracker processes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: start
+  description: Starts all miners
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: follow
+  description: Follow status changes to daemons as they happen
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: watch
+  description: Watch changes that happen to the database in real time
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-common-statuses
+  description: This will list statuses most commonly produced by miners and the store
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-miners-running
+  description: This will list all miners which have responded to a D-Bus call
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-miners-available
+  description: This will list all miners which are available even if they are not running at…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pause-details
+  description: For listing all miners which are paused and the reasons for being paused, you…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: miner
+  description: This argument is used with --pause or --resume to say which miner you want to…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pause
+  description: The reason here is useful to know WHY the miner should be paused
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pause-for-process
+  description: This works exactly the same way as --pause with the exception that it only ke…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: resume
+  description: The cookie is given by a successful --pause command
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

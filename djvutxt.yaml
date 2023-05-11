@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: page
+  description: Specify which pages should be processed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detail
+  description: This options causes  djvutxt to output S-expressions  specifying the position…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detail
+  description: and
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: escape
+  description: this program simply outputs the UTF-8 text.  Option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: escape
+  description: Output escape sequences of the form  "ooo" for all non ASCII or non printable…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

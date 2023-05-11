@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: dir-diff
+  description: Copy the modified files to a temporary location and perform a directory diff …
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-prompt
+  description: Do not prompt before launching a diff tool
+  shorthand: y
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prompt
+  description: Prompt before each invocation of the diff tool
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rotate-to
+  description: Start showing the diff for the given path, the paths before it will move to e…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-to
+  description: Start showing the diff for the given path, skipping all the paths before it
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tool
+  description: Use the diff tool specified by <tool>
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tool-help
+  description: Print a list of diff tools that may be used with --tool
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: symlinks
+  description: git difftool\\*(Aqs default behavior is create symlinks to the working tree wh…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extcmd
+  description: Specify a custom command for viewing diffs
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gui
+  description: When git-difftool is invoked with the -g or --gui option the default diff too…
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trust-exit-code
+  description: git-difftool invokes a diff tool individually on each file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-symlinks
+  description: instructs git difftool to create copies instead
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-gui
+  description: option can be used to override this setting.  If diff
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

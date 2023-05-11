@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: foreground
+  description: Don\'t fork, but run in the foreground
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help information
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log
+  description: Select the type of log messages to generate.  Messages are logged by syslog
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pidfile
+  description: Path to the pidfile.  This overrides both the built-in default (/run/lvmpolld
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: socket
+  description: Path to the socket file
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timeout
+  description: The daemon may shutdown after being idle for the given time (in seconds)
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: binary
+  description: 'Optional path to alternative LVM binary (default: /usr/bin/lvm)'
+  shorthand: B
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display the version of lvmpolld daemon
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump
+  description: Contact the running lvmpolld daemon to obtain the complete state and print it…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

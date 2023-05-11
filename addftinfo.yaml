@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: x-height
+  description: The height of lowercase letters without ascenders such as x
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fig-height
+  description: The height of figures (digits)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: asc-height
+  description: The height of characters with ascenders, such as b, d or l
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: body-height
+  description: The height of characters such as parentheses
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cap-height
+  description: The height of uppercase letters such as A
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: comma-depth
+  description: The depth of a comma
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: desc-depth
+  description: The depth of characters with descenders, such as p, q, or y
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: prints the version number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: body-depth
+  description: The depth of characters such as parentheses
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

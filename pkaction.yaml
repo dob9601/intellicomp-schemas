@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: action-id
+  description: then all actions are displayed.  Otherwise the action action
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: option only the name of the action is shown
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

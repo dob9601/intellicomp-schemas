@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: argv0
+  description: Set  argv[0] to the value  string before running the program
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audit
+  description: Use objects named in  list as auditors
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inhibit-cache
+  description: 'Do not use R /etc/ld. so. cache '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: library-path
+  description: Use  path instead of  LD_LIBRARY_PATH environment variable setting (see below)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inhibit-rpath
+  description: 'Ignore RPATH and RUNPATH information in object names in R list '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list
+  description: List all dependencies and how they are resolved
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-tunables
+  description: Print the names and values of all tunables, along with the minimum and maximu…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preload
+  description: 'Preload the objects specified in R list '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: static
+  description: option was given to ld (1) during compilation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: z
+  description: linker option, shared objects in the default paths are skipped
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verify
+  description: Verify that program is dynamically linked and this dynamic linker can handle …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

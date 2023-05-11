@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: A
+  description: Destroys all caches in the collection, if a cache collection is available
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: Run quietly
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Use cache_name as the credentials (ticket) cache name and location; if this o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: If a cache collection is available, destroy the cache for princ_name instead …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

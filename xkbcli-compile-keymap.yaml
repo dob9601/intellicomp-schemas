@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: \\-help
+  description: Print help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-verbose
+  description: Enable verbose debugging output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-rmlvo
+  description: Print the full RMLVO with the defaults filled in for missing elements
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-from\\-xkb
+  description: Load the XKB file from stdin, ignore RMLVO options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-include
+  description: Add the given path to the include path list
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-include\\-defaults
+  description: Add the default set of include directories
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-rules
+  description: The XKB ruleset
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-model
+  description: The XKB model
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-layout
+  description: The XKB layout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-variant
+  description: The XKB layout variant
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\-options
+  description: The XKB options El SEE ALSO xkbcli 1, https://xkbcommon
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

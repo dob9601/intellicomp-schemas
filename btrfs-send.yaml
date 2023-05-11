@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: e
+  description: if sending multiple subvolumes at once, use the new format and omit the \\(aqe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: send an incremental stream from parent to subvol
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: use this snapshot as a clone source for an incremental send (multiple allowed)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: output is normally written to standard output so it can be, for example, pipe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-data
+  description: 'send in NO_FILE_DATA mode '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: proto
+  description: 'use send protocol version N '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: compressed-data
+  description: send data that is compressed on the filesystem directly without decompressing…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: (deprecated) alias for global -q option
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: '(deprecated) alias for global -v option . UNINDENT '
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

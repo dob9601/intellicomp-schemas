@@ -1,0 +1,193 @@
+description: ''
+keyword_arguments:
+- name: version
+  description: Prints the Git suite version that the git program came from
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Prints the synopsis and a list of the most commonly used commands
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C
+  description: Run as if git was started in <path> instead of the current working directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Pass a configuration parameter to the command
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config-env
+  description: Like -c <name>=<value>, give configuration variable <name> a value, where <en…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exec-path
+  description: Path to wherever your core Git programs are installed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: html-path
+  description: Print the path, without trailing slash, where Git\'s HTML documentation is ins…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: man-path
+  description: Print the manpath (see man(1)) for the man pages for this version of Git and …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: info-path
+  description: Print the path where the Info files documenting this version of Git are insta…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: paginate
+  description: Pipe all output into less (or if set, $PAGER) if standard output is a terminal
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-pager
+  description: Do not pipe Git output into a pager
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: git-dir
+  description: Set the path to the repository (". git" directory)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: work-tree
+  description: Set the path to the working tree
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: namespace
+  description: Set the Git namespace.  See gitnamespaces(7) for more details
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bare
+  description: Treat the repository as a bare repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-replace-objects
+  description: Do not use replacement refs to replace Git objects
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: literal-pathspecs
+  description: Treat pathspecs literally (i. e.  no globbing, no pathspec magic)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: glob-pathspecs
+  description: Add "glob" magic to all pathspec
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noglob-pathspecs
+  description: Add "literal" magic to all pathspec
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: icase-pathspecs
+  description: Add "icase" magic to all pathspec
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-optional-locks
+  description: Do not perform optional operations that require locks
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-cmds
+  description: List commands by group
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all
+  description: or
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a
+  description: is given then all available commands are printed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: object-format
+  description: in git-init(1)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trace-ascii
+  description: on the command line.  See GIT_TRACE for available trace output options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw
+  description: diff output, etc).  GIT_GLOB_PATHSPECS
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

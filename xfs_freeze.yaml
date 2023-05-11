@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: f
+  description: flag requests the specified XFS filesystem to be frozen from new modifications
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: flag is used to un-freeze the filesystem and allow operations to continue
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: flag prints the version number and exits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

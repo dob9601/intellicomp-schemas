@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: prefix
+  description: Prefix for architecture-independent files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exec-prefix
+  description: Prefix for architecture-dependent files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include-prefix
+  description: Directory containing C header files for unixODBC
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lib-prefix
+  description: Directory containing unixODBC shared libraries
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bin-prefix
+  description: Directory containing unixODBC utilities
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Current version of unixODBC
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: Compiler flags for linking dynamic libraries
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: static-libs
+  description: Absolute file name of the unixODBC static library (libodbc. a)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libtool-libs
+  description: Absolute file name of the unixODBC libtool library (libodbc. la)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cflags
+  description: Outputs compiler flags to find header files, as well as critical compiler fla…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: odbcversion
+  description: Version of the ODBC specification used by unixODBC
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: odbcini
+  description: Absolute file name of the system-wide DSN configuration file odbc. ini
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: odbcinstini
+  description: Absolute file name of the unixODBC driver configuration file odbcinst. ini
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: header
+  description: Definitions of C preprocessor constants used by unixODBC
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ulen
+  description: Compiler flag that defines SIZEOF_SQLULEN
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,235 @@
+description: ''
+keyword_arguments:
+- name: git-dir
+  description: Set the GIT_DIR environment variable.  See git(1)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Provide more progress information
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: branch
+  description: Import changes into <ref> instead of refs/remotes/p4/master
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detect-branches
+  description: Use the branch detection algorithm to find new paths in p4
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: changesfile
+  description: Import exactly the p4 change numbers listed in file, one per line
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: silent
+  description: Do not print any progress information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detect-labels
+  description: Query p4 for labels associated with the depot paths, and add them as tags in …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: import-labels
+  description: Import labels from p4 into Git
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: import-local
+  description: By default, p4 branches are stored in refs/remotes/p4/, where they will be tr…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-changes
+  description: Import at most n changes, rather than the entire range of changes included in…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: changes-block-size
+  description: The internal block size to use when converting a revision specifier such as @…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep-path
+  description: The mapping of file names from the p4 depot path to Git, by default, involves…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-client-spec
+  description: Use a client spec to find the list of interesting files in p4
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: /
+  description: Exclude selected depot paths when cloning or syncing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: destination
+  description: Where to create the Git repository
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bare
+  description: Perform a bare clone.  See git-clone(1)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: origin
+  description: Upstream location from which commits are identified to submit to p4
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: M
+  description: Detect renames.  See git-diff(1)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preserve-user
+  description: Re-author p4 changes before submitting to p4
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: export-labels
+  description: Export tags from Git as p4 labels
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: Show just what commits would be submitted to p4; do not change state in Git o…
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prepare-p4-only
+  description: Apply a commit to the p4 workspace, opening, adding and deleting files in p4 …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shelve
+  description: Instead of submitting create a series of shelved changelists
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-shelve
+  description: Update an existing shelved changelist with this commit.  Implies --shelve
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: conflict
+  description: Conflicts can occur when applying a commit to p4
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: commit
+  description: Submit only the specified commit or range of commits, instead of the full lis…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-rebase
+  description: Disable the automatic rebase after all commits have been successfully submitt…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-p4sync
+  description: Disable the automatic sync of p4/master from Perforce after commits have been…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: P4USER can be used instead.  git-p4. password
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: P
+  description: P4PASS can be used instead.  git-p4. port
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: P4PORT can be used instead.  git-p4. host
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: P4HOST can be used instead.  git-p4. client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: git-p4. retries
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

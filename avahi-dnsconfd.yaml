@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: daemonize
+  description: Daemonize after startup and redirect log messages to syslog
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: syslog
+  description: Log to syslog instead of STDERR.  Implied by --daemonize
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kill
+  description: Kill an already running avahi-dnsconfd.  (equivalent to sending a SIGTERM)
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: refresh
+  description: Tell an already running avahi-dnsconfd to refresh the DNS server data
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check
+  description: Return 0 as return code when avahi-dnsconfd is already running
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information  FILES /etc/avahi/avahi-dnsconfd
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

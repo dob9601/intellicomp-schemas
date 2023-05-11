@@ -1,0 +1,179 @@
+description: ''
+keyword_arguments:
+- name: full
+  description: print full superblock information, including the system chunk array and backu…
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all
+  description: print information about all present superblock copies (cannot be used togethe…
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: (deprecated since 4. 8, same behaviour as --super)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bytenr
+  description: specify offset to a superblock in a non-standard location at bytenr, useful f…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: attempt to print the superblock even if a valid BTRFS signature is not found;…
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: super
+  description: (see compatibility note above)
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extents
+  description: 'print only extent-related information: extent and device trees'
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device
+  description: 'print only device-related information: tree root, chunk and device trees'
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: roots
+  description: print only short root node information, i. e.  the root tree keys
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: backups
+  description: same as --roots plus print backup root info, i. e
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uuid
+  description: print only the uuid tree information, empty output if the tree does not exist
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: print info of the specified block only, can be specified multiple times
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: follow
+  description: use with -b, print all children tree blocks of <block_num>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dfs
+  description: (default up to 5. 2)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bfs
+  description: (default since 5. 3)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hide-names
+  description: print a placeholder HIDDEN instead of various names, useful for developers to…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: csum-headers
+  description: print b-tree node checksums stored in headers (metadata)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: csum-items
+  description: print checksums stored in checksum items (data)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noscan
+  description: do not automatically scan the system for other devices from the same filesyst…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: print only the tree with the specified ID, where the ID can be numerical or c…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: (deprecated) alias for global -v option logical-resolve [-Pvo] [-s <bufsize>]…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: P
+  description: skip the path resolving and print the inodes instead
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: ignore offsets, find all references to an extent instead of a single block
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: resume-offset
+  description: print only the value suitable as resume offset for file /sys/power/resume_off…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: id
+  description: specify the device id to query, default is 1 if this option is not used rooti…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

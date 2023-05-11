@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: components
+  description: Ask the daemon to only initialize certain components
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: control-directory
+  description: Use this directory for creating communication sockets
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: daemonize
+  description: Run as a real daemon, disconnected from the terminal
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: foreground
+  description: Run in the foreground, and do not fork or become a daemon
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: login
+  description: This argument tells the daemon it is being run by PAM
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replace
+  description: Try to replace a running keyring daemon, and assume its environment variables
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: start
+  description: Connect to an already running daemon and initialize it
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unlock
+  description: Read a password from stdin, and use it to unlock the login keyring or create …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print out the gnome-keyring version and then exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help options and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

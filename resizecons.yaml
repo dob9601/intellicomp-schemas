@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: lines
+  description: option.  (Probably, root permission will be required
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

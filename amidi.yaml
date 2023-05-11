@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: 'Help: prints a list of options'
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Prints the current version
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-devices
+  description: Prints a list of all hardware MIDI ports
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-rawmidis
+  description: Prints all RawMIDI definitions.  (used when debugging configuration files)
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: Sets the name of the ALSA RawMIDI port to use
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: send
+  description: Sends the contents of the specified file to the MIDI port
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: receive
+  description: Writes data received from the MIDI port into the specified file
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: send-hex
+  description: Sends the bytes specified as hexadecimal numbers to the MIDI port
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump
+  description: Prints data received from the MIDI port as hexadecimal bytes
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timeout
+  description: Stops receiving data when no data has been received for the specified amount …
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: active-sensing
+  description: Does not ignore Active Sensing bytes (FEh) when saving or printing received M…
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clock
+  description: Does not ignore Clock bytes (F8h) when saving or printing received MIDI comma…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sysex-interval
+  description: Adds a delay in between each SysEx message sent to a device
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

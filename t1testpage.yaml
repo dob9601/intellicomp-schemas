@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: glyph
+  description: 'Print only glyphs matching R glyphs '
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: smoke
+  description: Print smoke proofs, one glyph per page.   This option is preliminary.  \' . Sp
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Write the output proof to  file instead of the standard output.  \' . Sp
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print usage information and exit.  \' . Sp
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version number and some short non-warranty information and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

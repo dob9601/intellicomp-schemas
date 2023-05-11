@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: V
+  description: Print version and exit.  CAVEATS The files cron. allow and cron
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

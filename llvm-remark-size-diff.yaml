@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: parser
+  description: Select the type of input remark parser.  Required
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: report-style
+  description: 'Output style.  * human: Human-readable textual report.  Default option'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pretty
+  description: Pretty-print JSON output.  Optional
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Output file for the report.  Outputs to stdout by default
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,130 @@
+description: ''
+keyword_arguments:
+- name: console-socket
+  description: Path to an AF_UNIX  socket which will receive a file descriptor referencing t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: image-path
+  description: Set path to get criu image files to restore from
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: work-path
+  description: Set path for saving criu work files and logs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tcp-established
+  description: Allow checkpoint/restore of established TCP connections
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ext-unix-sk
+  description: Allow checkpoint/restore of external unix sockets
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shell-job
+  description: Allow checkpoint/restore of shell jobs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file-locks
+  description: Allow checkpoint/restore of file locks
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: manage-cgroups-mode
+  description: Cgroups mode.  Default is soft
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bundle
+  description: Path to the root of the bundle directory.  Default is current directory
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detach
+  description: Detach from the container\'s process
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid-file
+  description: Specify the file to write the initial container process\' PID to
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-subreaper
+  description: Disable the use of the subreaper used to reap reparented processes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-pivot
+  description: Do not use pivot root to jail process inside rootfs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: empty-ns
+  description: Create a namespace, but don\'t restore its properties
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auto-dedup
+  description: Enable auto deduplication of memory images
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lazy-pages
+  description: Use lazy migration mechanism.  This requires a running criu lazy-pages daemon
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lsm-profile
+  description: Specify an LSM profile to be used during restore
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lsm-mount-context
+  description: Specify an LSM mount context to be used during restore
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

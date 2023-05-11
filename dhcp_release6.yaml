@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: ip
+  description: IPv6 address to release
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: client-id
+  description: Colon-separated hex string representing DHCPv6 client id
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: Print hexadecimal representation of generated DHCPv6 release packet to standa…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: print usage information to standard output and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iaid
+  description: Decimal representation of DHCPv6 IAID
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iface
+  description: Network interface to send a DHCPv6 release packet from
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: server-id
+  description: Colon-separated hex string representing DHCPv6 server id
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

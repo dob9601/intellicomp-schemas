@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: logout
+  description: Prompt the user to confirm logout.  This is the default behavior
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: power-off
+  description: Prompt the user to confirm system power off
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reboot
+  description: Prompt the user to confirm system reboot
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Ignore any inhibitors
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-prompt
+  description: End the session without user interaction.  This only works with --logout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,123 @@
+description: ''
+keyword_arguments:
+- name: endpoint
+  description: Defines the URL where to download the master files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: local-geojson-file
+  description: Defines the filename for the master GeoJSON files that references resources
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user-writable-directory
+  description: Specifies that resource files must be downloaded in the \\%user writable direc…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: system-directory
+  description: Specifies that resource files must be downloaded in the ${installation_prefix…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target-dir
+  description: Directory into which resource files must be downloaded. UNINDENT NDENT 0. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bbox
+  description: Specify an area of interest to restrict the resources to download
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: spatial-test
+  description: Specify how the extent of the resource files are compared to the area of use …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: source-id
+  description: Restrict resource files to be downloaded to those whose source_id property co…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: area-of-use
+  description: Restrict resource files to be downloaded to those whose area_of_use property …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: Restrict resource files to be downloaded to those whose name property contain…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all
+  description: Ask to download all files. UNINDENT NDENT 0. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-world-coverage
+  description: Exclude files which have world coverage. UNINDENT NDENT 0. 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Quiet mode . UNINDENT NDENT 0. 0
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: New in version 8. 1. sp Verbose mode (more than default) . UNINDENT NDENT 0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: Simulate the behavior of the tool without downloading resource files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-files
+  description: List file names, with the source_id and area_of_use properties
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-version-filtering
+  description: New in version 8. 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

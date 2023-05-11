@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: This flag causes mm2gv to assign colors to the edges
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: If set, mm2gv attaches a label to the graph indicating the base name of the i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: If specified, the graph is assumed to be undirected
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: This flag causes mm2gv to store the matrix values as the "len" attribute of t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: U
+  description: Specifies how square matrices are handled
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Prints output to the file outfile.  If not given, mm2gv uses stdout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

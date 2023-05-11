@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: l
+  description: The minimum length of leaf edges is staggered between 1 and len (a small inte…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: Enables the staggering of the -l option to fanout nodes whose indegree and ou…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Form disconnected nodes into chains of up to len nodes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: causes the output to be written to the specified file; by default, output is …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '?'
+  description: 'Prints the usage and exits.  OPERANDS The following operand is supported:'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

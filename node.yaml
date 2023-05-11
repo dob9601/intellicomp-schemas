@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: experimental-global-webcrypto
+  description: Expose the Web Crypto API on the global scope
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: experimental-network-imports
+  description: Enable experimental support for loading modules using `import` over `https:`
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: experimental-shadow-realm
+  description: Use this flag to enable ShadowRealm support
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: experimental-test-coverage
+  description: Enable code coverage in the test runner
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-experimental-fetch
+  description: Disable experimental support for the Fetch API
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-experimental-global-customevent
+  description: Disable exposition of the CustomEvent on the global scope
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-experimental-global-webcrypto
+  description: Disable exposition of the Web Crypto API on the global scope
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test
+  description: Starts the Node. js command line test runner
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test-name-pattern
+  description: A regular expression that configures the test runner to only execute tests wh…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test-reporter
+  description: A test reporter to use when running tests
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test-reporter-destination
+  description: The destination for the corresponding test reporter
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test-only
+  description: Configures the test runner to only execute top level tests that have the `onl…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

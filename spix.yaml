@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: dry-run
+  description: Print the commands that would be executed, but do not execute them
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print help, and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version, and exit.  EXAMPLES Let foo. tex be the following file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: strict
+  description: By default mktag turns on the equivalent of git-fsck(1) --strict mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-strict
+  description: to disable it
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

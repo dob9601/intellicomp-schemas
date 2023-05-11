@@ -1,0 +1,221 @@
+description: ''
+keyword_arguments:
+- name: add-host
+  description: "\tAdd a custom host-to-IP mapping (\"host:ip\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: build-arg
+  description: "\tSet build-time variables"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cache-from
+  description: "\tImages to consider as cache sources"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cgroup-parent
+  description: "\tOptional parent cgroup for the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: compress
+  description: "\tCompress the build context using gzip"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-period
+  description: "\tLimit the CPU CFS (Completely Fair Scheduler) period"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-quota
+  description: "\tLimit the CPU CFS (Completely Fair Scheduler) quota"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpu-shares
+  description: "\tCPU shares (relative weight)"
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpuset-cpus
+  description: "\tCPUs in which to allow execution (0-3, 0,1)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpuset-mems
+  description: "\tMEMs in which to allow execution (0-3, 0,1)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-content-trust
+  description: "\tSkip image verification"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: "\tName of the Dockerfile (Default is \"PATH/Dockerfile\")"
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-rm
+  description: "\tAlways remove intermediate containers"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for build"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iidfile
+  description: "\tWrite the image ID to the file"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: isolation
+  description: "\tContainer isolation technology"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label
+  description: "\tSet metadata for an image"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory
+  description: "\tMemory limit"
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: memory-swap
+  description: "\tSwap limit equal to memory plus swap: -1 to enable unlimited swap"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: network
+  description: "\tSet the networking mode for the RUN instructions during build"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-cache
+  description: "\tDo not use cache when building the image"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: platform
+  description: "\tSet platform if server is multi-platform capable"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pull
+  description: "\tAlways attempt to pull a newer version of the image"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: "\tSuppress the build output and print image ID on success"
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rm
+  description: "\tRemove intermediate containers after a successful build"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: security-opt
+  description: "\tSecurity options"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shm-size
+  description: "\tSize of \"/dev/shm\""
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: squash
+  description: "\tSquash newly built layers into a single new layer"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tag
+  description: "\tName and optionally a tag in the \"name:tag\" format"
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target
+  description: "\tSet the target build stage to build"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ulimit
+  description: "\tUlimit options SEE ALSO"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

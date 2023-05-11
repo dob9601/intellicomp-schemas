@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: hash
+  description: Generate a SHA1 hash for the package at \\(lqpath\\(rq
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: global
+  description: For install or remove, operates on packages installed for all users
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: type
+  description: The type of package, e. g
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: install
+  description: Install the package at \\(lqpath\\(rq
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show
+  description: Show information of package \\(lqname\\(rq
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: upgrade
+  description: Upgrade the package at \\(lqpath\\(rq
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list
+  description: List installed packages
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-types
+  description: Lists all known Package types that can be installed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove
+  description: Remove the package named \\(lqname\\(rq
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: packageroot
+  description: Absolute path to the package root
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: I
+  description: OpenLDAP schema to read
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: O
+  description: File to write ldif version of schema to
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

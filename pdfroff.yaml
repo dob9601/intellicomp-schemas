@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: h
+  description: Same as  --help ; see below
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: Process standard input, after all other specified input files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: T
+  description: 'Only  -Tps is supported by  pdfroff '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Same as  --version ; see below
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Causes  pdfroff to display a summary of the its usage syntax, and supported o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: emit-ps
+  description: Suppresses the final output conversion step, causing  pdfroff to emit PostScr…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep-temporary-files
+  description: Suppresses the deletion of temporary files, which normally occurs after  pdfr…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-pdf-output
+  description: May be used with the  \\%--reference-dictionary= name option (described below)…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-reference-dictionary
+  description: May be used to eliminate the overhead of creating a reference dictionary, whe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-toc-relocation
+  description: May be used to eliminate the extra  groff processing pass, which is required …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-kill-null-pages
+  description: While preparing for simulation of the manual collation step, which is traditi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pdf-output
+  description: Specifies the name to be used for the resultant PDF document; if unspecified,…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reference-dictionary
+  description: Specifies the name to be used for the generated reference dictionary file; if…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: report-progress
+  description: Causes  pdfroff to display an informational message on standard error, at the…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stylesheet
+  description: Specifies the name of an R "input file" , to be used as a style sheet for for…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: see below
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

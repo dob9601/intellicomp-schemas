@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: n
+  description: No output is produced, though the return value will indicate whether the grap…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Print information about whether the file is acyclic, has a cycle or is undire…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: causes the output to be written to the specified file; by default, output is …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '?'
+  description: option causes the program to print usage information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

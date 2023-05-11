@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: advertise-addr
+  description: "\tAdvertised address (format: \"[:port]\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: availability
+  description: "\tAvailability of the node (\"active\", \"pause\", \"drain\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: data-path-addr
+  description: "\tAddress or interface to use for data path traffic (format: \"\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for join"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listen-addr
+  description: "\tListen address (format: \"[:port]\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: token
+  description: "\tToken for entry into the swarm SEE ALSO"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

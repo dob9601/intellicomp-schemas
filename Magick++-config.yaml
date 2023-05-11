@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: cppflags
+  description: Print the preprocessor flags that are needed to find the  ImageMagick C and C…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cxxflags
+  description: 'Print the compiler flags that were used to compile   libMagick++ '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exec-prefix
+  description: Print the directory under which target specific binaries and executables are …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ldflags
+  description: Print the linker flags that are needed to link with the  libMagick++ library
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: 'Print the linker flags that are needed to link a program with  libMagick++ '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: Print the directory under which the package is installed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version of the ImageMagick distribution to standard output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

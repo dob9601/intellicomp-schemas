@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: H
+  description: LDB URL to connect to.  See ldb(3) for details
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: fps
+  description: frames per second.  default is 7
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: res
+  description: resolution.  0 is 320x240 (default), 1 = 640x480 YUV4:1:1, 2 = 640x480 RGB8
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device
+  description: specifies video1394 device to use (optional)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: print help message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

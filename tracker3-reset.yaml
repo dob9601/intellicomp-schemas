@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: filesystem
+  description: Removes data stored by tracker-miner-fs(1)
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rss
+  description: Removes data stored by tracker-miner-rss(1)
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: Resets all indexed information about FILE, works recursively for directories
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

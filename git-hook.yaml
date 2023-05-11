@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: to-stdin
+  description: For "run"; Specify a file which will be streamed into the hook\'s stdin
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-missing
+  description: Ignore any missing hook by quietly returning zero
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: end-of-options
+  description: gitcli(7)).  See githooks(5) for arguments hooks might expect (if any)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

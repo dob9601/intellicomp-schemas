@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: verbose
+  description: Enable extra informational output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check
+  description: Run only a syntax check on the patternfile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: 'null'
+  description: Input is expected to be null delimited.  SEE ALSO gpg-agent(1),
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

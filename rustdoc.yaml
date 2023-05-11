@@ -1,0 +1,172 @@
+description: ''
+keyword_arguments:
+- name: input-format
+  description: rust
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-format
+  description: html
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: 'where to place the output (default: doc/ for html)'
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: passes
+  description: 'space\\[hy]separated list of passes to run (default: \''\'')'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-defaults
+  description: don\'t run the default passes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: plugins
+  description: 'space-separated list of plugins to run (default: \''\'')'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: plugin-path
+  description: 'directory to load plugins from (default: /tmp/rustdoc_ng/plugins)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target
+  description: target triple to document
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crate-name
+  description: specify the name of this crate
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: library-path
+  description: directory to add to crate search path
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cfg
+  description: pass a --cfg to rustc
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extern
+  description: pass an --extern to rustc
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test
+  description: run code examples as tests
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test-args
+  description: pass arguments to the test runner
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: html-in-header
+  description: file to add to <head>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: html-before-content
+  description: files to include inline between <body> and the content of a rendered Markdown…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: markdown-before-content
+  description: files to include inline between <body> and the content of a rendered Markdown…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: html-after-content
+  description: files to include inline between the content and </body> of a rendered Markdow…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: markdown-after-content
+  description: files to include inline between the content and </body> of a rendered Markdow…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: markdown-css
+  description: CSS files to include via <link> in a rendered Markdown file Markdown file or …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: markdown-playground-url
+  description: URL to send code snippets to
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: markdown-no-toc
+  description: don\'t include table of contents
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extend-css
+  description: to redefine some css rules with a given file to generate doc with your own th…
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print rustdoc\'s version
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

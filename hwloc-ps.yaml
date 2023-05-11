@@ -1,0 +1,130 @@
+description: ''
+keyword_arguments:
+- name: a
+  description: List all processes, even those that are not bound to any specific part of the…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid
+  description: Only show process of PID <pid>, even if it is not bound to any specific part …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: Only show processes whose name contains <name>, even if they are not bound to…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uid
+  description: Only show processes of the user whose UID is <uid>, or processes of all users…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: physical
+  description: Report OS/physical indexes instead of logical indexes
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logical
+  description: Report logical indexes instead of physical/OS indexes (default)
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cpuset
+  description: Show process bindings as cpusets instead of objects
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: threads
+  description: Show threads inside processes
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: single-ancestor
+  description: When the object is bound to different objects, report their common ancestor (…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: get-last-cpu-location
+  description: Report  the last processors where the process/thread ran
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disallowed
+  description: Include objects disallowed by administrative limitations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid-cmd
+  description: Append the output of the given command to each PID line
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: json-server
+  description: Run the tool as a JSON server that waits for other process\' requests on a por…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: json-port
+  description: Use the given port number instead of the default 8888
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Increase verbosity of the JSON server
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: short-name
+  description: Show only the process short name instead of the path
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Report version and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display help message and exit.  DESCRIPTION
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

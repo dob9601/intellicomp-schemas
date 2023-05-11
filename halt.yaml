@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print a short help text and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: halt
+  description: Halt the machine, regardless of which one of the three commands is invoked
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: poweroff
+  description: Power-off the machine, when either halt or poweroff is invoked
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reboot
+  description: Reboot the machine, regardless of which one of the three commands is invoked
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Force immediate halt, power-off, reboot
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wtmp-only
+  description: Only write wtmp shutdown entry, do not actually halt, power-off, reboot
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-wtmp
+  description: Do not write wtmp shutdown entry
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-sync
+  description: Don\\*(Aqt sync hard disks/storage media before halt, power-off, reboot
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-wall
+  description: Do not send wall message before halt, power-off, reboot
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

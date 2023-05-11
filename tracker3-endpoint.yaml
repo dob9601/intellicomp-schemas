@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: dbus-service
+  description: Service name to use on the endpoint
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: database-path
+  description: The path where the database will be stored
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ontology
+  description: The name of an ontology in $datadir/tracker/ontologies to use on the construc…
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ontology-path
+  description: Full path to an ontology to use on the constructed database
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: session
+  description: Use the session bus.  This is the default
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: system
+  description: Use the system bus
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list
+  description: List all SPARQL endpoints available in DBus
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: http-port
+  description: Creates a HTTP endpoint that listens in the specified port
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loopback
+  description: Allows only HTTP connections in the loopback device
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

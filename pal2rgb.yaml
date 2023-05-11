@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: C
+  description: This option overrides the default behavior of pal2rgb in determining whether …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Explicitly select the planar configuration used in organizing data samples in…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Use the specified compression algorithm to encoded image data in the output f…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Explicitly specify the number of rows in each strip of the output file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

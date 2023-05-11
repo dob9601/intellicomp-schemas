@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: v
+  description: Cause   djvused  to print a command line prompt before reading commands and a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: 'Cause  djvused to read commands from file R scriptfile '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: e
+  description: Cause  djvused to execute the commands specified by the option argument R com…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Cause   djvused to save the file   djvufile after executing the specified com…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Cause  djvused to print hidden text and annotations as UTF-8  instead of enco…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Cause  djvused  to disregard save commands
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

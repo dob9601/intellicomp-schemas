@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: append-binary-args
+  description: Append extra variable args from file (use - to read from stdin)
+  shorthand: '@'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

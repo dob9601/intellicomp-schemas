@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show help about options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-fork
+  description: Do not fork, i. e.  do not exit until all the executed programs ends
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-kded
+  description: Do not start kded
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: suicide
+  description: Terminate when no KDE applications are left running
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

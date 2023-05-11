@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: t
+  description: option.  Also, dvispc -x can accept DTL-compatible text input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

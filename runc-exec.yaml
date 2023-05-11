@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: console-socket
+  description: Path to an AF_UNIX  socket which will receive a file descriptor referencing t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cwd
+  description: Change to path in the container before executing the command
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env
+  description: Set an environment variable name to value.  Can be specified multiple times
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tty
+  description: Allocate a pseudo-TTY
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: Run the command as a user (and, optionally, group) specified by uid (and gid)
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: additional-gids
+  description: Add additional group IDs.  Can be specified multiple times
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: process
+  description: Instead of specifying all the exec parameters directly on the command line, g…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detach
+  description: Detach from the container\'s process
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid-file
+  description: Specify the file to write the container process\' PID to
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: process-label
+  description: Set the asm process label for the process commonly used with selinux(7)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: apparmor
+  description: Set the apparmor(7) profile for the process
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-new-privs
+  description: Set the "no new privileges" value for the process
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cap
+  description: Add a capability to the bounding set for the process
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: preserve-fds
+  description: Pass N additional file descriptors to the container (stdio + $LISTEN_FDS + N …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-paused
+  description: Allow exec in a paused container
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cgroup
+  description: Execute a process in a sub-cgroup
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

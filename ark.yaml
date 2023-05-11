@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: dialog
+  description: Show a dialog for specifying the options for a batch or add operation
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mimetypes
+  description: List supported MIME types
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: destination
+  description: Default the extraction directory to directory
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add
+  description: Query the user for an archive filename and add specified files to it
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-to
+  description: Add the specified files to filename.  Create archive if it does not exist
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: changetofirstpath
+  description: Change the current directory to the first entry and add all other entries rel…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: autofilename
+  description: Automatically choose a filename, with the selected suffix (for example rar, t…
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: batch
+  description: Use the batch interface instead of the usual dialog
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: autodestination
+  description: The destination argument will be set to the path of the first file supplied
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: autosubfolder
+  description: Archive contents will be read, and if detected to not be a single folder arch…
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: opendestination
+  description: Open the destination folder when the extraction is complete
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

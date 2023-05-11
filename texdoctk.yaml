@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: a
+  description: 'autoview: autostart viewer if a listbox contains only one item (this will fre…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ?-
+  description: 'which indicate in which part of the '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

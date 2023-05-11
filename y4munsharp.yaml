@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: C
+  description: CbCr (chroma) unsharp parameters
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: N
+  description: Filtering can produce output outside the 16 to 240 range for Y\' and 16 to 235…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

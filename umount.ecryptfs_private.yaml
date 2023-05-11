@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: f
+  description: Force the unmount, ignoring the value of the mount counter in /tmp/ecryptfs-U…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: prefix
+  description: Writes the directory prefix used in the PCRE installation for architecture in…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exec-prefix
+  description: Writes the directory prefix used in the PCRE installation for architecture de…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Writes the version number of the installed PCRE libraries to the standard out…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: Writes to the standard output the command line options required to link with …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs16
+  description: Writes to the standard output the command line options required to link with …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs32
+  description: Writes to the standard output the command line options required to link with …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs-cpp
+  description: Writes to the standard output the command line options required to link with …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs-posix
+  description: Writes to the standard output the command line options required to link with …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cflags
+  description: Writes to the standard output the command line options required to compile fi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cflags-posix
+  description: Writes to the standard output the command line options required to compile fi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

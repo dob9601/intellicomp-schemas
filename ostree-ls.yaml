@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: dironly
+  description: Do not recurse into directory arguments
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: recursive
+  description: Print directories recursively
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: checksum
+  description: Print checksum
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xattrs
+  description: Print extended attributes
+  shorthand: X
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nul-filenames-only
+  description: Print only filenames, NUL separated
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

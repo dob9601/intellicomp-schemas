@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: min
+  description: minimum number of processes that should be running, defaults to 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max
+  description: maximum number of processes that should be running, defaults to 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check
+  description: check process against database /local/etc/fixproc. conf
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kill
+  description: kill process, wait 5 seconds, kill -9 if still exist
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart
+  description: kill process, wait 5 seconds, kill -9 if still exist, then start again
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exist
+  description: checks if proc exists in ps && (min <= num.  of processes <= max)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fix
+  description: check process against database /local/etc/fixproc. conf
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

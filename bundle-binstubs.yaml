@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: all
+  description: Create binstubs for all gems in the bundle
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

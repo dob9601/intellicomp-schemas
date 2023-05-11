@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Displays the list of command-line options supported by ar and then exits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Displays the version information of ar and then exits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: X32_64
+  description: ar ignores an initial option spelled -X32_64, for compatibility with \\s-1AIX
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: plugin
+  description: The optional command-line switch --plugin name causes ar to load the plugin c…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target
+  description: The optional command-line switch --target bfdname specifies that the archive …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: The --output option can be used to specify a path to a directory into which a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: record-libdeps
+  description: The --record-libdeps option is identical to the l modifier, just handled in l…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: thin
+  description: Make the specified archive a thin archive
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

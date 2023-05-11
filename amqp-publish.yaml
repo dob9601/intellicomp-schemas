@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: exchange
+  description: The name of the exchange to publish to
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: routing-key
+  description: The routing key to publish with.  If omitted, an empty routing key is assumed
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: persistent
+  description: Use the persistent delivery mode
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: content-type
+  description: Specifies the content-type property for the message
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: content-encoding
+  description: Specifies the content-encoding property for the message
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: body
+  description: Specifies the message body
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: header
+  description: 'Specifies an optional header in the form "key: value"'
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,1152 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print a description of the command line options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-list
+  description: Print a description of the command line options in a simple list format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: D
+  description: Specify the name of a macro to be defined
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Specify the name of the dependency filename
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Enable debug output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump-json
+  description: Print a JSON representation of all records, suitable for further automated pr…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: I
+  description: Specify where to find other target description files for inclusion
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: null-backend
+  description: Parse the source files and build the records, but do not run any backend
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Specify the output file name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-records
+  description: Print all classes and records to standard output (default backend option)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-detailed-records
+  description: Print a detailed report of all global variables, classes, and records to stan…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stats
+  description: Print a report with any statistics collected by the backend
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: time-phases
+  description: Time the parser and backend phases and print a report
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show the version number of the program
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: write-if-changed
+  description: Write the output file only if it is new or has changed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-classes
+  description: Generate Clang attribute clases
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-parser-string-switches
+  description: Generate all parser-related attribute string switches
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-subject-match-rules-parser-string-switches
+  description: Generate all parser-related attribute subject match rule string switches
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-impl
+  description: Generate Clang attribute implementations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-subject-match-rule-list
+  description: Generate a Clang attribute subject match rule list
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-pch-read
+  description: Generate Clang PCH attribute reader
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-pch-write
+  description: Generate Clang PCH attribute writer
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-has-attribute-impl
+  description: Generate a Clang attribute spelling list
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-spelling-index
+  description: Generate a Clang attribute spelling index
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-ast-visitor
+  description: Generate a recursive AST visitor for Clang attributes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-template-instantiate
+  description: Generate a Clang template instantiate code
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-parsed-attr-list
+  description: Generate a Clang parsed attribute list
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-parsed-attr-impl
+  description: Generate the Clang parsed attribute helpers
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-parsed-attr-kinds
+  description: Generate a Clang parsed attribute kinds
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-text-node-dump
+  description: Generate Clang attribute text node dumper
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-node-traverse
+  description: Generate Clang attribute traverser
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-diags-defs
+  description: Generate Clang diagnostics definitions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clang-component
+  description: Only use warnings from specified component
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-diag-groups
+  description: Generate Clang diagnostic groups
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-diags-index-name
+  description: Generate Clang diagnostic name index
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-basic-reader
+  description: Generate Clang BasicReader classes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-basic-writer
+  description: Generate Clang BasicWriter classes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-comment-nodes
+  description: Generate Clang AST comment nodes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-decl-nodes
+  description: Generate Clang AST declaration nodes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-stmt-nodes
+  description: Generate Clang AST statement nodes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-type-nodes
+  description: Generate Clang AST type nodes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-type-reader
+  description: Generate Clang AbstractTypeReader class
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-type-writer
+  description: Generate Clang AbstractTypeWriter class
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-opcodes
+  description: Generate Clang constexpr interpreter opcodes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-sa-checkers
+  description: Generate Clang static analyzer checkers
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-comment-html-tags
+  description: Generate efficient matchers for HTML tag names that are used in documentation…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-comment-html-tags-properties
+  description: Generate efficient matchers for HTML tag properties
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-comment-html-named-character-references
+  description: Generate function to translate named character references to UTF-8 sequences
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-comment-command-info
+  description: Generate command properties for commands that are used in documentation comme…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-comment-command-list
+  description: Generate list of commands that are used in documentation comments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-opencl-builtins
+  description: Generate OpenCL builtin declaration handlers
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-neon
+  description: Generate arm_neon. h for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-fp16
+  description: Generate arm_fp16. h for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-bf16
+  description: Generate arm_bf16. h for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-neon-sema
+  description: Generate ARM NEON sema support for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-neon-test
+  description: Generate ARM NEON tests for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-sve-header
+  description: Generate arm_sve. h for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-sve-builtins
+  description: Generate arm_sve_builtins. inc for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-sve-builtin-codegen
+  description: Generate arm_sve_builtin_cg_map. inc for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-sve-typeflags
+  description: Generate arm_sve_typeflags. inc for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-sve-sema-rangechecks
+  description: Generate arm_sve_sema_rangechecks. inc for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-mve-header
+  description: Generate arm_mve. h for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-mve-builtin-def
+  description: Generate ARM MVE builtin definitions for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-mve-builtin-sema
+  description: Generate ARM MVE builtin sema checks for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-mve-builtin-codegen
+  description: Generate ARM MVE builtin code-generator for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-mve-builtin-aliases
+  description: Generate list of valid ARM MVE builtin aliases for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-cde-header
+  description: Generate arm_cde. h for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-cde-builtin-def
+  description: Generate ARM CDE builtin definitions for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-cde-builtin-sema
+  description: Generate ARM CDE builtin sema checks for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-cde-builtin-codegen
+  description: Generate ARM CDE builtin code-generator for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-arm-cde-builtin-aliases
+  description: Generate list of valid ARM CDE builtin aliases for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-riscv-vector-header
+  description: Generate riscv_vector. h for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-riscv-vector-builtins
+  description: Generate riscv_vector_builtins. inc for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-riscv-vector-builtin-codegen
+  description: Generate riscv_vector_builtin_cg. inc for Clang
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-attr-docs
+  description: Generate attribute documentation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-diag-docs
+  description: Generate diagnostic documentation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-opt-docs
+  description: Generate option documentation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-data-collectors
+  description: Generate data collectors for AST nodes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-test-pragma-attribute-supported-attributes
+  description: 'Generate a list of attributes supported by #pragma Clang attribute for testin…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-asm-matcher
+  description: Generate assembly instruction matcher
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: match-prefix
+  description: Make -gen-asm-matcher match only instructions with the given prefix
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-asm-parser
+  description: Generate assembly instruction parser
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: asmparsernum
+  description: Make -gen-asm-parser emit assembly parser number n
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-asm-writer
+  description: Generate assembly writer
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: asmwriternum
+  description: Make -gen-asm-writer emit assembly writer number n
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-attrs
+  description: Generate attributes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-automata
+  description: Generate generic automata
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-callingconv
+  description: Generate calling convention descriptions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-compress-inst-emitter
+  description: Generate RISC-V compressed instructions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-ctags
+  description: Generate ctags-compatible index
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-dag-isel
+  description: Generate a DAG (directed acyclic graph) instruction selector
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: instrument-coverage
+  description: Make -gen-dag-isel generate tables to help identify the patterns matched
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: omit-comments
+  description: Make -gen-dag-isel omit comments.  The default is false
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-dfa-packetizer
+  description: Generate DFA Packetizer for VLIW targets
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-directive-decl
+  description: Generate directive related declaration code (header file)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-directive-gen
+  description: Generate directive related implementation code part
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-directive-impl
+  description: Generate directive related implementation code
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-disassembler
+  description: Generate disassembler
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-emitter
+  description: Generate machine code emitter
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-exegesis
+  description: Generate llvm-exegesis tables
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-fast-isel
+  description: Generate a \\(dqfast\\(dq instruction selector
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-global-isel
+  description: Generate GlobalISel selector
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gisel-coverage-file
+  description: Specify the file from which to retrieve coverage information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: instrument-gisel-coverage
+  description: Make -gen-global-isel generate coverage instrumentation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: optimize-match-table
+  description: Make -gen-global-isel generate an optimized version of the match table
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: warn-on-skipped-patterns
+  description: Make -gen-global-isel explain why a pattern was skipped for inclusion
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-global-isel-combiner
+  description: Generate GlobalISel combiner
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: combiners
+  description: Make -gen-global-isel-combiner emit the specified combiners
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gicombiner-show-expansions
+  description: Make -gen-global-isel-combiner use C++ comments to indicate occurrences of co…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gicombiner-stop-after-build
+  description: Make -gen-global-isel-combiner stop processing after building the match tree
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gicombiner-stop-after-parse
+  description: Make -gen-global-isel-combiner stop processing after parsing rules and dump s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-instr-info
+  description: Generate instruction descriptions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-instr-docs
+  description: Generate instruction documentation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-intrinsic-enums
+  description: Generate intrinsic enums
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: intrinsic-prefix
+  description: Make -gen-intrinsic-enums generate intrinsics with this target prefix
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-intrinsic-impl
+  description: Generate intrinsic information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-opt-parser-defs
+  description: Generate options definitions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-opt-rst
+  description: Generate option RST
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-pseudo-lowering
+  description: Generate pseudo instruction lowering
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-register-bank
+  description: Generate register bank descriptions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-register-info
+  description: Generate registers and register classes info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: register-info-debug
+  description: Make -gen-register-info dump register information for debugging
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-searchable-tables
+  description: Generate generic searchable tables
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-subtarget
+  description: Generate subtarget enumerations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-x86-EVEX2VEX-tables
+  description: Generate X86 EVEX to VEX compress tables
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-x86-fold-tables
+  description: Generate X86 fold tables
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: long-string-literals
+  description: When emitting large string tables, prefer string literals over comma-separate…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-enums
+  description: Print enumeration values for a class
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: class
+  description: Make -print-enums print the enumeration list for the specified class
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-sets
+  description: Print expanded sets for testing DAG exprs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-avail-interface-decls
+  description: Generate availability interface declarations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-avail-interface-defs
+  description: Generate op interface definitions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-dialect-doc
+  description: Generate dialect documentation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dialect
+  description: The dialect to generate
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-enum-decls
+  description: Generate enum utility declarations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-enum-defs
+  description: Generate enum utility definitions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-enum-from-llvmir-conversions
+  description: Generate conversions of EnumAttrs from LLVM IR
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-enum-to-llvmir-conversions
+  description: Generate conversions of EnumAttrs to LLVM IR
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-llvmir-conversions
+  description: Generate LLVM IR conversions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-llvmir-intrinsics
+  description: Generate LLVM IR intrinsics
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: llvmir-intrinsics-filter
+  description: Only keep the intrinsics with the specified substring in their record name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dialect-opclass-base
+  description: The base class for the ops in the dialect we are to emit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-op-decls
+  description: Generate operation declarations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-op-defs
+  description: Generate operation definitions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: asmformat-error-is-fatal
+  description: Emit a fatal error if format parsing fails
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: op-exclude-regex
+  description: Regular expression of name of ops to exclude (no filter if empty)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: op-include-regex
+  description: Regular expression of name of ops to include (no filter if empty)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-op-doc
+  description: Generate operation documentation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-pass-decls
+  description: Generate operation documentation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: The name of this group of passes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-pass-doc
+  description: Generate pass documentation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-rewriters
+  description: Generate pattern rewriters
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-spirv-avail-impls
+  description: Generate SPIR-V operation utility definitions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-spirv-capability-implication
+  description: Generate utility function to return implied capabilities for a given capabili…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-spirv-enum-avail-decls
+  description: Generate SPIR-V enum availability declarations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-spirv-enum-avail-defs
+  description: Generate SPIR-V enum availability definitions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-spirv-op-utils
+  description: Generate SPIR-V operation utility definitions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-spirv-serialization
+  description: Generate SPIR-V (de)serialization utilities and functions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-struct-attr-decls
+  description: Generate struct utility declarations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-struct-attr-defs
+  description: Generate struct utility definitions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-typedef-decls
+  description: Generate TypeDef declarations
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-typedef-defs
+  description: Generate TypeDef definitions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: typedefs-dialect
+  description: Generate types for this dialect
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gen-clang-attr-list
+  description: Generate a Clang attribute list
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

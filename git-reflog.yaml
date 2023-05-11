@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: all
+  description: Process the reflogs of all references
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: single-worktree
+  description: By default when --all is specified, reflogs from all working trees are proces…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: expire
+  description: Prune entries older than the specified time
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: expire-unreachable
+  description: Prune entries older than <time> that are not reachable from the current tip o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: updateref
+  description: Update the reference to the value of the top reflog entry (i. e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rewrite
+  description: If a reflog entry\'s predecessor is pruned, adjust its "old" SHA-1 to be equal…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stale-fix
+  description: Prune any reflog entries that point to "broken commits"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: Do not actually prune any entries; just show what would have been pruned
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Print extra information on screen
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

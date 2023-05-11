@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: Cb
+  description: Display only a brief heading
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: CB
+  description: Do not use GETBULK requests to retrieve data, only GETNEXT
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cc
+  description: Print table in columns of  CHARS characters width
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cf
+  description: The string  STRING is used to separate table columns
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Ch
+  description: Display  only the column headings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: CH
+  description: Do not display the column headings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Ci
+  description: This option prepends the index of the entry to all printed lines
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cl
+  description: Left justify the data in each column
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cr
+  description: For GETBULK requests,   REPEATERS specifies the max-repeaters value to use
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Cw
+  description: Specifies the width of the lines when the table is printed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

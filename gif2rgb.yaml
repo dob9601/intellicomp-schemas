@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: v
+  description: Verbose mode (show progress).  Enables printout of running scan lines
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '1'
+  description: Only one file in the format of RGBRGB
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Specifies number of colors to use in RGB-to-GIF conversions, in bits per pixe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Sets RGB-to-GIF conversion mode and specifies the size of the image to read
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: specifies the name of the out file (see also `-1\\*(Aq above)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Print one line of command line help, similar to Usage above
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

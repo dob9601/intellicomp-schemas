@@ -1,0 +1,137 @@
+description: ''
+keyword_arguments:
+- name: debug
+  description: print warnings about invalid input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delimiter
+  description: use X instead of whitespace for field delimiter
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: field
+  description: replace the numbers in these input fields (default=1); see FIELDS below
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: format
+  description: use printf style floating-point FORMAT; see FORMAT below for details
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: from
+  description: auto-scale input numbers to UNITs; default is \'none\'; see UNIT below
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: from-unit
+  description: specify the input unit size (instead of the default 1)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: grouping
+  description: use locale-defined grouping of digits, e. g
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: header
+  description: print (without converting) the first N header lines; N defaults to 1 if not s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: invalid
+  description: 'failure mode for invalid numbers: MODE can be: abort (default), fail, warn, i…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: padding
+  description: pad the output to N characters; positive N will right-align; negative N will …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: round
+  description: 'use METHOD for rounding when scaling; METHOD can be: up, down, from-zero (def…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: suffix
+  description: add SUFFIX to output numbers, and accept optional SUFFIX in input numbers
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: to
+  description: auto-scale output numbers to UNITs; see UNIT below
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: to-unit
+  description: the output unit size (instead of the default 1)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: zero-terminated
+  description: line delimiter is NUL, not newline
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit . SS "UNIT options:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: M
+  description: from first to M\'th field (inclusive)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '>'
+  description: $ numfmt --to=iec 2048
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

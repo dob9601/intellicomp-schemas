@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: Ci
+  description: is added to the command line flags of snmptrap, it sends an INFORM-PDU, expec…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

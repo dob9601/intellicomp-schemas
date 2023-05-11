@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: git-protocol
+  description: 'The protocol to use for git operations: {ssh|https}'
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hostname
+  description: The hostname of the GitHub instance to authenticate with
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: insecure-storage
+  description: Save authentication credentials in plain text instead of credential store
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scopes
+  description: Additional authentication scopes to request
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: web
+  description: Open a browser to authenticate
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: with-token
+  description: 'Read token from standard input EXAMPLE # start interactive setup $ gh auth lo…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

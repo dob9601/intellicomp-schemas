@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: interval
+  description: Sets the update interval to n seconds (default is 4 seconds)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: notile
+  description: Doesn[aq]t tile the windows for two or more connections
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pluginpath
+  description: Specifies the path that jconsole uses to look up plug-ins
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Prints the program version
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Jinput_arguments
+  description: Passes input_arguments to the JVM on which the jconsole command is run
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Displays the help message for the command.  DESCRIPTION
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

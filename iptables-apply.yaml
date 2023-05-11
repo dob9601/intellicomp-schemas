@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: timeout
+  description: Sets the timeout in seconds after which the script will roll back to the prev…
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: write
+  description: Specify the savefile where successfully applied rules will be written to (def…
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: command
+  description: Run command runcmd to configure iptables instead of applying a rulesfile (def…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display usage information
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display version information.  SEE ALSO
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

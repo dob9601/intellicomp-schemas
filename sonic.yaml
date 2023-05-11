@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: Modify pitch by emulating vocal chords vibrating faster or slower
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Set pitch scaling factor.   1. 3 means 30%% higher
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: Disable all speed-up heuristics, possibly improving the quality slightly
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Adjust the speed of playback.   This scales both the pitch and speed equally
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Set speed up factor.   1. 0 means no change, 2. 0 means 2X faster
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Scale volume by scaleFactor.   1. 5 increases by 50%
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

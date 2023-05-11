@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: exit-at-zero
+  description: When the number of connected processes falls back to zero, exit
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-connect
+  description: By default, the listener can connect to up to 50 processes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-socket
+  description: option on the specified port and copies the commentary it is sent to stdout
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

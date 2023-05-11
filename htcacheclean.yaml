@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: A
+  description: List the URLs currently stored in the cache, along with their attributes in t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

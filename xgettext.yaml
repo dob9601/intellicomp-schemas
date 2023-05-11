@@ -1,0 +1,361 @@
+description: ''
+keyword_arguments:
+- name: files-from
+  description: get list of input files from FILE
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: directory
+  description: 'add DIRECTORY to list for input files search '
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-domain
+  description: use NAME. po for output (instead of messages. po)
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: write output to specified file
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-dir
+  description: 'output files will be placed in directory DIR '
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: language
+  description: recognise the specified language (C, C++, ObjectiveC, PO, Shell, Python, Lisp…
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c++
+  description: 'shorthand for --language=\\,C\\/++ '
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: from-code
+  description: 'encoding of input files (except for Python, Tcl, Glade) '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: join-existing
+  description: join messages with existing file
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-file
+  description: entries from FILE. po are not extracted
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-comments
+  description: place comment blocks starting with TAG and preceding keyword lines in output …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: place all comment blocks preceding keyword lines in output file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check
+  description: perform syntax check on messages (ellipsis-unicode, space-ellipsis, P quote-u…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sentence-end
+  description: type describing the end of sentence (single-space, which is the default, P or…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extract-all
+  description: extract all strings (only languages C, C++, ObjectiveC, Shell, Python, Lisp, …
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keyword
+  description: look for WORD as an additional keyword
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k
+  description: do not to use default keywords (only languages C, C++, ObjectiveC, Shell, Pyt…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: flag
+  description: additional flag for strings inside the argument number ARG of keyword WORD
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trigraphs
+  description: understand ANSI C trigraphs for input (only languages C, C++, ObjectiveC)
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: its
+  description: apply ITS rules from FILE (only XML based languages)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: qt
+  description: recognize Qt format strings (only language C++)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kde
+  description: recognize KDE 4 format strings (only language C++)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: boost
+  description: recognize Boost format strings (only language C++)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: more detailed formatstring recognition result . SS "Output details:"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: color
+  description: use colors and other text attributes always
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: style
+  description: specify CSS style rule file for --color
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-escape
+  description: do not use C escapes in output (default)
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: escape
+  description: use C escapes in output, no extended chars
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-po
+  description: write PO file even if empty
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: indent
+  description: write the . po file using indented style
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-location
+  description: 'do not write \''#: filename:line\'' lines'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-location
+  description: 'generate \''#: filename:line\'' lines (default)'
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strict
+  description: write out strict Uniforum conforming . po file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: properties-output
+  description: write out a Java . properties file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stringtable-output
+  description: write out a NeXTstep/GNUstep . strings file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: itstool
+  description: write out itstool comments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: width
+  description: set output page width
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-wrap
+  description: do not break long message lines, longer than the output page width, into seve…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sort-output
+  description: generate sorted output
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sort-by-file
+  description: sort output by file location
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: omit-header
+  description: don\'t write header with \'msgid ""\' entry
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: copyright-holder
+  description: set copyright holder in output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: foreign-user
+  description: omit FSF copyright in output for foreign user
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: package-name
+  description: set package name in output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: package-version
+  description: set package version in output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: msgid-bugs-address
+  description: set report address for msgid bugs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: msgstr-prefix
+  description: use STRING or "" as prefix for msgstr values
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: msgstr-suffix
+  description: use STRING or "" as suffix for msgstr values . SS "Informative output:"
+  shorthand: M
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: increase verbosity level AUTHOR Written by Ulrich Drepper
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

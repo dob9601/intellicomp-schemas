@@ -1,0 +1,508 @@
+description: ''
+keyword_arguments:
+- name: cap-add
+  description: "\tAdd Linux capabilities"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cap-drop
+  description: "\tDrop Linux capabilities"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: "\tSpecify configurations to expose to the service"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: constraint
+  description: "\tPlacement constraints"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: container-label
+  description: "\tContainer labels"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: credential-spec
+  description: "\tCredential spec for managed service account (Windows only)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detach
+  description: "\tExit immediately instead of waiting for the service to converge"
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns
+  description: "\tSet custom DNS servers"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-option
+  description: "\tSet DNS options"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dns-search
+  description: "\tSet custom DNS search domains"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: endpoint-mode
+  description: "\tEndpoint mode (vip or dnsrr)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: entrypoint
+  description: "\tOverwrite the default ENTRYPOINT of the image"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env
+  description: "\tSet environment variables"
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env-file
+  description: "\tRead in a file of environment variables"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: generic-resource
+  description: "\tUser defined resources"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: group
+  description: "\tSet one or more supplementary user groups for the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-cmd
+  description: "\tCommand to run to check health"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-interval
+  description: "\tTime between running the check (ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-retries
+  description: "\tConsecutive failures needed to report unhealthy"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-start-period
+  description: "\tStart period for the container to initialize before counting retries towards…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: health-timeout
+  description: "\tMaximum time to allow one check to run (ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for create"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: host
+  description: "\tSet one or more custom host-to-IP mappings (host:ip)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hostname
+  description: "\tContainer hostname"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: init
+  description: "\tUse an init inside each service container to forward signals and reap proces…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: isolation
+  description: "\tService container isolation mode"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label
+  description: "\tService labels"
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: limit-cpu
+  description: "\tLimit CPUs"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: limit-memory
+  description: "\tLimit Memory"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: limit-pids
+  description: "\tLimit maximum number of processes (default 0 = unlimited)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-driver
+  description: "\tLogging driver for service"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-opt
+  description: "\tLogging driver options"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-concurrent
+  description: "\tNumber of job tasks to run concurrently (default equal to --replicas)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mode
+  description: "\tService mode (\"replicated\", \"global\", \"replicated-job\", \"global-job\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mount
+  description: "\tAttach a filesystem mount to the service"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: "\tService name"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: network
+  description: "\tNetwork attachments"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-healthcheck
+  description: "\tDisable any container-specified HEALTHCHECK"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-resolve-image
+  description: "\tDo not query the registry to resolve image digest and supported platforms"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: placement-pref
+  description: "\tAdd a placement preference"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: publish
+  description: "\tPublish a port as a node port"
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: "\tSuppress progress output"
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: read-only
+  description: "\tMount the container\\'s root filesystem as read only"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replicas
+  description: "\tNumber of tasks"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: replicas-max-per-node
+  description: "\tMaximum number of tasks per node (default 0 = unlimited)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reserve-cpu
+  description: "\tReserve CPUs"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reserve-memory
+  description: "\tReserve Memory"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart-condition
+  description: "\tRestart when condition is met (\"none\", \"on-failure\", \"any\") (default \"any\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart-delay
+  description: "\tDelay between restart attempts (ns|us|ms|s|m|h) (default 5s)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart-max-attempts
+  description: "\tMaximum number of restarts before giving up"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restart-window
+  description: "\tWindow used to evaluate the restart policy (ns|us|ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rollback-delay
+  description: "\tDelay between task rollbacks (ns|us|ms|s|m|h) (default 0s)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rollback-failure-action
+  description: "\tAction on rollback failure (\"pause\", \"continue\") (default \"pause\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rollback-max-failure-ratio
+  description: "\tFailure rate to tolerate during a rollback (default 0)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rollback-monitor
+  description: "\tDuration after each task rollback to monitor for failure (ns|us|ms|s|m|h) (d…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rollback-order
+  description: "\tRollback order (\"start-first\", \"stop-first\") (default \"stop-first\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rollback-parallelism
+  description: "\tMaximum number of tasks rolled back simultaneously (0 to roll back all at on…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: secret
+  description: "\tSpecify secrets to expose to the service"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stop-grace-period
+  description: "\tTime to wait before force killing a container (ns|us|ms|s|m|h) (default 10s)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stop-signal
+  description: "\tSignal to stop the container"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sysctl
+  description: "\tSysctl options"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tty
+  description: "\tAllocate a pseudo-TTY"
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ulimit
+  description: "\tUlimit options"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-delay
+  description: "\tDelay between updates (ns|us|ms|s|m|h) (default 0s)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-failure-action
+  description: "\tAction on update failure (\"pause\", \"continue\", \"rollback\") (default \"pause\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-max-failure-ratio
+  description: "\tFailure rate to tolerate during an update (default 0)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-monitor
+  description: "\tDuration after each task update to monitor for failure (ns|us|ms|s|m|h) (def…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-order
+  description: "\tUpdate order (\"start-first\", \"stop-first\") (default \"stop-first\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-parallelism
+  description: "\tMaximum number of tasks updated simultaneously (0 to update all at once)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: "\tUsername or UID (format: [:])"
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: with-registry-auth
+  description: "\tSend registry authentication details to swarm agents"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: workdir
+  description: "\tWorking directory inside the container SEE ALSO"
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

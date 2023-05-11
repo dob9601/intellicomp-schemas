@@ -1,0 +1,88 @@
+description: ''
+keyword_arguments:
+- name: garbage-collection
+  description: Removes pieces of debug information related to discarded sections
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: odr-deduplication
+  description: Remove duplicated types (if "One Definition Rule" is supported by source lang…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print a summary of command line options
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-garbage-collection
+  description: Disable %--garbage-collection
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-odr-deduplication
+  description: Disable %--odr-deduplication
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-separate-debug-file
+  description: Disable %--separate-debug-file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: num-threads
+  description: Specifies the maximum number (n) of simultaneous threads to use for processing
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: separate-debug-file
+  description: Generate separate file containing output debug info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tombstone
+  description: '<value> can be one of the following values: o 2 bfd: zero for all addresses a…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Enable verbose logging.  This option disables multi-thread mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verify
+  description: Run the DWARF verifier on the output DWARF debug info
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version of this program
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

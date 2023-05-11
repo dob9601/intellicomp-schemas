@@ -1,0 +1,298 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Display command line help and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display current version and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Verbose printing information
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log
+  description: Write \\f(CW\\*(C`. log\\*(C\' file with debug information
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tif
+  description: Create \\f(CW\\*(C`. tif\\*(C\' files using ghostscript
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bmp
+  description: Create \\f(CW\\*(C`. bmp\\*(C\' files using ghostscript
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jpg
+  description: Create \\f(CW\\*(C`. jpg\\*(C\' files using ghostscript
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: png
+  description: Create \\f(CW\\*(C`. png\\*(C\' files using ghostscript
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: eps
+  description: Create \\f(CW\\*(C`. eps\\*(C\' files using pdftops
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: svg
+  description: Create \\f(CW\\*(C`. svg\\*(C\' files using pdftocairo
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ppm
+  description: Create \\f(CW\\*(C`. ppm\\*(C\' files using pdftoppm
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gray
+  description: Gray scale for images using ghostscript
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Capture \\f(CW\\*(C`psset\\*(C\' and \\f(CW\\*(C`tikzset\\*(C\' to extract
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noprew
+  description: Create images files without preview package
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: runs
+  description: Set the number of times the compiler will run on the input file for environme…
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dpi
+  description: 'Dots per inch resolution for images (default: 150)'
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: margins
+  description: 'Set margins in bp for pdfcrop (default: 0)'
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Create output file
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: imgdir
+  description: 'Set name of directory to save images and files (default: images)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: 'Set prefix append to each generated files (default: fig)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: myverb
+  description: 'Add \\f(CW\\*(C`macroname\\*(C\'' to verbatim inline search (default: myverb)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clean
+  description: 'Removes specific block text in output file (default: doc)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: zip
+  description: Compress files generated in \\f(CW\\*(C`. zip\\*(C\' format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tar
+  description: Compress files generated in \\f(CW\\*(C`. tar. gz\\*(C\' format
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: srcenv
+  description: Create files with only code of environments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: subenv
+  description: Create standalone files for environments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shell
+  description: Enable \\f(CW\\*(C`write18{SHELL COMMAND}\\*(C\'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: latex
+  description: Using \\f(CW\\*(C`latex>dvips>ps2pdf\\*(C\' for compiler input and \\f(CW\\*(C`pdfl…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dvips
+  description: Using \\f(CW\\*(C`latex>dvips>ps2pdf\\*(C\' for compiler input and \\f(CW\\*(C`late…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dvilua
+  description: Using \\f(CW\\*(C`dvilualatex>dvips>ps2pdf\\*(C\' for compiler input and \\f(CW\\*(…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dvipdf
+  description: Using \\f(CW\\*(C`latex>dvipdfmx\\*(C\' for compiler input and \\f(CW\\*(C`latex>dv…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xetex
+  description: Using \\f(CW\\*(C`xelatex\\*(C\' for compiler input and output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: luatex
+  description: Using \\f(CW\\*(C`lualatex\\*(C\' for compiler input and output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: arara
+  description: Use \\f(CW\\*(C`arara\\*(C\' for compiler input and output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: latexmk
+  description: Using \\f(CW\\*(C`latexmk\\*(C\' for compiler output file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: norun
+  description: Run script, but no create images files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nopdf
+  description: Don\'t create a \\f(CW\\*(C`. pdf\\*(C\' image files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nocrop
+  description: Don\'t run pdfcrop
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extrenv
+  description: Add new environments to extract
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skipenv
+  description: Skip some default environments to extract
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbenv
+  description: Add new verbatim environments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: writenv
+  description: Add new verbatim write environments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

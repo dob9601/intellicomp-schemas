@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: guid
+  description: Any variables specified by name have the specified GUID
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: Read a single boot variable from the specified file
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

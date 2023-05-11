@@ -1,0 +1,326 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: print help message and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print version info and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: license
+  description: 'print license info and exit. PD . SS Input/output options:'
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: write output to this file.  All output is directed to the specified file
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: backend
+  description: Select backend by name, where name is one of eps, postscript, ps, pdf, pdfpag…
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: svg
+  description: SVG backend.  The output is a Scalable Vector Graphics (SVG) file
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: eps
+  description: EPS backend (default).  The output is an encapsulated PostScript file
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: postscript
+  description: PostScript backend.  The output is a PostScript file
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pgm
+  description: PGM backend.  The output is a portable greymap (PGM) file
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: turnpolicy
+  description: specify how to resolve ambiguities in path decomposition
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: turdsize
+  description: suppress speckles of up to this many pixels
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: alphamax
+  description: set the corner threshold parameter.  The default value is 1
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: longcurve
+  description: turn off curve optimization
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: opttolerance
+  description: set the curve optimization tolerance.  The default value is 0. 2
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unit
+  description: set output quantization
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: produce debugging output of type n
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pagesize
+  description: for fixed-size backends, set page size
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: width
+  description: set the width of output image (before any rotation and margins)
+  shorthand: W
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: height
+  description: set the height of output image.  See -W for details
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: resolution
+  description: for dimension-based backends, set the resolution (in dpi)
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scale
+  description: for pixel-based backends, set the scaling factor
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stretch
+  description: set the aspect ratio
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rotate
+  description: set the rotation angle (in degrees)
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: margin
+  description: set all four margins
+  shorthand: M
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: leftmargin
+  description: set the left margin.  See -M for details
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rightmargin
+  description: set the right margin.  See -M for details
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: topmargin
+  description: set the top margin.  See -M for details
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bottommargin
+  description: set the bottom margin.  See -M for details
+  shorthand: B
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tight
+  description: remove whitespace around the image before scaling and margins are applied
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: color
+  description: set the foreground color of the output image.  The default is black
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fillcolor
+  description: set the fill color of the output image, i. e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: opaque
+  description: fill in the white parts of the image opaquely, instead of leaving them transp…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: group
+  description: for SVG output, try to group related paths together
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: flat
+  description: for SVG output, put the entire image into a single path
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cleartext
+  description: do not compress the output
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: level2
+  description: use PostScript level 2 compression (default).  The resulting file size is ca
+  shorthand: '2'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: level3
+  description: use PostScript level 3 compression, if available
+  shorthand: '3'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: longcoding
+  description: turn off optimized numerical coding in PostScript output
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gamma
+  description: set the gamma value for anti-aliasing (default is 2. 2)
+  shorthand: G
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: blacklevel
+  description: set the threshold level for converting input images to bitmaps
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: invert
+  description: 'invert the input bitmap before processing. PD . SS Progress bar options:'
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: progress
+  description: display a progress bar for each bitmap that is processed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tty
+  description: set the terminal mode for progress bar rendering
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-zlib
+  description: compile potrace without the zlib compression library
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-metric
+  description: compile potrace with centimeters as the default unit instead of inches
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-a4
+  description: compile potrace with A4 as the default page size
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

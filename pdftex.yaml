@@ -1,0 +1,249 @@
+description: ''
+keyword_arguments:
+- name: cnf-line
+  description: Parse  string as a  texmf. cnf configuration line.   See the Kpathsea manual
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: draftmode
+  description: Sets pdfdraftmode so pdf\\*(TX doesn\'t write a PDF and doesn\'t read any includ…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enc
+  description: Enable the enc\\*(TX extensions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: etex
+  description: Enable the e-\\*(TX extensions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file-line-error
+  description: Print error messages in the form  file:line:error which is similar to the way…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-file-line-error
+  description: Disable printing error messages in the  file:line:error style
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file-line-error-style
+  description: This is the old name of the  -file-line-error option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fmt
+  description: Use  format as the name of the format to be used, instead of the name by whic…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: halt-on-error
+  description: Exit with an error code when an error is encountered during processing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print help message and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ini
+  description: Start in  INI mode, which is used to dump formats
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: interaction
+  description: Sets the interaction mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ipc
+  description: Send DVI or PDF output to a socket as well as the usual output file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ipc-start
+  description: As  -ipc , and starts the server at the other end as well
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: jobname
+  description: Use  name for the job name, instead of deriving it from the name of the input…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kpathsea-debug
+  description: Sets path searching debugging flags according to the bitmask
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mktex
+  description: 'Enable . RI mktex fmt , where  fmt must be either  tex or R tfm '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mltex
+  description: 'Enable ML\\*(TX extensions.   Only effective in combination with  -ini '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-mktex
+  description: 'Disable . RI mktex fmt , where  fmt must be either  tex or R tfm '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-comment
+  description: In DVI mode, use  string for the DVI file comment instead of the date
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-directory
+  description: Write output files in  directory instead of the current directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-format
+  description: 'Set the output format mode, where  format must be either  pdf or R dvi '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parse-first-line
+  description: If the first line of the main input file begins with  %& parse it to look for…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-parse-first-line
+  description: Disable parsing of the first line of the main input file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: progname
+  description: 'Pretend to be program R name '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: recorder
+  description: Enable the filename recorder
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shell-escape
+  description: Enable the . RI write18command construct
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-shell-escape
+  description: 'Disable the '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shell-restricted
+  description: Enable restricted write18{}, as explained in the ``Shell escapes\'\' section of…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: src-specials
+  description: In DVI mode, insert source specials into the DVI file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: synctex
+  description: generate SyncTeX data for previewers according to bits of NUMBER
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: translate-file
+  description: Use the  tcxname translation table to set the mapping of input characters and…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: default-translate-file
+  description: Like  -translate-file except that a  %& line can overrule this setting
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: 8bit
+  description: make all characters printable by default
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show help options
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: document
+  description: The document inside the XPS file to convert
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: first
+  description: The first page to convert
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: last
+  description: The last page to convert
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: odd
+  description: Convert only odd pages
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: even
+  description: Convert only even pages
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: resolution
+  description: Horizontal and vertical resolution in PPI (Pixels Per Inch)
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rx
+  description: Horizontal resolution in PPI (Pixels Per Inch).  The default is 150 PPI
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ry
+  description: Vertical resolution in PPI (Pixels Per Inch).  The default is 150 PPI
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crop-x
+  description: The x-coordinate of the crop area top left corner
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crop-y
+  description: The y-coordinate of the crop area top left corner
+  shorthand: y
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crop-width
+  description: The width of crop area
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: crop-height
+  description: The height of crop area
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: directory
+  description: create a directory, not a file
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: do not create anything; merely print a name (unsafe)
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: suppress diagnostics about file/dir-creation failure
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: suffix
+  description: append SUFF to TEMPLATE; SUFF must not contain a slash
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tmpdir
+  description: interpret TEMPLATE relative to DIR; if DIR is not specified, use $TMPDIR if s…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: 'interpret TEMPLATE as a single file name component, relative to a directory: …'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit AUTHOR Written by Jim Meyering and Eric B…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

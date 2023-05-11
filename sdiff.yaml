@@ -1,0 +1,144 @@
+description: ''
+keyword_arguments:
+- name: output
+  description: operate interactively, sending output to FILE
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-case
+  description: consider upper- and lower-case to be the same
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-tab-expansion
+  description: ignore changes due to tab expansion
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-trailing-space
+  description: ignore white space at line end
+  shorthand: Z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-space-change
+  description: ignore changes in the amount of white space
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-all-space
+  description: ignore all white space
+  shorthand: W
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-blank-lines
+  description: ignore changes whose lines are all blank
+  shorthand: B
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-matching-lines
+  description: ignore changes all whose lines match RE
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strip-trailing-cr
+  description: strip trailing carriage return on input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: text
+  description: treat all files as text
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: width
+  description: output at most NUM (default 130) print columns
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: left-column
+  description: output only the left column of common lines
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: suppress-common-lines
+  description: do not output common lines
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: expand-tabs
+  description: expand tabs to spaces in output
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tabsize
+  description: tab stops at every NUM (default 8) print columns
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: minimal
+  description: try hard to find a smaller set of changes
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: speed-large-files
+  description: assume large files, many scattered small changes
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: diff-program
+  description: use PROGRAM to compare files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: display this help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: output version information and exit
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

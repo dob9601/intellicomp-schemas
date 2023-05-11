@@ -1,0 +1,130 @@
+description: ''
+keyword_arguments:
+- name: save
+  description: Expects operands  VOLUME [PACKET].  Open VOLUME
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: restore
+  description: Expects operands  VOLUME PACKET
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: setup-volume
+  description: Expects operands  VOLUME PACKET NAME
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reencrypt
+  description: Expects operand PACKET
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump
+  description: Expects operand PACKET
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: secrets
+  description: Expects operand PACKET
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show usage information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version of volume_key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: batch
+  description: Run in batch mode
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nss-dir
+  description: Use private keys in NSS database in  DIR to decrypt public key-encrypted pack…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output
+  description: Write the default secret to PACKET
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-data-encryption-key
+  description: Write the data encryption key (the key directly used to encrypt the actual vo…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-passphrase
+  description: Write a passphrase that can be used to access the volume to PACKET
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: create-random-passphrase
+  description: Generate a random alphanumeric passphrase, add it to  VOLUME (without affecti…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: certificate
+  description: Load a certificate from the file specified by  CERT and encrypt all output pa…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-format
+  description: Use  FORMAT for all output packets
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unencrypted
+  description: Only dump the unencrypted parts of the packet, if any, with --dump
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: with-secrets
+  description: Include secrets in the output of --dump
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

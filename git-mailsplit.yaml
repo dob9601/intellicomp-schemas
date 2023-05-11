@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: o<directory>
+  description: Directory in which to place the individual messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: If any file doesn\'t begin with a From line, assume it is a single mail messag…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d<prec>
+  description: Instead of the default 4 digits with leading zeros, different precision can b…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f<nn>
+  description: Skip the first <nn> numbers, for example if -f3 is specified, start the numbe…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep-cr
+  description: Do not remove r from lines ending with rn
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mboxrd
+  description: Input is of the "mboxrd" format and "^>+From " line escaping is reversed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

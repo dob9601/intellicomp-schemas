@@ -1,0 +1,81 @@
+description: ''
+keyword_arguments:
+- name: showme
+  description: This option comes in several different variants (see below)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showme:compile
+  description: Output the compiler flags that would have been supplied to the C compiler
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showme:link
+  description: Output the linker flags that would have been supplied to the C compiler
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showme:command
+  description: Outputs the underlying C compiler command (which may be one or more tokens)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showme:incdirs
+  description: Outputs a space-delimited (but otherwise undecorated) list of directories tha…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showme:libdirs
+  description: Outputs a space-delimited (but otherwise undecorated) list of directories tha…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showme:libs
+  description: Outputs a space-delimited (but otherwise undecorated) list of library names t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showme:version
+  description: Outputs the version number of Open MPI
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: showme:help
+  description: Output a brief usage help message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: qfixed
+  description: may be necessary to compile fixed-format Fortran source files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m64
+  description: build, but can be activated (for example, in a binary package providing both …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

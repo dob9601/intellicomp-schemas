@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: guid
+  description: specifies camera to use.  default is the first camera found in the system
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: print help message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

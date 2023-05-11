@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: kanji
+  description: Sets the input Japanese Kanji code
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kanji-internal
+  description: 'Sets the internal Kanji code.   The string can be either R euc , and R sjis '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enc
+  description: In this version of (e-)(u)p, enc extensions are not available
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

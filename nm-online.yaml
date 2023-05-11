@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print help information
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Don\\*(Aqt print anything
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wait-for-startup
+  description: Wait for NetworkManager startup to complete, rather than waiting for network …
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timeout
+  description: Time to wait for a connection, in seconds
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exit
+  description: Exit immediately if NetworkManager is not running or connecting
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

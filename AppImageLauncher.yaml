@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: appimagelauncher-help
+  description: Display this help and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: appimagelauncher-version
+  description: Display version and exit ARGUMENTS Path to AppImage (mandatory)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

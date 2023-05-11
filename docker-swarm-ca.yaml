@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: ca-cert
+  description: "\tPath to the PEM-formatted root CA certificate to use for the new cluster"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ca-key
+  description: "\tPath to the PEM-formatted root CA key to use for the new cluster"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cert-expiry
+  description: "\tValidity period for node certificates (ns|us|ms|s|m|h)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detach
+  description: "\tExit immediately instead of waiting for the root rotation to converge"
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: external-ca
+  description: "\tSpecifications of one or more certificate signing endpoints"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for ca"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: "\tSuppress progress output"
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rotate
+  description: "\tRotate the swarm CA - if no certificate or key are provided, new ones will b…"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

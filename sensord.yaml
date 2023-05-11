@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: interval
+  description: Specify the interval between scanning for sensor alarms; the default is to sc…
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-interval
+  description: Specify the interval between logging all sensor readings; the default is to l…
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: oneline
+  description: Log sensor value, chip, and adapter on one line for easier parsing
+  shorthand: '1'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rrd-interval
+  description: Specify the interval between logging all sensor readings to a round-robin dat…
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rrd-no-average
+  description: Specify that the round-robin database should not be averaged
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rrd-file
+  description: Specify a round-robin database into which to log all sensor readings; e. g
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config-file
+  description: Specify a  libsensors (3) configuration file
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid-file
+  description: Specify what PID file to write; the default is to write the file `/var/run/se…
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: syslog-facility
+  description: Specify the  syslog (3) facility to use when logging sensor readings and alar…
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rrd-cgi
+  description: Prints out a sample  rrdcgi (1) CGI script that can be used to display graphs…
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: load-average
+  description: Include the load average in the RRD database
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Prints a small amount of additional debugging information
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Prints a help message and exits
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Displays the program version and exits
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

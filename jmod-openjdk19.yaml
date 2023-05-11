@@ -1,0 +1,151 @@
+description: ''
+keyword_arguments:
+- name: class-path
+  description: Specifies the location of application JAR files or a directory containing cla…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cmds
+  description: Specifies the location of native commands to copy into the resulting JMOD file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: Specifies the location of user-editable configuration files to copy into the …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dateTIMESTAMP
+  description: The timestamp in ISO-8601 extended offset date-time with optional time-zone f…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dir
+  description: Specifies the location where jmod puts extracted files from the specified JMO…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: Performs a dry run of hash mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude
+  description: Excludes files matching the supplied comma-separated pattern list, each eleme…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hash-modules
+  description: Determines the leaf modules and records the hashes of the dependencies direct…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: header-files
+  description: Specifies the location of header files to copy into the resulting JMOD file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Prints a usage message
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-extra
+  description: Prints help for extra options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: legal-notices
+  description: Specifies the location of legal notices to copy into the resulting JMOD file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: Specifies location of native libraries to copy into the resulting JMOD file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: main-class
+  description: Specifies main class to record in the module-info. class file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: man-pages
+  description: Specifies the location of man pages to copy into the resulting JMOD file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: module-version
+  description: Specifies the module version to record in the module-info. class file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: module-path
+  description: Specifies the module path
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target-platform
+  description: Specifies the target platform
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Prints version information of the jmod tool
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: do-not-resolve-by-default
+  description: Exclude from the default root set of modules
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: warn-if-resolved
+  description: Hint for a tool to issue a warning if the module is resolved
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: change
+  description: Apply the change file  change_file_name to R mf_file_name . PP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: metapost
+  description: Assume  mf_file_name is a \\*(MP source file (this is the default if  mf_file_…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: style
+  description: Use the style file style_file_name instead of plain. mft (or mplain
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

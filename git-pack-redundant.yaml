@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: all
+  description: Processes all packs.  Any filenames on the command line are ignored
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: alt-odb
+  description: Don\'t require objects present in packs from alternate object database (odb) d…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Outputs some statistics to stderr.  Has a small performance penalty
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

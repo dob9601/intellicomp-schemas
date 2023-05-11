@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: w
+  description: Keep the console window open on error so that the error message can be read
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: S
+  description: allows more than one capability per invocation of tput
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Ttype
+  description: indicates the type of terminal
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: reports the version of ncurses which was used in this program, and exits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: do not attempt to clear the terminal\'s scrollback buffer using the extended \\…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

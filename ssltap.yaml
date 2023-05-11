@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: f
+  description: Turn on fancy printing.  Output is printed in colored HTML
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Turn on hex/ASCII printing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Turn on looping; that is, continue to accept connections rather than stopping…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: Change the default rendezvous port (1924) to another port
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Turn on SSL parsing and decoding
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Print a version string for the tool
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: Turn on extra SSL hex dumps
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '>;'
+  description: alloclen = 66 bytes    [ssl2]  ClientHelloV2 {             version = {0x03, 0…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '>'
+  description: 'SSLRecord {    0: 16 03 00 00  44                                   |'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

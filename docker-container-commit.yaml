@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: author
+  description: "\tAuthor (e. g. , \"John Hannibal Smith hannibal@a-team"
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: change
+  description: "\tApply Dockerfile instruction to the created image"
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for commit"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: message
+  description: "\tCommit message"
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pause
+  description: "\tPause container during commit SEE ALSO"
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

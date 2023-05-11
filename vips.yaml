@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: list
+  description: List operations below BASE-NAME
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: plugin
+  description: Load PLUGIN.  Note that plugins in $VIPSHOME/lib/vips-plugins-MAJOR
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show VIPS version
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: completion
+  description: Print completions for  NAME
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

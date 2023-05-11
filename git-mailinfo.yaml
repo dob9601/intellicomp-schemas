@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: k
+  description: 'Usually the program removes email cruft from the Subject: header line to extr…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: When -k is not in effect, all leading strings bracketed with [ and ] pairs ar…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: The commit log message, author name and author email are taken from the e-mai…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: encoding
+  description: Similar to -u
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Disable all charset re-coding of the metadata
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: message-id
+  description: Copy the Message-ID header at the end of the commit message
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scissors
+  description: Remove everything in body before a scissors line (e. g.  "-- >8 --")
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-scissors
+  description: Ignore scissors lines.  Useful for overriding mailinfo. scissors settings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quoted-cr
+  description: Action when processes email messages sent with base64 or quoted-printable enc…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

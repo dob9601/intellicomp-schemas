@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: output
+  description: Write png files to DIRECTORY instead of the current working directory
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Generate PNG files of the various channels during the conversion
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

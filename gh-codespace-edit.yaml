@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: codespace
+  description: Name of the codespace
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: display-name
+  description: Set the display name
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: machine
+  description: Set hardware specifications for the VM
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: Filter codespace selection by repository name (user/repo) SEE ALSO
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,291 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: 'Display the list of commands supported by  capsh '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print
+  description: Display prevailing capability and related state
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: current
+  description: Display prevailing capability state, 1e capabilities and IAB vector
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: \\+
+  description: Uses cap_launch(3) to fork a child to execute the shell
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: caps
+  description: 'Set the prevailing process capabilities to those specified by R cap-set '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: drop
+  description: Remove the listed capabilities from the prevailing bounding set
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inh
+  description: Set the inheritable set of capabilities for the current process to equal thos…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: Assume the identity of the named user
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mode
+  description: Display the prevailing libcap mode as guessed by the  cap_get_mode (3) functi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: modes
+  description: Lists all of the libcap modes supported by  --mode= <mode>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: inmode
+  description: Confirm that the prevailing mode is that specified in R <mode> , or exit with…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uid
+  description: Force all UID values to equal  id using the  setuid (2) system call
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cap-uid
+  description: use the  cap_setuid (3) function to set the UID of the current process
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: is-uid
+  description: 'Exit with status 1 unless the current UID equals R <id> '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gid
+  description: Force all GID values to equal  id using the  setgid (2) system call
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: is-gid
+  description: 'Exit with status 1 unless the current GIQ equals R <id> '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: groups
+  description: Set the supplementary groups to the numerical list provided
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep
+  description: In a non-pure capability mode, the kernel provides liberal privilege to the s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: secbits
+  description: Set the security-bits for the program
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: chroot
+  description: Execute the  chroot (2) system call with the new root-directory (/) equal to …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: forkfor
+  description: This command causes the program to fork a child process for so many seconds
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: killit
+  description: This commands causes a  --forkfor child to be  kill (2)d with the specified s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: explain
+  description: Give a brief textual description of what privileges the specified capability …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shell
+  description: This option changes the shell that is invoked when the argument == is encount…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strict
+  description: This option toggles the suppression of subsequent attempts to fixup --caps= a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: suggest
+  description: Scan each of the textual descriptions of capabilities, known to capsh, and di…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: decode
+  description: This is a convenience feature
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: supports
+  description: As the kernel evolves, more capabilities are added
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: has-p
+  description: Exit with status 1 unless the  permitted vector has capability  xxx raised
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: has-ambient
+  description: Performs a check to see if the running kernel supports ambient capabilities
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: has-a
+  description: Exit with status 1 unless the  ambient vector has capability  xxx raised
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: has-b
+  description: Exit with status 1 unless the  bounding vector has capability  xxx in its (de…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iab
+  description: Attempts to set the IAB tuple of inheritable capability vectors
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: addamb
+  description: Adds the specified ambient capability to the running process
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delamb
+  description: Removes the specified ambient capability from the running process
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noamb
+  description: Drops all ambient capabilities from the running process
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noenv
+  description: Suppresses overriding of the HOME and USER environment variables when a subse…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: for specific commands
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: +
+  description: Uses cap_launch(3) to fork a child to execute the shell
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mode*
+  description: commandline arguments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: This argument is ignored unless it is the first one
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

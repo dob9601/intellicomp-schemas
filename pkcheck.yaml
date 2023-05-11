@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: process
+  description: (see below) or
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: system-bus-name
+  description: action.  The
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: detail
+  description: option can be used zero or more times to pass details about action.  If
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-user-interaction
+  description: is passed, pkcheck blocks while waiting for authentication
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enable-internal-agent
+  description: is passed.  AUTHOR
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

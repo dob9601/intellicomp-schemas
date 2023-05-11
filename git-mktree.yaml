@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: z
+  description: Read the NUL-terminated ls-tree -z output instead
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: missing
+  description: Allow missing objects
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: batch
+  description: Allow building of more than one tree object before exiting
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,130 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Displays a help message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sourcepath
+  description: Uses the specified path to search for source files in the specified path
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: attach
+  description: Attaches the debugger to a running JVM with the default connection mechanism
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listen
+  description: Waits for a running JVM to connect to the specified address with a standard c…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listenany
+  description: Waits for a running JVM to connect at any available address using a standard …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: launch
+  description: Starts the debugged application immediately upon startup of the jdb command
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listconnectors
+  description: Lists the connectors available in this JVM
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: connect
+  description: Connects to the target JVM with the named connector and listed argument values
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dbgtrace
+  description: Prints information for debugging the jdb command
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tclient
+  description: Runs the application in the Java HotSpot VM client
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trackallthreads
+  description: Track all threads as they are created, including virtual threads
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tserver
+  description: Runs the application in the Java HotSpot VM server
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Joption
+  description: Passes option to the JDB JVM, where option is one of the options described on…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Roption
+  description: Passes option to the debuggee JVM, where option is one of the options describ…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose[:class
+  description: Turns on the verbose mode
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Dname
+  description: Sets a system property
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: classpath
+  description: Lists directories separated by colons in which to look for classes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: X
+  description: A nonstandard target JVM option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

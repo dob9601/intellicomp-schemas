@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: no-prune
+  description: Only display unreachable objects; don\\*(Aqt delete
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: refs-only
+  description: Only compute reachability via refs
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delete-commit
+  description: Specify a COMMIT to delete
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: keep-younger-than
+  description: All commits older than DATE will be pruned
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: depth
+  description: 'Only traverse DEPTH (integer) parents for each commit (default: -1=infinite)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: static-deltas-only
+  description: This option may currently only be used in combination with --delete-commit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: commit-only
+  description: Only traverse and delete commit objects
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

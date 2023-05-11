@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: filter
+  description: "\tProvide filter values (e. g.  \"enabled=true\")"
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: format
+  description: "\tFormat output using a custom template: Refer to https://docs. docker"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for ls"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-trunc
+  description: "\tDon\\'t truncate output"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: "\tOnly display plugin IDs SEE ALSO"
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

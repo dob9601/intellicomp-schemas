@@ -1,0 +1,193 @@
+description: ''
+keyword_arguments:
+- name: template
+  description: Specify which template to use
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: policy-groups
+  description: Specify \\s-1POLICY\\s0 as a comma-separated list of policy groups
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: parser
+  description: Specify the \\s-1PATH\\s0 of the apparmor_parser binary to use when verifying p…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: abstractions
+  description: Specify \\s-1ABSTRACTIONS\\s0 as a comma-separated list of AppArmor abstractions
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: base
+  description: Set the base \\s-1PATH\\s0 for resolving abstractions specified by --abstractio…
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Include
+  description: Add \\s-1PATH\\s0 to the search paths used for resolving abstractions specified…
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: read-path
+  description: Specify a \\s-1PATH\\s0 to allow owner reads.  May be specified multiple times
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: write-dir
+  description: Like --read-path but also allow owner writes in additions to reads
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: Specify \\s-1NAME\\s0 of policy
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: profile-name
+  description: Specify the AppArmor profile name
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: template-var
+  description: el
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-templates
+  description: List available templates
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-template
+  description: Display template specified with --template
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: templates-dir
+  description: Use \\s-1PATH\\s0 instead of system templates directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include-templates-dir
+  description: Include \\s-1PATH\\s0 when searching for templates in addition to the system te…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-policy-groups
+  description: List available policy groups
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-policy-group
+  description: Display policy groups specified with --policy-groups
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: policy-groups-dir
+  description: Use \\s-1PATH\\s0 instead of system policy-groups directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include-policy-groups-dir
+  description: Include \\s-1PATH\\s0 when searching for policy groups in addition to the syste…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: policy-version
+  description: Must be used with --policy-vendor and is used to specify the version of polic…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: policy-vendor
+  description: Must be used with --policy-version and is used to specify the vendor for poli…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: author
+  description: Specify author of the policy
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: copyright
+  description: Specify copyright of the policy
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: comment
+  description: Specify comment for the policy
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: manifest
+  description: aa-easyprof also supports using a \\s-1JSON\\s0 manifest file for specifying op…
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verify-manifest
+  description: When used with --manifest, warn about potentially unsafe definitions in the m…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-format
+  description: Specify either text (default if unspecified) for AppArmor policy output or js…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

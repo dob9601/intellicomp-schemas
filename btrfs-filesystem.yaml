@@ -1,0 +1,158 @@
+description: ''
+keyword_arguments:
+- name: raw
+  description: raw numbers in bytes, without the B suffix
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: human-readable
+  description: print human friendly numbers, base 1024, this is the default
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H
+  description: print human friendly numbers, base 1000
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iec
+  description: select the 1024 base for the following options, according to the IEC standard
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: si
+  description: select the 1000 base for the following options, according to the SI standard
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kbytes
+  description: show sizes in KiB, or kB with --si
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mbytes
+  description: show sizes in MiB, or MB with --si
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gbytes
+  description: show sizes in GiB, or GB with --si
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tbytes
+  description: show sizes in TiB, or TB with --si If conflicting options are passed, the las…
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: compress file contents while defragmenting
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: defragment files recursively in given directories, does not descend to subvol…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: flush data for each file before going to the next file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: defragmentation will start from the given offset, default is beginning of a f…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: defragment only up to len bytes, default is the file size
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: (deprecated) alias for global -v option du [options] <path> [<path>
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: summarize
+  description: display only a total for each argument
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: size
+  description: Create swapfile of a given size SIZE (accepting k/m/g/e/p suffix)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: uuid
+  description: 'specify UUID to use, or a special value: clear (all zeros), random, time (tim…'
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: enqueue
+  description: wait if there\'s another exclusive operation running, otherwise continue show …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mounted
+  description: probe kernel for mounted BTRFS filesystems
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: all-devices
+  description: scan all devices under /dev, otherwise the devices list is extracted from the…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: T
+  description: show data in tabular format If conflicting options are passed, the last one t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

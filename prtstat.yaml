@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: raw
+  description: Print the information in raw format
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show the version information for prtstat .  FILES
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

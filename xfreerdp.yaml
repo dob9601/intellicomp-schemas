@@ -1,0 +1,123 @@
+description: ''
+keyword_arguments:
+- name: authentication
+  description: Authentication (experimental) (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: compression
+  description: compression (default:on)
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: decorations
+  description: Window decorations (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: encryption
+  description: Encryption (experimental) (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fast-path
+  description: fast-path input/output (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fonts
+  description: smooth fonts (ClearType) (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: grab-keyboard
+  description: Grab keyboard (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: heartbeat
+  description: Support heartbeat PDUs (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mouse-motion
+  description: Send mouse motion (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nego
+  description: protocol security negotiation (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: suppress-output
+  description: suppress output when minimized (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sec-nla
+  description: NLA protocol security (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sec-rdp
+  description: RDP protocol security (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sec-tls
+  description: TLS protocol security (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: themes
+  description: themes (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: toggle-fullscreen
+  description: Alt+Ctrl+Enter to toggle fullscreen (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wallpaper
+  description: wallpaper (default:on)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

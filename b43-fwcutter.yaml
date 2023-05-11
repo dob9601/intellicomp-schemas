@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: list
+  description: List supported driver versions
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: identify
+  description: Only identify the driver file (don\'t extract)
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: target-dir
+  description: Extract and write firmware to DIR
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: alt-iv
+  description: Extract alternative initvals (only 3. 10. x. x)
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print b43-fwcutter version
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print help information AUTHORS b43 development team, http://wireless. kernel
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

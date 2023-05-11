@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: dCompatibilityLevel
+  description: switch in the command line
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dPDFSETTINGS
+  description: figure. ps proof. pdf
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: ps2pdf
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

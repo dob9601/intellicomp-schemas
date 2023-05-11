@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: 'Specify a compression scheme to use when writing image data: -c none for no c…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Write data with a specified number of rows per strip; by default the number o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R
+  description: Mark the resultant image to have the specified X and Y resolution (in dots/in…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

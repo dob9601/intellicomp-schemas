@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: c
+  description: Get a current fragmentation count and an ideal fragmentation count, and calcu…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: option, the current fragmentation count and the ideal fragmentation count are…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

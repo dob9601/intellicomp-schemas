@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: ca
+  description: Displays the built-in path to the CA cert bundle this libcurl uses
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cc
+  description: Displays the compiler used to build libcurl
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cflags
+  description: Set of compiler options (CFLAGS) to use when compiling files that use libcurl
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: checkfor
+  description: Specify the oldest possible libcurl version string you want, and this script …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: configure
+  description: Displays the arguments given to configure when building curl
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: feature
+  description: Lists what particular main features the installed libcurl was built with
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Displays the available options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: Shows the complete set of libs and other linker options you will need in orde…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: This is the prefix used when libcurl was installed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: protocols
+  description: Lists what particular protocols the installed libcurl was built to support
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ssl-backends
+  description: Lists the SSL backends that were enabled when libcurl was built
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: static-libs
+  description: Shows the complete set of libs and other linker options you will need in orde…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Outputs version information about the installed libcurl
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vernum
+  description: Outputs version information about the installed libcurl, in numerical mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

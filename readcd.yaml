@@ -1,0 +1,193 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: display version information for  readcd on standard output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Increment the level of general verbosity by one.  This is used e. g
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clone
+  description: Do a clone read.  Read the CD with all sub-channel data and a full TOC
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c2scan
+  description: Scans the whole CD or the range specified by the   sectors= range for C2 erro…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cxscan
+  description: Scans the whole CD or the range specified by the   sectors= range for C1/C2/C…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: edc-corr
+  description: In this mode,  readcd reads CD data sectors in uncorrected audio mode  and th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: factor
+  description: 'Output the speed values for  meshpoints= # as factor based on   "single speed…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fulltoc
+  description: Retrieve a full TOC from the current disk and print it in hex
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nocorr
+  description: Switch the drive into a mode where it ignores read errors in data sectors tha…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noerror
+  description: Do not abort if the high level error checking in  readcd found an uncorrectab…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: notrunc
+  description: Do not truncate the output file when opening it
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: overhead
+  description: Meter the SCSI command overhead time
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pi8scan
+  description: Scans the whole DVD or the range specified by the   sectors= range for   pisu…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pifscan
+  description: Scans the whole DVD or the range specified by the   sectors= range for   pif …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: plot
+  description: 'This option modified the behavior for  -cxscan ,  -pi8scan  and  -pifscan '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: w
+  description: Switch to write mode.  Writing is only possible to DVD-RAM media
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: 'Set the misc debug value to # (with debug=#) or increment the misc debug leve…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scanbus
+  description: Scan all SCSI devices on all SCSI busses and print the inquiry strings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: silent
+  description: Do not print out a status report for failed SCSI commands
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vv
+  description: a line for each second is printed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dd
+  description: this equals to  debug= 2
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: slows down the process and may be the reason for a buffer underrun
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: Increment the verbose level with respect of SCSI command transport by one
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: VV
+  description: will show data buffer content in addition.  Using
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '1'
+  description: A specific error appeared
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '2'
+  description: An unspecified error appeared during the process of talking to the drive
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

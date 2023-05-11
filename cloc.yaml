@@ -1,0 +1,648 @@
+description: ''
+keyword_arguments:
+- name: extract-with
+  description: This option is only needed if cloc is unable to figure out how to extract the…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list-file
+  description: Take the list of file and/or directory names to process from \\s-1FILE,\\s0 whi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: diff-list-file
+  description: Take the pairs of file names to be diff\'ed from \\s-1FILE,\\s0 whose format mat…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vcs
+  description: Invoke a system call to \\s-1VCS\\s0 to obtain a list of files to work on
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unicode
+  description: Check binary files to see if they contain Unicode expanded \\s-1ASCII\\s0 text
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: autoconf
+  description: 'Count '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: by-file
+  description: Report results for every source file encountered
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: by-file-by-lang
+  description: Report results for every source file encountered in addition to reporting by …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: Read command line switches from \\s-1FILE\\s0 instead of the default location o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: count-and-diff
+  description: First perform direct code counts of source file(s) of \\s-1SET1\\s0 and \\s-1SET…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: diff
+  description: Compute differences in code and comments between source file(s) of \\s-1SET1\\s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: diff-timeout
+  description: Ignore files which take more than N seconds to process
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: docstring-as-code
+  description: cloc considers docstrings to be comments, but this is not always correct as d…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: follow-links
+  description: '[Unix only] Follow symbolic links to directories (sym links to files are alwa…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-lang
+  description: Process all files that have a \\s-1EXT\\s0 extension with the counter for langu…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-lang-def
+  description: Load language processing filters from \\s-1FILE,\\s0 then use these filters ins…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: git
+  description: Forces the inputs to be interpreted as git targets (commit hashes, branch nam…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: git-diff-rel
+  description: Same as --git --diff, or just --diff if the inputs are recognized as git targ…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: git-diff-all
+  description: 'Git diff strategy #2:  compare all files in the repository between the two co…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-whitespace
+  description: Ignore horizontal white space when comparing files with --diff
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-case
+  description: Ignore changes in case within file contents; consider upper- and lowercase le…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-case-ext
+  description: Ignore case of file name extensions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lang-no-ext
+  description: Count files without extensions using the \\s-1LANG\\s0 counter
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-file-size
+  description: Skip files larger than \\f(CW\\*(C`MB\\*(C\' megabytes when traversing directories
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-autogen
+  description: Ignore files generated by code-production systems such as \\s-1GNU\\s0 autoconf
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-recurse
+  description: Count files in the given directories without recursively descending below them
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: original-dir
+  description: Only effective in combination with --strip-comments
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: read-binary-files
+  description: Process binary files in addition to text files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: read-lang-def
+  description: Load new language processing filters from \\s-1FILE\\s0 and merge them with tho…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: script-lang
+  description: Process all files that invoke \\f(CW\\*(C`S\\*(C\' as a \\f(CW\\*(C`#!\\*(C\' scripti…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sdir
+  description: Use \\s-1DIR\\s0 as the scratch directory instead of letting File::Temp chose t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-leading
+  description: Vb 3  Skip the first <N> lines of each file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-uniqueness
+  description: Skip the file uniqueness check
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stat
+  description: Some file systems (\\s-1AFS,\\s0 CD-ROM, \\s-1FAT, HPFS, SMB\\s0) do not have dir…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdin-name
+  description: Count lines streamed via \\s-1STDIN\\s0 as if they came from a file named \\s-1F…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strip-comments
+  description: For each file processed, write to the current directory a version of the file…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strip-str-comments
+  description: Replace comment markers embedded in strings with \'xx\'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sum-reports
+  description: Input arguments are report files previously created with the --report-file op…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: processes
+  description: '[Available only on systems with a recent version of the Parallel::ForkManager…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: unix
+  description: Over-ride the operating system detection logic and run in \\s-1UNIX\\s0 mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: use-sloccount
+  description: If SLOCCount is installed, use its compiled executables c_count, java_count, …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: windows
+  description: Over-ride the operating system detection logic and run in Microsoft Windows m…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-content
+  description: Exclude files containing text that matches the given regular expression
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-dir
+  description: Exclude the given comma separated directories from being scanned
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-ext
+  description: Do not count files having the given file name extensions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-lang
+  description: Exclude the given comma separated languages from being counted
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclude-list-file
+  description: Ignore files and/or directories whose names appear in \\s-1FILE
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fullpath
+  description: Modifies the behavior of --match-f or --not-match-f to include the file\'s pat…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include-ext
+  description: Count only languages having the given comma separated file extensions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: include-lang
+  description: Count only the given comma separated, case-insensitive languages L1, L2, L3, …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: match-d
+  description: 'Only count files in directories matching the Perl regex.   For example . Sp '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: not-match-d
+  description: Count all files except in directories matching the Perl regex
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: match-f
+  description: Only count files whose basenames match the Perl regex
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: not-match-f
+  description: Count all files except those whose basenames match the Perl regex
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-archive
+  description: Ignore files that end with the given Perl regular expression
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-win-hidden
+  description: On Windows, ignore hidden files. SS "Debug Options"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: categorized
+  description: Save file sizes in bytes, identified languages and names of categorized files…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: counted
+  description: Save names of processed source files to \\s-1FILE. \\s0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: diff-alignment
+  description: Write to \\s-1FILE\\s0 a list of files and file pairs showing which files were …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: explain
+  description: Print the filters used to remove comments for language \\s-1LANG\\s0 and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Print cloc\'s internal usage information and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: found
+  description: Save names of every file found to \\s-1FILE. \\s0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignored
+  description: Save names of ignored files and the reason they were ignored to \\s-1FILE. \\s0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-filter-stages
+  description: Print to \\s-1STDOUT\\s0 processed source code before and after each filter is …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-ext
+  description: Print information about all known (or just the given) file extensions and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-lang
+  description: Print information about all known (or just the given) languages and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-os
+  description: Print the value of the operating system mode and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Turn on verbose with optional numeric value
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Long form of -v
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print the version of this program and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: write-lang-def
+  description: Writes to \\s-1FILE\\s0 the language processing filters then exits
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: write-lang-def-incl-dup
+  description: Same as --write-lang-def, but includes duplicated extensions
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '3'
+  description: Print third-generation language output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: by-percent
+  description: Instead of comment and blank line counts, show these values as percentages ba…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: csv
+  description: Write the results as comma separated values
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: csv-delimiter
+  description: Use the character C as the delimiter for comma separated files instead of ,
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file-encoding
+  description: Write output files using the E encoding instead of the default \\s-1ASCII\\s0 (…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hide-rate
+  description: Do not show line and file processing rates in the output header
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: json
+  description: Write the results in JavaScript Object Notation (\\s-1JSON\\s0)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: md
+  description: Write the results as Markdown-formatted text
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: out
+  description: Synonym for --report-file=FILE
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: progress-rate
+  description: Show progress update after every N files are processed (default N=100)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Suppress all information messages except for the final report
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: report-file
+  description: Write the results to \\s-1FILE\\s0 instead of standard output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: summary-cutoff
+  description: Aggregate to \'Other\' results having X lines below N where X is one of     c  …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sql
+  description: Write results as \\s-1SQL CREATE\\s0 and \\s-1INSERT\\s0 statements which can be …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sql-append
+  description: Append \\s-1SQL\\s0 insert statements to the file specified by --sql and do not…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sql-project
+  description: Use name as the project identifier for the current run
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sql-style
+  description: Write \\s-1SQL\\s0 statements in the given style instead of the default SQLite …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sum-one
+  description: For plain text reports, show the \\s-1SUM:\\s0 output line even if only one inp…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xml
+  description: Write the results in \\s-1XML. \\s0
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xsl
+  description: Reference \\s-1FILE\\s0 as an \\s-1XSL\\s0 stylesheet within the \\s-1XML\\s0 output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

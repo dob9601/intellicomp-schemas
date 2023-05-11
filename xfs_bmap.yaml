@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: a
+  description: If this option is specified, information about the file\'s attribute fork is p…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: e
+  description: If this option is used,  xfs_bmap obtains all delayed allocation extents, and…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: If this option is used, then
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: If this option is given,  xfs_bmap will display at most  num_extents extents
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: If this option is used,  xfs_bmap obtains all unwritten (preallocated) extent…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Shows verbose information
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: Prints the version number and exits.  SEE ALSO xfs_fsr (8), xfs (5)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

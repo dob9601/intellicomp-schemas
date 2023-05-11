@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: clstats
+  description: Connects to a running process and prints class loader statistics of Java heap
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: finalizerinfo
+  description: Connects to a running process and prints information on objects awaiting fina…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: histo
+  description: Connects to a running process and prints a histogram of the Java object heap
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dump:dump_options
+  description: Connects to a running process and dumps the Java heap
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

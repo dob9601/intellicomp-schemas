@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: a
+  description: Observer adaptation state (abs. col.  only), (0. 1
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: Black point compensation
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: Precision (0=LowRes, 1=Normal, 2=Hi-res) [defaults to 1]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Description text (quotes can be used)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Show summary of options and examples (0=help, 1=Built-in profiles, 2=Examples…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k
+  description: Ink-limiting in % (CMYK only), (0. 400. 0, float value) [default 400. 0]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Use linearization curves (may affect accuracy)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Alternate way to set precision, number of CLUT points
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: Output devicelink profile [defaults to \'devicelink. icm\']
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: 'Profile version.  (CAUTION: may change the profile implementation), (2. 0. 4'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: 'Rendering intent . nf '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Verbosity level, (0=None, 1=Normal, 2=High, 3=Very High) [defaults to 0]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: Creatively, guess deviceclass of resulting profile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: y
+  description: Copyright notice (quotes can be used) ["No copyright, use freely"]
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '8'
+  description: Creates 8-bit devicelink.  BUILT-IN PROFILES
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

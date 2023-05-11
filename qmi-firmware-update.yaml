@@ -1,0 +1,186 @@
+description: ''
+keyword_arguments:
+- name: busnum-devnum
+  description: Select device by bus and device number (in decimal)
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vid-pid
+  description: Select device by device vendor and product id (in hexadecimal)
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cdc-wdm
+  description: Select device by QMI/MBIM cdc-wdm device path (e. g.  \\,/dev/cdc-wdm0\\/)
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tty
+  description: Select device by serial device path (e. g.  \\,/dev/ttyUSB2\\/)
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update
+  description: Launch firmware update process
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: firmware-version
+  description: Firmware version (e. g.  \'05. 05. 58. 00\')
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config-version
+  description: Config version (e. g.  \'005. 025_002\')
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: carrier
+  description: Carrier name (e. g.  \'Generic\')
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-version-errors
+  description: Run update operation even with version string errors
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: override-download
+  description: Download images even if module says it already has them
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: modem-storage-index
+  description: Index storage for the modem image
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-validation
+  description: Don\'t wait to validate the running firmware after update
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reset
+  description: Reset device into download mode. SS "Update options (download mode):"
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: update-download
+  description: Launch firmware update process while in download (boot & hold) mode
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verify
+  description: Analyze and verify firmware images. SS "Application Options:"
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-proxy
+  description: Request to use the \'qmi-proxy\' proxy
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-qmi
+  description: Open a cdc-wdm device explicitly in QMI mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-mbim
+  description: Open a cdc-wdm device explicitly in MBIM mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device-open-auto
+  description: Open a cdc-wdm device in either QMI or MBIM mode (default)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-mm-runtime-check
+  description: Ignore ModemManager runtime check
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Run action with verbose messages in standard output, including the debug ones
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: silent
+  description: Run action with no messages in standard output; not even the error ones
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose-log
+  description: Write verbose messages to an output file
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help-examples
+  description: Show help examples
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

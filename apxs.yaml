@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: e
+  description: This indicates the editing operation, which can be used with the -a and -A op…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

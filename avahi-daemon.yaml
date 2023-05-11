@@ -1,0 +1,95 @@
+description: ''
+keyword_arguments:
+- name: file
+  description: 'Specify the configuration file to read.  (default: /etc/avahi/avahi-daemon'
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: daemonize
+  description: Daemonize after startup.  Implies --syslog
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: syslog
+  description: Log to syslog instead of STDERR.  Implied by --daemonize
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Increase verbosity to debug level
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-rlimits
+  description: Don\'t enforce resource limits as specified in the configuration file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-drop-root
+  description: Don\'t drop root privileges after startup and don\'t require daemon to be start…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-chroot
+  description: Don\'t chroot(2) the daemon
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-proc-title
+  description: Don\'t change the process name while running
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kill
+  description: Kill an already running avahi-daemon.  (equivalent to sending a SIGTERM)
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reload
+  description: Tell an already running avahi-daemon to reread /etc/resolv
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check
+  description: Return 0 as return code when avahi-daemon is already running
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Show version information  FILES /etc/avahi/avahi-daemon
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

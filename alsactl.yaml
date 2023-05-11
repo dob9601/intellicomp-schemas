@@ -1,0 +1,172 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: 'Help: show available flags and commands'
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: 'Use debug mode: a bit more verbose'
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print alsactl version number
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: file
+  description: Select the configuration file to use.  The default is /var/lib/alsa/asound
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config-dir
+  description: Select the boot / hotplug ALSA configuration directory to use
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lock
+  description: Use the file locking to serialize the concurrent access to the state file (th…
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-lock
+  description: Do not use the file locking to serialize the concurrent access to the state f…
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lock-state-file
+  description: Select the state lock file path
+  shorthand: O
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force
+  description: Used with restore command
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore
+  description: Used with store, restore and init commands
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pedantic
+  description: Used with restore command.   Don\'t restore mismatching control elements
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-init-fallback
+  description: Don\'t initialize cards if restore fails.   Since version 1. 0
+  shorthand: I
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: runstate
+  description: Save restore and init state to this file.  The file will contain only errors
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove
+  description: Remove runstate file at first
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: env
+  description: Set environment variable (useful for init action or you may override ALSA_CON…
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: initfile
+  description: The configuration file for init
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: period
+  description: The store period in seconds for the daemon command
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid-file
+  description: The pathname to store the process-id file in the HDB UUCP format (ASCII)
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: background
+  description: Run the task in background
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: syslog
+  description: Use syslog for messages
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nice
+  description: Set the process priority (see \'man nice\')
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sched-idle
+  description: Set the process scheduling policy to idle (SCHED_IDLE)
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ucm-defaults
+  description: Execute also the \'defaults\' section from the UCM configuration
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-ucm
+  description: Skip the UCM init even if available
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

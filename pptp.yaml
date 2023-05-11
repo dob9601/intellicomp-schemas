@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: phone
+  description: Pass <number> to remote host as phone number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nolaunchpppd
+  description: Do not launch  pppd but use stdin as the network connection
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quirks
+  description: Work around a buggy PPTP implementation, adopts special case handling for par…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Run in foreground (for debugging with gdb)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sync
+  description: Enable Synchronous HDLC (pppd must use it too)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timeout
+  description: Time to wait for reordered packets (0. 01 to 10 secs)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nobuffer
+  description: Completely disables buffering and reordering of packets
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: idle-wait
+  description: Time to wait before sending a control connection echo request
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-echo-wait
+  description: Time to wait for an echo reply before closing the control connection
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logstring
+  description: Use <name> instead of \'anon\' in syslog messages
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: localbind
+  description: Bind to specified IP address instead of wildcard
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rtmark
+  description: Use specified policy routing mark for all packets
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nohostroute
+  description: Do not configure a host route pointing towards the PPTP server.  (cf
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: loglevel
+  description: Sets the debugging level (0=low, 1=default, 2=high)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test-type
+  description: Enable packet reordering tests that damage the integrity of the packet stream…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: test-rate
+  description: Sets the number of packets to pass before causing a reordering test
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

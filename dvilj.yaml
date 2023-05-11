@@ -1,0 +1,172 @@
+description: ''
+keyword_arguments:
+- name: Dnumber
+  description: Debug according to the bits of number; see the kpathsea\\|(3) manual for values
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cnumber
+  description: Print each page number times (including original)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dnumber
+  description: print in duplex mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: D
+  description: Double-sided printing - see below; -D1 prints odd sides only, -D2 is for even…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: E
+  description: Switch printer into econo mode (dvilj4 only)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: eoutfile
+  description: Send output to outfile instead of the basename of dvi file extended with \\f(C…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fpagenum
+  description: Print pages with TeX page numbers greater than or equal to pagenum
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: g
+  description: 'Go mode: do not reset printer at start of job'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: hheaderfile
+  description: Copy headerfile to output before translation of the \\s-1DVI\\s0 file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Print output in landscape mode; supported only by dvilj2p and dvilj4
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Mflag
+  description: Do (not) call mktexpk\\|(1) to generate fonts on demand
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mmagnification
+  description: 'Specify the magnification to use.  The following are available: . Sp '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ppagecount
+  description: Print pagecount pages after the starting page
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: 'Quiet operation: omit final statistics, etc'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: Toggle page reversal
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: spagesize
+  description: 'Specify the page size: . Sp . Vb 10   -s1: Executive (7. 25" x 10'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tpagenum
+  description: Print pages with TeX page numbers less than or equal to pagenum
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: 'Verbose mode: list fonts used, etc'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Vmode
+  description: Compatibility mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: w
+  description: Omit warnings
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xoffset
+  description: Global x-offset in mm on output page relative to 1 inch/1 inch origin
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: yoffset
+  description: Global y-offset in mm on output page relative to 1 inch/1 inch origin
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Xoffset
+  description: Global x-offset in dots on output page (overrides 1 inch/1 inch origin)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Yoffset
+  description: Global y-offset in dots on output page (overrides 1 inch/1 inch origin)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,228 @@
+description: ''
+keyword_arguments:
+- name: width
+  description: Specify a width for a created window as a number or percentage
+  shorthand: w
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: height
+  description: Specify a height for a created window as a number or percentage
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x-offset
+  description: Specify the x position for a created window as a number or percentage
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: y-offset
+  description: Specify the y position for a created window as a number or percentage
+  shorthand: y
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: session
+  description: Specify a tmuxinator, tmuxifier, or tmux session name to start
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: number
+  description: Specify a number (or any extra text) to differentiate between dropdowns of th…
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pre-create-hook
+  description: Specify a command to execute before first creating or initializing a dropdown…
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: post-create-hook
+  description: Specify a command to execute after first creating or initializing a dropdown …
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pre-map-hook
+  description: Specify a command to execute before showing/mapping a dropdown
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: post-map-hook
+  description: Specify a command to execute after showing/mapping a dropdown
+  shorthand: P
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pre-unmap-hook
+  description: Specify a command to execute before hiding/unmapping a dropdown
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: post-unmap-hook
+  description: Specify a command to execute after hiding/unmapping a dropdown
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pre-map-float-command
+  description: Specify a command execute before showing/mapping a dropdown in order to float…
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: post-map-float-command
+  description: Specify a command execute after showing/mapping a dropdown in order to float …
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: decoration-fix
+  description: Specify a window decoration/border size in the form <x decoration size>x<y de…
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-subtract-when-same
+  description: This option is a more complicated companion to -d that is also unlikely to be…
+  shorthand: S
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: is-floating
+  description: Specify a command that will determine whether the current window is floating …
+  shorthand: i
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: program-flags
+  description: 'NOTE: Using this flag is deprecated; it may be removed in the future'
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auto-detect-wm
+  description: If there are available settings for the detected window manager for the -l, -…
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: monitor-aware
+  description: This option only applies for dropdowns (not auto-hiding and auto-showing)
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pointer-monitor-detection
+  description: Use mouse pointer location for detecting which monitor is the current one so …
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: activate
+  description: Always activate/show the dropdown if it is not currently focused
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: monitor
+  description: Specify the monitor to base geometry calculations on when using -m / --monito…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wm
+  description: Specify the window manager name (which determines the default settings when -…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: class
+  description: Providing this option lets tdrop know what the class (or classname) of the wi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name
+  description: This option only applies for dropdowns (not auto-hiding and auto-showing)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: clear
+  description: Used to clear a saved window id for the given program or \'current\' instead of…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-cancel
+  description: Specifies that manually re-showing an auto-hidden window with tdrop should no…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timeout
+  description: Specifies the timeout in to wait for a window to appear when starting a progr…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Print information for debugging to stdout and to /tmp/tdrop_<user>/log
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remember
+  description: Store window geometry when hiding and restore geometry when showing instead o…
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-manage
+  description: This is shorthand for -x "", -y "", -w "", -h "" and is incompatible with the…
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

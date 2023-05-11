@@ -1,0 +1,158 @@
+description: ''
+keyword_arguments:
+- name: dir
+  description: Install desktop files to the DIR directory
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mode
+  description: Set the permissions of the destination files to MODE
+  shorthand: m
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vendor
+  description: Add a vendor prefix to the desktop files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delete-original
+  description: Delete the source desktop files, leaving only the target files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rebuild-mime-info-cache
+  description: Rebuild the MIME types application database after installing the desktop files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-key
+  description: Set the KEY key to the value passed to the next --set-value option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-value
+  description: Set the key specified with the previous --set-key option to VALUE
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-name
+  description: Set the name (key Name) to NAME
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: copy-name-to-generic-name
+  description: Copy the value of the Name key to the GenericName key
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-generic-name
+  description: Set the generic name (key GenericName) to GENERIC-NAME
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: copy-generic-name-to-name
+  description: Copy the value of the GenericName key to the Name key, if the GenericName key…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-comment
+  description: Set the comment (key Comment) to COMMENT
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: set-icon
+  description: Set the icon (key Icon) to ICON
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-category
+  description: Add CATEGORY to the list of categories (key Categories)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-category
+  description: Remove CATEGORY from the list of categories (key Categories)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-mime-type
+  description: Add MIME-TYPE to the list of MIME types (key MimeType)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-mime-type
+  description: Remove MIME-TYPE from the list of MIME types (key MimeType)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-only-show-in
+  description: Add ENVIRONMENT to the list of desktop environments where the desktop files s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-only-show-in
+  description: Remove ENVIRONMENT from the list of desktop environments where the desktop fi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: add-not-show-in
+  description: Add ENVIRONMENT to the list of desktop environments where the desktop files s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-not-show-in
+  description: Remove ENVIRONMENT from the list of desktop environments where the desktop fi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: remove-key
+  description: Remove the KEY key from the desktop files, if present
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: browser
+  description: Use the specified browser.  It must be in the list of supported browsers
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tool
+  description: Same as above
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: CONF. VAR is looked up in the Git config files
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

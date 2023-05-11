@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: class
+  description: and
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: k8
+  description: options should not be specified because they are used by the wrapper
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

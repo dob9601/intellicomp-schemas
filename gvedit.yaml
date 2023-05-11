@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: s
+  description: By default, the layout algorithms that use initial positions given by a node\'…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Verbose mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '?'
+  description: Prints usage information and exit.  AUTHOR Arif Bilgin <arif@research. att
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

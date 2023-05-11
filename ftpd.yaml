@@ -1,0 +1,116 @@
+description: ''
+keyword_arguments:
+- name: ipv4
+  description: restrict daemon to IPv4
+  shorthand: '4'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ipv6
+  description: restrict daemon to IPv6
+  shorthand: '6'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auth
+  description: use AUTH for authentication
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: anonymous-only
+  description: server configured for anonymous service only
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: debug mode
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: daemon
+  description: start the ftpd standalone
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: logging
+  description: increase verbosity of syslog messages
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: non-rfc2577
+  description: neglect RFC 2577 by giving info on missing users
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pidfile
+  description: change default location of pidfile
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-version
+  description: do not display version in banner
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timeout
+  description: set default idle timeout
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-timeout
+  description: set maximum value of timeout allowed
+  shorthand: T
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: umask
+  description: 'set default umask P AUTH can be one of the following:'
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: give this help list
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: give a short usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print program version
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

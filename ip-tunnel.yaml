@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: f
+  description: option.  The default is IPv4.  ip tunnel add add a new tunnel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

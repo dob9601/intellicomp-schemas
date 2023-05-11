@@ -1,0 +1,137 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Print help text to console and exit
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Print version information to console and exit
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: daemonize
+  description: Daemonize after startup
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kill
+  description: Kill running daemon instance
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: check
+  description: Return 0 if a daemon is already running
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config-file
+  description: Load the specified configuration file
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: Use given JSON format configuration string
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pid-file
+  description: Use the specified PID file
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Turns on debugging messages.  Repeating the option increases verbosity
+  shorthand: g
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: log-output
+  description: Force teamd log output to stdout, stderr or syslog
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-recreate
+  description: Force team device recreation in case it already exists
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: take-over
+  description: Take over the device if it already exists
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-quit-destroy
+  description: This option also ensures that the team device is not removed after teamd fini…
+  shorthand: N
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: team-dev
+  description: Use the specified team device name (overrides "device" key in the configurati…
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-ports
+  description: Start without ports, even if they are listed in the configuration
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dbus-enable
+  description: Enable D-Bus interface
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: zmq-enable
+  description: Enable ZMQ interface
+  shorthand: Z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usock-enable
+  description: Enable UNIX domain socket interface.  This is enabled by default
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usock-disable
+  description: Disable UNIX domain socket interface.  SEE ALSO teamdctl (8), teamd
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

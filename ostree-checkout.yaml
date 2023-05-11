@@ -1,0 +1,123 @@
+description: ''
+keyword_arguments:
+- name: user-mode
+  description: Do not change file ownership or initialize extended attributes
+  shorthand: U
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: subpath
+  description: Checkout sub-directory PATH
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: union
+  description: Keep existing directories and unchanged files, overwrite existing files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: union-add
+  description: Keep existing directories and files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: union-identical
+  description: Like --union, but error out if a file would be replaced with a different file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: whiteouts
+  description: Process whiteout files (Docker style)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: process-passthrough-whiteouts
+  description: Enable overlayfs whiteout extraction into 0:0 character devices
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-noent
+  description: Do nothing if specified path does not exist
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: from-stdin
+  description: Process many checkouts from standard input
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: from-file
+  description: Process many checkouts from input file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fsync
+  description: POLICY is a boolean which specifies whether fsync should be used or not
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: require-hardlinks
+  description: Do not fall back to full copies if hardlinking fails
+  shorthand: H
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-copy-zerosized
+  description: This option does nothing; the functionality is now always on by default
+  shorthand: z
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: force-copy
+  description: Never hardlink (but may reflink if available)
+  shorthand: C
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bareuseronly-dirs
+  description: Suppress mode bits outside of 0775 for directories (suid, world writable, etc
+  shorthand: M
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: skip-list
+  description: Skip checking out the absolute file paths listed in FILE, one per line
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: selinux-policy
+  description: Set SELinux labels based on policy in root filesystem PATH (may be /)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

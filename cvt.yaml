@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: verbose
+  description: Warn verbosely when a given mode does not completely correspond with CVT stan…
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reduced
+  description: Create a mode with reduced blanking
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

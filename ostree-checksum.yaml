@@ -1,0 +1,11 @@
+description: ''
+keyword_arguments:
+- name: ignore-xattrs
+  description: Ignore extended attributes when checksumming
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

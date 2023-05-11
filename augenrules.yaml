@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: check
+  description: test if rules have changed and need updating without overwriting audit. rules
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: load
+  description: load old or newly built rules into the kernel
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

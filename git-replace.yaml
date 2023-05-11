@@ -1,0 +1,60 @@
+description: ''
+keyword_arguments:
+- name: force
+  description: If an existing replace ref for the same object exists, it will be overwritten…
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: delete
+  description: Delete existing replace refs for the given objects
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: edit
+  description: Edit an object\'s content interactively
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: raw
+  description: When editing, provide the raw object contents rather than pretty-printed ones
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: graft
+  description: Create a graft commit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: convert-graft-file
+  description: Creates graft commits for all entries in $GIT_DIR/info/grafts and deletes tha…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: list
+  description: List replace refs for objects that match the given pattern (or all if no patt…
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: format
+  description: When listing, use the specified <format>, which can be one of short, medium a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

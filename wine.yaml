@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: or
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: as the only argument, wine will simply print a small help message or its vers…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

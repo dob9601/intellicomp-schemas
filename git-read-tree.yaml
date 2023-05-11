@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: m
+  description: Perform a merge, not just a read
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reset
+  description: Same as -m, except that unmerged entries are discarded instead of failing
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: After a successful merge, update the files in the work tree with the result o…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: Usually a merge requires the index file as well as the files in the working t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dry-run
+  description: Check if the command would error out, without updating the index or the files…
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Show the progress of checking files out
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trivial
+  description: Restrict three-way merge by git read-tree to happen only if there is no file-…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: aggressive
+  description: Usually a three-way merge by git read-tree resolves the merge for really triv…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: Keep the current index contents, and read the contents of the named tree-ish …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: index-output
+  description: Instead of writing the results out to $GIT_INDEX_FILE, write the resulting in…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: recurse-submodules
+  description: Using --recurse-submodules will update the content of all active submodules a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-sparse-checkout
+  description: Disable sparse checkout support even if core. sparseCheckout is true
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: empty
+  description: Instead of reading tree object(s) into the index, just empty it
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Quiet, suppress feedback messages
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

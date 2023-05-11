@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: user
+  description: Print the lastlog record for user with specified LOGIN only
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdin
+  description: Use stdin as the source of audit records
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

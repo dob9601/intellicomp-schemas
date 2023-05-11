@@ -1,0 +1,74 @@
+description: ''
+keyword_arguments:
+- name: queue
+  description: The name of the queue to consume messages from
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exchange
+  description: Specifies that an exclusive queue should be declared, and bound to the given …
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: routing-key
+  description: The routing key for binding.  If omitted, an empty routing key is assumed
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: declare
+  description: Forces an exclusive queue to be declared, even when it otherwise would not be
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exclusive
+  description: Declared queues are non-exclusive by default, this option forces declaration …
+  shorthand: x
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-ack
+  description: 'Enable \\(lqno ack\\(rq mode: The AMQP server will unconditionally acknowledge …'
+  shorthand: A
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: count
+  description: Stop consuming after the given number of messages have been received
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefetch-count
+  description: Request the server to only send limit messages at a time
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: exchange-type
+  description: option is used to request the creation of an exchange
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: A/--no-ack
+  description: is passed, this option has no effect
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

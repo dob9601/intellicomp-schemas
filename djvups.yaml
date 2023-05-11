@@ -1,0 +1,137 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Prints the list of recognized options
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Displays a progress bar
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: page
+  description: Specify the document pages to be converted
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: format
+  description: Produce a PostScript file.   This is the default
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: copies
+  description: Specify the number of copies to print
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: orientation
+  description: Specify whether pages should be printed using the  auto ,  portrait , or  lan…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mode
+  description: Specify how pages should be decoded
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: zoom
+  description: 'Specify a zoom factor R zoomspec '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: frame
+  description: Specifying   yes causes the generation of a thin gray border representing the…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cropmarks
+  description: Specifying   yes causes the generation of crop marks indicating where pages s…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: level
+  description: 'Select the language level of the generated PostScript.  R languagelevel '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: color
+  description: The default value,  yes , generates a color PostScript file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gray
+  description: This option is equivalent to option  -color=no  and is provided for convenien…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: colormatch
+  description: The default value,  yes , generates a PostScript file using device independen…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: gamma
+  description: Specify a gamma correction factor for the device dependent PostScript colors
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: booklet
+  description: Turns the booklet printing mode on
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bookletmax
+  description: Specifies the maximal number of pages per booklet
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bookletalign
+  description: Specifies a positive or negative offset  applied  to the verso of each sheet
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bookletfold
+  description: Specifies the extra margin left  between both pages on a single sheet
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,438 @@
+description: ''
+keyword_arguments:
+- name: a
+  description: sets pointer acceleration (i. e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ac
+  description: disables host-based access control mechanisms
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: audit
+  description: sets the audit trail level
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: auth
+  description: specifies a file which contains a collection of authorization records used to…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: backgroundnone
+  description: Asks the driver not to clear the background on startup, if the driver support…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: br
+  description: sets the default root window to solid black instead of the standard root weav…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bs
+  description: disables backing store support on all screens
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: turns off key-click
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cc
+  description: sets the visual class for the root window of color screens
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: core
+  description: causes the server to generate a core dump on fatal errors
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: displayfd
+  description: specifies a file descriptor in the launching process
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: deferglyphs
+  description: specifies the types of fonts for which the server should attempt to use defer…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dpi
+  description: sets the resolution for all screens, in dots per inch
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dpms
+  description: disables DPMS (display power management services)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: extension
+  description: disables named extension
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: 'sets beep (bell) volume (allowable range: 0-100)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fakescreenfps
+  description: 'sets fake presenter screen default fps (allowable range: 1-600)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fp
+  description: sets the search path for fonts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: prints a usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: I
+  description: causes all remaining command line arguments to be ignored
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: iglx
+  description: Prohibit creating indirect GLX contexts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: maxbigreqsize
+  description: sets the maximum big request to  size MB
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nocursor
+  description: disable the display of the pointer cursor
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nolisten
+  description: disables a transport type
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: listen
+  description: enables a transport type
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: noreset
+  description: prevents a server reset when the last client connection is closed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: p
+  description: sets screen-saver pattern cycle time in minutes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pn
+  description: permits the server to continue running if it fails to establish all of its we…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nopn
+  description: causes the server to exit if it fails to establish all of its well-known sock…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: turns off auto-repeat
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: retro
+  description: starts the server with the classic stipple and cursor visible
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: sets screen-saver timeout time in minutes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: su
+  description: disables save under support on all screens
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: seat
+  description: seat to run on
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: sets pointer acceleration threshold in pixels (i. e
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: terminate
+  description: causes the server to terminate at server reset, instead of continuing to run
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tst
+  description: disables all testing extensions (e. g
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: sets video-on screen-saver preference
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: wr
+  description: sets the default root window to solid white instead of the standard root weav…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: x
+  description: loads the specified extension at init
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: background
+  description: Asks the driver not to clear the background on startup, if the driver support…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ld
+  description: sets the data space limit of the server to the specified number of kilobytes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lf
+  description: sets the number-of-open-files limit of the server to the specified number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ls
+  description: sets the stack space limit of the server to the specified number of kilobytes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: maxclients
+  description: 64 | 128 | 256 | 512 Set the maximum number of clients allowed to connect to …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: render
+  description: default | mono | gray | color sets the color allocation policy that will be u…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dumbSched
+  description: disables smart scheduling on platforms that support the smart scheduler
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: schedInterval
+  description: sets the smart scheduler\'s scheduling interval to interval milliseconds
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: query
+  description: 'enables XDMCP and sends Query packets to the specified hostname '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: broadcast
+  description: enable XDMCP and broadcasts BroadcastQuery packets to the network
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: multicast
+  description: Enable XDMCP and multicast BroadcastQuery packets to the  network
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: indirect
+  description: 'enables XDMCP and send IndirectQuery packets to the specified hostname '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: uses the specified port-number for XDMCP packets, instead of the default
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: from
+  description: specifies the local address to connect from (useful if the connecting host ha…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: once
+  description: causes the server to terminate (rather than reset) when the XDMCP session ends
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: class
+  description: XDMCP has an additional display qualifier used in resource lookup for display…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cookie
+  description: When testing XDM-AUTHENTICATION-1, a private key is shared between the server…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: displayID
+  description: Yet another XDMCP specific value, this one allows the display manager to iden…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xkbdir
+  description: base directory for keyboard layout files
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ardelay
+  description: sets the autorepeat delay (length of time in milliseconds that a key must be …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: arinterval
+  description: sets the autorepeat interval (length of time in milliseconds that should elap…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xkbmap
+  description: loads keyboard description in filename on server startup
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

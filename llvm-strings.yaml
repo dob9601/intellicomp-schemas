@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: all
+  description: Silently ignored.  Present for GNU strings compatibility
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bytes
+  description: Set the minimum number of printable ASCII characters required for a sequence …
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Display a summary of command line options
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: print-file-name
+  description: Display the name of the containing file before each string
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: radix
+  description: Display the offset within the file of each string, before the string and usin…
+  shorthand: t
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: Display the version of the llvm-strings executable
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

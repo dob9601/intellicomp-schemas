@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: accuracy
+  description: Accuracy with which to find the maximally different coloring for each node wi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: angle
+  description: Color two edges differently if their incidence angle is less than a degrees
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: random_seed
+  description: Random seed to use.  s must be an integer
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lightness
+  description: 'Only applies for the "lab" color scheme: l1 and l2 must integers, with 0 <= l…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: share_endpoint
+  description: If this option is specified, edges that share a node are not considered in co…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: o
+  description: 'Write output to file f (default: stdout)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: color_scheme
+  description: Specifies the color scheme
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: Turns on verbose mode
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '?'
+  description: Print usage and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: dpi
+  description: Set resolution to  REAL pixels per inch; default 300. 0. PP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: magnification
+  description: Override existing magnification with R NUMBER . PP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-pages
+  description: Process  NUMBER pages; default one million. PP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: output-level
+  description: Verbosity level, from 0 to 4; default 4. PP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: page-start
+  description: Start at R PAGE-SPEC , for example `2\' or `5. *. -2\'. PP
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-opcodes
+  description: Show numeric opcodes (in decimal)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

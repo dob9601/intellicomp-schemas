@@ -1,0 +1,123 @@
+description: ''
+keyword_arguments:
+- name: ipv4
+  description: use only IPv4
+  shorthand: '4'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ipv6
+  description: use only IPv6
+  shorthand: '6'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: binary
+  description: use an 8-bit data transmission
+  shorthand: '8'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: login
+  description: attempt automatic login
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bind
+  description: bind to specific local ADDRESS
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-rc
+  description: do not read the user\'s . telnetrc file
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: turn on debugging
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: escape
+  description: use CHAR as an escape character
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-escape
+  description: use no escape character
+  shorthand: E
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-login
+  description: do not automatically login to the remote system
+  shorthand: K
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: user
+  description: attempt automatic login as USER
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: binary-output
+  description: use an 8-bit data transmission for output only
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: trace
+  description: record trace information into FILE
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: rlogin
+  description: use a user-interface similar to rlogin
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: give this help list
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: give a short usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print program version
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: format
+  description: Specify the format.  Default is table.  The json format provides more details
+  shorthand: f
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Only display container IDs.  EXAMPLES
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: unreachable
+  description: Print out objects that exist but that aren\'t reachable from any of the refere…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dangling
+  description: Print objects that exist but that are never directly used (default)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: root
+  description: Report root nodes
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: tags
+  description: Report tags
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cache
+  description: Consider any object recorded in the index also as a head node for an unreacha…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-reflogs
+  description: Do not consider commits that are referenced only by an entry in a reflog to b…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: full
+  description: Check not just objects in GIT_OBJECT_DIRECTORY ($GIT_DIR/objects), but also t…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: connectivity-only
+  description: Check only the connectivity of reachable objects, making sure that any object…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: strict
+  description: Enable more strict checking, namely to catch a file mode recorded with g+w bi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Be chatty
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: lost-found
+  description: 'Write dangling objects into . git/lost-found/commit/ or '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: name-objects
+  description: When displaying names of reachable objects, in addition to the SHA-1 also dis…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: progress
+  description: Progress status is reported on the standard error stream by default when it i…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-dangling
+  description: can be used to omit this information from the output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

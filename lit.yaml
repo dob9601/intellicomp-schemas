@@ -1,0 +1,256 @@
+description: ''
+keyword_arguments:
+- name: help
+  description: Show the lit help message
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: workers
+  description: Run N tests in parallel
+  shorthand: j
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config-prefix
+  description: Search for NAME. cfg and NAME. site
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: param
+  description: Add a user defined parameter NAME with the given VALUE (or the empty string i…
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: quiet
+  description: Suppress any output except for test failures
+  shorthand: q
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: succinct
+  description: Show less output, for example don\'t show information on tests that pass
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Show more information on test failures, for example the entire test output in…
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: echo-all-commands
+  description: Echo all commands to stdout, as they are being executed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-all
+  description: Show more information about all tests, for example the entire test commandlin…
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-progress-bar
+  description: Do not use curses based progress bar
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-unsupported
+  description: Show the names of unsupported tests
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-xfail
+  description: Show the names of tests that were expected to fail
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: path
+  description: Specify an additional PATH to use when searching for executables in tests
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vg
+  description: Run individual tests under valgrind (using the memcheck tool).   The
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: error-exitcode
+  description: will cause the program to exit with a non-zero status
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vg-arg
+  description: When %--vg is used, specify an additional argument to pass to valgrind itself
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: vg-leak
+  description: When %--vg is used, enable memory leak checks
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: time-tests
+  description: Track the wall time individual tests take to execute and includes the results…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ignore-fail
+  description: Exit with status zero even if some tests fail
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-indirectly-run-check
+  description: Do not error if a test would not be run if the user had specified the contain…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: shuffle
+  description: Run the tests in a random order, not failing/slowest first
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-failures
+  description: Stop execution after the given number N of failures
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-tests
+  description: Run at most N tests and then terminate
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: max-time
+  description: Spend at most N seconds (approximately) running tests and then terminate
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: num-shards
+  description: Divide the set of selected tests into M equal-sized subsets or "shards", and …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: run-shard
+  description: variable LIT_NUM_SHARDS can also be used in place of this option
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: order
+  description: 'Define the order in which tests are run.  The supported values are:'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: timeout
+  description: Spend at most N seconds (approximately) running each individual test
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: filter
+  description: Run only those tests whose name matches the regular expression specified in R…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: filter-out
+  description: Filter out those tests whose name matches the regular expression specified in…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xfail
+  description: Treat those tests whose name is in the semicolon separated list LIST as XFAIL
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: xfail-not
+  description: Do not treat the specified tests as XFAIL
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: Run lit in debug mode, for debugging configuration issues and lit itself
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-suites
+  description: List the discovered test suites and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: show-tests
+  description: List all of the discovered tests and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '-'
+  description: test configuration is cloned lit checks for a lit. local
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: v
+  description: (verify) option setcap sets the capabilities of each specified filename to th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: argument can be used to set the file capability for use only in a user namesp…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: flag is used to make the program less verbose in its output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

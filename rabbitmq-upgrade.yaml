@@ -1,0 +1,46 @@
+description: ''
+keyword_arguments:
+- name: n
+  description: Default node is rabbit@ Ar target-hostname, where target-hostname is the loca…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: Quiet output mode is selected
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: Silent output mode is selected
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: Operation timeout in seconds.  Not all commands support timeouts
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: Must be specified when the cluster is configured to use long (FQDN) node names
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: erlang-cookie
+  description: Shared secret to use to authenticate to the target node
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

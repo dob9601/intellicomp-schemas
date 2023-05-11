@@ -1,0 +1,18 @@
+description: ''
+keyword_arguments:
+- name: comment
+  description: Add a reopening comment OPTIONS INHERITED FROM PARENT COMMANDS
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: repo
+  description: Select another repository using the [HOST/]OWNER/REPO format SEE ALSO
+  shorthand: R
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

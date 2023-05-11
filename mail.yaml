@@ -1,0 +1,249 @@
+description: ''
+keyword_arguments:
+- name: \\&
+  description: 'Controls loading of (as via source ) "Resource files" : spec is parsed case-i…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: A
+  description: Activate user account name after program startup is complete (resource files …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a
+  description: Fl Fl attach Ns =.  \\*(SM Attach file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: B
+  description: '(\\*(OB: \\*(UA will always use line-buffered output, to gain line-buffered inp…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: b
+  description: \\*(SM Send a blind carbon copy to recipient addr
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: C
+  description: Create a custom header which persists for an entire session
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: c
+  description: \\*(SM Just like b, except it places the argument in the list of carbon copies
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: D
+  description: \\*(OP Startup with disconnected set.  Mx
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: d
+  description: Enter a debug-only sandbox mode by setting the internal variable debug ; the …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: E
+  description: \\*(SM set skipemptybody and thus discard messages with an empty message part …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: e
+  description: Just check if mail is present (in the system inbox or the one specified via f…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: F
+  description: \\*(SM Save the message to send in a file named after the local part of the fi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: f
+  description: Read in the contents of the user\'s -sx "secondary mailbox" MBOX (or the speci…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: H
+  description: Display a summary of headers for the given folder (depending on u, inbox or M…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: h
+  description: Show a brief usage summary; use long-help for a list long options.  Mx
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: set ignore to ignore tty interrupt signals.  Mx
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: L
+  description: Display a summary of headers of all messages that match the given spec in the…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: M
+  description: '\\*(SM Will flag standard input with the MIME Content-Type: set to the given k…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: m
+  description: \\*(SM MIME classify the specified file and use it as the main message body
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: N
+  description: inhibit the initial display of message headers when reading mail or editing a…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: n
+  description: Standard flag that inhibits reading the system wide \\*(UR upon startup
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: q
+  description: \\*(SM Initialize the message body with the contents of file, which may be sta…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: R
+  description: Any mailbox folder aka\\& folder opened will be in read-only mode.  Mx
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: r
+  description: The RFC 5321 reverse-path used for relaying and delegating messages to its de…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: S
+  description: set (or, with a prefix string no, as documented in "INTERNAL VARIABLES", unse…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: s
+  description: \\*(SM Specify the subject of the message to be sent
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: T
+  description: \\*(SM Add addr to the list of receivers targeted by field, for now supported …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: t
+  description: \\*(SM The text message given (on standard input) is expected to contain, sepa…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: u
+  description: Initially read the -sx "primary system mailbox" of user, appropriate privileg…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: V
+  description: Show \\*(UAs version and exit
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: set Ns s the internal variable verbose to enable logging of informational con…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: X
+  description: Add the given (or multiple for a multiline argument) cmd to a list of command…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: Y
+  description: Add the given (or multiple for a multiline argument) cmd to a list of command…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '~'
+  description: Enable "COMMAND ESCAPES" in \\*(CM even in non-interactive use cases
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: '#'
+  description: 'Enables batch mode: standard input is made line buffered, the complete set of…'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: profile
+  description: Choose the installation script profile
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: installation-source
+  description: Set the installation source to be used with the installation script
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: config
+  description: Set the configuration parameter \\f(CW\\*(C`key\\*(C\' to \\f(CW\\*(C`value\\*(C\'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

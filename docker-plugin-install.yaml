@@ -1,0 +1,39 @@
+description: ''
+keyword_arguments:
+- name: alias
+  description: "\tLocal name for plugin"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable
+  description: "\tDo not enable the plugin on install"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: disable-content-trust
+  description: "\tSkip image verification"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: grant-all-permissions
+  description: "\tGrant all permissions necessary to run the plugin"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for install SEE ALSO"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: opt
+  description: $ docker volume create --driver fake --opt tardis=blue --opt timey=wimey Thes…
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: availability
+  description: "\tCluster Volume availability (\"active\", \"pause\", \"drain\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: driver
+  description: "\tSpecify volume driver name"
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: group
+  description: "\tCluster Volume group (cluster volumes)"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: "\thelp for create"
+  shorthand: h
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: label
+  description: "\tSet metadata for a volume"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: limit-bytes
+  description: "\tMinimum size of the Cluster Volume in bytes"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: required-bytes
+  description: "\tMaximum size of the Cluster Volume in bytes"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: scope
+  description: "\tCluster Volume access scope (\"single\", \"multi\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: secret
+  description: "\tCluster Volume secrets"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: sharing
+  description: "\tCluster Volume access sharing (\"none\", \"readonly\", \"onewriter\", \"all\")"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: topology-preferred
+  description: "\tA topology that the Cluster Volume would be preferred in"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: topology-required
+  description: "\tA topology that the Cluster Volume must be accessible from"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: type
+  description: "\tCluster Volume access type (\"mount\", \"block\") SEE ALSO"
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

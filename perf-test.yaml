@@ -1,0 +1,25 @@
+description: ''
+keyword_arguments:
+- name: skip
+  description: Tests to skip (comma separated numeric list)
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Be more verbose
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dont-fork
+  description: Do not fork child for each test, run all tests within single process
+  shorthand: F
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

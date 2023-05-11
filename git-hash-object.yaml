@@ -1,0 +1,53 @@
+description: ''
+keyword_arguments:
+- name: t
+  description: 'Specify the type (default: "blob")'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: w
+  description: Actually write the object into the object database
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdin
+  description: Read the object from standard input instead of from a file
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: stdin-paths
+  description: Read file names from the standard input, one per line, instead of from the co…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: path
+  description: Hash object as it were located at the given path
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-filters
+  description: Hash the contents as is, ignoring any input filter that would have been chose…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: literally
+  description: Allow --stdin to hash any garbage into a loose object which might not otherwi…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

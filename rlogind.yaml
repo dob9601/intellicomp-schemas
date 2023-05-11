@@ -1,0 +1,102 @@
+description: ''
+keyword_arguments:
+- name: ipv4
+  description: daemon mode only accepts IPv4
+  shorthand: '4'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ipv6
+  description: only IPv6 in daemon mode
+  shorthand: '6'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verify-hostname
+  description: ask hostname for verification
+  shorthand: a
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: daemon
+  description: daemon mode, with instance limit
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: debug
+  description: set debug level
+  shorthand: D
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-rhosts
+  description: ignore . rhosts file
+  shorthand: l
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: local-domain
+  description: set local domain name
+  shorthand: L
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: no-keepalive
+  description: do not set SO_KEEPALIVE
+  shorthand: n
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: allow-root
+  description: allow uid 0 to login, disabled by default
+  shorthand: o
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: port
+  description: listen on given port (valid only in daemon mode)
+  shorthand: p
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: reverse-required
+  description: require reverse resolving of a remote host IP
+  shorthand: r
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: give this help list
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: give a short usage message
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: version
+  description: print program version
+  shorthand: V
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

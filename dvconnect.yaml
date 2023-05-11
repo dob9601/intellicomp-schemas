@@ -1,0 +1,109 @@
+description: ''
+keyword_arguments:
+- name: version
+  description: show dvconnect version number
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: send
+  description: send data instead of capturing
+  shorthand: s
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: show status information while receiving / sending
+  shorthand: v
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: channel
+  description: 'channel to send / receive on (range: 0 - 63, default = 63)'
+  shorthand: c
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: kbuffers
+  description: number of kernel video1394 frame buffers to use.  default = 8
+  shorthand: k
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: start-frame
+  description: start at count frame (defaults to 0)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: end-frame
+  description: end at count frame (defaults to unlimited)
+  shorthand: e
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cip-n-ntsc
+  description: 'cip n ntsc timing counter (default: 2436)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cip-d-ntsc
+  description: 'cip d ntsc timing counter (default: 38400)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: syt-offset
+  description: 'syt offset (default: 10000 range: 10000-26000)'
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: buffers
+  description: max number of file io thread buffers to use.  default = 250
+  shorthand: b
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: underrun-data
+  description: file with the frame to send in case of underruns
+  shorthand: u
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: device
+  description: Specify the video1394 device (default /dev/video1394/0). PP Help Options
+  shorthand: d
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: help
+  description: Show help message
+  shorthand: '?'
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: usage
+  description: Display brief usage message.  SEE ALSO playdv (1), dubdv (1), encodedv (1)
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: e
+  description: 'execute statement R stat '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: i
+  description: enter interactive mode after  script is executed
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: l
+  description: 'call  require(\'' name \'') before executing R script '
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: v
+  description: is assumed when the standard input is a terminal; otherwise,
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

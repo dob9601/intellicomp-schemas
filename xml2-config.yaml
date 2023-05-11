@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: version
+  description: Print the currently installed version of libxml2 on the standard output
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: libs
+  description: Print the linker flags that are necessary to link a libxml2 program
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cflags
+  description: Print the compiler flags that are necessary to compile a libxml2 program
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: prefix
+  description: If specified, use PREFIX instead of the installation prefix that libxml2 was …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

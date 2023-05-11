@@ -1,0 +1,67 @@
+description: ''
+keyword_arguments:
+- name: ex
+  description: Specifies "x", rather than backslash, to be the escape char for metachars
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: ox
+  description: Specifies "x", rather than double-quote, to be the open quote character, whic…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: cx
+  description: Specifies "x" to be the close quote character
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: pn
+  description: Specifies "n" to be the open quote character, as an integer
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: dn
+  description: Specifies "n" to be the close quote character, as an integer
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: mx
+  description: Specifies "x" to be a metachar
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: nn
+  description: Specifies "n" to be a metachar, as an integer
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: fn
+  description: Specifies "n" to be the escape char for metachars, as an integer
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: a
+  description: Specifies that all arguments are to be quoted
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true

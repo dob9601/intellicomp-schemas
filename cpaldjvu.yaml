@@ -1,0 +1,32 @@
+description: ''
+keyword_arguments:
+- name: dpi
+  description: Specify the resolution information encoded into the output file expressed in …
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: colors
+  description: Specify a maximum number of distinct colors for the color quantization algori…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: bgwhite
+  description: Cause the background layer to use the lightest quantified color instead of th…
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+- name: verbose
+  description: Display informational messages while running
+  shorthand: null
+  repeatable: false
+  arg_type:
+    type: String
+  incompatible_with: []
+positional_arguments: []
+arguments_valid_anywhere: true
